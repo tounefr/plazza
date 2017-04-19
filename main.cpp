@@ -2,7 +2,9 @@
 #include "Plazza.hpp"
 #include "Scheduler.hpp"
 #include "Worker.hpp"
+#include <iostream>
 
-int main(int ac, char **av) {
-
+int main() {
+    std::cout << "Hey Didier and Thomas" << std::endl;
+    return 0;
 }
