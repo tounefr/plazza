@@ -18,7 +18,8 @@ private:
 
 public:
     Scheduler(int const& nbr_threads_per_proc);
-    bool giveTask(Task& task);
+    ~Scheduler();
+    bool giveTask(Task *task);
 };
 
 

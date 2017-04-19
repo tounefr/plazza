@@ -6,7 +6,9 @@ SRCS =  main.cpp \
         Task.cpp \
         Scheduler.cpp \
         Worker.cpp \
-        Thread.cpp
+        Thread.cpp \
+        Logger.cpp \
+        ProcessWrapper.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 

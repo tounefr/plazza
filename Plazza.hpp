@@ -12,9 +12,12 @@
 class Plazza {
 private:
     std::queue<Task> _tasks;
+    Scheduler *_scheduler;
+    int _nbr_threads_per_proc;
 
 public:
-    Plazza(int nbr_threads_per_proc);
+    Plazza(int const& nbr_threads_per_proc);
+    ~Plazza();
     std::queue<Task>& getTasks();
 };
 

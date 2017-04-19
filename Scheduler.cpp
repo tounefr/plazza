@@ -4,11 +4,20 @@
 
 #include "Scheduler.hpp"
 
-Scheduler::Scheduler(int const& nbr_threads_per_proc) : _nbr_threads_per_proc(nbr_threads_per_proc)
-{
+Scheduler::Scheduler(int const& nbr_threads_per_proc) :
+        _nbr_threads_per_proc(nbr_threads_per_proc) {
 
 }
 
-bool Scheduler::giveTask(Task &task) {
+Scheduler::~Scheduler() {
 
+}
+
+Worker& Scheduler::getAvailableWorker() {
+}
+
+bool Scheduler::giveTask(Task *task) {
+    Worker worker;
+
+    worker = getAvailableWorker();
 }

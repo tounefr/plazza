@@ -5,16 +5,19 @@
 #ifndef PLAZZA_WORKER_HPP
 #define PLAZZA_WORKER_HPP
 
+#include "ProcessWrapper.hpp"
 #include "Thread.hpp"
 #include <queue>
 
-class Worker {
+class Worker : ProcessWrapper {
 private:
 
     std::vector<Thread> _threads;
 
 public:
 
+    Worker();
+    ~Worker();
     bool giveTask();
     bool getNbrThreads();
     std::vector<Thread>& getThreads();

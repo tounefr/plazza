@@ -5,6 +5,7 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hey Didier and Thomas" << std::endl;
+    Plazza plazza(5);
+
     return 0;
 }
