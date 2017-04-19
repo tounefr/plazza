@@ -1,6 +1,8 @@
-#include <iostream>
 
-int main() {
-    std::cout << "Hey Didier" << std::endl;
-    return 0;
+#include "Plazza.hpp"
+#include "Scheduler.hpp"
+#include "Worker.hpp"
+
+int main(int ac, char **av) {
+
 }

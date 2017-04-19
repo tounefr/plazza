@@ -1,7 +1,12 @@
 
 CC = g++
 
-SRCS = main.cpp
+SRCS =  main.cpp \
+        Plazza.cpp \
+        Task.cpp \
+        Scheduler.cpp \
+        Worker.cpp \
+        Thread.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
