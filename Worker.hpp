@@ -7,21 +7,23 @@
 
 #include "ProcessWrapper.hpp"
 #include "Thread.hpp"
+#include "Task.hpp"
+#include <list>
 #include <queue>
 
 class Worker : ProcessWrapper {
 private:
-
-    std::vector<Thread> _threads;
+    std::list<Thread*> _threads;
 
 public:
 
     Worker();
     ~Worker();
-    bool giveTask();
+    bool giveTask(Task& task);
     bool getNbrThreads();
-    std::vector<Thread>& getThreads();
+    std::list<Thread*>& getThreads();
     bool getNbrThreadsRunning();
+    void initThreads(int nbr_threads_per_proc);
 
 };
 

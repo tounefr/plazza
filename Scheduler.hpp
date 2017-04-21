@@ -6,20 +6,23 @@
 #define PLAZZA_SCHEDULER_H
 
 #include <vector>
+#include <thread>
 #include "Worker.hpp"
 #include "Task.hpp"
 
 class Scheduler {
 private:
-    int _nbr_threads_per_proc;
+    std::thread _processPopperThread;
     std::vector<Worker> _workers;
     Worker& getAvailableWorker();
     Worker& newWorker();
 
 public:
-    Scheduler(int const& nbr_threads_per_proc);
+    Scheduler();
     ~Scheduler();
-    bool giveTask(Task *task);
+    bool giveTask(Task &task);
+    static void workerPopper(Scheduler*);
+    void join();
 };
 
 

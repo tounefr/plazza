@@ -18,7 +18,7 @@ NAME = plazza
 
 LDFLAGS =
 
-CFLAGS = -Wall
+CFLAGS = -Wall -lpthread
 
 $(NAME): $(OBJS)
 	$(CC) -o $(NAME) $(OBJS) $(CFLAGS)

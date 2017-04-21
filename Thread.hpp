@@ -5,11 +5,23 @@
 #ifndef PLAZZA_THREAD_HPP
 #define PLAZZA_THREAD_HPP
 
+#include <thread>
+#include "Task.hpp"
 
 class Thread {
 private:
-    bool _isWorking;
-
+    Task *_task;
+    std::thread _thread;
+    bool _isRunning;
+public:
+    Thread();
+    ~Thread();
+    bool isRunning();
+    void run();
+    bool start();
+    void init();
+    void join();
+    bool giveTask(Task &task);
 };
 
 
