@@ -6,23 +6,20 @@
 #define PLAZZA_SCHEDULER_H
 
 #include <vector>
-#include <thread>
-#include "Worker.hpp"
-#include "Task.hpp"
+#include "Client.hpp"
+#include "Server.hpp"
+#include "WorkerPool.hpp"
 
-class Scheduler {
+class Scheduler : public Thread {
 private:
-    std::thread _processPopperThread;
-    std::vector<Worker> _workers;
-    Worker& getAvailableWorker();
-    Worker& newWorker();
+    std::list<Client*> _clients;
+    Server _server;
 
 public:
     Scheduler();
     ~Scheduler();
     bool giveTask(Task &task);
-    static void workerPopper(Scheduler*);
-    void join();
+    virtual void run();
 };
 
 

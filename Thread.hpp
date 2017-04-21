@@ -17,11 +17,10 @@ public:
     Thread();
     ~Thread();
     bool isRunning();
-    void run();
+    virtual void run() = 0;
     bool start();
-    void init();
     void join();
-    bool giveTask(Task &task);
+    void setRunning(bool);
 };
 
 

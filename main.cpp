@@ -1,7 +1,7 @@
 
 #include "Plazza.hpp"
 #include "Scheduler.hpp"
-#include "Worker.hpp"
+#include "WorkerPool.hpp"
 #include <iostream>
 
 int main() {

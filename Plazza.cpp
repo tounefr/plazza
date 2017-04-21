@@ -24,11 +24,12 @@ Plazza& Plazza::getInstance() {
 void Plazza::start() {
     _running = true;
     _scheduler = new Scheduler();
+    _scheduler->start();
     while (1) {
         pushTask(*new Task("./test.html", PHONE_NUMBER));
         sleep(1);
     }
-    _scheduler->join();
+//    _scheduler->join();
 //    fetchInstructionsLoop();
 }
 
@@ -83,7 +84,9 @@ Scheduler& Plazza::getScheduler() {
 }
 
 Task& Plazza::popTask() {
+    Task &t = *_pendingTasks.back();
     _pendingTasks.pop();
+    return t;
 }
 
 Task& Plazza::pushTask(Task& task) {

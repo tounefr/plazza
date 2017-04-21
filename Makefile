@@ -5,10 +5,13 @@ SRCS =  main.cpp \
         Plazza.cpp \
         Task.cpp \
         Scheduler.cpp \
-        Worker.cpp \
+        WorkerPool.cpp \
         Thread.cpp \
         Logger.cpp \
-        ProcessWrapper.cpp
+        ProcessWrapper.cpp \
+        Worker.cpp \
+        Client.cpp \
+        Server.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
