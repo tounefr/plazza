@@ -11,7 +11,9 @@ private:
     int _pid;
 
 public:
-    ProcessWrapper();
+    ProcessWrapper(int pid);
+    void setPid(int pid);
+    int& getPid();
 };
 
 

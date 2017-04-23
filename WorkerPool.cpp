@@ -8,7 +8,7 @@
 #include "Plazza.hpp"
 
 WorkerPool::WorkerPool() :
-    ProcessWrapper() {
+    ProcessWrapper(getpid()) {
 
     Plazza &p = Plazza::getInstance();
     initThreads(p.getNbrThreadsPerProc());
@@ -68,4 +68,12 @@ void WorkerPool::waitThreads() {
         t = *iter;
         t->join();
     }
+}
+
+void WorkerPool::setRecvEndPoint(INetworkEndPoint *recv) {
+    _recvEndPoint = recv;
+}
+
+void WorkerPool::setSendEndPoint(INetworkEndPoint *send) {
+    _sendEndPoint = send;
 }

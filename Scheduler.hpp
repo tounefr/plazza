@@ -6,14 +6,12 @@
 #define PLAZZA_SCHEDULER_H
 
 #include <vector>
-#include "Client.hpp"
-#include "Server.hpp"
 #include "WorkerPool.hpp"
+#include "INetworkEndPoint.hpp"
 
 class Scheduler : public Thread {
 private:
-    std::list<Client*> _clients;
-    Server _server;
+    std::list<WorkerPool*> _clients;
 
 public:
     Scheduler();

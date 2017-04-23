@@ -10,8 +10,7 @@ SRCS =  main.cpp \
         Logger.cpp \
         ProcessWrapper.cpp \
         Worker.cpp \
-        Client.cpp \
-        Server.cpp
+        NamedPipeEndPoint.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 

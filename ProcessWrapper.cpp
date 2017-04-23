@@ -5,6 +5,15 @@
 #include <unistd.h>
 #include "ProcessWrapper.hpp"
 
-ProcessWrapper::ProcessWrapper() {
-    _pid = getpid();
+ProcessWrapper::ProcessWrapper(int pid) :
+    _pid(pid)
+{
+}
+
+void ProcessWrapper::setPid(int pid) {
+    _pid = pid;
+}
+
+int& ProcessWrapper::getPid() {
+    return _pid;
 }
