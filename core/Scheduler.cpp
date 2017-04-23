@@ -7,7 +7,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include "Scheduler.hpp"
-#include "Plazza.hpp"
+#include "../Plazza.hpp"
 
 Scheduler::Scheduler() :
         Thread() {

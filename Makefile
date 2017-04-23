@@ -3,6 +3,7 @@ CC = g++
 
 SRCS =  common/Task.cpp \
         common/Thread.cpp \
+        common/Logger.cpp \
         encryption/CaesarCipher.cpp \
         encryption/Cipher.cpp \
         encryption/XorCipher.cpp \
@@ -10,12 +11,11 @@ SRCS =  common/Task.cpp \
         network/Socket.cpp \
         network/UnixSocket.cpp \
         parsing/Parsing.cpp \
-        Logger.cpp \
+        core/ProcessWrapper.cpp \
+        core/Scheduler.cpp \
+        core/Worker.cpp \
+        core/WorkerPool.cpp \
         Plazza.cpp \
-        ProcessWrapper.cpp \
-        Scheduler.cpp \
-        Worker.cpp \
-        WorkerPool.cpp \
         main.cpp
 
 OBJS = $(SRCS:.cpp=.o)

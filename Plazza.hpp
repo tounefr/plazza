@@ -8,7 +8,7 @@
 #include <queue>
 #include "common/Thread.hpp"
 #include "common/Task.hpp"
-#include "Scheduler.hpp"
+#include "core/Scheduler.hpp"
 
 # define THREADS_PER_PROC 5
 

@@ -5,8 +5,8 @@
 #ifndef PLAZZA_WORKER_HPP
 #define PLAZZA_WORKER_HPP
 
-#include "common/Task.hpp"
-#include "common/Thread.hpp"
+#include "../common/Task.hpp"
+#include "../common/Thread.hpp"
 
 class Worker : public Thread {
 private:

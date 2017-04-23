@@ -5,7 +5,7 @@
 #include <thread>
 #include <iostream>
 #include "WorkerPool.hpp"
-#include "Plazza.hpp"
+#include "../Plazza.hpp"
 
 WorkerPool::WorkerPool() :
     ProcessWrapper(getpid()) {

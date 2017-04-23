@@ -11,7 +11,7 @@
 #include <unistd.h>
 #include "Worker.hpp"
 #include "ProcessWrapper.hpp"
-#include "common/Task.hpp"
+#include "../common/Task.hpp"
 
 class WorkerPool : public ProcessWrapper {
 private:
