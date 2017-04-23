@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--
+/**************************************/
+ *     Createur : F. Sagez	      *	
+ *     Date de Creation : 20/06/01    *	
+ *     Date de Mise a jour : 24/06/01 *
+ *     Nom du fichier : Atari.html   *	
+/**************************************/
+-->
+
+<HTML> 
+
+<!-- Mirrored from freddo.chez.com/Java/Demos/Atari/Atari.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Mar 2016 14:01:57 GMT -->
+<HEAD><TITLE> La demo JAVA de Zorro II : Atari GO ! </TITLE>
+<!-- Pour moteur de recherche -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=iso-8859-1">
+<META NAME="AUTHOR" CONTENT="Frederic Sagez">
+<META NAME="KEYWORDS" 
+      CONTENT="Atari, GFA, Gfa Basic, Demo, Java, Java Demo">
+
+<!-- ATTENTION ! Le code JavaScript fonctionne uniquement avec cette applet. -->
+<script language="JavaScript">
+<!--	
+function StopApplet()
+{
+ document.Atari.stop();
+}
+	
+function StartApplet()
+{
+ document.Atari.start();
+}
+	
+function IncVitesseApplet()
+{
+ var Vitesse = document.Atari.JavaVitesse();
+ 
+ if ( Vitesse >= 0 )
+ 	document.Atari.AppletVitesse( Vitesse + 1 );
+}
+
+function DecVitesseApplet()
+{
+ var Vitesse = document.Atari.JavaVitesse();
+ 
+ if ( Vitesse > 0 )
+ 	document.Atari.AppletVitesse( Vitesse - 1 );
+}
+// -->
+</script>	
+
+</HEAD>
+
+<BODY BACKGROUND="#" TEXT="#FFFFFF" BGCOLOR="#000000" LINK="#00EE00" VLINK="#000000" ALINK="#000000">
+
+<CENTER>
+<P>&nbsp;</P>
+  <table width="405" border="0" cellspacing="0" cellpadding="0" height="334">
+    <tr> 
+      <td colspan="5"><img src="ClavierPlayer/Rien.gif" width="405" height="10"></td>
+    </tr>
+    <tr> 
+      <td colspan="5"><img src="Cadre/Haut.gif" width="403" height="20"></td>
+    </tr>
+    <tr> 
+      <td width="50" height="300" align="left"><img src="Cadre/Barre.gif" width="2" height="300"></td>
+      <td colspan="3" width="300" height="300"> 
+        <div align="center"><applet name="Atari" code="Atari-2.html" archive="Atari.jar" width="300" height="300" align="BOTTOM">
+            <param name="vitesse" value="20">
+          </applet></div>
+      </td>
+      <td width="55" height="300" align="left"><img src="Cadre/BarreD.gif" width="53" height="300"></td>
+    </tr>
+    <tr> 
+      <td colspan="2" valign="top" align="left"><img src="Cadre/BasG.gif" width="51" height="20"></td>
+      <td width="298" align="center"> 
+        <table width="10%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td><a href="JavaScript:DecVitesseApplet()"><img src="ClavierPlayer/Rewind.gif" width="42" height="28"></a></td>
+            <td><a href="JavaScript:StopApplet()"><img src="ClavierPlayer/Stop.gif" width="42" height="28"></a></td>
+            <td><a href="JavaScript:StopApplet()"><img src="ClavierPlayer/Pause.gif" width="42" height="28"></a></td>
+            <td><a href="JavaScript:StartApplet()"><img src="ClavierPlayer/Play.gif" width="42" height="28"></a></td>
+            <td><a href="JavaScript:IncVitesseApplet()"><img src="ClavierPlayer/Fewind.gif" width="42" height="28"></a></td>
+          </tr>
+        </table>
+      </td>
+      <td colspan="2" valign="top" align="left"><img src="Cadre/BasD.gif" width="54" height="20"></td>
+    </tr>
+    <tr> 
+      <td colspan="5" valign="top"><img src="ClavierPlayer/Rien.gif" width="405" height="10"></td>
+    </tr>
+  </table>
+</CENTER>
+<CENTER>
+  <i><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Play with the 
+  Applet (c) Zorro II - 2001</font></i> <br>
+  <BR>
+  <table width="44%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="23%">&nbsp;</td>
+      <td width="42%"><embed type="audio/x-zipped-mod" 
+       	src="Modules/TERAMIS.xmz"
+	autostart="true"
+       	volume="80"
+	loop="true"
+	controls="stereo"
+	title="Soundchip"
+	width="336" height="60">
+        </embed></td>
+      <td width="35%">&nbsp;</td>
+    </tr>
+  </table>
+  <BR>
+</CENTER>
+
+</BODY>
+
+<!-- Mirrored from freddo.chez.com/Java/Demos/Atari/Atari.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Mar 2016 14:02:02 GMT -->
+</HTML>

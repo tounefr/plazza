@@ -1,0 +1,296 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--
+/**************************************/
+ *     Createur : F. Sagez	      *	
+ *     Date de Creation : 10/11/97    *	
+ *     Date de Mise a jour : 24/05/01 *
+ *     Nom du fichier : Atari.html    *	
+/**************************************/
+-->
+
+<HTML> 
+
+<!-- Mirrored from freddo.chez.com/Atari/Atari.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Mar 2016 13:40:29 GMT -->
+<HEAD><TITLE> Page de l'ATARI ST par FrEd! </TITLE>
+
+<!-- Pour moteur de recherche -->
+<META NAME="AUTHOR" CONTENT="Frederic Sagez">
+<META NAME="KEYWORDS" 
+      CONTENT="Atari, Amiga, modules, players de modules, 
+      trackers pour modules, samples, songs, modules, ST, Atari ST, 
+      Pacifist, TOS, GEM, Capture d'images">
+<META NAME="TITRE" CONTENT="Page de l'ATARI ST par FrEd!">
+<META NAME="DESCRIPTION" CONTENT="Brèves description de l'ordinateur Atari STF/E avec un glossaire.">   
+
+<!-- Sons : Extrait de l'intro du groupe ECT pour la CeBIT 92 -->
+<SCRIPT language="JavaScript">
+var browser_type=navigator.appName
+var browser_version=parseInt(navigator.appVersion)
+//if NAV 4+
+if (browser_type=="Netscape"&&browser_version>=4)
+document.write("<EMBED SRC='../Sounds/Ect.wav' loop='TRUE' play='TRUE' autostart='TRUE' WIDTH='0' HEIGHT='0'></EMBED>");
+//if IE 4+
+else if (browser_type=="Microsoft Internet Explorer"&&browser_version>=4)
+document.write("<bgsound src='../Sounds/Ect.wav' loop='1'>");
+//Default goto page (NOT NS 4+ and NOT IE 4+)
+else
+document.write("<EMBED SRC='../Sounds/Ect.wav' loop='TRUE' play='TRUE' autostart='TRUE' WIDTH='0' HEIGHT='0'></EMBED>");
+</SCRIPT>
+
+<SCRIPT language="JavaScript">
+function OuvreLaFenetre()
+{
+open('STE.html','_blank','height=314,width=450,scrollbars=no,toolbar=no,directories=no,menubar=no,resizable=no,status=no');
+}
+</SCRIPT>
+</HEAD>
+
+<!-- Couleur de fond  -->
+<BODY BGCOLOR="#3030A0" text="#A57BD6" link="#8C9CDE" vlink="#8C9CDE" background="../Images/AnimAtariSt.gif">
+<P ALIGN=center><IMG SRC="../Images/AtariSt.gif" ALT="" width="355" height="161"> 
+  <BR>
+  <BR>
+  <BR>
+<table width="52%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td width="23%">&nbsp;</td>
+    <td width="44%"> 
+      <p align=center> 
+      <p align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="#Atari_ST">Qu'est 
+        ce que le ST</a></font></b></p>
+    </td>
+    <td width="33%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="23%"> 
+      <div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="#Exploitation">A 
+        t'il un syst&ecirc;me d'exploitation ?</a></font></b></div>
+    </td>
+    <td width="44%"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#0000CC">
+	<a href="JavaScript:OuvreLaFenetre()"><img src="../Images/Atari_obli.gif"
+     alt="L'Atari STE - original Picture by FF" border="0"></a></font></b></td>
+    <td width="33%"> 
+      <div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="#Technique">Un 
+        petit peu de technique...</a> </font></b></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="23%">&nbsp;</td>
+    <td width="44%"> 
+      <div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><a href="#Glossaire">Le 
+        glossaire</a></font></b></div>
+    </td>
+    <td width="33%">&nbsp;</td>
+  </tr>
+</table>
+<P ALIGN=center> <!-- Début --> <BR>
+
+<P ALIGN=center>&nbsp;
+<P ALIGN=center> <A NAME="Atari_ST"></A> 
+<div align="center"><IMG SRC="../Images/Ligne2a.gif" ALT="Ligne"><BR>
+  <BR>
+</div>
+<OL>
+  <blockquote> 
+    <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Le <B>ST</B> 
+      &eacute;tait une machine con&ccedil;ue par <I>Shiraz Shivji</I> et produit 
+      par Atari Corporation dans les années 85-86. A l'&eacute;poque il &eacute;xistait 
+      deux mod&egrave;les : le 130 ST et le 520 ST avec un système d'exploitation 
+      qui devait &ecirc;tre charg&eacute; depuis une disquette. Le 520 ST &eacute;tait 
+      &eacute;quip&eacute; de 512 Ko de RAM ainsi qu'une alimentation et un lecteur 
+      de disquette externes. Fin 1986 apparut le 520 STF, cet ordinateur innovait 
+      de part son autonomie (c'est un 520 ST avec les p&eacute;riph&eacute;riques 
+      rassembl&eacute;es dans le m&ecirc;me boitier <I>"tout-en-un"</I>) et &eacute;xistait 
+      dans une version avec 1 Mo de RAM : le 1040 STF. Cette nouvelle série poss&eacute;dait 
+      un syst&ecirc;me d'exploitation interne plac&eacute; dans une ROM.<BR>
+      La vraie &eacute;volution du <B>ST</B> ce fait avec l'apparition du STE 
+      en 1989 : le son est am&eacute;lior&eacute; gr&acirc;ce au DMA, une palette 
+      de couleur jusqu'&agrave; 4096 nuances, l'affichage graphique se trouve 
+      acc&eacute;l&eacute;rr&eacute; par un BLITTER et une mémoire vive extensible 
+      (support SIMM ou SIP) jusqu'&agrave; 4 Mo. <BR>
+      </font> <BR>
+      <BR>
+      <A NAME="Exploitation"></A> 
+      <CENTER>
+        <IMG SRC="../Images/Ligne2b.gif" ALT="Ligne"> 
+      </CENTER>
+      <BR>
+      <BR>
+    </p>
+    <p> <font face="Verdana, Arial, Helvetica, sans-serif" size="2">Le syst&ecirc;me 
+      d'exploitation est le <B>GEMDOS</B>,<B> </B> d&eacute;velopp&eacute; dans 
+      les ann&eacute;es 1984-1985 par Digital Research, le rend compatible avec 
+      le PC. Il se charge principalement de la gestion de m&eacute;moire et des 
+      acc&egrave;s sur les diff&eacute;rents supports disques.<BR>
+      Le <A HREF="Tos/Tos.html" target="_top"><B>TOS</B></A> est une couche du 
+      syst&ecirc;me (c'est lui qui commande avant tout les entr&eacute;es/sorties), 
+      il comprend le <B>GEMDOS</B>, les fonctions du <B>BIOS</B> pour les entr&eacute;es/sorties 
+      et du <B>XBIOS</B> qui g&egrave;re les autres sp&eacute;cificit&eacute;es 
+      de l'ordinateur comme par exemple la gestion de l'&eacute;cran .<BR>
+      Le mode graphique est g&eacute;r&eacute; par le <B>VDI</B> qui se charge 
+      de l'affichage de dessin ou de texte en mode graphique.<BR>
+      L'<B>AES</B> est un environnement à fenetre, il fait partis du systeme d'exploitation 
+      : c'est lui qui affiche le bureau <B>GEM</B> de l'ordinateur et ses divers 
+      composants comme le menu d&eacute;roulant. <BR>
+      </font><BR>
+      <BR>
+      <A NAME="Technique"></A> 
+      <CENTER>
+        <IMG SRC="../Images/Ligne2a.gif" ALT="Ligne"> 
+      </CENTER>
+      <BR>
+      <BR>
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2">L'Atari ST est 
+      équipé d'un processeur 16/32 bits MC68000 de Motorola, d'une m&eacute;moire 
+      morte (ROM) de 196 Ko à 1 Mo et d'une m&eacute;moire vive (RAM) de 512 Ko 
+      &agrave; 4 Mo.<BR>
+      <BR>
+      Quattres principaux circuits int&eacute;gr&eacute;s entourent le MC68000 
+      : <br>
+      </font></p>
+    <table width="75%" border="0" cellspacing="0" cellpadding="0">
+      <tr> 
+        <td> 
+          <ul>
+            <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Le 
+              circuit <b>GLUE</b> sert &agrave; d&eacute;coder la zone d'adressage 
+              de la RAM et des circuits p&eacute;riph&eacute;riques. </font></li>
+            <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Le 
+              circuit <b>MMU</b> assure la gestion de la m&eacute;moire vive et 
+              de son adressage mais aussi de la gestion de la RAM vid&eacute;o. 
+              </font></li>
+            <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Le 
+              circuit <b>SHIFTER</b> envoit des signaux au moniteur. Il lit les 
+              informations sur la RAM vid&eacute;o. Il g&egrave;re entre autre 
+              la r&eacute;solution de l'&eacute;cran et ses couleurs. </font></li>
+            <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Le 
+              circuit <b>DMA</b> contr&ocirc;l principalement les unit&eacute;es 
+              de disquettes et disques durs tout en assurant le transfert de donn&eacute;es. 
+              </font></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Les autres 
+      circuits int&eacute;gr&eacute;s sont : </font></p>
+    <table width="75%" border="0" cellspacing="0" cellpadding="0">
+      <tr> 
+        <td> 
+          <ul>
+            <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Le 
+              controleur de disquette <b>WD 1772</b> (dit FDC). </font></li>
+            <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Le 
+              circuit <b>MFP</b> g&egrave;re les entr&eacute;es/sorties du port 
+              RS232. </font></li>
+            <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Les 
+              2 circuits <b>ACIA 6850</b> : </font> 
+              <ul>
+                <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">l'un 
+                  g&egrave;re l'interface du port MIDI. </font></li>
+                <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">l'autre 
+                  communique avec le processeur <b>6301</b> du clavier. </font></li>
+              </ul>
+            </li>
+            <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Le 
+              circuit son <b>YM-2149</b> de YAMAHA. </font></li>
+            <li><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Le 
+              <b>BLITTER</b> qui acc&eacute;l&egrave;re les transferts de blocs 
+              de bits (notament le graphisme). </font></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <p> <A NAME="Glossaire"></A> </p>
+  </blockquote>
+</OL>
+<CENTER><IMG SRC="../Images/Ligne2b.gif" ALT="Ligne"></CENTER><BR><BR>
+<!--  Glossaire --> 
+<CENTER>
+  <TABLE BORDER CELLPADDING=10 CELLSPACING=0>
+    <TR> 
+      <TH COLSPAN=2> 
+        <H2><I>Glossaire</I></H2>
+      </TH>
+    <TR> 
+    <TR> 
+      <TD><B>ACIA</B></TD>
+      <TD><B>A</B>synchronous <B>C</B>ommunications<B> I</B>nterface <B>A</B>dapter</TD>
+    <TR> 
+    <TR> 
+      <TD><B>AES</B> </TD>
+      <TD><B>A</B>pplication <B>E</B>nvironnement <B>S</B>ystem</TD>
+    <TR> 
+    <TR> 
+      <TD><B>BIOS</B></TD>
+      <TD><B>B</B>inary <B>I</B>nput/<B>O</B>utput <B>S</B>ystem</TD>
+    <TR> 
+    <TR> 
+      <TD><B>DMA</B></TD>
+      <TD><B>D</B>irect <B>M</B>emory <B>A</B>ccess</TD>
+    <TR> 
+    <TR> 
+      <TD><B>DOS</B></TD>
+      <TD><B>D</B>isk <B>O</B>perating <B>S</B>ystem</TD>
+    <TR> 
+    <TR> 
+      <TD><B>FDC</B></TD>
+      <TD><B>F</B>loppy <B>D</B>isk <B>C</B>ontroller</TD>
+    <TR> 
+    <TR> 
+      <TD><B>GEM</B></TD>
+      <TD><B>G</B>raphics <B>E</B>nvironnement <B>M</B>anager</TD>
+    <TR> 
+    <tr> 
+      <td><b>GEMDOS</b></td>
+      <td><b>Gem</b> <b>D</b>isk <b>O</b>perating <b>S</b>ystem</td>
+    
+    <TR> 
+      <TD><B>MFP</B></TD>
+      <TD><B>M</B>ulti <B>F</B>onction <B>P</B>eripheral</TD>
+    <TR> 
+    <TR> 
+      <TD><B>MMU</B></TD>
+      <TD><B>M</B>emory <B>M</B>anager <B>U</B>nit</TD>
+    <TR> 
+    <TR> 
+      <TD><B>RAM</B></TD>
+      <TD><B>R</B>andom <B>A</B>ccess <B>M</B>emory</TD>
+    <TR> 
+    <TR> 
+      <TD><B>ROM</B></TD>
+      <TD><B>R</B>ead <B>O</B>nly <B>M</B>emory</TD>
+    <TR> 
+    <TR> 
+      <TD><B>ST</B></TD>
+      <TD><B>S</B>ixteen <B>T</B>hirty-two bits</TD>
+    <TR> 
+    <TR> 
+      <TD><B>TOS</B></TD>
+      <TD><B>T</B>he <B>O</B>perating <B>S</B>ystem</TD>
+    <TR> 
+    <TR> 
+      <TD><B>VDI</B></TD>
+      <TD><B>V</B>isual <B>D</B>isplay <B>I</B>nterface</TD>
+    <TR> 
+    <TR> 
+      <TD><B>XBIOS</B> </TD>
+      <TD>e<B>X</B>tended <B>BIOS</B></TD>
+    <TR> <!--
+	<TR>
+		<TD><B></B></TD>
+		<TD></TD>
+	<TR>
+--> 
+  </TABLE>
+</CENTER>
+
+<BR><BR>
+<P ALIGN=center> <A HREF="../index2.html"><img src="Images/Retour.gif" width="171" height="37" border="0"></a> 
+  <BR>
+  <!-- Fin --> 
+</BODY>
+
+<!-- Mirrored from freddo.chez.com/Atari/Atari.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Mar 2016 13:40:32 GMT -->
+</HTML> 
+

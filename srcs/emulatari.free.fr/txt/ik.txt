@@ -1,0 +1,33 @@
+
+
+Les coups sympas:
+
+(H=Haut,B=bas,D=Droite,G=Gauche,X=Bouton);
+H = Saut
+B = Balayage
+HD = Coup de poing Sec
+BD = Coup de Pied Sec
+BG = Coup de poing (porte loing)
+
+HX = Coup de pied sauté,
+HGX= Coup de Boule
+BX =Balayage et on se retourne
+GX = Saut arriere
+HGX=Double coup de pied facial (:-))
+
+Voila pour l'essentiel,decouvrez le reste.
+
+
+La ceinture Jaune est a 10000 Pts La suivante environ a 20000 etc..
+
+Quelques Codes:
+FREZ = Arrete le jeu
+PERI = Fait apparaitre un periscope
+FISH,BIRD ou PAC = Fait apparaitre un poisson, un oiseau ou  un Pacman
+FUCK, CUNT = Essayez!
+T = Fait tomber les pantalons!
+
+F1 - 1 Player Game
+F2 - 2 Player Game
+
+

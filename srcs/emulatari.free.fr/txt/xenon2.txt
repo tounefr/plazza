@@ -1,0 +1,148 @@
+
+Xenon II - Instructions
+
+1) Si vous avez un Autofire sur votre Joystick, enclenchez le...
+effet Garanti!
+
+2) Recolter les boules 'C' pour avoir du credit
+   afin d'acheter dans les magasins.
+
+3) N'hesitez pas a utiliser la Marche arriere pour temporiser...
+
+4) Shootez tout ce qui bouge...
+
+Unga!
+
+Voila des conseils en anglais(merci Sewer Doc !=)).
+
+
+
+                       
+                          XENON 2 THE MEGABLAST
+
+WHAT TO BUY AND WHEN :-
+
+        Level 1 : 1st shop buy Health, Super Nashwan.
+                  2nd shop sell Rear Shot, buy Double Shot, Side Shot
+
+        Level 2 : 1st shop buy side shot
+                  2nd shop sell side shot
+
+        Level 3 : 1st shop buy Health, Rear shot
+                  2nd shop sell all Rear shot. Buy side shot, laser, Power up
+
+        Level 4 : 1st shop sell side shot, buy rear shot,laser(WIZZ Addition)
+                  2nd shop sell all Rear Shot, buy side shot, don't buy
+                  Power Up, Buy Macro lasers, Extra Life. This shop has
+                  EVERYTHING you can buy ! You will have usually over
+                  12,000 REALCASH !!
+
+        Level 5 : (Colin's Bargain Basement) Everything is HALF Price !
+                  1st Shop (Last Shop) Buy Power Up twice, Extra lives
+                  if necessary
+
+PLEASE NOTE: Try to stick with your best weapon, and end up with 2 Cannons
+             and 2 Lasers and either Side Shot or Rear Shot.Buying small
+             weapons to spend all your money is advisable as it can be sold
+             in the next shop. If you have higher than 1 power on a weapon
+             like Side Shot Power 3, the first power you will be give half
+             the retail price, then the subsequent powers are full price.
+             Full power Side Shot(Power 3) is worth 2500. E.G Side Shot costs
+             1000 :- 500 + (2 * 1000).
+             REMEMBER! ALWAYS SPEND ALL YOUR MONEY IN THE SHOPS AS YOU
+             CAN'T TAKE LEFTOVER CASH WITH YOU.
+
+
+WHAT YOU'RE UP AGAINST :-
+
+        Sea Worms : Annoying, found in level 1. Don't die easily. Drains
+                    energy when touched. Blows up in seperate segments.
+
+        Eyes : Found on level 2. Very fast- collision is almost inevitable.
+               Usually appear in large groups.
+
+        Slugs : Found in level 3, in the 'MAZE'. Try to shoot them before
+                they ricochet shots.
+
+        Eels : Found on level 3. They enter the screeb regularly, usually
+               from the bottom.
+
+        Wall Snakes : Found on level 3. Difficult to spot at times. Go below
+                      head in order to kill.
+
+        Dinosaur Heads : Found on level 4. Similar to wall snakes except they
+                         don't pop out.
+
+        Fire : Found on level 4. Similar to wall snakes. Impossible to kill ?
+
+
+
+HALFWAY AND END MONSTERS :-
+
+        Level 1 : Half - None !
+                  End - Snail : Shoot at eye. Avoid mines.
+        Level 2 : Half - Alien : Shoot at eyes at either side at the
+                                 top. Scroll backwards and shoot eyes.
+                                 Avoid snakes.
+                  End - Spider : Destroy as much web as possible. Move close
+                                 to the spider to wake and fly down to face
+                                 spider. Shoot continously. Avoid fireballs.
+        Level 3 : Half - Crayfish : Travels in figure of eight. Stay below
+                                    and fire in it's face. Avoid claws.
+                  End - Snake : Attacks from left of screen. Circle round,
+                                shooting head as it goes in and out of
+                                alternate sides.
+        Level 4 : Half - Dragon : Shoot the side heads first, then tail, then
+                                  main head.
+                  End - Head : Shoot both eyes, avoiding laser fire and
+                               extending tongue. Shoot at head when tongue
+                               goes in.
+        Level 5 : Half - Tank : Use heat-seeking missiles ?! Macro Lasers !
+                  End - Grand Spaceship : Shoot all cannons until totally
+                                          destroyed.
+
+
+Specific hints :-
+
+Level 1 - The perfect cash score is 1100.
+Level 3 - Second half is the 'MAZE', go left then right, left, right ECT.
+Level 4 - Shop 1. Be careful even though you have enough cash to buy a
+          Macro Laser DO NOT sell your cannon to buy another as you are
+          wasting plenty of money.
+
+        ITEM            COST    COMMENTS
+        Advice          200     Only useful after level 1
+        Speedup         500     Essential to survival (you get this on Lvl 1)
+        Half Health     500     Restores half your energy
+        Autofire        500     Essential if your joystick hasn't got one
+        Nashwan         600     10 seconds of sheer heaven
+        Full Health     1000    Restores all energy
+        Rear Shot       1000    Very effective on later levels
+        Small mine      1000    Useless. Laid by holding down fire button.
+        Side Shot       1000    Cannot be used with rear shot
+        Electroball     1200    Too sensitive to control
+        Power-up        2000    Doubles size of your bullets
+        Large mine      3000    Useless as above
+        Double Shot     3000    Recommended on later levels
+        Cannon          4000    Effective when using two
+        Dive            4000    Waste of money but fun
+        Missiles        4000    Weak to start with
+        Laser           4000    ***BEST*** Awesome when 2 or more are used
+        Drone           4500    Shoots out weak bullets from the back.
+        Flamer          5000    Extremely limited ramge
+        Bomb            5500    Limited range but very powerful
+        Extra life      6000    Speaks for itself
+        Homers          6000    Four slow but powerful missiles
+        Protection      6000    Doesn't do much
+        Bitmap Shades   6000    Darkens screen - utterly useless
+
+
+        This info came from C+VG magazine December 1989 No. 97
+
+Additional notes :- The WIZZ!
+ 
+
+
+
+
+

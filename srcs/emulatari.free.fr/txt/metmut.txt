@@ -1,0 +1,8 @@
+Trucs pour Metal Mutant :
+
+Quand le nom "Silmarils" apparait :
+CTRL + SHIFT + T  -> Armes Infinies
+CTRL + SHIFT + B  -> Energie Infinie
+
+MrNours (source:TILT 105).
+

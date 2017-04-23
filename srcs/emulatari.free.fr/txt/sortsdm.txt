@@ -1,0 +1,46 @@
+
+DM SPELLS
+-Les Sorts Pour Dungeon Master -
+
+Le premier symbole (*= 1 à 5 de gauche a droite) represente la puissance du sort.
+
+
+Class: Wizard (Sorcier)
+
+  Symbols:       Number:     Spell:             
+              
+
+  Des Ew         *,5,2       Weakens Non-Material Beings(Affaiblit Les Fantomes)
+  Des Ir Sar     *,5,4,6     Darkness(Tenebres)
+  Des Ven        *,5,1       Poison Bolt(Missile Empoisonne)
+  Ful            *,4         Torch(Lumiere)
+  Ful Ir         *,4,4       Fireball(Boule de Feu)
+  Oh Ew Sar      *,3,2,6     Invisibility(Invisibilite)
+  Oh Ir Ra       *,3,4,5     Light(Lumiere Permanente)
+  Oh Kath Ra     *,3,3,5     Lightning Bolt(Foudre)
+  Ya Bro Ros     *,1,5,2     Magic Footprints(Empreintes magiques)
+  Ya Ir          *,1,5       Shield Party(Protection du Groupe)
+  Zo             *,6         Opens doors(Ouverture des portes)
+  Zo Kath Ra     *,6,3,5     Zokathra(Sort final:ZO KATH RA!)
+  Zo Ven         *,3,1       Poison Potion(Potion de Poison)
+            
+
+ Class: Priest
+                              
+  Ful Bro Ku     *,4,5,1     Strength Potion(Potion de Force)
+  Ful Bro Neta   *,4,5,4     Fire Shield(Bouclier contre le Feu)
+  Oh Bro Ros     *,3,5,2     Dexterity Potion(Potion de Dex)
+  Oh Ew Ra       *,3,2,5     See through Walls(Voir a travers les murs)
+  Oh Kath Sar                Monster Confusion (?? n'existe pas!)
+  Oh Ven         *,6,1       Poison Cloud(Nuage de Poison)
+  Vi             *,2         Restore Health Potion(Potion de Vie)
+  Vi Bro         *,2,5       Cure Poison Potion(Potion Antidote)
+  Ya             *,1         Stamina(Endurance)
+  Ya Bro         *,1,5       Magic shield(Bouclier Magique)
+  Ya Bro Dain    *,1,5,3     Wisdom(Sagesse)
+  Ya Bro Neta    *,1,5,4     Vitality(Vitalite)
+  Ya Ir          *,1,4       Magic shield(Bouclier Magique)
+  Zo Bro Ra      *,6,5,5     Mana Potion(Energie Magique)
+
+Voila.
+

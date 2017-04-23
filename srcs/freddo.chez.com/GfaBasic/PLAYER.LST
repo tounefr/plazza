@@ -1,0 +1,70 @@
+' XLR8 Chip Composor v1.0
+'
+' Example program for playing XLR8 Music Files (*.XMS)
+' By Frans van Nispen
+'
+DIM r%(16) ! Reserve for Assembler registers at an RCALL ()
+'
+' * COMPOSER MAD MAX (+26,D0=0,D0=-1) - File JOARDY.MUS
+'
+' -> Initialisation des parametres de lectures du soundchips
+monadd%=26                  ! lecture du .MUS
+d0d%=0                      ! mode de transfert en entree
+d0f%=-1                     ! mode de transfert en sortie
+' -> Charge le fichier en le selectionnant
+FILESELECT "\madmax\MUS\*.MUS","",nom$
+@charge_music(nom$)
+' -> Ecoute le fichier
+@music_on
+'
+PRINT "Hit Space to Quit !"
+~INP(2)                     ! Attente d'une touche...
+' -> Stop la lecture du fichier
+@music_off
+'
+EDIT
+'
+' ****************
+' * Joue   music *
+' ****************
+PROCEDURE music_on
+  SPOKE &H484,2              ! plus de clic clavier
+  oldstack%=GEMDOS(32,L:0)   ! go to SUPERVISOR MODE
+  r%(0)=d0d%                 ! D0=1  (1=normal play, 2=position play)
+  r%(1)=0                    ! D1=0  (position at position play)
+  RCALL xlr8%,r%()           ! Init Music
+  '
+  ' Position play allows you to start at any songposition in a file, this way
+  ' you could make more than one songs in one file
+  '
+  LPOKE &H4D2,xlr8%+monadd%  ! Put player in VBL
+  '
+  ~GEMDOS(32,L:oldstack%)    ! On passe en mode SUPERVISEUR
+RETURN
+'
+' ****************
+' * Arrete music *
+' ****************
+PROCEDURE music_off
+  oldstack%=GEMDOS(32,L:0)   ! go to SUPERVISOR MODE
+  r%(0)=d0f%                 ! D0=0  (Exit mode)
+  RCALL xlr8%,r%()           ! Init/Exit Music
+  LPOKE &H4D2,0              ! clear VBL Routine
+  ~GEMDOS(32,L:oldstack%)    ! On repasse en mode NORMAL
+  SPOKE &H484,15             ! clic clavier remis
+  ~MFREE(xlr8%)              ! Libere le bloc memoire alloue
+  RESERVE                    ! Libere la memoire totale allouee
+RETURN
+'
+' ****************
+' * charge music *
+' ****************
+PROCEDURE charge_music(file$)
+  OPEN "i",#1,file$          ! Ouvre le fichier passe en parametre
+  len%=LOF(#1)               ! On prend la taille exact
+  RESERVE FRE(0)-len%        ! On reserve juste la memoire totale qu'il nous faut
+  xlr8%=MALLOC(len%)         ! On alloue le bloc memoire pour charger le fichier
+  BGET #1,xlr8%,len%         ! On charge dans le bloc memoire
+  CLOSE #1                   ! Ferme le fichier
+RETURN
+'

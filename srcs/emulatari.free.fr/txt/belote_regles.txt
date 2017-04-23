@@ -1,0 +1,81 @@
+PRINCIPE
+la belote est un jeu de levées, qui à 4 se joue avec 32 Cartes, par équipes de 2.
+Les équipiers sont situés en nord-sud ou en est-ouest.
+Il y a 4 couleurs: pique,cœur,carreau,trèfle.
+8 Cartes par couleurs:
+AS-ROI-DAME-VALET-10-9-8-7
+
+ORDRE DES CARTES
+En atout :
+Ordre : V--9--A-10-R-D-8-7
+Points : 20-14-11-10-4-3-0-0
+
+Dans les autres couleurs :
+Ordre : A-10-R-D-V-9-8-7
+Points : 11-10-4--3--2-0-0-0
+La carte la plus forte gagne la levée.
+
+l'ENVOYEUR
+Envoyer, c'est s'engager à totaliser sur la donne PLUS de points que l'équipe adverse.
+L'envoyeur a le choix de L'ATOUT.
+S'il échoue dans son engagement, il est dit DEDANS , et ne marque aucun point.
+
+COULEUR D'ATOUT
+La couleur d'atout est une couleur dont le privilège est LA COUPE
+Une carte d'atout est PLUS FORTE que toute carte des autres couleurs.
+En fournissant à l'atout , il y a obligation de MONTER.
+
+FOURNIR ET COUPER
+Il y a obligation , si cela est possible, de fournir une carte de la couleur demandée.
+Si on ne peut fournir, on est obligé dans la mesure du possible, de :
+- couper un adversaire maître.
+- sous-couper un adversaire qu'on ne peut surcouper. (il existe de nombreuses variantes à ce sujet)
+
+BUT DU JEU
+sur chaque donne, le jeu consiste à réaliser par équipe un MAXIMUM de points.
+les points gagnés par donne sont ajoutés au total de chaque équipe.
+Le but du jeu est d'atteindre le premier le total de fin de partie.
+
+LES PRIMES
+Au total des points de carte viennent s'ajouter par équipe:
+10 DE DER : 10 points pour qui fait
+la dernière levée.
+90 de Capot : 100pts pour qui fait toutes les levées.
+Ces points de prime sont cumulables.
+
+Donc un capot vaut en fait : 152 (nombre de poinrs dans le jeu) + 10 (dix de der) + 90 (prime de capot) = 252
+
+LA MARQUE
+Les résultats d'une donne sont affichés ainsi :
+Equipe nord-sud
+points de carte = 92
+points de prime = 10
+points d'annonces = 20
+TOTAL 122
+Résultat FAIT
+points marqués 122
+
+
+PARTIE EN 1000
+L'équipe qui atteint 1000 points gagne la partie.
+Si les 2 équipes dépassent les 1000 points , c'est celle qui a le plus gros score qui gagne.
+Une équipe ne peut gagner si elle n'a pas fait de levée sur la dernière donne.
+
+
+SANS ANNONCE
+La seule annonce de combinaison est la BELOTE.
+-la belote vaut 20 points et se
+compose des ROI ET DAME d'atout.
+- la belote est donnée à l'autre
+équipe si l'annonceur est DEDANS (nombreuses variantes à ce sujet).
+
+SANS LITIGE
+En cas d'égalité, l'équipe qui a envoyé est DEDANS.
+L'envoyeur doit donc faire mieux que l'équipe adverse pour réussir son contrat. (nombreuses variantes à ce sujet)
+
+CHOIX DE L'ATOUT
+L'atout est déterminé,
+-Au premier tour , par l'envoi dans la couleur retournée.
+-Au second tour , par l'envoi dans l'une des 3 autres couleurs.
+Le choix d'un atout est obligatoire. Il n'y a pas de surenchère.
+

@@ -1,0 +1,604 @@
+
+
+Solution de maniac mansion
+
+Le docteur Fred, à la retraite s'est transformé en savant fou.
+Avec Edma son infirmière, ils séquestrent Sandy dans leurs maison transformé en laboratoire.
+Formez un équipe afin de déliver Sandy et mettre fin aux activités du docteur
+Tout le long de cette histoire il faut absolument éviter le Dr.
+FRED, EDNA, TED et la tentacule.
+Les trois personnages à choisir sont :
+DAVE, BERNARD et JEFF
+1) LA TENTACULE VERTE :
+- DAVE :
+Aller à gauche jusqu'à la boite au lettres.
+BERNARD :
+Devant la porte, TIRER le PAILLASON.
+PRENDRE la CLE.
+UTILISER la CLE sur la PORTE.
+OUVRIR la PORTE.
+Aller au sallon à droite.
+OUVRIR la PORTE.
+Devant la radio, OUVRIR la VIEILLE RADIO.
+PRENDRE l'AMPOULE.
+Sortir.
+Aller dans la cuisine.
+OUVRIR la PORTE.
+PRENDRE la LAMPE de POCHE.
+Sortir de la cuisine.
+Aller devant la porte à droite de l'escalier.
+JEFF :
+Entrer dans la maison.
+Aller à la cuisine.
+Devant le frigidaire, OUVRIR le FRIGIDAIRE.
+PRENDRE le KETCHUP.
+PRENDRE le PEPSI.
+PRENDRE la LAITUE.
+PRENDRE le FROMAGE.
+Aller à droite dans la salle à manger.
+Devant la table, PRENDRE le VIEUX ROTI.
+PRENDRE la DINDE.
+Aller à droite dans le sellier.
+PRENDRE le BOCAL en VERRE.
+PRENDRE le BOITES de CONSERVE.
+PRENDRE les JUS de FRUITS.
+Sortir et aller dans l'entrée par la gauche.
+Devant Bernard, DONNER le BOCAL à Bernard.
+DONNER le PEPSI à Bernard.
+Devant l'escalier, POUSSER la GARGOUILLE de droite.
+BERNARD :
+Descendre l'escalier.
+En bas, ALLUMER l'INTERRUPTEUR à gauche.
+Aller au bout à gauche, PRENDRE la CLE ARGENTEE.
+Aller au bout à droite, monter les escaliers.
+Dans l'entrée, monter les escaliers.
+Devant la porte à gauche, OUVRIR la PORTE.
+PRENDRE le DISSOLVANT.
+PRENDRE les FRUITS en PLASTIQUE.
+Sortir.
+Devant la porte blindée, UTILISER le CODE de la PORTE.
+Redescendre les escaliers.
+DONNER les FRUITS en PLASTIQUE à JEFF.
+JEFF :
+Monter les escaliers.
+Passer la porte blindée.
+Aller au bout à droite.
+Monter les escaliers.
+Avanver jusqu'à la tentacule verte.
+DONNER le ROTI, la DINDE, le FROMAGE, la SALADE, les FRUITS en PLASTIQUE, puis DONNER les JUS de FRUITS
+2) LA CARTE MAGNETIQUE :
+- BERNARD :
+Monter les escaliers.
+Passer la porte blindée.
+Aller au bout à droite.
+Monter les escaliers.
+Aller au bout à gauche.
+Monter les escaliers.
+Devant la 1ère porte, OUVRIR la PORTE.
+Devant la radio, UTILISER l'AMPOULE dans la DOUILLE.
+Devant la pièce, PRENDRE le FRANC.
+Aller gauche, MONTER àl'ECHELLE.
+Sur le meuble, PRENDRE le DISQUE.
+Aller au bout à droite.
+PRENDRE la CLE JAUNE.
+Aller à gauche.
+Descendre les escaliers.
+Sortir de la pièce.
+Devant la 4ème porte, OUVRIR la PORTE.
+Devant le trainer, UTILISER la MACHINE COSTAUD-MATIQUE.
+Sortir de la pièce.
+Devant la dernière porte à droite, OUVRIR la PORTE.
+Devant le mur de droite, UTILISER le DISOLVANT sur la TACHE de PEINTURE.
+JEFF :
+Aller au bout à gauche.
+Monter les escaliers.
+Aller rejoindre Bernard dans la pièce au bout à droite.
+Attendre le passage du facteur pour que Ted sorte.
+DAVE :
+Devant le paquet, PRENDRE le COLIS.
+JEFF :
+Sortir.
+Devant la 2ème porte, OUVRIR la PORTE.
+Devant la cage, PRENDRE le HAMSTER.
+PRENDRE la CARTE MAGNETIQUE MAUVE.
+Sortir et aller rejoindre Bernard.
+DONNER la CARTE MAGNETIQUE à BERNARD.
+DONNER le HAMSTER à BERNARD.
+Sortir.
+Devant la 2ème porte, OUVRIR la PORTE.
+Vous vous retrouver en prison.
+Devant la grille de gauche, POUSSER la BRIQUE DECHAUSSEE
+3) LA PISCINE :
+- BERNARD :
+Attendre que le facteur sonne.
+Sortir de la pièce.
+Devant la 2ème porte, OUVRIR la PORTE.
+OUVRIR la TIRELIRE.
+PRENDRE le FRANC.
+3 fois.
+Sortir et aller dans la pièce au bout à droite.
+Attendre quelques instant et descendre au rez-de-chaussée.
+Sortir dehors.
+Devant le buisson à gauche de l'escalier, TIRER le BUISSON.
+DAVE :
+ENTRER par le SOUPIRAIL.
+Aller jusqu'à la valve d'eau.
+BERNARD :
+Entrer dans la maison.
+Aller dans la cuisine.
+Traverser la salle à manger et aller dans le sellier.
+Devant la porte, UTILISER la CLE ARGENTE sur la PORTE.
+Sortir.
+OUVRIR le PORTAIL au fond.
+OUVRIR la PORTE du GARAGE.
+Devant l'étagère, PRENDRE la POIGNEE de DOUCHE.
+UTILISER la CLE JAUNE sur le COFFRE de la VOITURE.
+PRENDRE les OUTILS.
+Sortir par le portail.
+Aller devant l'échelle de la piscine.
+UTILISER le BOCAL VIDE sur l'EAU de la PISCINE.
+DAVE :
+OUVRIR la VALVE d'EAU.
+BERNARD :
+Descendre l'échelle de la piscine.
+PRENDRE la CLE LUMINEUSE.
+PRENDRE la RADIO.
+Remonter.
+DAVE :
+FERMER la VALVE d'EAU
+4) LA PLANTE CARNIVORE :
+- BERNARD :
+Retourner dans le sellier.
+Traverser la salle à manger et aller dans la cuisine.
+Devant le four, OUVRIR le MICRO-ONDE.
+METTRE le BOCAL d'EAU dans le MICRO-ONDE.
+FERMER le MICRO-ONDE.
+ALLUMER le MICRO-ONDE.
+Sortir par la gauche.
+Aller au bout à droite.
+OUVRIR la PORTE.
+Entrer dans la bibliothèque.
+A l'entrée, ALLUMER la LAMPE.
+A droite de l'escalier, OUVRIR le PANNEAU SECRET.
+PRENDRE la CASSETTE.
+FERMER le PANNEAU SECRET.
+Devant la table, REPARER le TELEPHONE avec les OUTILS.
+Sortir par la gauche.
+Aller dans la cuisine.
+Devant le four, ETEINDRE le MICRO-ONDE.
+OUVRIR le MICRO-ONDE.
+PRENDRE le BOCAL d'EAU.
+FERMER le MICRO-ONDE.
+Sortir par la gauche.
+Monter les escaliers.
+Passer la porte blindée.
+Aller au bout à droite.
+Monter les escaliers.
+Aller au bout à gauche.
+Monter les escaliers.
+Devant la 4ème porte, OUVRIR la PORTE.
+Traverser la salle de gym, OUVRIR la PORTE de la salle de bain.
+OUVRIR le RIDEAU de DOUCHE.
+METTRE la POIGNEE de DOUCHE sur le ROBINET.
+OUVRIR le ROBINET.
+Noter le numéro de téléphone d'Edna.
+FERMER le ROBINET.
+Sortir de la salle de bain.
+Sortir de la salle de gym.
+Aller à droite.
+Devant la plante, UTILISER le BOCAL d'EAU sur la PLANTE CARNIVORE.
+DONNER le PEPSI à la PLANTE CARNIVORE
+5) LE COFFRE :
+- DAVE :
+Aller au bout à gauche et sortir.
+Entrer dans la maison.
+Aller au bout à droite et entrer dans la bibliothèque.
+Devant le téléphone, UTILISER le TELEPHONE.
+Faire le numéro d'Edna.
+BERNARD :
+Sortir.
+Aller devant la 3ème porte.
+OUVRIR la PORTE.
+Entrer.
+PRENDRE la CLE sur la table de nuit.
+MONTER à l'ECHELLE.
+ALLUMER la LAMPE.
+TIRER le TABLEAU.
+DAVE :
+Devant le téléphone, UTILISER le TELEPHONE.
+Faire le numéro d'Edna.
+BERNARD :
+Descendre.
+OUVRIR la PORTE.
+Sortir.
+Aller à droite.
+Devant la plante, monter à l'étage.
+Devant la boite, UTILISER 1 FRANC.
+POUSSER le BOUTON de DROITE.
+UTILISER 1 FRANC.
+POUSSER le BOUTON de DROITE.
+UTILISER le TELESCOPE.
+Noter le numéro du coffre d'Edna.
+Descendre.
+DAVE :
+Devant le téléphone, UTILISER le TELEPHONE.
+Faire le numéro d'Edna.
+BERNARD :
+Sortir.
+Aller devant la 3ème porte.
+OUVRIR la PORTE.
+Entrer.
+MONTER à l'ECHELLE.
+OUVRIR le COFFRE.
+PRENDRE l'ENVELOPPE avec le jeton.
+DAVE :
+Devant le téléphone, UTILISER le TELEPHONE.
+Faire le numéro d'Edna
+6) LA CLE ROUILLEE :
+- BERNARD :
+Descendre.
+OUVRIR la PORTE.
+Sortir.
+Aller au bout à gauche.
+Descendre les escaliers.
+Aller au bout à droite.
+Descendre les escaliers.
+Aller à gauche et passer la porte blindée.
+Devant la porte de droite, OUVRIR la PORTE.
+Devant la chaine, UTILISER le DISQUE sur le PHONOGRAPHE.
+UTILISER la CASSETTE dans le MAGNETOPHONE.
+ALLUMER le PHONOGRAPHE.
+ALLUMER le MAGNETOPHONE.
+ETEINDRE LE MAGNETOPHONE.
+ETEINDRE le PHONOGRAPHE.
+PRENDRE la CASSETTE.
+Sortir par la gauche.
+Descendre les escaliers.
+Aller dans le salon à droite.
+OUVRIR le VIEUX MEUBLE.
+UTILISER la CASSETTE dans le MAGNETOPHONE.
+ALLUMER le MAGNETOPHONE.
+ETEINDRE le MAGNETOPHONE.
+PRENDRE la CLE qui vient de tomber.
+Sortir par la gauche.
+Aller devant la porte à droite de l'escalier
+7) LES FILS ELECTRIQUES :
+- DAVE :
+Sortir par la droite.
+Traverser le salon et aller dans le couloir.
+Devant l'escalier, POUSSER la GARGOUILLE de droite.
+BERNARD :
+Descendre les escaliers.
+En bas, allumer l'interrupteur de gauche.
+Aller au bout à gauche.
+Devant la porte, UTILISER la CLE ROUILLEE sur la PORTE.
+OUVRIR la PORTE.
+ENTRER.
+DONNER la CLE ROUILLEE à JEFF.
+OUVRIR la RADIO.
+UTILISER les PILES sur la LAMPE de POCHE.
+Sortir.
+Aller au bout à droite.
+Monter les escaliers.
+Dans le couloir, monter les escaliers.
+Passer la porte blindée.
+Aller au bout à droite.
+Monter les escaliers.
+Aller au bout à gauche.
+Monter les escaliers.
+Aller au bout a droite.
+Entrer.
+Devant la porte à droite, OUVRIR la PORTE.
+Monter à l'échelle.
+ALLUMER la LAMPE de POCHE.
+JEFF :
+OUVRIR la PORTE.
+Sortir.
+OUVRIR la BOITE à FUSIBLES.
+ETEINDRE le DISJONCTEUR.
+Devant la porte de gauche, OUVRIR la PORTE.
+Entrer.
+BERNARD :
+REPARER les FILS ELECTRIQUES avec les OUTILS.
+JEFF :
+OUVRIR la PORTE.
+Sortir.
+ALLUMER le DISJONCTEUR.
+OUVRIR la PORTE.
+Entrer
+7) LE LABORATOIRE :
+- DAVE :
+Monter les escaliers.
+Passer la porte blindée.
+Aller au bout à droite.
+Monter les escaliers.
+Aller au bout à gauche.
+Monter les escaliers.
+Devant la 3ème porte, OUVRIR la porte.
+Vous êtes en prison.
+BERNARD :
+Descendre l'échelle.
+Attendre que Ted aille faire une partie d'arcade au METEOMESS.
+Dès qu'il est parti, sortir.
+Aller au bout à gauche.
+Descendre les escaliers.
+Devant la porte de droite, OUVRIR la PORTE.
+Aller devant le METEOMESS.
+UTILISER le JETON sur la MACHINE.
+Noter le hight-score.
+Sortir par la gauche.
+Aller au bout à gauche.
+Monter les escaliers.
+Entrer à la première porte.
+LIRE l'AFFICHE sur le mur.
+ALLUMER la RADIO.
+Faire le numéro de la police.
+Sortir.
+Devant la 3ème porte, OUVRIR la PORTE.
+Vous êtes en prison.
+Devant la porte de gauche, UTILISER la CLE LUMINEUSE sur le CADENAS du haut.
+UTILISER la CLE LUMINEUSE sur le CADENAS du bas.
+OUVRIR la 2ème PORTE.
+Utiliser le hight-score.
+Attendre la police.
+RAMASSER l'INSIGNE de POLICE.
+Sortir par la porte.
+DONNER l'INSIGNE à la TENTACULE MAUVE.
+Devant la porte de droite, OUVRIR la PORTE.
+Entrer.
+Devant la porte de droite, UTILISER la CARTE MAGNETIQUE sur le LECTEUR.
+Entrer.
+Devant le levier, POUSSER l'INTERRUPTEUR
+
+
+
+Solution de day of the tentacle
+
+Nous n'indiquons dans cette solution que les actions à effectuer. II est
+cependant indispensable de discuter avec toutes les personnes que vous
+rencontrez.
+
+BERNARD
+~~~~~~~
+Rez-de-chaussée
+Vestibule : prenez la pièce de monnaie du téléphone. l'offre d'emploi sur
+le fax et le prospectus sur la fenêtre. Bureau du Dr Fred: prenez le livre
+de comptes en Suisse sur le bureau et le correcteur dans le tiroir.
+Descendez dans le laboratoire par la vieille horloge.
+Laboratoire : récupérez les plans de la machine accrochés à côté du
+générateur de hamster. Remontez.
+Cuisine : prenez la fourchette sur la table, le café et le décaféiné sur
+l'étagère.
+Buanderie : prenez l'entonnoir dans le placard.
+Salle de séjour : ouvrez la petite trappe à gauche de la cheminée. Essayez
+de prendre le dentier. Il tombe dans la trappe.
+
+Premier étage
+Chambre W (Le dormeur) : une fois à l'intérieur, refermez la porte et
+prenez les clefs. Regardez la télévision. Chambre R (le comique raté) :
+prenez l'encre magique sur le meuble près de la porte.
+Salle F (le tentacule) : poussez l'enceinte par terre. Prenez la cassette
+vidéo allumez la chaîne. Le faux vomi collé au plafond du vestibule se
+décolle.
+
+Deuxième étage
+Chambre d'Ed Weir: prenez le hamster. Versez l'encre magique sur son album
+de timbres. Ramassez le timbre tombé à terre. Rendez l'album à Ed.
+
+Les combles
+Le toit : prenez la manivelle.
+Descendez par la cheminée.
+
+Dehors
+Échangez les clefs contre la barre à mine du "voleur".
+
+Rez-de-chaussée
+Vestibule : ramassez le faux vomi. Décollez le chewing-gum. Récupérez la
+pièce de monnaie en le mastiquant.
+
+Premier étage
+Mettez le hamster dans la machine à glace. Forcez le distributeur de
+bonbons avec la barre à mine. Ramassez toutes les pièces.
+Chambre W : introduisez les deux pièces dans la machine a faire vibrer le
+lit. Récupérez le pull-over.
+
+Rez-de-chaussée
+Buanderie : mettez le pull dans la machine à laver le linge. Introduisez
+toutes les pièces d'argent trouvées dans le distributeur de bonbons.
+Laboratoire: verser du décaféiné dans la tasse du Dr Fred.
+Bernard donne à Hoagie le gros livre, les plans de la machine, l'offre
+d'emploi et le dentier farceur.
+
+
+HOAGIE
+~~~~~~
+Dehors
+Devant la maison, prenez la lettre dans la boîte aux lettres.
+
+Rez-de-chaussée
+Laboratoire : donnez à Red les plans de la machine et l'offre d'emploi.
+Prenez le marteau pour gaucher, et la blouse suspendue au portemanteau.
+Cuisine : prenez l'huile et les pâtes dans le buffet.
+Buanderie : prenez le seau et la brosse dans le placard.
+Cuisine : remplissez le seau à la pompe à eau.
+Salle de séjour : mettez le prospectus dans la boite à idées.
+
+Premier étage
+Chambre de George : essayez le lit. Tirez sur le cordon pour appeler la
+femme de chambre.
+Chambre de Franklin: prenez la bouteille de vin.
+
+Deuxième étage
+Dans le couloir : lisez un passage du gros livre au cheval. Une fois qu'il
+est endormi, prenez son dentier.
+Pièce des sculpteurs : remplacez le marteau du laboratoire par celui du
+sculpteur.
+
+Les combles
+Grenier : interchangez les matelas des lits. Essayez celui près de la
+fenêtre. Prenez la souris mécanique et le pot de peinture.
+Le toit : descendez par la cheminée.
+
+Dehors
+Lavez la carriole avec le savon, l'eau et la brosse.
+Près de la machine temporelle : peignez le kumquat (l'arbuste) en rouge.
+Retournez à l'auberge.
+
+Rez-de-chaussée
+Salle de séjour : donnez la bouteille de vin à Jefferson. Parlez à George
+au sujet des cerisiers. Laverne peut enfin descendre de son arbre.
+Hoagie donne à Bernard la lettre de la boîte aux lettres et le pot de
+peinture.
+
+BERNARD
+~~~~~~~
+Deuxième étage
+La salle vidéo : poussez Edna vers la sortie. Mettez la cassette vidéo dans
+le magnétoscope. Enregistrez la scène du Dr Fred en train d'ouvrir son
+coffre. Repassez la bande au ralenti Vous verrez ainsi apparaître la
+combinaison du coffre.
+
+Rez-de-chaussée
+Bureau du Dr Fred : ouvrez le Coffre-fort, prenez le contrat.
+
+Les combles
+Au grenier : retirez la corde. Attachez-la à la poulie sur le toit.
+Descendez par la cheminée.
+
+Dehors
+Accrochez la corde à la momie Remontez sur le toit et tirez sur la corde
+
+Les combles
+Au grenier : peignez la momie en rouge. Intervertissez la momie et le Dr
+Fred. Attachez le Docteur avec la corde.
+Sur le toit : tirez sur la corde. Bernard et Fred se retrouvent devant la
+maison.
+
+Rez-de-chaussée
+Laboratoire : faites boire du café avec l'entonnoir au Dr Fred. Insistez
+pour qu'il signe le contrat. Parlez-lui d'un "deal" que vous pourriez faire
+avec le tentacule. Collez le timbre sur le contrat.
+Bureau du Dr Fred : téléphonez pour commander un diamant. Bernard donne à
+Hoagie le contrat timbré.
+
+
+LAVERNE
+~~~~~~~
+Rez-de-chaussée
+Prison: dites au garde que vous êtes malade.
+Bureau médical : prenez la planche anatomique sur le mur.
+Buanderie : récupérez le pull-over devenu tout petit. Retournez en prison.
+Prison : dites au garde que vous devez aller aux toilettes.
+Laverne donne à Hoagie la planche anatomique. Laverne donne à Bernard le
+scalpel. Bernard donne à Laverne la fourchette, le correcteur, la manivelle
+et le faux vomi. Hoagie, de son côté, donne à Laverne l'ouvre-boîtes, les
+pâtes, la souris mécanique et le dentier du cheval.
+
+BERNARD
+~~~~~~~
+Premier étage
+Chambre R : donnez la lettre de la boîte aux lettres au comique raté.
+Ramassez le pistolet-drapeau.
+
+Rez-de-chaussée
+Salle de séjour : échangez le pistolet-drapeau contre le
+pistolet-allume-cigarette. Demandez un cigare au vendeur. Percez le clown
+avec le scalpel. Ramassez la botte à rire. Collez le timbre sur le contrat.
+Bernard donne à Hoagie le cigare explosif et le pistolet-allume-cigarette.
+Bernard donne à Laverne la boîte à rire.
+
+HOAGIE
+~~~~~~
+Rez-de-chaussée
+Salle de séjour : donnez le cigare à George. Allumez-le. Donnez le dentier
+farceur à George. Prenez la couverture posée à côté de Hamilton.
+
+Premier étage
+Pièce de Betsy Ross : posez la planche anatomique sur la table.
+
+Les combles
+Le toit : recouvrez la cheminée avec la couverture.
+
+Rez-de-chaussée
+salle de séjour : prenez la plume en or.
+
+Dehors
+Devant l'auberge : postez le contrat timbré.
+
+
+LAVERNE
+~~~~~~~
+Retour en prison
+Prison : dites que vous êtes malade.
+Salle de la cheminée : montez sur le toit par le conduit de cheminée.
+
+Les combles
+Le toit : utilisez la manivelle pour attraper le drapeau. Utilisez le
+drapeau sur Laverne. Elle est maintenant déguisée en tentacule. Redescendez
+par la cheminée.
+Salle de la cheminée : obtenez un badge auprès du tentacule gardien.
+
+Premier étage
+Couloir : récupérez le hamster dans la machine à glace. Enfilez-lui le
+pull-over.
+Première pièce : ouvrez la capsule temporelle avec l'ouvre-boîtes. Prenez
+le vinaigre.
+Seconde pièce : mettez les patins à roulettes au pied de la momie.
+Poussez-la dehors. Prenez la rallonge électrique.
+
+Rez-de-chaussée
+Vestibule : donnez le badge à la momie.
+
+Second étage
+Le concours : éliminez Harold en posant le faux vomi à ses pieds. Menez le
+dentier du cheval. la botte à rire et les pâtes à la momie. Utilisez la
+fourchette sur les pâtes pour que ses "cheveux" prennent du volume. La
+momie gagne une coupe et une invitation pour dîner.
+
+Dehors
+Brancher la rallonge à la machine temporelle. Faites passer la rallonge par
+le vasistas de la cave.
+Devant la maison : utilisez le correcteur sur la palissade. Le chat noir se
+transforme en putois. Lancez-lui la souris mécanique. Le chat est dans le
+sac...
+
+Rez-de-chaussée
+Prison : donnez une invitation pour aller dîner au gardien. Sortez le
+chat-putois. La voie est libre pour descendre à la cave en passant par
+l'horloge.
+La cave : mettez le hamster dans le générateur. La petite bête s'enfuit par
+le trou de souris. Récupérez-la en actionnant l'aspirateur. Une trappe sur
+le côté permet de la prendre. Remettez le hamster dans le générateur,
+branchez la rallonge électrique avec le générateur.
+Laverne donne à Hoagie le vinaigre. Postez-vous devant la machine
+temporelle.
+
+HOAGIE
+~~~~~~
+Rez-de-chaussée
+Laboratoire : donnez le vinaigre, l'huile et la plume en or à Red. La
+batterie est confectionnée.
+
+Premier étage
+Chambre de Franklin : donnez lui la blouse.
+
+Dehors
+Lorsque vous tenez le cerf volant, glissez la batterie à l'intérieur. Après
+l'expérience, ramassez la batterie. Allez devant la machine temporelle et
+mettez la batterie au contact de la prise. Postez-vous devant la machine
+temporelle. Laverne et Hoagie se retrouvent aux côtés de Bernard et du Dr
+Fred.
+
+Premier étage
+Couloir : ouvrez la porte de la chambre R. Une fois devenu tout petit,
+foncez dans la chambre R.
+Chambre R : passez dans le trou de souris.
+Chambre F : attendez de retrouver une taille normale et prenez la boule de
+bowling.
+
+Rez-de-chaussée
+Laboratoire : envoyez la boule de bowling en direction des tentacules. Pour
+le dernier dialogue avec le tentacule pourpre, faites-lui comprendre que le
+vrai fautif est le Dr Fred.
+II ne reste plus qu'a savourer l'épilogue. Bien joué.
+

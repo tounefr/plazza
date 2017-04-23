@@ -1,0 +1,16 @@
+This compile have 11 demos/intros :
+
+No |   NAME      |  CODER     |  GFX   |   
+1/  cursor.prg     BIGFOOT        -
+2/  demo.prg       SQUALE      WILFRIED
+3/  Demons.prg     TOOSEB         -
+4/  Exotica.prg    TOOSEB         -
+5/  fullfish.prg   BIGFOOT     WILFRIED
+6/  mjj-001.prg   FENRIS,SAN-A WILFRIED
+7/  piche.prg      BIGFOOT     WILFRIED
+8/  PLAYER.prg    GODFATHER       -
+9/  raster.prg     BIGFOOT        -
+10/ Sangoku.prg    TOOSEB       TOOSEB
+11/ scrollpt.prg   BIGFOOT        -
+
+---------------------------------------

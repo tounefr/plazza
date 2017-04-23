@@ -1,0 +1,28 @@
+'
+' PUNCH : mandelbrot simple
+'
+c$=MKI$(0)+MKI$(111)+MKI$(222)+MKI$(333)+MKI$(444)+MKI$(555)+MKI$(666)+MKI$(777)+MKI$(&H766)+MKI$(&H755)+MKI$(&H744)+MKI$(&H733)+MKI$(&H722)+MKI$(&H711)+MKI$(&H700)+MKI$(&H300)
+~XBIOS(6,L:VARPTR(c$))
+width=320
+height=200
+dx=div(3,width)
+dy=div(3,height)
+FOR x=0 TO width-1
+  FOR y=0 TO height-1
+    zr=0
+    zi=0
+    cr=-2+dx*x
+    ci=-1.5+dy*y
+    d=0
+    REPEAT
+      INC d
+      z=zr
+      zr=zr*zr-zi*zi+cr
+      zi=2*z*zi+ci
+    UNTIL d>15 OR zr*zr+zi*zi>4
+    Pset x,y,d
+  NEXT y
+NEXT x
+~INP(2)
+EDIT
+'

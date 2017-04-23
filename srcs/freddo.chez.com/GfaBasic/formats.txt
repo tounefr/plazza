@@ -1,0 +1,113 @@
+
+Author : The Beast of Typhoon
+         PEREZ Stephane - 328, Les Hauts du Louvarou - 38560 JARRIE (FRANCE)
+Object : format list for Sound Machine 2.5
+Date   : June 13th, 1996
+
+
+
+- "Format name": the names are those used by Sound Machine
+- "Nø": number of the format
+- "Type": - "Chip" means "Soundchip" (music on 3 voices)
+          - "Sid" means "Sid-Voice" (music using Commodore 64 emulation)
+          - "Half" means "Halftrack", also called as "Digidrum" (music on
+            3 voices including digitized drums)
+          - "all" means "Sid-Voice" and/or "Halftrack"
+          - "Track" means "Soundtrack" (music on 4 voices with digitized
+            instruments)
+          - "Digit" means what it means...!
+- "Ext": extension used by Sound Machine
+- "R.?": is this format recognized? ("Ext": recognized due to the extension)
+- "P.?": can this format be played?
+- "Init1": the first init offset
+- "Init2": the second init offset (used for halftrack musics)
+- "Vbl": the VBL offset (used for playing musics)
+- "Stop1": the first stop offset
+- "Stop2": the second stop offset (used fot halftrack musics)
+
+
+-------------------------------v--v-----v---v---v---v-----v-----v---v-----v-----
+Format name                    |Nø|Type |Ext|R.?|P.?|Init1|Init2|Vbl|Stop1|Stop2
+-------------------------------|--|-----|---|---|---|-----|-----|---|-----|-----
+Alastair Brimble               |01|Chip |BRI| x | x |  0  |  -  | 4 |  0  |  -
+Amiga Soundtrack               |02|Track|MOD|ext|   |  -  |  -  | - |  -  |  -
+Ben Daglish                    |03|Chip |BEN|ext| x |  0  |  -  | 4 |  0  |  -
+Big Alec/Delta Force           |04|Chip |BIG| x | x |  0  |  -  | 8 |  4  |  -
+Big Alec/Offbeat               |05|Chip |BIG| x | x |  0  |  -  | 4 |  8  |  -
+Big Alec Sid-Voice             |06|Sid  |BIG| x | x |  0  |  -  | 8 |  0  |  -
+Blipp Blopper                  |07|Chip |BLI| x | x |  0  |  -  |16 |  0  |  -
+ChipMon 2                      |08|Sid  |CHI| x |   |     |     |   |     |
+Chrispy Noodle/BBC             |09|Chip |NOD| x | x |  0  |  -  |168|  0  |  -
+Count Zero/EI                  |10|Chip |CT0| x | x |  0  |  -  | 6 |  2  |  -
+Count Zero Player              |11|Sid  |---| x | x |  0  |  6  | 6 |  0  |  0
+David Whittaker                |12|Chip |WHI| x | x |  0  |  -  |14 |  0  |  -
+DBE Tracker                    |56|Track|DBE| x |   |  -  |  -  | - |  -  |  -
+Digital Tracker                |57|Track|DTM| x |   |  -  |  -  | - |  -  |  -
+DMA Module                     |13|Digit|DMA| x |   |  -  |  -  | - |  -  |  -
+Ens                            |14|Chip |ENS|   |   |  0  |  0  | 8 |  0  |  0
+Epic/TMS                       |15|Chip |TMS| x | x |  0  |  -  | 4 |  0  |  -
+FFT/Next                       |16|Chip |FFT| x | x |  0  |  -  | 8 |  0  |  -
+Graoumf Tracker                |67|Track|GTK| x |   |  -  |  -  | - |  -  |  -
+Grazey Sound Relocator         |17|Chip |GSR| x | x |  0  |  -  | 8 |  4  |  -
+Insignia Trisound Sequencer    |18|Half |INS| x | x |  0  | 28  |30 |  0  |  0
+Lap/Next (old format)          |19|Chip |LAP| x | x |  0  |  -  | 8 |  0  |  -
+Lap/Next (new format)          |20|Chip |LAP| x | x |  0  |  -  |34 |  0  |  -
+Lotus/Hotline                  |21|Half |LTS| x | x |  0  | 18  |26 |  0  | 22
+Ltk/Mystik                     |22|Chip |LTK|   |   |     |     |   |     |
+Lynx Trisound (old format?)    |68|Track|TRI| x | x |  0  |  6  | 6 |  2  |  0
+Mad Max/Tex (old format)       |23|Chip |MAD|   |   |     |     |   |     |
+Mad Max/Tex & others (1)       |24|Chip |MAD| x | x |  0  |  -  | 8 |  0  |  -
+Mad Max/Tex Halftrack          |25|Half |MAX|   |   | 0/4 |  8  |4/0| 12  |  0
+Megatizer Soundchip            |26|Chip |THK| x | x |  0  |  -  | 8 |  4  |  -
+Megatizer Halftrack            |27|Half |THK| x | x |  0  |  -  | 8 |  4  |  -
+Megatizer Sid-Voice            |28|Sid  |THK| x | x |  0  |  -  | 8 |  4  |  -
+Millenium Brothers             |29|all  |TMB| x | x |  0  |  8  | 8 |  4  |  4
+Music-Mon                      |30|Chip |MON|ext| x |  -  |  -  | - |  -  |  -
+Newline                        |31|Chip |NEW| x | x |  0  |  -  | 8 |  4  |  -
+Nexus/TWB                      |32|Chip |TWB| x | x |  0  |  -  | 2 |  0  |  -
+Pop (XBIOS 32)                 |33|Chip |POP|ext| x |  -  |  -  | - |  -  |  -
+PSG Tracker Soundchip          |34|Chip |PSG|ext|   |  -  |  -  | - |  -  |  -
+PSG Tracker Halftrack          |35|Half |PSD|ext|   |  -  |  -  | - |  -  |  -
+Quartet                        |36|Track|4V |   |   |  -  |  -  | - |  -  |  -
+Sample (Raw format)            |37|Digit|SPL|ext|   |  -  |  -  | - |  -  |  -
+Sample - AIFF/Mac              |65|Digit|AIF| x |   |  -  |  -  | - |  -  |  -
+Sample - AIFF/Cubase           |66|Digit|AIF| x |   |  -  |  -  | - |  -  |  -
+Sample - AVR (2-bit)           |39|Digit|AVR| x |   |  -  |  -  | - |  -  |  -
+Sample - "CrazySounds"         |64|Digit|HSN| x |   |  -  |  -  | - |  -  |  -
+Sample - DVSM (Falcon)         |60|Digit|DVS| x |   |  -  |  -  | - |  -  |  -
+Sample - IFF-8SVX (Amiga)      |38|Digit|8VX|ext|   |  -  |  -  | - |  -  |  -
+Sample - "Fortune"             |63|Digit|CIT|ext|   |  -  |  -  | - |  -  |  -
+Sample - Sound Maestro         |40|Digit|SAM|ext|   |  -  |  -  | - |  -  |  -
+Sample - Master Sound          |41|Digit|SAM|ext|   |  -  |  -  | - |  -  |  -
+Sample - Sound Design          |42|Digit|SD |ext|   |  -  |  -  | - |  -  |  -
+Sample - Steinberg             |62|Digit|SMP|ext|   |  -  |  -  | - |  -  |  -
+Sample - Sun-Mac-NeXT          |61|Digit|(2)|ext|   |  -  |  -  | - |  -  |  -
+Sample - Wave format           |43|Digit|WAV| x |   |  -  |  -  | - |  -  |  -
+Scream Tracker                 |59|Track|S3M| x |   |  -  |  -  | - |  -  |  -
+Sean Conran                    |44|Chip |SEA|ext| x |  0  |  -  | 4 |  0  |  -
+Sid Sound Designer             |45|Sid  |SID| x | x |  0  |  8  | 8 |  0  |  -
+Sound Machine 2                |--|-Various-| x | x |  -  |  -  | - |  -  |  -
+Tao/ACF                        |46|Chip |TAO| x | x |  0  |  -  | 4 |  8  |  -
+Tao/ACF Halftrack              |47|Half |TAO| x | x |  0  |  4  | 4 |  0  |  -
+TCB Tracker                    |48|Track|TCB| x |   |  -  |  -  | - |  -  |  -
+The Sound Machine ST 1.x       |49|Track|   | x |   |  -  |  -  | - |  -  |  -
+TriMod v2.1 (Lynx Trisound)    |50|Half |TRI| x | x |  0  | 0/6 | 6 |  2  |  0
+TriMod v2.5 (Lynx Trisound)    |58|Half |TRI| x | x |  0  | 10  | 6 |  2  |  -
+Undead                         |51|all  |UND| x | x |  0  |  -  | 8 |  4  |  -
+Wally Beben                    |52|Chip |WAL| x |   |  -  |  -  | - |  -  |  -
+Xenex                          |55|Chip |XEN|   | x |  0  |  0  | 4 |  0  |  -
+XLR8                           |53|Sid  |XLR| x | x |  0  |  -  | 2 |  0  |  -
+Zound Dragger                  |54|Chip |ZND| x | x |  0  |  -  | 8 |  0  |  -
+-------------------------------^--^-----^---^---^---^-----^-----^---^-----^-----
+
+
+TOTALS : - 69 existing formats
+         - 48 recognized formats
+         - 38 playable formats on ST/STE
+         - 13 playable formats on Falcon
+
+
+(1) Others formats are: Atomix/Albedo, Frazer/Syndicate, Maestro, An Cool and
+                        sometimes ENS and Lap/Next.
+
+(2) SND and AU.

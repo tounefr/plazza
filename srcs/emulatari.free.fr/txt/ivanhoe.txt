@@ -1,0 +1,141 @@
+
+**** IVANHOE ****
+
+ IVANHOE Scénario
+
+Entrez dans le monde médiéval des chevalers des croisades. Découvrez une aventure du 12ème siècle dont le but est de sauver le roi Richard de ceux qui sont de connivence avec le diabolique roi John.
+
+Traversez l'Europe sur terre et mer jusqu'en Autriche où le roi Richard est emprisonné dans un château fortifié.
+
+La phase la plus dangereuse de votre croisade va maintenant commencer alors que vous allez essayer de le libérer.
+
+Allez-vous triompher et devenir une légende... ou bien tout simplement périr pendant cette expédition?
+
+
+ Le chargement
+
+Mettez l'ordinateur et le lecteur en marche; insérez ensuite la disquette dans le lecteur. Ce programme va se charger automatiquement. Puis suivez les instructions sur l'écran.
+
+Remarque: Si vous utilisez un lecteur pour disquettes à double- face, vous n'utiliserez pas le lecteur B.
+
+
+ Les commandes
+
+Le jeu ne fonctionne qu'avec une manette.
+
+Etapes 1, 2, 3, 4, 5; manette sans utiliser la touche "feu".
+
+A n'importe quel moment de la partie, vous pouvez choisir d'utiliser votre bouclier ou de marcher. Si vous bougez votre manette diagonalement vous serez automatiquement en position de défense, c'est-à-dire que toutes les différentes positions de la manette vous fourniront un bouclier.
+
+ POSITIONS DE DEFENSE
+
+Levez le bouclier: Haut Gauche
+                   Haut Droite
+                   Haut
+
+Bougez le bouclier vers la gauche: Gauche
+
+Bougez le bouclier vers la droite: Droite
+
+Bougez le bouclier vers le bas: Bas Gauche
+                                Bas Droite
+
+Appuyez sur la touche "FEU" pour revenir en position d'attaque.
+
+ POSITIONS D'ATTAQUE
+
+Sautez: Haut Gauche
+        Haut Droite
+        Haut
+
+Marchez vers la gauche: Gauche
+
+Marchez vers la droite: Droite
+
+Vers le bas: Bas Gauche
+             Bas Droite
+             Bas
+
+Si vous appuyez  sur la touche "FEU" pendant que vous bougez  la manette selon les positions citées ci-dessus, Ivanhoé brandit son bouclier et attaque.
+
+LEVEL 3
+
+Sans utilisez le bouton "FEU".
+
+Sautez: Haut Gauche
+        Haut Droite
+        Haut
+
+Vers le haut sur la droite: Droite
+
+Vers le bas: Bas Gauche
+             Bas Droite
+             Bas
+
+En utilisant le bouton "FEU".
+
+Sautez et tirez: Haut Droite
+                 Haut
+
+Descendez en glissant et tirez: Gauche
+                                Bas Droite
+
+Vers le bas et tirez: Droite
+
+Tirez vers le haut à droite: Bas
+
+Si vous pressez le bouton "FEU", Ivanhoé se met à lancer des flèches.
+
+
+Le jeu
+
+Pour sauver le roi, vous devrez d'abord surmonter les difficultés survenant dans les cinq situations suivantes:
+
+-Traverser une forêt anglaise.
+-Prendre un bateau pour l'Europe.
+-Aller à cheval de France en Autriche.
+-Faire face aux dangers dans la ville autrichienne.
+-Faire face aux dangers dans le château.
+
+Ces différentes situations sont donc truffées de problèmes et beaucoups d'assaillants vous attendent près au combat: Barbares, Archers, Gitans, Oiseau, Tatoo, Tarzoom, Lanceur de couteaux, Sauteur, Soldats, Spindy et Bras de fer.
+
+Pendant votre voyage, vous découvrirez des armes spéciales destinées à vous aider durant vos prouesses.
+
+LE BOUCLIER: Protection supplémentaire.
+L'EPEE ENFLAMMEE: Peut être utilisée pour tuer tous les assaillants en une seul fois.
+LE TRIPLE: Multiplie par 3 le nombre de vos armes et la distance parcourue a chaque mouvement.
+UNE POTION SPECIALE: Le cadeau d'une vie supplémentaire.
+
+A certains endroits, il se peut que vous trouviez une epée enflammée spéciale. Dans ce cas, pressez le bouton "FEU" et lâchez-le dès que l'épée commence à flamboyer. L'épée devient alors insaisissable et tous les ennemis sur l'écran son éliminés.
+
+BONNE CHANCE POUR VOTRE PERILLEUSE TENTATIVE... LE SORT DE L'HERITIER LEGITIME DU TRONE D'ANGLETERRE DEPEND DE VOTRE COURAGE!
+
+
+Position et scores
+
+Un panneau concernant la position du joueur indique: le score, le nombre de vies et le temps encore disponibles et l'arme utilisée à ce moment-là.
+
+Les points sont gagnés de la facon suivante:
+
+Barbare                                   100
+Archer au sol                             100
+Gitan                                     200
+Tatoo                                     100
+Tarzoom                                   400
+Lanceur de couteaux                       200
+Sauteur                                  1000
+Soldat 1                                  100
+Soldat 2                                  200
+Spindy                                   3000
+Bras de fer                              5000
+
+A la fin de chaque stage, vous aurez à vous battre afin d'obtenir un bonus. Si vous êtes le vainqueur, vous gagnerez une vie supplémentaire.
+
+
+Conseils et indications
+
+Déplacez-vous aussi lentement que possible afin que les "méchants" ne vous attaquent pas en groupes.
+
+Essayez de retenir comment les différents ennemis se comportent, cela vous aidera à les combattre la fois suivante.
+
+Prenez toutes les armes que vous pouvez trouver sur votre passage.

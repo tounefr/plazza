@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--
+/**************************************/
+ *     Createur : F. Sagez	      *	
+ *     Date de Creation : 22/02/01    *	
+ *     Date de Mise a jour : 02/07/01 *
+ *     Nom du fichier : An2001.html   *	
+/**************************************/
+-->
+
+<HTML> 
+
+<!-- Mirrored from freddo.chez.com/Java/Demos/An2001/An2001.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Mar 2016 14:01:46 GMT -->
+<HEAD><TITLE> Une demo JAVA de Zorro II : Le nouvelle An... </TITLE>
+<!-- Pour moteur de recherche -->
+<META NAME="AUTHOR" CONTENT="Frederic Sagez">
+<META NAME="KEYWORDS" 
+      CONTENT="Atari, GFA, Gfa Basic, Demo, Java, Java Demo">
+<META NAME="TITRE" CONTENT="Une demo JAVA de Zorro II : Le nouvelle An...">
+<META NAME="DESCRIPTION" CONTENT="La deuxième démo Java façon compile CD PULSION.">
+
+<script language="JavaScript">
+<!--	
+function StopApplet()
+{
+ document.An2001.stop();
+}
+	
+function StartApplet()
+{
+ document.An2001.start();
+}
+	
+function IncVitesseApplet()
+{
+ var Vitesse = document.An2001.JavaVitesse();
+ 
+ if ( Vitesse >= 0 )
+ 	document.An2001.AppletVitesse( Vitesse + 1 );
+}
+
+function DecVitesseApplet()
+{
+ var Vitesse = document.An2001.JavaVitesse();
+ 
+ if ( Vitesse > 0 )
+ 	document.An2001.AppletVitesse( Vitesse - 1 );
+}
+// -->
+</script>
+
+</HEAD>
+
+<BODY BGCOLOR="black" TEXT="white" LINK="BLACK" VLINK="BLACK" ALINK="BLACK">
+
+<CENTER>
+<APPLET CODE="An2001-2.html" ARCHIVE="An2001.jar" WIDTH="431" HEIGHT="156" NAME="An2001">
+<PARAM NAME=vitesse VALUE=20>
+  </APPLET> <br>
+  <table width="44%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="23%"><img src="../../Menu/LogoJava.gif" width="100" height="92"></td>
+      <td width="42%"><embed type="audio/x-zipped-mod" 
+       	src="Modules/FFT_4.mdz"
+	autostart="true"
+       	volume="80"
+	loop="true"
+	controls="stereo"
+	title="Soundchip"
+	width="336" height="60">
+        </embed></td>
+      <td width="35%"><img src="../../Menu/LogoJava.gif" width="100" height="92"></td>
+    </tr>
+  </table>
+  <BR>
+        <table width="10%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td><a href="JavaScript:DecVitesseApplet()"><img src="ClavierPlayer/Rewind.gif" width="42" height="28"></a></td>
+            <td><a href="JavaScript:StopApplet()"><img src="ClavierPlayer/Stop.gif" width="42" height="28"></a></td>
+            <td><a href="JavaScript:StopApplet()"><img src="ClavierPlayer/Pause.gif" width="42" height="28"></a></td>
+            <td><a href="JavaScript:StartApplet()"><img src="ClavierPlayer/Play.gif" width="42" height="28"></a></td>
+            <td><a href="JavaScript:IncVitesseApplet()"><img src="ClavierPlayer/Fewind.gif" width="42" height="28"></a></td>
+          </tr>
+          <tr> 
+            <td colspan="5" nowrap><font size="1" face ="Verdana" color="white">-= Play with the 
+  Applet (c) Zorro II - 2001 =-</font></td>
+          </tr>
+          
+        </table>  
+</CENTER>
+
+</BODY>
+
+<!-- Mirrored from freddo.chez.com/Java/Demos/An2001/An2001.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Mar 2016 14:01:49 GMT -->
+</HTML> 

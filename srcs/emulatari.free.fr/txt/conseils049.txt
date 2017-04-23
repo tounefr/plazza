@@ -1,0 +1,17 @@
+
+
+***** PATCH pour obtenir la version 0.49 ****
+
+Pour l'installer il suffit de le decompacter dans le meme repertoire
+que votre Pacifist 0.48.
+
+!! Mais attention :
+
+Il reste quelques bugs sur cette version beta, elle ne reconnait pas
+les commentaires dans le fichier .ini. Il faut donc tous les enlever!
+Sinon vous aurez droit a un fatal error loading Tos.
+
+Voilà, c'est la seule difficultée.
+
+Mr Nours.
+

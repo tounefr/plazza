@@ -1,0 +1,168 @@
+                             -----------------
+                             | THE REPLICANTS|
+                             -----------------
+                               
+                                  Presents
+
+                               -------------
+                               | ROCK STAR |
+                               -------------
+
+
+  Cracked on 1/3/1990 by MAXI  on ST and AMIGA ...........
+  
+  
+
+ 
+  BUT du JEU 
+  ----------------------
+  Oncle Jones , le celebre manager du show business a decide de prendre
+  une retraite bien meritee. Mais il a aussi lance un challenge pour 
+  quelques "jeunes loups" qui voudraient suivre sa trace.
+  
+  Il vous laisse son vieux bureau fichier fetiche,son carnet d'adresses
+  patiemment constitue et enfin, 10000 frs . ceux qui veulent se lancer 
+  dans le show bizz
+  
+  Si vous acceptez le challenge, prenez les commandes de la societe.
+  Vous allez devoir engager vos interpretes,choisir vos morceaux et 
+  apres avoir enregistre vos titres, partir . la conquete du public 
+  national et peut-etre meme mondial.
+  
+  Vous ferez connaitre vos interpretes en organisant des concerts ,grace
+  . la pub , aux video-clips et grace aux medias......
+  
+  Les sondages vous permettront de gerer les ventes des disques que vous 
+  avez enregistres, pour atteindre les tops et obtenir des disques d'or.
+  
+  VOTRE BUT EST DONC BIEN D'ATTEINDRE LES SOMETS DE LA POPULARITE POUR
+  VOS ROCK STARS ET VOUS VOUS ETES SUREMENT PROMIS DE DEPASSER TOUS LES
+  RECORDS DE VENTES DE DISQUES DANS LES PAYS DU MONDE ENTIER.
+  
+  CHARGEMENT du JEU
+  ------------------------------
+  
+  Sur ST : cliquez sur l'icone de programme. 
+  Sur STE : le chargement est automatique.
+  AMIGA : le chargement est automatique 
+
+  POUR LES ROCKERS IMPATIENTS 
+  ------------------------------
+  
+  Vous avez hate d'organiser votre premier concert... Ce chapitre est 
+  donc fait pour vous.
+
+  Au bureau, cliquez sur le dossier central l'image grossie du fichier 
+  ouvert apparait , cliquez sur "AUDITION"
+  Pour envoyer une convoquation, choisissez en bas . gauche le nom de
+  l'interprete qui vous interesse , ensuite choisissez un morceau qui 
+  vous tente en cliquant sur le manche de la guitare puis cliquez  sur 
+  le truc "OK ." 
+  
+  L'audition se visionne sur l'ecran video de votre bureau, si vous
+  engagez cet interprete, cliquez sur le contrat sinon recliquez sur 
+  l'ecran video et recommencez une autre audition.
+  
+  Pour choisir les termes du contrat , cliquez sur Pourcentage et hop ! 
+  vous voici avec les droits d'un titre en poche.
+  
+  De retour au bureau pour faire un concert cliquez sur l'ecran video.
+  puis choisissez le lieu du concert et cliquant sur les noms des villes.
+  cliquez ensuite sur le manche de la guitare pour commander le nombre d'
+  afiches puis "OK" valide.
+  
+  Choisissez les instruments que vous voulez louer en cliquant dessus.
+  
+  ATTENTION : AVANT D'ENGAGER LE CONCERT QUI DEMANDE DES REFLEXES D'ACIER,
+  LISEZ CECI .
+  
+  voici ce que le public attends de vous durant le concert :
+  
+  A) Mixer avec les potentiometres de la sono pour avoir un niveau ni trop
+  fort ni trop faible.
+  B) Choisir rapidement la bonne couleur d'eclairage puis sur le samplight 
+  cliquez (en bas . droite).
+  C) Bien cadrer l'interprete dans la camera video durant tout le concert
+  en utilisant la souris ou les touches "> <" de la camera (au centre).
+  D) N'heitez pas . envoyer la "securite" dans la foule des le moindre 
+  evenemnt...
+     Des qu'il y a un incident , cliquez ur le telephone puis sur le
+     lieu de l'incident.
+     
+  E) Cliquez sur  OK pour commencer le concert.
+  
+
+  SUR LE BUREAU
+  ---------------------------
+  
+  LE COURRIER
+  LE DOSSIER (PROMOTION TITRES...)
+  CARNET D'ADRESSES
+  SAUVEGARDE (BAS A GAUCHE)
+  CALENDRIER
+  ECRAN
+  TELEPHONE
+  TIROIR CENTRAL
+  
+
+
+  LE COURRIER
+  -----------------------
+  Au bureau pour gerer le courrier, ouvrez le sous-main "COURRIER" .
+  Le courrier sera stocke cliquez dessus pour consulter. La banque vous
+  envoie toutes les semaines un releve de compte.
+  A droite vou pouvez lancer vos envois et vos convocations pour une 
+  audition : Cliquez sur envoie ou audition.
+  
+  Pour passer commande d'un objet, cliquez desu et choisissez son receveur
+  en cliquant . l'interieur du bordereau d'envoi. puis 'OK'
+  
+  Audition , c'est la premiere etape pour commencer une carriere dans le 
+  show bizz : engagez un interprete pour lui faire executer des morceaux
+  
+  Convoquations : vous pouvez auditionner des interpretes...
+  
+  TELEPHONE....  DIALOGUES...
+  -------------------------------
+  
+  Au bureau , si vous desiez contactez une personne du fichier : cliquez 
+  sur l telephone.
+  Choisissez alors votre interlocuteur sur le fichier , le telephone 
+  composera le numero automatiquement.
+  
+  Pour repliquer aux messages , choisissez une reponse en cliquant sur la
+  phrase qui vous convient.
+  
+  SAUVEGARDE 
+  --------------------------------
+  Sur ST : NE SAUVEGARDEZ PAS SUR L'ORIGINAL , mettez vos sauvegardes
+  sur des disques vierges formattes.
+  Sur Amiga : Pareil mais une seule partie par disquette.
+  
+  REPOS 
+  --------------------------------
+  Vacances au soleil.... cliquez sur le tiroir du milieu.
+  
+  ANNEXES 
+  --------------------------------
+  ESC permet de sortir d'un sous menu
+  F1 permet d'avoir la situation de votre boite
+  
+  SPECIFICITEES
+  --------------------------------
+  Rock Star etant le seul jeu musical par excellence, nous nous sommes
+  attaches . exploiter au mieux les capacitees musicales de l'AMIGA et du
+  ST. Vue la superioriorite de l'AMIGA, les programmeurs ont ajoutes des
+  petits plus pour la version ST (pour conpemser) .
+  
+  1) Tout courrier consulte est detruit.
+  2) Au fichier des personnages le bouton droitaccelere la consultation.
+  3) Bruitages digitaux.............
+  
+
+
+      J'espere qu'avec cette doc legerement simplifiee vous pourrez
+      jouer sans ennuis avec ce jeu. 
+                                                        
+                                                         
+                                                        SPY 3 from TSC                 

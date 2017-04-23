@@ -1,0 +1,249 @@
+*******FRED
+
+Voilà une doc ( :(en Anglais...)
+
+Mr Nours.
+
+
+SEWER SOFTWARE presents a MEDUSA doc.....
+
+                                 FRED (SIR FRED)
+
+1.BACKGROUND
+Our hero, Sir FRED is a noble and valiant knight who, like any
+self-respecting hero, is in love with a beautiful damsel to whom he
+has sworn everlasting fidelity.
+But let`s speak about her: of course, she  is very beautiful, VERY
+beautiful and that is why Sir FRED is in love with her. He is
+passionately in love with her, he accompanies her in the sunny fields
+and shady forests for long hours, holding her hand. During these
+marvellous moments, they could have kissed each other with passion
+(before the end) and had innumerable children at the end (of the film
+of course).
+
+But they hadn`t reckoned with the evil ULTIMOR, an ugly dwarf with
+magical powers who didn`t look too kindly on this romantic affair. The
+infamous dwarf who didn`t flinch at any evildoings, therefore decided
+to use his powers against Sir FRED, jealous of his robust
+constitution, his success with the ladies, and above all his human
+size. And in two winks of an eye, less than three minutes, he
+transforms our superb hero into an ugly half-pint who makes our beauty
+flee in disgust. Somewhat horrified by the new appearance of her
+prince charming, she abandons Sir FRED in the sunny field and goes
+off to drown her sorrows in the arms of another gallant knight.
+
+Sir FRED, after protesting to her to no avail, recovers himself, gets
+over his sorrow and on his tiny feet, takes the decision of his life:
+to defeat the spell of the abominable ULTIMOR and to win back his
+belle.
+
+To succeed, he will have to  recover his physical form and therefore
+find the dwarf sorcerer in order to dispel the effects of the evil
+curse.
+
+II. AIM OF THE GAME
+
+Your quest therefore consists of taking in hand the young man`s
+destiny, guiding his every move and his actions. Your joystick will
+replace his arms and legs, the firing button of the joystick his
+knives and two-edged sword.
+
+You will have to avoid numerous dangers lying in wait for you, cross
+the wood, find the entrance to the dwarf cemetery and the grotto of
+the little people.
+
+Magicians, spiders, flying or climbing monsters, as well as the castle
+guards, will make life difficult for you. And watchout for the
+numerous traps awaiting you that will leave you no longer in the land
+of the living.
+
+III. PLAYING SIR FRED
+       1. THE LEVELS
+The game is composed of several settings (for example the forest, the
+ddwarf grotto, etc...).
+
+Each setting is omposed in turn of several levels ( for example: the
+forest inludes two woods and a cemetery).
+
+If you are killed, you won`t begin the game again at the beginning but
+rather at the first level of the area in whi;ch you are moving
+around.
+
+When you have managed to pass all the levels in the same area, a
+picture of Sir FRED will appear.
+
+2. GAME LEVELS
+
+Sir FRED moves from right to left and from left to right. When thre
+are staircases, you can also move Sir FRED upwards and downwards. To
+use the stairways, you simply need to be on the same level as the
+staircase and to move towards it.
+
+You can make Sir FRED move around on the three horizontal levels.
+These levels are superimposed, giving an impression of depth:
+
+* when Sir FRED moves around on the highest level, this means that he
+is in the background.
+* in contrast, if he appears on the lowest level, this means that he
+is in the foreground.
+* if he is on the middle level, this means that he moves around in the
+middle of the screen.
+
+To pass from one level to another, move the joystick upwards or
+downwards.
+On each level, you will come across numerous enemies or obstacles (
+stones, bushes, trees, etc...): you will avoid them if you change
+levels.
+
+You can only pass from one level to another if there is no obstacle
+barring your path. Otherwise you will have to continue on your way.
+
+3. OBJECTS
+
+To pick up an object placed on the floor, you simply pass over it with
+your character.
+
+-KEY and PASSAGEWAY to another level:
+
+To finish a level, you must find a key. This will be positioned either
+on the ground or hidden on an enemy ( you will therefore have to kill
+the enemy to take the key).
+When you have picked up this key, look for the passageway (door,
+clearing in the forest, portcullis, etc...) opening on to the next
+level and move the joystick upwards to enter it.
+
+-APPLE:
+
+Your energy is represented by apples (appearing at the bottom to the
+
+right of the screen).
+
+When you do not jump correctly or are touched by an enemy or by
+firing, your energy is reduced ( this reduction is symbolised by a
+bitten apple).
+
+To piece it together again, pick up the apples that you will find from
+time to time as you progress through the level. You can also make the apple
+whole again by using a magic potion (red flask).
+You can only have three apples at a time.
+
+-DAGGERS and DOUBLE-EDGED SWORD:
+
+Your weapons consist of a double-edged sword and some daggers. The double-edged
+sword is a more powerful weapon than the daggers (very often a single blow from
+the double-edged sword will be necessary to kill an enemy whereas you will have
+to throw several daggers to arrive at the same result).
+
+To throw a dagger, press the firing button of your joystick.
+To use the double-edged sword, press the firing button of your joystick and
+move the joystick either to the right or the left depending on your chosen
+direction.
+
+You can only have four daggers at a time ( menu at the bottom of the screen).
+Each dagger gives you the right to several shots. You can pick up the daggers
+placed on the ground.
+
+- MAGIC STAR:
+
+From time to time you will notice a magic star moving at the top of the screen.
+If you manage to destroy it, all the enemies to be found on the screen will be
+eliminated.
+WATCH OUT: You must be on the same level as the star to destroy it.
+
+- MAGIC POTION:
+
+There are three types of magic potions: the brown flask, the blue flask, and
+the red flask.
+The potion in your possession will be displayed in the center of the screen at
+the bottom.
+
+You can only take a single potion at a time.
+
+When you have the brown flask, you can use it at any time by pressing the `F1`
+key: you will then become invincible.
+The red potion can be activated by pressing the `F3` key: you will then have a
+new supply of apples.
+The blue potion enables you to use the teletransporters ( to be found in
+certain sections of the game). These teletransporters are in fact magic lifts
+enabling you to change levels. This potion is automatically used if you try to
+take a lift ( it is not necessary to press a key).
+
+- MAGIC BAG:
+
+The magic bag contains either a potion or apples.
+
+4. THE ENEMIES
+
+IMPS
+DWARVES
+MAGICIANS
+KARAKETAS DWARVES
+KARAKETAS IMPS
+SNAKES
+CROWS
+
+And many other enemies, each more monstrous than the last. Its up to you to
+discover them!
+
+IV. THE CONTROLS
+
+When you press the ` P ` key of your keyboard, the game goes into PAUSE mode.
+To continue playing, press the firing button of your joystick.
+
+The F1 key enables you to use the brown potion (invincibility).
+
+The F3 key enables you to validate the red potion (restores your energy).
+
+You must move Sir FRED with the joystick. Here are the different movements that
+you can make with the joystick.
+
+1. FIRING BUTTON NON-ACTIVATED
+
+-To move Sir FRED to the right or the left, move the joystick in the chosen
+direction.
+
+-To jump to the right or the left, move the joystick upwards to the right or
+upwards to the left.
+
+-When you move the joystick upwards, you change dimensions (upwards). Be
+careful that no obstacle is in your way if you want top change dimensions.
+When you have the key and you are opposite the passage leading to the next
+level, move the joystick upwards to go there.
+When yu move the joystick downwards, you move Sir FRED one level lower.
+
+-By moving the joystick downwards to the right (or downwards to the left), you
+will make Sir FRED roll (to the right or left).
+
+2, FIRING BUTTON ACTIVATED
+
+- When you move the joystick to the left or right, you give a blow from your
+double-edged sword in the direction indicated.
+
+- When you move the joystick in one of the three downward directions, Sir FRED
+kneels down. You can then release the firing button of the joystick, and Sir
+FRED will remain kneeling.
+You can make Sir FRED turn around by moving the joystick to the right or left.
+If you press the firing button again, Sir FRED will throw a dagger. To make Sir
+FRED stand up again, move the joystick upwards to the right or upwards to the
+left.
+
+- To throw a dagger upwards to the right or left, move the joystick in the
+chosen direction.
+
+- If you do not select any of the joystick directions, Sir FRED will throw a
+dagger horizontally in the direction of his glance.
+
+                      LOADING INSTRUCTIONS
+
+Switch off your Atari. Insert Disk 1 in the drive and switch on your computer.
+The game loads automatically.
+If you wish to continue loading when the presentation page is displayed on the
+screen, press the firing button of your joystick.
+When the message `INSERT DISK 2` appears, remove disk 1 and insert disk 2 in
+the drive. Then press the firing button of your joystick to continue loading.
+WARNING, WARNING, WARNING: Do not touch the keyboard of your computer or the
+firing button of your joystick during loading (except when you are asked to).
+
+                               THE END
+
+

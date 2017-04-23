@@ -1,0 +1,75 @@
+' ***********************************
+' procedure qui charge une image degas
+' ***********************************
+PROCEDURE charge_degas
+  '
+  LOCAL image$
+  FILESELECT "\*.PI1","",nom$
+  IF LEN(nom$) AND RIGHT$(nom$)<>"\"
+    image$=SPACE$(32066)
+    BLOAD nom$,VARPTR(image$)
+    BMOVE VARPTR(image$)+34,XBIOS(2),32000
+    VOID XBIOS(6,L:VARPTR(image$)+2)
+  ELSE
+    ALERT 3,"Image selectionnee | n'existe pas !",1,"OK",a%
+  ENDIF
+RETURN
+' ***********************************
+' procedure qui sauve une image degas
+' ***********************************
+PROCEDURE sauve_degas
+  '
+  LOCAL image$,pal$,n%
+  SGET image$
+  FOR n%=&HFF8240 TO &HFF825F
+    pal$=pal$+CHR$(PEEK(n%))
+  NEXT n%
+  FOR n%=1 TO 32 STEP 2
+    MID$(pal$,n%,1)=CHR$(ASC(MID$(pal$,n%,1)) AND 7)
+  NEXT n%
+  image$=CHR$(0)+ch$(XBIOS(4))+pal$+image$
+  FILESELECT "\*.PI1","",nom$
+  IF LEN(nom$) AND RIGHT$(nom$)<>"\"
+    BSAVE nom$,VARPTR(image$),32034
+  ELSE
+    ALERT 3,"Image selectionnee | n'existe pas !",1,"OK",a%
+  ENDIF
+RETURN
+' **********************************
+' procedure qui charge une image Neo
+' **********************************
+PROCEDURE charge_neo
+  '
+  LOCAL image$
+  FILESELECT "\*.NEO","",nom$
+  IF LEN(nom$) AND RIGHT$(nom$)<>"\"
+    image$=SPACE$(32128)
+    BLOAD nom$,VARPTR(image$)
+    BMOVE VARPTR(image$)+128,XBIOS(2),32000
+    VOID XBIOS(6,L:VARPTR(image$)+4)
+  ELSE
+    ALERT 3,"Image selectionnee | n'existe pas !",1,"OK",a%
+  ENDIF
+RETURN
+' *********************************
+' procedure qui sauve une image Neo
+' *********************************
+PROCEDURE sauve_neo
+  '
+  LOCAL image$,pal$,n%
+  SGET image$
+  FOR n%=&HFF8240 TO &HFF825F
+    pal$=pal$+CHR$(PEEK(n%))
+  NEXT n%
+  FOR n%=1 TO 32 STEP 2
+    MID$(pal$,n%,1)=CHR$(ASC(MID$(pal$,n%,1)) AND 7)
+  NEXT n%
+  image$=STRING$(4,0)+pal$+STRING$(9,0)+image$
+  FILESELECT "\*.NEO","",nom$
+  IF LEN(nom$) AND RIGHT$(nom$)<>"\"
+    BSAVE nom$,VARPTR(image$),32128
+  ELSE
+    ALERT 3,"Image selectionnee | n'existe pas !",1,"OK",a%
+  ENDIF
+RETURN
+'

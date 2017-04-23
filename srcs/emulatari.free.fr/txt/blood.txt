@@ -1,0 +1,253 @@
+CAPTAIN BLOOD DOCS
+
+Game Control: Mouse in port 1 controls
+hand as well as flying! When flying,
+right button to accelerate and left
+button to decelerate.
+
+
+The Story:
+
+
+You are trapped in a universe of your
+own creation that is populated by
+strange creatures in unlikely
+scenarios and of your own mind. As
+Captain Blood, you are in a
+predicament. The hyperspace warp that
+sucked you into the game also
+fragmented your genetic structure
+creating five exact duplicates of you
+that are now hiding somewhere in the
+galaxy of Hydra. You must find the
+clones and assimilate them to
+replenish the vital fluids you so
+desperately need.
+
+
+Playing The Game:
+
+
+When the game begins you will see the
+inside of the ship followed by the
+view of the nearest planet. The arm
+you see on the screen is yours!
+Because of your lack of fluids, YOU
+ARE DISINTEGRATING! As you continue to
+disintegrate throughout the game, your
+arm will shake making it more
+difficult for you to control. The on
+board clock keeps track of the elapsed
+time. You have 2 1/2 hours to find a
+clone to get the fluids you need
+before your arm becomes totally
+uncontrollable. If you find a clone,
+you get 2 1/2 more hours to continue
+your quest. The 1st planet that comes
+up each time you begin a new game is
+always inhabited. After that, you are
+on your own!
+
+
+
+Planet Vision Screen:
+
+
+Several things can be done on the
+Planet Vision Screen. They are:
+Geo Photo, Planet Destruction, or
+Landing Mission.
+
+Control Panel:
+
+
+There are 6 buttons on the control
+panel and only a few are active at any
+one time on the panel. The buttons
+will be called 1-6 (left to right)
+
+GeoPhoto Vision:
+
+
+Used to get a closer look at a
+planet. Select button #6. Flashing
+light will indicate enemy missiles on
+the surface. Select the button again
+to get a closer view. Select button #2
+for planet vision again.
+
+Planet Destruction:
+
+
+To destroy the planet, select button
+#5. You may exit a destruction at any
+point by pressing the DEL key.
+
+
+Landing Mission:
+
+
+Select button #4 from the planet
+vision screen and you will be
+transported immediately to the planet
+surface and a vector image of the
+surface will appear.
+
+
+Landing Sites:
+
+
+Each planet has a landing site
+located at the end of a long narrow
+valley. If you are headed in the right
+direction, the sight will appear as a
+flashing diamond shape. If you are off
+target, an arrow will appear in the
+direction that you must turn. When you
+reach it, your ship will land and if
+there is an alien then he will appear.
+(If there is one that is!)
+
+Avoiding Missiles:
+
+
+If there are missiles on the surface
+they will home in on you. A beep noise
+will let you know that you have been
+sighted by them. To avoid missiles, you
+must fly as low as you can to the
+surface without crashing. When missiles
+have locked on you, arrows appear on
+either side of the screen and move
+towards the center. The closer the
+arrows get, the closer the missiles are
+to you. When and if they meet in the
+center of the screen, Your spaceship
+is destroyed and you will be returned
+to the main ship.
+
+The UpComm:
+
+
+To talk to the aliens you need to use
+this icon system. Once you land, it
+will appear on the screen.
+
+
+Receive A Message:
+
+
+As the alien speaks, icons will
+appear on the left side. Just point to
+the icon in question to get the
+translation on the screen. If the
+mouth is moving then it means that the
+alien isn't done speaking, Click on
+the mouth to get more of the message.
+
+
+Sending A Message:
+
+
+You may respond to the alien by using
+any of the highlighted icons in the
+window. The window shows only a small
+selection of them and you can scroll
+selections with the selectors on the
+right and left of the window or scroll
+quickly with the scroll bar at the
+bottom of the window. Select the icon
+you want to use and press the button.
+It will appear on the right side which
+holds 8. (8 for each sentence.)¹ When
+your message is ready, hit the mouth
+to send. The left-arrow shaped button
+on the right side will let you delete
+or insert an icon.
+
+
+Teleporting:
+
+
+If an alien agrees to be teleported,
+the icon will appear on the bottom of
+the screen. To return an alien to the
+surface, press the icon button after
+you land. Use the triangular shaped
+button to return to the ship.
+
+The Ship's Interior:
+
+
+Button #1 is used to save the game or
+load a game.
+Button #2-Planet Vision Screen if
+active.
+Button #3-Galaxy Map
+ 
+
+Selecting any inactive button will
+return you to the ship's interior.
+
+The Fridgitorium:
+
+
+If you teleport a clone or an alien
+onto the ship, it will appear in the
+fridgitorium on the left side of the
+screen. You will not be able to talk
+to whatever is in there. To
+disintegrate a creature or clone,
+select the button below it. When a
+creature is gone, you will recover its
+vital fluids. However, only the clones
+fluids are compatible with your system.
+
+Spaceship Reactivation:
+
+
+If you already landed on a planet,
+you will have a (?) mark appear. If
+you choose that, it will reactivate
+your spaceship on the surface.
+
+Hyperspace:
+
+
+From the galaxy map, select the
+hyperspace button to travel to that
+picked location. You may abort the
+sequence at anytime with the delete
+key.
+
+
+YOU CAN ONLY SAVE A GAME AFTER THE
+FIRST 5 MINUTES HAVE BEEN PLAYED!
+YOU CAN ONLY LOAD A SAVED GAME DURING
+THE FIRST 5 MINUTES OF PLAY!
+
+
+The Finale:
+
+
+Find the five clones. The last clone
+will give the coordinates of the
+planet Torka, where the beautiful
+Alien Ondoyante is waiting. Once you
+go there and teleport her to your
+ship, you've won. (Note: She will not
+stay in the Fridgitorium.)
+
+
+
+DOCS TYPED IN BY ROBOCOP!
+
+Taken from the 64 docs written by
+eaglesoft and altered for the amiga
+by ROBOCOP!
+
+
+
+Snaffled from the Amiga by SEWER 
+SOFTWARE.Alterations and corrections 
+by SEWER RAT.

@@ -1,0 +1,161 @@
+Sewer Software presents....
+
+Partial (?) Documentation and Translation for Sherman M4 Tank Sim.
+                    Written by, The Sorcerer.
+------------------------------------------------------------------
+Mission Command Menu Translation:
+     Unlimited Ammo, Yes or No.
+     Unlimited Fuel, Yes or No.
+     Deep Rivers (Uncrossable), Yes or No.
+     Rapid Reloading, Yes or No.
+     Show Enemy Vehicles, Yes or No.
+
+Friendly, or Enemy Modifications:
+     Basically for friendly you can set the number of tanks and 
+jeeps you have, and whether you can call in artillery or not. 
+Under enemy units you can set their moral, and experience levels, 
+from Minimum, Medium, and finally Maximum. You can also set the 
+enemy commander that you'll be fighting against.
+
+Sherman Tank Commands:
+     F1 - Switches from Periscope (inside view) to Outside Fwd View.
+     F2 - Switches from Outside Fwd View to Binoculars.
+     F3 - Display current damage to selected Tank.
+     F4 - Display overhead map, and/or activate "autopilot".
+     F5 - Outside forward view.
+     F6 - Outside rear view.
+     F7 - Outside left view.
+     F8 - Outside right view.
+     F9 - Use radio to move tanks/jeeps, call artillery, or quit.
+     F10 - Pause game temporarily.
+     1-4 - Selects tank 1-4.
+     R - Use radio (same as F9).
+     D - Display current damage to selected tank (same as F3).
+     J - Binocular view (same as F2).
+     C - Map, or set tank(s)/Jeep(s) course. More on that later...
+     V - Switch from periscope to outside fwd view and back.
+     RETURN - (Re)engage "Autopilot" for selected tank, more later.
+     Up Arrow - Move forward, maximum speed.
+     Down Arrow - Move in reverse.
+     Left Arrow - rotate left (use with up or down arrow to move 
+while turning to avoid getting hit by enemy tanks).
+     Right Arror - same as left, except you rotate right.
+     Space Bar+Up/Dopwn Arrow - Press the Space Bar and then quickly 
+press the up or down arrow keys to raise or lower your tank's 
+cannon. You can see it raise or lower from the outside forward 
+view, or see a horizontal bar raise and lower in the periscope 
+view. The advantage is, the higher your tank's cannon, the longer 
+your range.
+
+     (NOTE: I have yet to figure out how to rotate the tank's 
+turret, but I am sure there must be a way to do so, but it's 
+probably some obscure command, like Cntrl-Alt-Lft Shft-Rght Shft, 
+etc. Who knows?)
+
+
+Map Mode:
+     When using the map mode you are able to scroll the map up and 
+down using the joystick, or the cursor keys, or keypad (each key 
+on the keypad represents North, Northeast, East, etc. 5 is not 
+used) to scroll the map up or down. Pressing 1-6 you can select 
+tanks 1-4 or jeeps 5-6 (if available). To set their course, select 
+the tank you wish to move, than move the crosshairs to the 
+destination you wish, and press the space bar to set that tanks 
+course. Note, when attacking enemy bunkers, or encoutering enemy 
+tanks, your tanks you aren't controlling WILL fight back. The 
+jeeps don't seem to do much of anything, but they probably have a 
+purpose, which hopefully someone will find out. I think they have 
+something to do with artillery, but I'm not positive.
+
+Artillery Mode:
+     Artillery is called down the same way that you select your 
+tanks destination under the movement rules. Be careful NOT to call 
+down artillery too close to your current position (about half a 
+map grid, sometimes a little more, them artillery boys don't know 
+how to shoot). You'll generally recieve a message from HQ saying 
+that artillery will be starting. Once you hear the explosions you 
+know your artillery is making minced meat out of whatever you 
+targeted. Also, the range seems to be relatively short. You are 
+only able to extend a short ways (maybe 4 grids) south (or north) 
+of your starting base, and that's it. The jeeps seem to help this 
+problem, but then at other times they don't have any effect, so 
+it's hard to tell. To find the range of artillery you'll have to 
+experiment.
+
+Autopilot Mode:
+     When using the autopilot, you can disengage at any time by 
+simply pressing one of the 8 movement keys on the keypad, using 
+the cursor keys, or using the joystick. Then you can go about 
+whatever it is that you want to do. To reengage, simply hit 
+return. Sometimes the autopilot doesn't seem to be working right, 
+so just re-set the course again, or take temporary control of the 
+tank, move it in the direction you wish it to go for a bit, then 
+reengage the autopilot.
+
+Helpful Tactics:
+     I've found that instead of charging the enemy positions, I'll 
+look out from the forward outside view, move forward for a bit, 
+then stop and use my binoculars to spot for enemy units. When I 
+spot one, I'll raise my cannon to maximum height, align my sights 
+with the enemy, and charge forward slowly. As soon as I see the 
+sucker on the "horizon" I'll fire a shot and retreat until he's 
+beyond my perscope view. This works very well, but sometimes you 
+get into a "cluster fuck" of several bunkers and tanks, and this 
+tactic doesn't work well. So I'll have my remaining tanks charge 
+forward with the autopilot on, engaging the enemy units, while I 
+sneak around behind their defensive position and blast them while 
+they're not looking (generally they'll fire at your other tanks 
+and not at you, but sometimes they'll fire at you instead). This 
+game is VERY realistic. Also you'll see flags at various 
+locations. You MUST capture the flags. To do this simply move the 
+tank towards the flag (pretend you're running it over). As you 
+back up you'll see that it changed from a Nazi flag to an American 
+flag.
+
+Map Icons:
+     Hangars are basically resupply depots, that'll repair minor 
+damage. They'll refuel you and fix minor damage. There are of 
+hangars that'll repair everything, and reload your cannon. The 
+minor hangars that don't really repair anything are called 
+something like "Hangar D'Revitallement" or something like that. 
+Eglise are churches, bunkers are bunkers, etc. You'll generally 
+figure out what the different symbols are.
+
+
+Normandie Campaign/Missions:
+Mission #1: Capture HQ (at C12 or G12), destroy enemy bunkers.
+Mission #2: Recover jeeps (you'll see them in map mode by 
+selecting 5 or 6 and looking for the flashing red square, DON'T 
+move them otherwise a guarding enemy Panzer might blast 'em).
+Mission #3: Capture Villages (the one at F-7).
+Mission #4: Destroy the cannon at B-3.
+Mission #5: Liberate St. Mary's Church at G-1.
+Also, there is a major repair facility (repairs everything, etc) 
+at F-7. It's worth taking over, then you can repair all damage and 
+reload your cannons, etc.
+
+Ardennes Campaign/Missions:
+Mission #1: Retreat unit immediately to Camp at C-14.
+Mission #2: Recapture base at F-9.
+Mission #3: Destroy the bridge at B-3.
+Mission #4: Destroy the enemy base at D-1.
+Mission #5: Liberate Bush-Ville (BIGGEST village on the map).
+
+North Africa Campaign/Missions:
+Mission #1: Destroy the enemy's reserves at Bab-El-Qattara (C-5).
+Mission #2: Defend the village at C-5.
+Mission #3: Destroy the enemy tank convoy at F-6, F-7, or F-8.
+Mission #4: Refuel at Sidi-El-Rahman, destroy enemy reserves 
+(haven't played this one much so you got me. Maybe the northern 
+part of the map).
+Mission #5: The Bunker of Rommel, the Final Battle (same again. 
+Haven't played it to find out the coordinates).
+
+Scenary Disks:
+     When you succesfully complete a campaign, the game says 
+something in French about scenary disks, which might mean a 
+sequel. Hope so, because they did an EXCELLENT job on the graphics 
+and sound effects for this game. Unfortunately you CAN NOT snap-
+shot the screen and save pictures. I tried, but it wouldn't accept 
+Alt-Help. Anyways, enjoy the game.
+

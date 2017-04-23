@@ -1,0 +1,1763 @@
+                                DRAGONS BREATH
+
+USER GUIDE
+
+OBJECT OF THE GAME
+
+PLAYERS
+ The Characters in the game
+ Starting a new game
+ Demo mode
+ Restoring a saved game
+
+THE MAIN GAME SCREEN
+ Proceeding into the game
+ Moving the game to the next month
+ Saving a game
+ Aborting a game
+
+THE CASTLE SCREENS
+1. THE LIBRARY
+   THE ACCOUNTS BOOK
+   THE CURRENT AFFAIRS BOOK
+   THE STOCK BOOK
+
+2. DRAGONS
+
+3. EGG INCUBATION
+
+4. TRADERS
+
+5. CASTING SPELLS
+
+6. MAPS AND DRAGON ASSIGNMENTS
+   Maps
+   Taxes
+   Attacking or conquering villages
+   Training missions
+   Rewards and hostage missions
+   Searching the countryside
+   Recalling dragons
+   Finding parts of the Talisman
+
+THE END OF THE GAME
+
+PLAYING a SAVED GAME
+Dragons Breath can take a very long time to play and, unfortunately.
+there may be other things that you have to do in life. It is therefore
+possible to save the game at certain points to resume at a later time.
+Game saves should be made onto a blank, formatted disk - so don't
+forget to format another disk before starting to play. If you are
+uncertain how to do this, refer to your computer's user manual.
+To resume a previously saved game you should click on the disk icon on
+he Player Choice screen.
+
+FUNCTION KEYS
+The following function keys may be used:
+
+F1  -  toggles sound on/off
+F9  -  toggles picture fade between normal and fast
+
+Far, far away lies the land of Anrea, a place governed by the Great
+Lords. Within the land of Anrea stands Dwarf Mountain and since the
+beginning of time the mountain has been the source of evil forces.
+While the most distant parts of Anrea have developed and prospered,
+the countryside surrounding the mountain has always been beset by war
+and famine.
+Legend has it that in the Throne Room of the Great Castle at the top
+of Dwarf Mountain lies the secret of immortality. Three people crave
+this secret and the Great Lords permit them to fight to win entry to
+the Great castle.
+
+THE OBJECT OF THE GAME
+The object of Dragons Breath is for a player to find (and keep) the
+parts of a talisman that allows entry to the Throne Room.
+The three parts of the Talisman are scattered throughout the land
+surrounding the mountain and may only be found by dragons. The parts
+cannot be moved until all three are guarded by one player's dragons,
+all at the same time. Therefore a player must have at least three
+dragons to win. The first objective of the game, therefore, is to breed
+dragons and to create an income to do this.
+
+PLAYERS
+There are three characters in Dragons Breath, each of which can be
+played by either a human player or by the computer.
+
+The three characters are Bachim the Alchemist, Quered the She-Vampire
+and Ametrin the Green Beast. Throughout the game, wherever one of the
+them) this is done by a color: blue for Bachim, green for Quered and
+red for Ametrin.
+
+THE PLAYER CHOICE SCREEN
+
+STARTING A NEW GAME
+The three Dragonmasters are displayed, showing their name and color.
+Each has a small human-figure icon: if you click on this you can toggle
+between the human and computer symbols. If less than three human
+players are participating the remaining characters should be set to
+computer control.
+
+DEMO MODE
+If you stay on the Player Choice Screen without continuing, the game
+will automatically go into demo mode. To escape from demo mode press
+the ESC key of your computer and the demo will abort shortly afterwards
+at the end of the next month.
+
+RESTORING A SAVED GAME
+Do not set the characters (as detailed above) but click on the disk
+icon at the bottom of the Player Choice screen and follow the
+instructions to restore your previous position.
+
+THE MAIN GAME SCREEN
+The game is divided into months, with nine months making an Ora (or
+game year). During each month the three characters must take a turn
+(which will happen automatically for any computer-controlled
+characters) to make decisions and carry out tasks. Once each player has
+taken their turn the computer will make all the necessary calculations
+and proceed to the next month.
+
+If more than one human player participates you may wish to agree
+before starting not to look at the screen while certain strategic
+decisions such as setting up dragon missions or casting spells are
+being made by opponents.
+
+At the start of the game and at the beginning of each month you will
+find yourself at the Main Game Screen. This shows a general map of the
+area of Anrea surrounding Dwarf Mountain, the current month and Ora,
+and six icons at the bottom of the screen.
+
+CHARACTER     The three character icons, with human-controlled
+ ICON         characters shown lit up.
+
+Click on your character and you will proceed to a screen showing your
+castle and a new row of icons (see Castle Screens). When you have
+finished your tasks you will return to the Main Game screen on quitting
+the Castle Screen. Then the next human player can take their turn by
+clicking on their character icon.
+
+EGG TIMER     Once each of the human players has taken their turn,
+ ICON         click on this icon and the computer will move the game on
+              a month. The castles of the computer-controlled
+characters will each appear as their turns are completed. You will not
+be able to proceed unless each human character has taken a turn.
+
+The results of the month's activities are reported at the bottom of
+the screen and graphic sequences depict dragons (represented by
+colored balls) moving across the map of Anrea attacking villages and,
+perhaps, fighting each other.
+
+If you have set your dragon on a training mission this will take place
+at this point (for which you will need a joystick plugged in). (See
+Dragon Assignments.)
+
+Sometimes, before moving on to the next month  you will be told that a
+village has offered you a reward in return for helping them. They may
+offer you more than one type of reward so click on your choice and then
+press the red arrow to accept.
+
+DISK          Choose this icon if you wish to save a game to a blank,
+ICON          formatted disk to resume at a later time.
+              Notice that this icon will often flash to remind you to
+              save.
+
+SKULL         Choose this icon if you wish to abort a game. You must
+ICON          confirm your decision - click on the red arrow if you
+              agree to abort, the cross if you do not.
+
+THE CASTLE SCREENS
+Once you have clicked on your Character Icon from the Main Game Screen
+you will arrive at your character's Castle Screen. There are three such
+screens, one for each of the characters.
+
+From your lefty castle you will carry out your tasks using the icons
+at the bottom of the screen. The one on the far left shows icons at the
+bottom of the screen. The one on the far left shows your character. By
+clicking on the middle six icons you are able to do a number of things,
+after each time returning to the Castle Screen. (The cross icon takes
+you back to the Main Game Screen).
+
+You may access these areas in any order you choose (although we
+suggest you start by looking at them in the order that these
+instructions are written). There is no requirement to carry out all the
+tasks each month - although you must do at least one thing to be
+considered to have taken a turn!
+
+(Book Icon) THE LIBRARY
+At the start of the game and after each month it is advisable to take
+stock of the current situation and this is done by consulting your
+library.
+
+Clicking will reveal your monthly accounts (the green book). You may
+also study current affairs (red book) and magic stock (purple book).
+Clicking on the book/arrow icons allows you to turn pages of the books
+where relevant.
+
+ BOOK        Accounts. Monthly spending is crucial to your
+ ICON        success and you must budget carefully. Any
+             visiting traders arriving at your castle are
+reported here as are the whereabouts of your dragons and, very
+importantly, if a part of the talisman exists in a village under your
+control.
+
+Throughout the game each character is being taxed by the Great Lords
+at a rate of 2 gelds per month. There is a further tax of 1 geld per
+month for each dragon you have and a further geld for each village in
+your possession.
+
+ BOOK        Current Affairs. Current battles, which influence events
+ ICON        and may help you supplement your income, are reported
+             here. So are nexs of hostages (rescue of which will bring
+you a reward), the whereabouts of itinerant barbarians (be careful!)
+and villages that have been established or destroyed.
+
+Throughout the game the races of people that populate different
+villages battle with other races. Sometimes one village will conquer
+another and the victors will repopulate the latter with their own race
+of people. If one of the three characters in the game owns the
+victorious village they will now also own the vanquished one.
+
+ The population of villages normally grows. As villages grow into towns
+they spawn new villages which have all the same characteristics (except
+location and population size) of their parent. Again, if a character
+owns the parent town they will also the new village.
+
+ BOOK        Magic Stock. This shows the current stock of ingredients
+ ICON        in your alchemy store, essential for the manufacture of
+             spells.
+
+(Dragon Eye Icon) DRAGONS
+ Entering this section allows you to monitor the attributes of your
+dragons - wisdom, eyesight, strength, age, health, disease and speed -
+and to cast spells to change them.
+
+ Once into the dragon section you arrive at the part of your castle
+where the dragons' lairs are located. You start with one dragon
+sleeping in the top left-hand lair and, as the game progresses and you
+successfully breed more, they will occupy the other cells.
+
+ To see which dragons you currently possess move your pointer across
+the lair doors and the dragons' names will be shown in the right-hand
+panel. To check the current state of your dragon's attributes click on
+its cell door. The screen will show the dragon and you can pass the
+pointer over its body to see its state.
+
+CRYSTAL        If you wish to cast a spell on your dragons to change
+ BALL          their attributes click on the spell icon. For
+ ICON          information on how to cast spells see the Spell Book.
+
+THE CASTLE SCREENS continued
+
+(Egg incubation icon) EGG INCUBATION
+ You will start the game with one dragon and twenty eggs. It is
+necessary for your character to have dragons to progress (and you need
+at least three to win) and dragons are often killed during the game.
+Therefore it is essential to start breeding dragons from your eggs
+immediately. This is done in the Egg Incubation room of your castle.
+
+ EGG            You are able to incubate up to four eggs at any one
+ ICON           time. To do this click on one of the egg icons at the
+                bottom of the screen. Move your pointer to the center
+of the screen and click again so that the egg is placed in the
+incubator.
+
+ Eggs require heat to incubate so don't forget to do this or they will
+not hatch. To set the temperature control, place the pointer on the
+small wheel at the right of the screen. Click on the left mouse button
+and at the same time move the pointer up over the right side of the
+wheel. (If you are using a joystick press fire and push up). The wheel
+should now turn and the gauge at the far right should indicate the heat
+level. By using this method in opposite directions on the wheel you
+are able to increase or reduce the heat.
+
+ An egg will take a number of months before it hatches. The higher the
+heat the faster this will happen. However, heat costs money and the
+more you are using at one time the faster your financial resources are
+being depleted. You must therefore choose a balance between hatching
+eggs and running down your finances. If your money is depleted your
+egg will not hatch. An egg on a low heat will take many months to hatch
+but will eventually be stronger.
+
+ Each time you return to the Egg Incubation room the hourglass in the
+top left will show the proportion of time taken so far in nurturing the
+egg.
+
+ EGG            If you wish to incubate another of the four eggs, or to
+ ICON           inspect a different one in incubation click on the
+                relevant egg icon at the bottom of the screen.
+
+ CRYSTAL        On each egg incubation screen is a crystal ball icon.
+ BALL           Click to cast spells affecting the characteristics of
+ ICON           the dragon once it hatches. Read the Spell Book for
+                more information.
+
+ At the end of the relevant month you will be told that one of your
+eggs is hatching after which you will be asked to give the new dragon a
+name. This may be up to eight characters with no spaces and must not be
+the same as an existing name. When it happens, you will also see the
+other characters' eggs hatching (both human and computer players).
+
+(DOOR ICON) TRADERS
+ Traders will often visit your castle and it is from them that you are
+able to buy further stocks of ingredients for spells. If a trader is
+outside your castle  the door icon on your Castle Screen will be lit
+up.
+
+ You are not obliged to buy anything. If you don't, the trader will
+leave and return later in the game.
+
+ Once you have clicked on the door icon you will be presented with a
+screen showing you the trader, what he has to offer, the prices and how
+much money you have. If you now decide not to buy anything click on the
+cross to return to the Castle Screen.
+
+ If you wish to buy something click on the up arrow next to the item.
+The down arrow allows you to reduce the amount you wish to buy. You can
+only buy items you can afford.
+
+ Once you have set your transaction click on the arrow to confirm your
+purchase, after which you will return to the Castle Screen.
+
+THE CASTLE SCREENS continued
+
+(CRYSTAL BALL ICON) CASTING SPELLS
+ To be successful in the game it is important that you become
+proficient in the use of alchemy. Although you may play Dragons Breath
+without the use of magic, your performance will be competing against
+computer players, they will most certainly use magic to improve their
+game.
+
+ Clicking on the crystal ball icon on your Castle Screen takes you to
+your Spell Room and there you can cast spells to increase your money
+and egg supply. Also, on particular screens you will have a crystal
+ball icon and these allow you to direct spells at villages, dragons and
+eggs.
+
+ To learn about casting spells you will need to read the Spell Book.
+
+THE CASTLE SCREENS CONTINUED
+
+(Scroll icon) MAPS AND DRAGON ASSIGNMENTS
+ In this section of the game you are able to gain a view of the area of
+Anrea around the mountain and see where towns and villages are located;
+to know which of the three characters owns these settlements; and to
+search the land and gain control of parts of it.
+
+MAPS
+ Having clicked on the scroll icon on the Castle Screen you are
+presented with a perspective view of Anrea. In the center stands your
+ultimate goal, Dwarf Mountain, and to the west, north-east and south
+the three castles of Bachim, Querod and Ametrim. Click on the
+                magnifying glass icon and the map will show, in
+MAGNIFYING      miniature, the settlements of the country. Each castle
+GLASS ICON      flies the combatant's flag  - red, green or blue - and,
+                as each character gains control of the villages each
+will also show the relevant flag. NOw move your pointer over the map
+and, having chosen a section, press the fire or left cursor button.
+
+ This next screen shows the Detail Map of Anrea. By clicking on the
+four points of the compass you can make the map scroll around the land.
+
+ In many areas of the map you can see hut symbols which each represent
+a town or village with their colors representing the race of the
+inhabitants.
+
+ As you move your pointer over the map, the panel on the right of the
+screen will show the type of land and the distance from your castle.
+When you move the pointer on to a hut symbol the panel will also show
+the name of the settlement, its race, population, and a grading of
+industry or yeomanry.
+
+ Clicking on village symbol will produce a view of part of the village.
+Try clicking on different villages and notice how some villages have
+more advanced buildings than others. On this screen you can see a spell
+                icon by which you cast a spell on the village. See the
+CRYSTAL         Casting Spells section for further information.
+BALL ICON
+
+When you return to the Detail Map in subsequent months, a colored
+square surrounding a village indicates ownership by a player. A dragon
+symbol within the square indicates that the character's dragon is
+guarding that location.
+
+TAXES
+ If the current player owns the village, two horizontal bars are shown
+above the village. The first is the tax rate which controls how much
+money you wish to take from the village. Click anywhere on this bar to
+change it. The lower bar shows the resistance of the people which will
+grow in proportion to the rate of tax. When this gets too gets too high
+they will revolt they can not revolt, however, if a dragon is guarding
+the village.
+
+ DRAGON         Returning to the Detail Map, at the bottom of the
+ EYE            screen are three icons. Choose the scroll when you want
+ ICON           to return to the previous perspective view of Anrea and
+                the cross icon when you wish to return to the Castle
+Screen. Click on the dragon eye if you want to go raiding with a
+dragon.
+
+ATTACKING OR CONQUERING VILLAGES
+
+ DRAGON         Once you have clicked on the dragon eye you will be
+ CELLS          presented with a new icon that you click on to choose
+ ICON           which of your dragons you wish to use. You will start
+                the game with only one dragon but if all goes well, as
+the game progresses, you will breed more. Click on the left or right
+groups of cells doors and you will cycle through your current dragons,
+details of which are shown in the top right panel. When you have a
+number of dragons you will be able to set each one of them different
+tasks each month.
+
+ FLAG           Now, if you wish to raid a town or village click on
+ ICON           your target on the map. Two icons will appear beside
+                the map. The top icon, the door, allows you to go back
+one step if you change your mind. The lower icon, the flag, allows you
+to select either "Attack (village) Conquer and Keep" if you wish to own
+the settlement or "Attack (village) Return after Task" if you only want
+to raid it.
+
+ It is possible for you to send your dragon to a location guarded or
+under attack by another character's dragon. When this happens there
+will be a fight between the two which the stronger will win, You cannot
+send your dragon to a location guarded by another of your owns dragons.
+
+ Once you have given the dragon its orders there are two methods by
+which you can carry this out: either to let the computer do this
+automatically, or, if you prefer a spot of joystick action you can
+control the dragon yourself by clicking on the "Training" box. (Read
+about Training missions later in this section).
+
+ If you decide to let the computer simulate the action you must first
+choose the amount of - "Zeal" - that is the amount of energy your
+dragon will expend - by clicking on one of the three boxes. Greater
+zeal means more chance of success but costs a lot of dragon health,
+thus exhausting, and, in extreme cases, killing it. (In the case of a
+training mission the level of zeal is in the hands of the player and
+therefore this will not need to be set).
+
+ You must kill a certain percentage of the population to succeed. Your
+dragon's attributes and the ability of the inhabitants of your target
+will influence the outcome. Whether you guide your dragon on a Training
+mission or choose a computer simulation, there is no guarantee of
+success, which is dependent on many factors. During a mission your
+dragon may die, or if merely unsuccessfully in capturing the target,
+will return to its lair to sleep.
+
+ The mission itself will not actually take place until you return to
+the Main Game screen, click on the hour glass icon and move the game on
+a month.
+
+ Once you have returned to the Castle Screen, and carried out other
+tasks that you may wish to do, return to the Main Game Screen. Once
+each of the human players has taken their turn you can click on the
+hour glass icon and, as the computer moves the game on a month, the
+action you have set up will take place. You will see each of the three
+character's dragons fly out from the castles to carry out their
+missions.
+
+ If you dragon was successful in conquering a village it will stay
+there until recalled in a subsequent month. (Read about recalling
+dragons later in this section).
+
+TRAINING MISSIONS
+ If you have chosen a Training Mission for young dragon this will take
+place after you have clicked on the hour glass icon on the Main Game
+Screen.
+
+ Have your joystick ready for some arcade-style action. You will
+control your dragon flying over the countryside, fighting the defenders
+and destroying enough of their settlement in order to capture it. As
+you destroy buildings the population of the village will decrease.
+Notice how different types of settlements defend themselves in varying
+ways depending on their level of technology.
+
+ Note that, although you view your dragon from above, it is actually
+breathing its fire diagonally down. Therefore, if you aim to destroy
+something on the ground it must be some distance in front of you for
+the fire to be effective, whereas something that is in the air must be
+close to your dragon to be destroyed.
+
+ The four abacus bars on the right of the screen show (from top to
+bottom) dragon health, breath power, village population, and
+advancement level of the village. Your playing ability will effect the
+wisdom of the dragon.
+
+ The mission will automatically end when either you are successful in
+carrying out your task or your dragon is killed. You can abort the
+mission by pressing either the space bar or left mouse button. Any
+other key will pause the action.
+
+REWARDS AND HOSTAGE MISSIONS
+ You will see by looking in the Current Affairs book that throughout
+the game the settlements of Anrea are continually fighting each other.
+
+ If you successfully send a dragon to raid a village that is fighting
+another the second village will offer you a reward. You will receive
+the reward at the end of the month. (See the hour glass icon section of
+the Main Game screen for further details).
+
+ You may hear news of a village holding a hostage from another and you
+may attempt a rescue mission by clicking on the settlement.
+
+ If you are successful a reward will be given.
+
+SEARCHING THE COUNTRYSIDE
+ As the game progresses and you have conquered a number of villages you
+may well have discovered the location of parts of the Talisman.
+However, it is quite possible you have been successful in outlasting
+the other characters yet have still not located all three parts. If you
+cannot locate them in the villages you will then have to search the
+countryside.
+
+ To carry out a search you must start in the same way as when attacking
+or conquering villages: go to the Detail Map and choose attacking or
+conquering  villages: go to the Detail Map and choose your dragon. Now,
+instead of clicking on a village, click on the piece of countryside you
+wish to search. By clicking on the flag you can cycle between "Search
+Return After Task" and "Search Conquer and Keep". In search missions
+there are no advesaries and therefore it is not relevant to set the
+level of Zeal, not is it possible to carry this out as a training
+mission.
+
+ Normally it will be necessary for your dragon to land (in other words,
+conquer the piece of countryside) to find the Talisman. However, it you
+have a dragon with good eyesight it will probably be able to find it
+without landing.
+
+RECALLING DRAGONS
+ If your dragon has been on a Conquer and Keep mission you may wish it
+to return to its lair.
+
+ From the Detail Map screen click on the dragon eye icon. If you have
+more than one dragon you will, as usual be presented with the small
+dragon's lair icon. Using this, cycle through your dragons to choose
+the one you wish to return. If you only have one dragon and it is away
+from its lair this stage will be bypassed.
+
+ Once the relevant dragon has been chosen its location will be shown on
+the map (note that the surrounding countryside is blanked out). By
+clicking on the door or flag icons you may toggle between "Stay On
+Guard" and "Return To Lair".
+
+ The flight back to the lair will take a month so this particular
+dragon will not be able to carry out any further tasks until the
+following turn. You will see it return so the lair at the end of the
+month.
+
+FINDING PARTS OF THE TALISMAN
+ It is possible that part of the Talisman may be in a village that you
+are attacking but unless your dragon has particular good eyesight it
+will only see it if it actually conquers and lands there. The only way
+to know that you have found it is by referring to the Accounts Book in
+your library.
+
+ When a dragon finds a piece it will belong to whoever has possession of
+the area and a subsequent battle may mean that ownership is lost to
+another character.
+
+(CROSS ICON) END OF THE TURN
+ Once you have completed all the tasks you wish to undertake in a
+particular month click on the cross to take you from your Castle Screen
+back to the Main Game Screen. If there are other human players they can
+take their turns and when each has had a turn the game can move on a
+month. This process continues until, eventually, either one player wins
+or each of the players  has lost all their money and dragons.
+
+THE END OF THE GAME
+
+THE GAME WILL FINISH WHEN EITHER:
+
+1. A character wins by having three dragons each guarding a part of the
+Talisman. When this occurs the player's character will be automatically
+taken to the Throne Room of the Great Castle at the top of Dwarf
+Mountain to learn the ultimate secret of immortality.
+
+2. If a game is being played with human players, each human will lose
+when they no longer have money nor dragons. In this case the game will
+end when the last human has finished their play. (In the case of a game
+with no human players the game will continue until either a character
+wins or all three have lost).
+
+SPELL BOOK
+
+INTRODUCTION
+ Throughout Dragons Breath you are able to cast spells to improve your
+game. You can, for instance cast spells to improve your financial
+position and egg supplies, to improve the performance of your dragons,
+to increase the population of villages under your control or to
+decrease the population of villages under the control of others.
+ It is not absolutely necessary to cast spells but remember, even if
+you don't the other players (especially computer-controlled characters)
+probably will and thus have an advantage. However, we suggest that you
+master the basic game before attempting spells.
+
+ Spells are cast by mixing together ingredients in your Spell Room from
+your magic stock. Each ingredients has a certain effect. There are also
+a number of methods of adding an individual ingredient, each method
+having its own effect. Thus, the combination of ingredients and methods
+gives an almost endless variation of effects.
+
+ There are so many combinations - and often concoctions using different
+ingredients will have similar results - that it would be senseless to
+suggest certain the basics of casting spells and to give a guide as to
+the results.
+
+ As you gradually become familiar with casting spells and see the
+effects they have you can build up your own 'recipe book' of spells.
+
+YOUR MAGIC STOCK
+ You will begin the game with a magic stock made from a variety of
+plants, minerals, and liquids native to the land of Anrea. You can see
+a written record in your Stock Book throughout the game (see the
+Library section of the User Guide).
+
+ Within the Spell Book there are descriptions of the most common
+ingredients as well as a summary of the main effects of each.
+
+ Sometimes during the game, you will be visited by a trader offering a
+selection of items; at a price, of course. Some items are rarer than
+others so you may have to experiment to find substitutes. However, the
+new player will need to quickly learn to prepare standard spells for
+population growth or curing disease, examples of which are listed
+later.
+
+ Your spells will only be as good as your ingredients. You won't have
+been playing the game very long before you realize the importance of
+raising cash to buy as many elements as you can . Initially you have a
+good stock of items to experiment with, but a few months on, you may
+find yourself having to find substitutes.
+
+CHOOSING YOUR TARGET
+ You choose the target your spell is aimed at before you enter the
+Spell Room.
+
+ At the bottom of the screen where you view your individual dragons is
+a crystal ball icon allowing you to cast spells on that dragon.
+Similarly, the crystal ball at the bottom of an egg incubation screen
+allows you to cast spells on that egg.
+
+ To cast a spell on a village click on your target on the Detail Map
+then, once on the village screen, click on the crystal ball.
+
+ In order to cast spells on your character to increase your money and
+egg supplies click on the crystal ball on thee Castle Screen.
+
+ Once you have chosen the particular target and clicked on the crystal
+ball icon you will enter the Spell Room.
+
+THE SPELL ROOM
+ In the Spell Room the shelves are lined with magic stock. Move your
+pointer over a bottle on the shelves at the top and you will be shown
+the name and quantity of the contents.
+
+ The various apparatus of the alchemy set are, from left to right, for
+cutting, grinding, mixing, and for adding as normal. At the bottom is a
+bunsen burner. To turn this on click on the ring just above the base
+and increase the flame by moving your pointer upwards. To adjust the
+condenser click on the spherical bowl and move your pointer up to
+increase and down to decrease; notice the change in the horizontal
+pipe.
+
+ Having set the bunsen burner and condenser at the required levels,
+click on the bottle or jar you wish to select and you can move it
+around the screen. Place it above one of the apparatus and click again
+to insert a measure. Click anywhere on the shelves to return the
+bottle.
+
+ You will need to reconsider your use of the bunsen burner and
+condenser for every ingredient. Don't forget to reset as necessary.
+
+ Be careful when mixing spells. If your mixture is too potent it will
+explode. In this case you will have lost those ingredients used and
+will not be able to mix another spell until the following month while
+your equipment is being repaired.
+
+ Use the arrow icon to proceed and cast the spell, or the cross to
+quit. Quitting will lose any used ingredients.
+
+SOME BASIC SPELL THEORY
+ All ingredients are divided into one of two categories - Directors or
+Affectors - and you must have both for a spell to work.
+
+ 1) Directors. These are ingredients that "direct" power at your
+    target, either a human (usually your character), egg, dragon or a
+    village.
+ 2) Affectors. These are ingredients that "affect" an attribute of a
+    human, egg, dragon or a village. This could be disease, wisdom,
+    combat ability, growth (either physical as in the case of dragons,
+    or population in the case of villages), senses, or speed. Each
+    element has often more than one effect depending on the method of
+    preparation.
+
+ You may add in to your spell any number of ingredients in any
+quantities, although if the spell becomes too potent it will explode.
+However, every ingredient is going to have an effect, and probably
+side-effects so try not to make a spell too complex. To get the best
+effects you will discover that it is often best to use differing
+quantities of each ingredient.
+
+ Many ingredients have more than one effect. One may have a very strong
+effect but may also have other lesser effects. Thus, using the strong
+effect for a particular purpose may give you additional side-effects
+which may or may not be beneficial. It may in turn be possible to
+counter-act or increase these side-effects by the addition of yet
+another ingredient or method of inclusion.
+
+ All ingredients have a power effect when mixed in a spell and the
+level of power will vary depending on the method used (mixing,
+grinding, etc.). A particular ingredient used in a certain way will
+probably boost or reduce the power of the spell.
+
+ You may wish to use certain ingredients specifically to increase or
+decrease the power of your spell. As an example, you may have mixed a
+Director and an Affector together aimed at increasing the population of
+a village. By adding a third ingredient with a strong positive power
+you can increase the population by a much larger amount and thus have a
+more effective spell.
+
+ Sometimes you may use several ingredients that, together, are too
+potent. You can therefore use a further ingredient with a strong
+negative power to decrease the effect of the spell.
+
+ Be careful when using ingredients to affect power. Most ingredients
+have certain effects of their own and thus unwanted side-effects may
+begin to occur.
+
+THE SPELL EFFECT SUMMARY SHEET
+ The Summary Sheet is intended as a quick and simple guide to
+familiarize you with the magic properties of all the elements. However,
+this does not tell the full story and the precise effect of mixing
+different ingredients by different methods is detailed in the following
+Spell Effect Tables.
+
+ The left hand side of the Summary Sheet refers to the elements one by
+one and, at the top, the effect of each. The effects are sub-divided
+into Directors and Affectors.
+
+ In the body of the Summary Sheet arrows indicate a plus or minus
+effect (both have their uses), depending on your preparation method.
+This indicates the strongest effects the ingredient is known to have,
+but does not show the relative power of each item, how to use it, or
+indicate any subtle side effect, details of which are in the Spell
+Effect Tables.
+
+THE SPELL EFFECT TABLES
+ You will be surprised at the power and versatility of the spells once
+you understand the Spell Effect Tables.
+
+ The first page - the Key to Spell Effect Tables - is a template and
+every circle represents an ingredient. The other sheets are comprised
+of four Director sheets and seven Affector sheets including a Power
+sheet. Use the template to find the corresponding circle on the sheet
+that you wish to study. If a circle is blank on the Director and
+Effector tables there is no known effect.
+
+ Having chosen your desired effect you should seek the best Director,
+then Affector, from your stock of ingredients. The circle will instruct
+you on  the most powerful method of preparation and you must then check
+the ingredient on all the other tables to spot any side effects.
+
+FIG.1              ____ ____
+           normal |   _|_   | cutting
+                  |  | | |  |
+                  |--+-|-+--|
+                  |  |_|_|  |
+         grinding |____|____| mixing
+
+ The circle is divided into four quadrants:
+- Top left shows the effects of adding your ingredient as normal
+- Bottom left shows the effect of grinding your ingredient
+- Top right shows the effect of cutting
+- Bottom right shows the effect of mixing
+
+ The area inside the inner circle is the negative area. The area
+between the inner circle and the circumference is the positive area.
+
+FIG.2              ____ ____
+                  |,  _|_   |
+                  |  | | |, |
+                  |--+-|,+--|
+                  |  |,|_|  |
+                  |____|____|
+
+ A square in a quadrant shows the degree of effect that will be
+achieved by that method of preparation. If no square is shown then
+there would be no effect.
+
+ The closer a square is to the center of the circle the more negative
+the effect, the closer to the circumference the more positive the
+effect.
+
+ In this example, adding this ingredient as normal would achieve a
+positive effect. Grinding the ingredient would give a slightly negative
+effect. Cutting gives a slightly positive effect. Mixing gives a very
+negative effect.
+
+FIG.3              ____ ____
+                  |,  _^_   |
+                  |  | | |  |
+                  |--+-|-+--|
+                  |  |_|_|  |
+                  |____^____|
+
+ Triangles on the vertical axis show the degree of effect using the
+bunsen burner to heat your ingredient. The closer the triangles to the
+circumference the more positive the effect.
+
+ For example, adding the ingredient to the spell as normal will give a
+positive effect. Additionally, using the bunsen burner will increase
+the positive effect.
+
+FIG.4              ____ ____
+                  |   _|_   |
+                  |  | | |  |
+                  |--+*|*+--|
+                  |  |_|,|  |
+                  |____|____|
+
+ Small circles on the horizontal axis show the degree of effect using
+the condenser to cool the ingredient. The closer the circles to the
+circumference the more positive the effect.
+
+ In this example, mixing the ingredient into the spell will give a
+negative effect. Additionally, using the condenser will make the effect
+even more negative.
+
+ It is possible to use both the bunsen burner and condenser at the same
+time. One may have a greater effect than the other or, if both have
+equal strength they may neutralize the effect. However, their use may
+have side-effects.
+
+ To give an example of how you use negative and positive influences,
+you may wish to use a spell to increase the growth of the population on
+one of your villages. To do this you prepare the ingredient as
+recommended in the quadrant where the square symbol is nearest the
+circumference (positive effect). If, on the other hand, you want to
+reduce the population of a town owned by an enemy, you would prepare
+the 'growth' ingredient in the way suggested that illustrates the
+square nearest the center of the circle (negative effect).
+
+AN EXAMPLE SPELL
+ Here is a step-by-step example of mixing a spell, in this case for
+curing your dragon of disease.
+
+STEP 1   To cast a spell on one of your dragons, choose the relevant
+dragon (see the Dragon section of the User Guide) and click on the
+crystal ball icon. You will now be in the Spell Room and, provided you
+successfully direct your spell it will affect the dragon you have
+chosen. On the shelves at the top are your current stock of ingredients
+from which you may mix your spell.
+
+STEP 2   Examine the Dragon Director Effect Table for the most
+effective ingredient you have in stock. Rasgon is the ingredient with a
+square nearest the circumference and therefore the most powerful
+positive effect. (If you do not have this in stock, alternatives would
+be Tius, Sals, Magian, Jaluem, Ayhe or Yasin, all of which contain
+squares nearer the center - yet still within the positive boundary -
+but are therefore weaker than Rasgon and may have unwanted
+side-effects).
+
+ In the case of Rasgon, the square nearest the circumference (giving
+the most positive effect) is in the grinding quadrant. The triangle in
+the positive area shows that heating should further maximize the
+effect.
+
+ Check the grinding quadrant of the Rasgon circles in all the tables
+and note any side effects. For example, on the Disease Affector table
+you will see that Rasgon has an effect (the square is in the positive
+section). This disease side effect will be minimized by heating (shown
+by the triangle being just within the negative area). No other effects
+of significance are indicated on any of the other tables.
+
+ Now check in the grinding quadrant of the Power Affector Effect Table
+and you will see that the spell will be increased by using the bunsen
+burner (indicated by the triangles on the vertical axis being in the
+positive sector of the circle).
+
+STEP 3   Next, from the Disease Effect Table, find an ingredient with a
+strong negative effect. (choosing a positive effect would increase your
+dragon's disease!). Fanveer would be best but Mionacal is more readily
+available, so we will use this for our example.
+
+ The most effective quadrant for Mionacal is normal - where the square
+is closest to the center and thus most negative - although grinding is
+a possibility. We can also see that there are a pair of small circles
+on the horizontal axis in the negative sector indicating  that turning
+on the condenser makes the effect even more negative, which is
+desirable in this case.
+
+ By looking at the Mionacal circles in the other Effect tables we find
+that there are no major side-effects but useful gains in growth and
+combat can be made if, instead of adding Mionacal to out spell as
+normal, as we had previously decided, we grind and condense.
+
+ Having decided to grind and condense, check the Power Affector table
+to see what the power effect will be. The square shows slightly
+positive and condensing shows slightly negative, so overall the power
+effect will be virtually neutral.
+
+STEP 4   We can boost the spell further by mixing in Acrus and heating
+to give a positive power effect - the square in the mixing quadrant is
+nearest the circumference and therefore more positive. You can see by
+checking through all the Effect Tables that this ingredient is one of
+the few that has no use other than having a power effect and thus has
+no side effects when used for this purpose.
+
+STEP 5   Now go ahead and carry out what we have decided. After some
+experimentation you will find that it is best to use a differing amount
+of each ingredient to get the best effects from your spells. Don't
+forget to reset the bunsen burner and condenser between ingredients as
+necessary.
+
+ Here is a summary and suggested quantities:
+
+                2 x RASGON      grind & heat
+                3 x MIONACAL    grind & condenser
+                1 x ACRUS       mix & heat
+
+ Here is a useful spell to increase the population of a village. Choose
+your village from the Map section of the game (see Maps and Dragon
+Assignments in the User Guide).
+
+        2 x TIUS    normal & temperate (directs the spell at a village)
+        2 x CHURL   normal & heat      (affects population)
+        1 x ACRUS   mix & temperate    (makes the spell more effective)
+
+Note: the inclusion of Churl gives a side effect of a slight loss of
+combat skill.
+
+DESCRIPTION OF VARIOUS INGREDIENTS USED IN MAKING SPELLS
+
+ACRUS           A power magnifier found mainly in the rockier regions
+of Anrea. In its raw form acrus is a yellow, foul-smelling liquid.
+
+AROLIG          This has a strong effect, when used on a dragon's wing,
+to increase its flying strength. However, an overall muscle weakening
+takes place and, it over-used, could cause severe wasting. AROLIG
+plants grow at the edges of cultivated land.
+
+AYHE            A raw form of rasgon (Dragon Wish) washed down in
+mountain streams. It has a weak director power.
+
+CADOAM          Found under rotting vegetation in shaded woods, this
+mushroom grows rapidly and traps its prey by hallucinatory sprays. When
+used in casting it can produce remarkable behavior changes in all
+animals.
+
+CALOTIS         A rare mineral found as small green stones, mildly
+poisonous if swallowed but increases body and mind functions.
+
+CEEOCOR         If you go into the woods you will see large bushes
+growing  from any wall or tree trunk, colored white all year because
+they have the power of Aalen within. The red berries can be picked and
+used for directing spells on dragons eggs.
+
+CEITER          Found in oily pools near water or in swampy woodland,
+it rapidly disintegrates if exposed to the air and must be stored with
+care. Useful to decrease power.
+
+CHURL           Black crystals found in the northern regions of Anrea,
+they have considerable control over the mind when properly directed.
+
+DLEGA           A type of saw grass growing in the lighter woodland
+which has a poison content to help it fight off grazing animals, this
+causes severe disorientation and often accelerates the mind so much
+that the poor animal literally 'thinks' itself to death. Has uses, but
+is a very unstable material when used in casting.
+
+FANVEER         This has been grown by farming families for many Ora
+alongside their crops to help prevent blight. When harvested and
+milled, it is made into a white powder of exceptional purity and used
+for curing most diseases and pains. It gives the patient a slight
+drowsiness.
+
+HALORES         Legend says this is the blood used by the Circle of the
+Mountain - the gathering of Magic users who created the castle of Dwarf
+Mountain - spread by the Power about the land at the time of its
+formation. It is found as a liquid in remote places and is a very
+powerful mind controller.
+
+IGELE           Found around the entrances to mine shafts as slurry.
+When evaporated down to a powder the slurry has very negative mind and
+sense properties.
+
+Irin            A reddish crumbly powder found along the edges of the
+mountain streams in the north, it has been used for many Ora to make
+tools and is now quite rare. It has an ability when used in casting
+spells to give or take away strength.
+
+JALUEM          A low-power liquid that floats on still water, it can
+be used to direct a spell on dragons. Be careful because it can only
+just manage this and is unstable when other more powerful agents are
+present.
+
+MAGIAN          These slightly mobile plants grow near abundant water
+supplies because during courtship they burst into flames to attract a
+mate! The water prevents mass devastation of the remaining crop and
+leaves the exposed roots free to breed again. In this state they are
+ideal for casting speed-spells on dragons.
+
+MAGOEM          A powdered clay from the sticky highland marshes, it
+has many effects, which reflect its complicated make-up. Chiefly used
+to direct a spell on dragon eggs, it has to be used correctly to
+prevent dangerous side-effects occurring.
+
+MIONACAL        These are a decomposed form of early plants that have
+been deposited as an earthy layer, hardened and sapped of some of its
+strength by rain water. A little unstable in some conditions but still
+very weak.
+
+OREGANSE        This is the sap from a common farmland herb having a
+strong growth aspects when used as a director.
+
+RASGON          Dragon Wish, as it is called, is the perfect director
+for casting dragon spells that has ever existed. Found as a bulbous
+root hiding beneath farm crops, it feeds on them as a parasite but
+never reveals itself. It has a slight poison content.
+
+SADIEL          A sludge found at the water's edge and possibly the
+result of the workings of the population of Anrea, it is not at all
+useful. However, if you wish to do some harm, spread some of this
+around - after all, everyone else does!
+
+SNIR            A similar root to rasgon, found in woodland areas, it
+affects dragon eggs more than dragons but has a negative growth aspect.
+
+THOFT           A completely black and lifeless material found
+scattered throughout the Anrean woodlands, it absorbs power and is
+useful in reducing the power of an overactive spell, without any side-
+effects.
+
+THIUS           A shade-stone that directs spells at humans and
+villages. It has some inherent power and poison properties and can be a
+little unstable.
+
+ULIN            Similar to irin in most respects but is found in
+streams as a small pebble because it is much harder to erode or
+dissolve. It has not been used to make tools because it will not melt
+in furnaces and even dragon fire only makes it glow.
+
+YASIN           A nasty little nettle found in most open areas of
+grassland or crops. It has a very active poison but only causes
+paralysis. It is normally used for directing disease at humans and
+villages.
+
+SPELL EFFECT SUMMARY SHORT
+
+POSITIVE EFFECT  -   >
+NEGATIVE EFFECT  -   <
+EFFECT BOTH WAYS -   ><
+
+ Exact results depend on how items are mixed
+
+                     DIRECTOR                  AFFECTOR
+               _________/\_______  _______________/\_______________
+              |                  ||                                |
+                               V         D
+                D              I    C    I    G
+                R         H    L    O    S    R         P    S    S
+                A         U    L    M    E    O    M    O    E    P
+                G    E    M    A    B    A    W    I    W    N    E
+                O    G    A    G    A    S    T    N    E    S    E
+                N    G    N    E    T    E    H    D    R    E    D
+              |    |    |    |    |    |    |    |    |    |    |    |
+ACRUS         |    |    |    |    |    |    |    |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+CALOTIS       |    |    |    | >  |    | >  | >  |    | >  | >  |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+CHURL         |    |    |    |    | >< |    | >< | >< | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+TIUS          |    |    | >< | >  |    | >< |    |    | >  |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+SALE          |    |    | >  | >  |    | >< |    |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+MAGIAN        |    | <  |    |    |    |    |    |    | >< |    | >< |
+              |    |    |    |    |    |    |    |    |    |    |    |
+RASGON        | >  |    |    |    |    | >  |    |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+CEEOCOR       |    | >  |    |    |    |    | <  |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+DLEGA         |    |    |    |    | <  | >< |    |    | >< | >  |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+MAGOEM        |    | >< |    |    |    | >< | <  | <  | >< |    | <  |
+              |    |    |    |    |    |    |    |    |    |    |    |
+KAIRMENDE     |    |    |    |    |    |    |    |    | >  |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+IGELE         |    |    |    |    |    |    |    | <  | >< | >< | <  |
+              |    |    |    |    |    |    |    |    |    |    |    |
+ULIN          |    |    |    |    | >< |    | <  | <  | >  |    | >< |
+              |    |    |    |    |    |    |    |    |    |    |    |
+Irin          |    |    |    |    | >< |    |    |    | >< |    | >< |
+              |    |    |    |    |    |    |    |    |    |    |    |
+PFOSS         |    |    |    |    |    |    |    |    | >  |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+JALUEM        | >< |    |    |    |    | >  |    |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+HALOROS       |    |    |    |    |    |    |    | >< | >< | <  |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+MIONACAL      |    |    |    |    |    | <  |    |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+CEITER        |    |    |    |    |    |    |    |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+SNIR          |    | >  |    |    |    |    | <  |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+SGAEL         |    |    | >  |    |    |    |    |    | >  |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+FANVEER       |    |    |    |    |    | <  |    | <  | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+MOLMAR        |    |    |    |    |    |    |    |    | >< | >  |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+THOFT         |    |    |    |    |    |    |    |    | <  |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+CADOAM        |    |    |    |    |    |    |    | >< | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+SMYTE         |    |    |    |    |    |    |    |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+AROLIG        |    |    |    |    |    |    | <  |    | >  |    | >< |
+              |    |    |    |    |    |    |    |    |    |    |    |
+YASIM         |    |    | >  | >  |    | >  |    |    | >  |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+AYHE          | >< |    |    |    |    |    |    |    | >  |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+CHIFE         |    |    |    |    |    |    |    |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+OREGANSE      |    |    |    |    |    |    | >< |    | >< |    |    |
+              |    |    |    |    |    |    |    |    |    |    |    |
+SADIEL        |    |    |    |    |    | >  |    |    | >< |    |    |
+
+ALL THESE RECTANGLES WERE ORIGINALLY DRAWN AS CIRCLES, BUT HERE WE HAVE
+TURNED THEM INTO RECTANGLES IN ORDER TO SHOW IT TO YOU IN ASCII FORMAT.
+
+KEY TO EFFECT TABLE
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |  ACRUS  |  | CALOTIS |  |  CHURL  |  |  TIUS   |
+  |         |  |         |  |         |  |         |      ____ ____
+  |_________|  |_________|  |_________|  |_________|     |   _|    |
+                                                         |  | |    |
+                                                         |--+-+----|
+   _________    _________    _________    _________      |    |    |
+  |         |  |         |  |         |  |         |     |____|____|
+  |         |  |         |  |         |  |         |
+  |  SALE   |  | MAGIAN  |  | RASGON  |  | CEEOCOR |       NORMAL
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+
+                                                     , means TEMPERATE
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |  DLEGA  |  | MAGOEM  |  |KAIRMENDE|  |  IGELE  |
+  |         |  |         |  |         |  |         |      ____ ____
+  |_________|  |_________|  |_________|  |_________|     |    |    |
+                                                         |    |    |
+                                                         |--+-|----|
+   _________    _________    _________    _________      |  |_|    |
+  |         |  |         |  |         |  |         |     |____|____|
+  |         |  |         |  |         |  |         |
+  |  ULIN   |  |  Irin   |  |  PFOSS  |  | JALUEM  |      GRINDING
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+
+                                                     ^ means BUNSEN
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  | HALOROS |  |MIONACAL |  | CEITER  |  |  SNIR   |
+  |         |  |         |  |         |  |         |      ____ ____
+  |_________|  |_________|  |_________|  |_________|     |    |    |
+                                                         |    |    |
+                                                         |----|-+--|
+   _________    _________    _________    _________      |    |_|  |
+  |         |  |         |  |         |  |         |     |____|____|
+  |         |  |         |  |         |  |         |
+  |  SGAEL  |  | FANVEER |  | MOLMAR  |  |  THOFT  |       MIXING
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+
+                                                     * means CONDENSER
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  | CADOAM  |  |  SMYTE  |  | AROLIG  |  |  YASIM  |
+  |         |  |         |  |         |  |         |      ____ ____
+  |_________|  |_________|  |_________|  |_________|     |    |_   |
+                                                         |    | |  |
+                                                         |----|-+--|
+   _________    _________    _________    _________      |    |    |
+  |         |  |         |  |         |  |         |     |____|____|
+  |         |  |         |  |         |  |         |
+  |   AYHE  |  |  CHIFE  |  |OREGANSE |  | SADIEL  |       CUTTING
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+
+
+DRAGON DIRECTOR EFFECT TABLE
+   _________    _________    _________    ____ ____
+  |         |  |         |  |         |  |   _|_,  |
+  |         |  |         |  |         |  |  | | |  |
+  |         |  |         |  |         |  |--+-|-+--|
+  |         |  |         |  |         |  |  |_|_|  |
+  |_________|  |_________|  |_________|  |____|____|
+   ____ ____    ____ ____    ____ ____    _________
+  |   _|_,  |  |   _|_   |  |  ,_^_   |  |         |
+  |  | | |  |  |  | | |  |  |  | | |  |  |         |
+  |--+-|-+--|  |--+-|-+--|  |--+*|*+--|  |         |
+  |  |_|_|  |  |  |_|_*  |  |, |_|_|  |  |         |
+  |____|____|  |____|____|  |____^____|  |_________|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+   ____ ____    _________    _________    ____ ____
+  |   _|_   |  |         |  |         |  | , _^_,  |
+  |  | | |  |  |         |  |         |  |  | | |  |
+  |--+*|*+--|  |         |  |         |  |-*+-|-+*-|
+  |  |_|_|  |  |         |  |         |  |  |_|_,  |
+  |____|____|  |_________|  |_________|  |____^____|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+   _________    _________    _________    ____ ____
+  |         |  |         |  |         |  |   _|_   |
+  |         |  |         |  |         |  |  | | |  |
+  |         |  |         |  |         |  |--+-|-+--|
+  |         |  |         |  |         |  |  ,_|_|  |
+  |_________|  |_________|  |_________|  |____|____|
+   ____ ____    _________    _________    _________
+  |  ,_^_,  |  |         |  |         |  |         |
+  |  | | |  |  |         |  |         |  |         |
+  |--*-|-+*-|  |         |  |         |  |         |
+  |  ,_|_|  |  |         |  |         |  |         |
+  |____^____|  |_________|  |_________|  |_________|
+
+
+EGG DIRECTOR EFFECT TABLE
+   _________    _________    ____ ____    ____ ____
+  |         |  |         |  |   _|_   |  |   _|_   |
+  |         |  |         |  |  | | |  |  |  | | |  |
+  |         |  |         |  |--+-|-+--|  |-*+-|-+*-|
+  |         |  |         |  |  ,_|_|  |  |  |_|_,  |
+  |_________|  |_________|  |____|____|  |____|____|
+   ____ ____    ____ ____    ____ ____    ____ ____
+  |   _|_   |  |   _|_   |  |   _|_   |  |,  _^_,  |
+  |  | | |  |  |  | | |  |  |  | | |  |  |  | | |  |
+  |--+-|-+--|  |--+-|,+--|  |--+-|-+--|  |-*+-|-+*-|
+  |  |_|_|  |  |  |_|_|  |  |  ,_|_|  |  |  ,_|_,  |
+  |____|____|  |____|____|  |____|____|  |____^____|
+   _________    ____ ____    _________    _________
+  |         |  | , _|_,  |  |         |  |         |
+  |         |  |  | | |  |  |         |  |         |
+  |         |  |-*+-|-+*-|  |         |  |         |
+  |         |  | ,|_|_,  |  |         |  |         |
+  |_________|  |____|____|  |_________|  |_________|
+   ____ ____    _________    _________    _________
+  |   _|_   |  |         |  |         |  |         |
+  |  | | |  |  |         |  |         |  |         |
+  |--+*|*+--|  |         |  |         |  |         |
+  |  |_|_|  |  |         |  |         |  |         |
+  |____|____|  |_________|  |_________|  |_________|
+   _________    _________    _________    ____ ____
+  |         |  |         |  |         |  |  ,_^_   |
+  |         |  |         |  |         |  |  | | |  |
+  |         |  |         |  |         |  |--+-|-+--|
+  |         |  |         |  |         |  |  |_|_|, |
+  |_________|  |_________|  |_________|  |____^____|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+   _________    _________    _________    ____ ____
+  |         |  |         |  |         |  |   _|_   |
+  |         |  |         |  |         |  |  | | |  |
+  |         |  |         |  |         |  |--+-|-+--|
+  |         |  |         |  |         |  |  |_|_|, |
+  |_________|  |_________|  |_________|  |____|____|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+
+
+HUMAN DIRECTOR EFFECT TABLE
+   _________    _________    _________    ____ ____
+  |         |  |         |  |         |  |  ,_^_   |
+  |         |  |         |  |         |  |  | |,|  |
+  |         |  |         |  |         |  |--+-|,+--|
+  |         |  |         |  |         |  | ,|_|_|  |
+  |_________|  |_________|  |_________|  |____^____|
+   ____ ____    _________    _________    _________
+  | , _|_   |  |         |  |         |  |         |
+  |  | | |  |  |         |  |         |  |         |
+  |--+-|-+--|  |         |  |         |  |         |
+  |  |_|_|, |  |         |  |         |  |         |
+  |____|____|  |_________|  |_________|  |_________|
+   _________    ____ ____    _________    _________
+  |         |  |   _|_,  |  |         |  |         |
+  |         |  |  | | |  |  |         |  |         |
+  |         |  |--+-|-+--|  |         |  |         |
+  |         |  |  |_|_|  |  |         |  |         |
+  |_________|  |____|_'__|  |_________|  |_________|
+   ____ ____    _________    _________    _________
+  |   _|_   |  |         |  |         |  |         |
+  |  | | |  |  |         |  |         |  |         |
+  |--*-|-*--|  |         |  |         |  |         |
+  |  |_|_|  |  |         |  |         |  |         |
+  |____|____|  |_________|  |_________|  |_________|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+   ____ ____    _________    _________    _________
+  |  ,_^_,  |  |         |  |         |  |         |
+  |  | | |  |  |         |  |         |  |         |
+  |--+-|-+--|  |         |  |         |  |         |
+  | ,|_|_|  |  |         |  |         |  |         |
+  |____^____|  |_________|  |_________|  |_________|
+   _________    _________    _________    ____ ____
+  |         |  |         |  |         |  |   _|_ , |
+  |         |  |         |  |         |  |  | | |  |
+  |         |  |         |  |         |  |--+-|-+--|
+  |         |  |         |  |         |  |  |_|_|  |
+  |_________|  |_________|  |_________|  |____|____|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+
+
+VILLAGE DIRECTOR EFFECT TABLE
+   _________    ____ ____    _________    ____ ____
+  |         |  | , _^_,  |  |         |  |,  _|_   |
+  |         |  |  | | |  |  |         |  |  | | |  |
+  |         |  |-*+-|-+*-|  |         |  |--+-|-+--|
+  |         |  | ,|_|_|  |  |         |  |  |_|_|  |
+  |_________|  |____^_'__|  |_________|  |__'_|____|
+   ____ ____    _________    _________    _________
+  | , _|_   |  |         |  |         |  |         |
+  |  | | |  |  |         |  |         |  |         |
+  |--+-|-+--|  |         |  |         |  |         |
+  |  |_|_|  |  |         |  |         |  |         |
+  |____|_'__|  |_________|  |_________|  |_________|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+   ____ ____    _________    _________    _________
+  |  ,_|_   |  |         |  |         |  |         |
+  |  | | |  |  |         |  |         |  |         |
+  |--+-|-+--|  |         |  |         |  |         |
+  |  |_|_|  |  |         |  |         |  |         |
+  |____|____|  |_________|  |_________|  |_________|
+   _________    _________    _________    ____ ____
+  |         |  |         |  |         |  |   _^_   |
+  |         |  |         |  |         |  |  | | |  |
+  |         |  |         |  |         |  |--+-|-+--|
+  |         |  |         |  |         |  |  |_|_|  |
+  |_________|  |_________|  |_________|  |____^____|
+   _________    _________    _________    _________
+  |         |  |         |  |   _|_   |  |         |
+  |         |  |         |  |  | | |  |  |         |
+  |         |  |         |  |--+-|-+--|  |         |
+  |         |  |         |  |  |_|_|  |  |         |
+  |_________|  |_________|  |____|_'__|  |_________|
+
+
+COMBAT AFFECTOR EFFECT TABLE
+   _________    _________    ____ ____    _________
+  |         |  |         |  |  ,_^_,  |  |         |
+  |         |  |         |  |  | | |  |  |         |
+  |         |  |         |  |-*+-|-+*-|  |         |
+  |         |  |         |  | ,|_|_|, |  |         |
+  |_________|  |_________|  |____|____|  |_________|
+   ____ ____    ____ ____    ____ ____    _________
+  |   _|_   |  |   _|_,  |  |   _^_   |  |         |
+  |  | | |  |  |  | | |  |  |  | | |  |  |         |
+  |--*-|-*--|  |--+-|-+--|  |--+-|-+--|  |         |
+  |  |_|_|  |  |  |_|_|  |  |  |_|_|  |  |         |
+  |____|_'__|  |____|____|  |____^____|  |_________|
+   ____ ____    ____ ____    _________    _________
+  |   _|_   |  |   _|_   |  |         |  |         |
+  |  | | |  |  |  | | |  |  |         |  |         |
+  |--+,|-+--|  |--+-|-+--|  |         |  |         |
+  |  |_|_|  |  |  |_|_|  |  |         |  |         |
+  |____|____|  |__'_|____|  |_________|  |_________|
+   ____ ____    ____ ____    _________    _________
+  |'  _|_   |  | , _|_ , |  |         |  |         |
+  |  | | |  |  |  | | |  |  |         |  |         |
+  |-*+-|-+*-|  |-*+-|-+*-|  |         |  |         |
+  |  |_|_|, |  |  |_|'|  |  |         |  |         |
+  |____|____|  |__'_|____|  |_________|  |_________|
+   _________    ____ ____    _________    _________
+  |         |  |   _^_   |  |         |  |         |
+  |         |  |  | | |  |  |         |  |         |
+  |         |  |--+-|-+--|  |         |  |         |
+  |         |  | ,|_|_|  |  |         |  |         |
+  |_________|  |____^____|  |_________|  |_________|
+   ____ ____    _________    ____ ____    _________
+  |   _|_,  |  |         |  |   _|_   |  |         |
+  |  | | |  |  |         |  |  | | |  |  |         |
+  |--+-|-+--|  |         |  |--+-|-+--|  |         |
+  |  |_|_|  |  |         |  |  |_|_|  |  |         |
+  |____|____|  |_________|  |__'_|____|  |_________|
+   _________    _________    ____ ____    _________
+  |         |  |         |  |   _|_,  |  |         |
+  |         |  |         |  |  | | |  |  |         |
+  |         |  |         |  |--+-|-+--|  |         |
+  |         |  |         |  |  |_|_|  |  |         |
+  |_________|  |_________|  |____|____|  |_________|
+   ____ ____    _________    ____ ____    _________
+  |   _|_   |  |         |  |   _|_   |  |         |
+  |  | | |  |  |         |  |  | | |  |  |         |
+  |--+-|-+--|  |         |  |--+-|-+--|  |         |
+  |  |_|_|  |  |         |  |  |_|_|  |  |         |
+  |__'_|____|  |_________|  |__'_|____|  |_________|
+
+
+DISEASE AFFECTOR EFFECT TABLE
+   _________    ____ ____    _________    ____ ____
+  |         |  |   _|_   |  |         |  |  ,_|_,  |
+  |         |  |  | | |  |  |         |  |  | | |  |
+  |         |  |--*-|-*--|  |         |  |-*+-|-+*-|
+  |         |  |  |_|_|  |  |         |  |  |_|_|  |
+  |_________|  |____|_'__|  |_________|  |____|_'__|
+   ____ ____    _________    ____ ____    _________
+  | , _|_,  |  |         |  |   _|_   |  |         |
+  |  | | |  |  |         |  |  | | |  |  |         |
+  |--+-|-+--|  |         |  |--+-|-+--|  |         |
+  |  |_|'|  |  |         |  |  |_|_|  |  |         |
+  |____|____|  |_________|  |_'__|____|  |_________|
+   ____ ____    ____ ____    _________    _________
+  |  ,_|_,  |  | , _|_   |  |         |  |         |
+  |  | | |  |  |  | | |  |  |         |  |         |
+  |--+-|-+--|  |--+-|-+--|  |         |  |         |
+  |  |_|_|  |  |  |,|_|  |  |         |  |         |
+  |____|____|  |____|____|  |_________|  |_________|
+   ____ ____    _________    _________    ____ ____
+  |   _|_,  |  |         |  |         |  |   _|_,  |
+  |  | | |  |  |         |  |         |  |  | | |  |
+  |--+-|-+--|  |         |  |         |  |-*+-|-+*-|
+  |  |_|_|  |  |         |  |         |  |  |_|_|  |
+  |____|____|  |_________|  |_________|  |__'_|__'_|
+   _________    ____ ____    _________    ____ ____
+  |         |  |   _^_   |  |         |  |   _^_   |
+  |         |  |  |,| |  |  |         |  |  | | |  |
+  |         |  |--*-|-*--|  |         |  |--*-|-*--|
+  |         |  |  |'|_|  |  |         |  |  |_|_|  |
+  |_________|  |____^____|  |_________|  |____^____|
+   ____ ____    ____ ____    _________    _________
+  |   _|_   |  |   _|_   |  |         |  |         |
+  |  | | |  |  |  | | |  |  |         |  |         |
+  |--+-|-+--|  |--+'|-+--|  |         |  |         |
+  |  |_|_|  |  |  |,|_|  |  |         |  |         |
+  |____|_'__|  |____|____|  |_________|  |_________|
+   ____ ____    ____ ____    _________    ____ ____
+  |   _|_   |  |  ,_|_,  |  |         |  | , _^_   |
+  |  | | |  |  |  | | |  |  |         |  |  | | |  |
+  |-*+-|-+*-|  |--+-|-+--|  |         |  |--+*|*+--|
+  |  |_|_|  |  |  |,|_|  |  |         |  |  |_|_|  |
+  |____|____|  |____|____|  |_________|  |____^____|
+   _________    _________    ____ ____    ____ ____
+  |         |  |         |  |   _|_   |  |,  _^_   |
+  |         |  |         |  |  | | |  |  |  | | |  |
+  |         |  |         |  |--+-|-+--|  |-*+-|-+*-|
+  |         |  |         |  |  |_|_|  |  | ,|_|_|, |
+  |_________|  |_________|  |____|____|  |____^____|
+
+
+GROWTH AFFECTOR EFFECT TABLE
+   _________    ____ ____    ____ ____    _________
+  |         |  |   _|_ , |  | , _^_,  |  |         |
+  |         |  |  | | |  |  |  | | |  |  |         |
+  |         |  |--+-|-+--|  |--+-|-+--|  |         |
+  |         |  |  |_|_|  |  |  |'|'|  |  |         |
+  |_________|  |____|____|  |____^____|  |_________|
+   ____ ____    _________    _________    ____ ____
+  |   _|_   |  |         |  |         |  |   _|_   |
+  |  | | |  |  |         |  |         |  |  | | |  |
+  |--*-|-*--|  |         |  |         |  |--*-|-*--|
+  |  |_|_|  |  |         |  |         |  |  |'|_|  |
+  |____|____|  |_________|  |_________|  |____|____|
+   ____ ____    ____ ____    _________    _________
+  |   _|_   |  |   _|_   |  |         |  |         |
+  |  | | |  |  |  | | '  |  |         |  |         |
+  |--+-|-+--|  |--+-|-+--|  |         |  |         |
+  |  |_|_|  |  |  |_|'|  |  |         |  |         |
+  |__'_|____|  |____|____|  |_________|  |_________|
+   ____ ____    _________    _________    _________
+  |   _|_   |  |         |  |         |  |         |
+  |  | | |  |  |         |  |         |  |         |
+  |--+-|-+--|  |         |  |         |  |         |
+  |  |,|_|  |  |         |  |         |  |         |
+  |____|____|  |_________|  |_________|  |_________|
+   ____ ____    ____ ____    _________    ____ ____
+  |   _|_   |  |   _|_   |  |         |  |   _|_   |
+  |  | | |  |  |  | | |  |  |         |  |  | | |  |
+  |--+-|-+--|  |--*-|-*--|  |         |  |--+-|-+--|
+  |  |_|_|  |  |  |_|_|  |  |         |  |  |_|_|  |
+  |__'_|____|  |__'_|____|  |_________|  |____|____|
+   ____ ____    ____ ____    _________    _________
+  |  ,_|_   |  |  ,_|_   |  |         |  |         |
+  |  | | |  |  |  | | |  |  |         |  |         |
+  |--*-|-*--|  |--+-|-+--|  |         |  |         |
+  |  |_|_|  |  |  |_|_|  |  |         |  |         |
+  |____|____|  |__'_|_'__|  |_________|  |_________|
+   ____ ____    _________    ____ ____    _________
+  |  ,_|_   |  |         |  |  ,_|_   |  |         |
+  |  | | |  |  |         |  |  | | |  |  |         |
+  |--+-|-+--|  |         |  |--+-|-+--|  |         |
+  |  |_|_|  |  |         |  |  |,|_|  |  |         |
+  |____|____|  |_________|  |____|____|  |_________|
+   _________    _________    ____ ____    _________
+  |         |  |         |  |,  _^_   |  |         |
+  |         |  |         |  |  | | '  |  |         |
+  |         |  |         |  |--+*|*+--|  |         |
+  |         |  |         |  |  |_|_|  |  |         |
+  |_________|  |_________|  |__'_^____|  |_________|
+
+
+MIND AFFECTOR EFFECT TABLE
+   _________    _________    ____ ____    _________
+  |         |  |         |  |   _|_,  |  |         |
+  |         |  |         |  |  | ^ |  |  |         |
+  |         |  |         |  |-*+-|-+*-|  |         |
+  |         |  |         |  |  |_^_,  |  |         |
+  |_________|  |_________|  |____|____|  |_________|
+   _________    ____ ____    ____ ____    _________
+  |         |  |   _|_   |  |   _|_   |  |         |
+  |         |  |  | | |  |  |  | | |  |  |         |
+  |         |  |--+*|*+--|  |--+-|-+--|  |         |
+  |         |  |  |_|_|  |  |  |_|_|  |  |         |
+  |_________|  |__'_|____|  |____|_'__|  |_________|
+   ____ ____    ____ ____    _________    ____ ____
+  |   _|_   |  |   _|_   |  |         |  |   _|_   |
+  |  | | |  |  |  | |'|  |  |         |  |  | |'|  |
+  |--+-*-+--|  |-*+-|-+*-|  |         |  |-*+-|-+*-|
+  |  |_|_|  |  |  |_|_,  |  |         |  |  |_|_|  |
+  |____|____|  |____|____|  |_________|  |____|_'__|
+   ____ ____    ____ ____    _________    _________
+  |   _^_   |  |   _^_,  |  |         |  |         |
+  |  |'| |  |  |  | | |  |  |         |  |         |
+  |--+-|-+--|  |--+-|-+--|  |         |  |         |
+  |  |_|_|  |  |  |_|_|  |  |         |  |         |
+  |____^____|  |____^____|  |_________|  |_________|
+   ____ ____    _________    _________    _________
+  |   _|_  ,|  |         |  |         |  |         |
+  |  | ^ |  |  |         |  |         |  |         |
+  |--+-|-+--|  |         |  |         |  |         |
+  |  |,^_|  |  |         |  |         |  |         |
+  |____|____|  |_________|  |_________|  |_________|
+   ____ ____    ____ ____    ____ ____    _________
+  |   _|_   |  |   _|_   |  |   _|_   |  |         |
+  |  | | |  |  |  |'| |  |  |  |'| |  |  |         |
+  |--+-|-+--|  |--+-|-+--|  |-*+-|-+*-|  |         |
+  |  |_|_|  |  |  |'|_|  |  |  |_|_|, |  |         |
+  |__'_|____|  |____|____|  |____|____|  |_________|
+   ____ ____    _________    ____ ____    _________
+  | , _^_   |  |         |  |  ,_|_   |  |         |
+  |  | | '  |  |         |  |  | | |  |  |         |
+  |-*+-|-+*-|  |         |  |--+-|-+--|  |         |
+  |  |_|_|  |  |         |  |  |_|_|  |  |         |
+  |____^_'__|  |_________|  |____|____|  |_________|
+   _________    _________    ____ ____    _________
+  |         |  |         |  |   _|_   |  |         |
+  |         |  |         |  |  | | |  |  |         |
+  |         |  |         |  |-*+-|-+*-|  |         |
+  |         |  |         |  |  |_|_|  |  |         |
+  |_________|  |_________|  |____|____|  |_________|
+
+
+POWER AFFECTOR EFFECT TABLE
+   ____ ____    ____ ____    ____ ____    ____ ____
+  |  ,_^_   |  |  ,_|_ , |  | , _^_   |  | , _|_   |
+  |  | | |  |  |  | ^ |  |  |  | | '  |  |  | | |  |
+  |--+-|'+--|  |-*+-|-+*-|  |--+*|*+--|  |--+-|-+--|
+  |  |_|_|, |  | ,|_^_|, |  |  |_|_|  |  |  |_|_|  |
+  |__'_^____|  |____|____|  |____^_'__|  |__'_|____|
+   ____ ____    ____ ____    ____ ____    ____ ____
+  |  ,_^_   |  | , _^_   |  | , _^_   |  | , _|_,  |
+  |  | | |  |  |  | | '  |  |  | | '  |  |  | | |  |
+  |--+*|*+--|  |--*-|-*--|  |-*+-|-+*-|  |-*+-|-+*-|
+  |  |_|_,  |  |  |'|_|, |  |  |_|_,  |  |  ,_|'|  |
+  |__'_^____|  |____^____|  |_'__^____|  |____|____|
+   ____ ____    ____ ____    ____ ____    ____ ____
+  |  ,_|_,  |  | , _^_   |  |'  _|_   |  | , _^_   |
+  |  | ^ |  |  |  | | |  |  |  | | |  |  |  | | '  |
+  |-*+-|-+*-|  |-*+-|-+*-|  |--+-|-+--|  |--*-|-*--|
+  |  |_^_,  |  |  |_|_'  |  |  |_|_|  |  |  |_|_|  |
+  |__'_|____|  |__'_^____|  |____|____|  |____^_'__|
+   ____ ____    ____ ____    ____ ____    ____ ____
+  | , _^_,  |  | , _|_,  |  | , _^_ , |  | , _|_   |
+  |  | | |  |  |  | ^ |  |  |  | | |  |  |  | ^ '  |
+  |--+-|-+--|  |--+*|*+--|  |--+-*-+--|  |-*+-|-+*-|
+  |  |,|_'  |  |  |,^_|  |  | ,|_|_|  |  |  |_^_,  |
+  |____^____|  |____|_'__|  |____^_'__|  |__'_|____|
+   ____ ____    ____ ____    ____ ____    ____ ____
+  | , _^_   |  | , _^_   |  |   _^_   |  |  ,_^_   |
+  |  | | '  |  |  | | '  |  |  | | '  |  |  | | '  |
+  |--+*|*+--|  |--+*|*+--|  |--+-*-+--|  |--+*|*+--|
+  |  |,|'|  |  |  |_|'|  |  |  |_|_|  |  |  |,|_|  |
+  |____^____|  |_'__^____|  |__'_^_'__|  |____^_'__|
+   ____ ____    ____ ____    ____ ____    ____ ____
+  |  ,_|_   |  | , _^_   |  | , _|_   |  |   _|_   |
+  |  | | |  |  |  | | '  |  |  | | '  |  |  | | |  |
+  |--+-|-+--|  |-*+-|-+*-|  |-*+-|-+*-|  |--+-*-+--|
+  |  |_|_|, |  |  |_|_,  |  |  |_|_'  |  |  |_|_|  |
+  |__'_|____|  |____^____|  |__'_|____|  |____|____|
+   ____ ____    ____ ____    ____ ____    ____ ____
+  | , _^_   |  | , _^_,  |  | , _|_,  |  | , _|_,  |
+  |  | | '  |  |  | | |  |  |  | | |  |  |  | | |  |
+  |--+-|-+--|  |--+-|-+--|  |--+*|*+--|  |-*+-|-+*-|
+  |  |,|_'  |  |  |,|_|  |  |  |_|_|  |  |  |_|_|  |
+  |____^____|  |____^____|  |__'_|__'_|  |__'_|_'__|
+   ____ ____    ____ ____    ____ ____    ____ ____
+  |   _|_   |  |   _|_   |  |   _|_   |  | , _^_   |
+  |  | | |  |  |  | | |  |  |  | | |  |  |  | |,|  |
+  |--+-|-+--|  |--+-|-+--|  |--+-|-+--|  |--*-|-*--|
+  |  |_|_|  |  |  |_|_|  |  |  |_|_|  |  |  |_|'|  |
+  |____|____|  |____|____|  |____|____|  |__'_^____|
+
+
+SENSE AFFECTOR EFFECT TABLE
+   _________    ____ ____    _________    _________
+  |         |  |   _^_,  |  |         |  |         |
+  |         |  |  | | |  |  |         |  |         |
+  |         |  |--+-|-+--|  |         |  |         |
+  |         |  |  |_|_|  |  |         |  |         |
+  |_________|  |____^____|  |_________|  |_________|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+   ____ ____    _________    _________    ____ ____
+  |  ,_|_,  |  |         |  |         |  | , _^_   |
+  |  | ^ |  |  |         |  |         |  |  | | |  |
+  |--*-|-*--|  |         |  |         |  |--+-|-+--|
+  |  |_^_|  |  |         |  |         |  |  |'|_|, |
+  |____|_'__|  |_________|  |_________|  |____^____|
+   _________    _________    _________    ____ ____
+  |         |  |         |  |         |  |   _|_   |
+  |         |  |         |  |         |  |  | | |  |
+  |         |  |         |  |         |  |--+-|-+--|
+  |         |  |         |  |         |  |  |_|_|  |
+  |_________|  |_________|  |_________|  |__'_|____|
+   ____ ____    _________    _________    _________
+  |   _^_   |  |         |  |         |  |         |
+  |  | | |  |  |         |  |         |  |         |
+  |--*-|-*--|  |         |  |         |  |         |
+  |  |_|'|  |  |         |  |         |  |         |
+  |____^____|  |_________|  |_________|  |_________|
+   _________    ____ ____    ____ ____    _________
+  |         |  |   _|_   |  |,  _|_   |  |         |
+  |         |  |  | | |  |  |  | | |  |  |         |
+  |         |  |--+-|-+--|  |-*+-|-+*-|  |         |
+  |         |  |  |_|_|  |  |  |_|_|  |  |         |
+  |_________|  |__'_|____|  |____|____|  |_________|
+   ____ ____    _________    ____ ____    _________
+  |  ,_|_   |  |         |  |   _|_   |  |         |
+  |  | | |  |  |         |  |  | | |  |  |         |
+  |--+-|-+--|  |         |  |--*-|-*--|  |         |
+  |  |_|_|  |  |         |  |  |_|_|  |  |         |
+  |____|____|  |_________|  |____|____|  |_________|
+   _________    _________    _________    _________
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |         |  |         |  |         |  |         |
+  |_________|  |_________|  |_________|  |_________|
+
+
+SPEED AFFECTOR EFFECT TABLE
+   _________    _________    ____ ____    _________
+  |         |  |         |  |   _|_   |  |         |
+  |         |  |         |  |  | | |  |  |         |
+  |         |  |         |  |--*-|-*--|  |         |
+  |         |  |         |  |  |_|_|  |  |         |
+  |_________|  |_________|  |____|____|  |_________|
+   _________    ____ ____    _________    _________
+  |         |  |,  _^_   |  |         |  |         |
+  |         |  |  | | '  |  |         |  |         |
+  |         |  |-*+-|-+*-|  |         |  |         |
+  |         |  |  |'|_|  |  |         |  |         |
+  |_________|  |____^_'__|  |_________|  |_________|
+   _________    ____ ____    _________    ____ ____
+  |         |  |   _^_   |  |         |  |   _|_   |
+  |         |  |  | | |  |  |         |  |  |'| |  |
+  |         |  |--+-|-+--|  |         |  |--+-|-+--|
+  |         |  |  |_|_,  |  |         |  |  |_|_|  |
+  |_________|  |____^____|  |_________|  |____|____|
+   ____ ____    ____ ____    _________    _________
+  |   _^_   |  |   _|_   |  |         |  |         |
+  |  |,| |  |  |  | |'|  |  |         |  |         |
+  |--+-|-+--|  |--+-|-+--|  |         |  |         |
+  |  |_|_|  |  |  |_|_|  |  |         |  |         |
+  |____^_'__|  |__'_|____|  |_________|  |_________|
+   ____ ____    _________    _________    ____ ____
+  |   _|_   |  |         |  |         |  |  ,_|_   |
+  |  | | |  |  |         |  |         |  |  | | |  |
+  |--*-|-*--|  |         |  |         |  |--+-|-+--|
+  |  |_|_|  |  |         |  |         |  |  |_|_|  |
+  |____|____|  |_________|  |_________|  |____|____|
+   _________    ____ ____    ____ ____    _________
+  |         |  |   _|_   |  |   _|_   |  |         |
+  |         |  |  | | |  |  |  |'|'|  |  |         |
+  |         |  |--+-|-+--|  |--+-|-+--|  |         |
+  |         |  |  |_|_|  |  |  |,|_|  |  |         |
+  |_________|  |____|____|  |____|____|  |_________|
+   _________    ____ ____    ____ ____    _________
+  |         |  |   _|_   |  | , _^_   |  |         |
+  |         |  |  | | |  |  |  | | |  |  |         |
+  |         |  |-*+-|-+*-|  |-*+-*-+*-|  |         |
+  |         |  |  |_|_|  |  |  |_|_|  |  |         |
+  |_________|  |____|____|  |__'_^____|  |_________|
+   _________    _________    ____ ____    _________
+  |         |  |         |  |   _|_   |  |         |
+  |         |  |         |  |  | | |  |  |         |
+  |         |  |         |  |--+-|-+--|  |         |
+  |         |  |         |  |  |_|_|  |  |         |
+  |_________|  |_________|  |____|____|  |_________|
+
+
+ NOW I DON'T KNOW IF YOU UNDERSTOOD ANY OF THIS ABOUT 'THE EFFECT
+TABLES', BUT ANYWAY I WOULD ADVISE YOU TO LOOK AT 'THE SPELL EFFECT
+TABLES' IT MIGHT HELP YOU. AN ADVISE WOULD BE TO LOOK AT THE RECTANGLE
+(CIRCLE) AS A BIG BOWL WHERE YOU MIX A LOT OF THINGS TOGETHER AND ALL
+THOSE SYMBOLS LIKE ', OR * OR ^ ARE JUST INGREDIENTS AS IT IS SAID IN
+THE BEGINNING OF THE MANUAL.
+
+End.

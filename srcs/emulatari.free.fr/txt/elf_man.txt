@@ -1,0 +1,131 @@
+** Traduction par Mr Nours **
+
+              
+                               -> ELF <-      
+                                  ---
+Vous, le brave Cornelius, devez sauver votre petite amie Elisa qui a été
+enlevée par "Necrilous le Pas Tres Gentil". Pour ce faire, vous devez voyager
+a travers huit niveaux de Foret, Ruines, Lacs, Marais, Grottes, Montagnes et 
+deux niveaux dans un Chateau. Vous devez enfin, detruire le mecanisme du treuil
+qui descend votre bien aimée dans une grande cuve bouillonante et finalemment
+vous battre avec Necrilous en personne                           
+Dans votre voyage vous allez trouver de nombreux objets utiles disperses dans
+le paysage. Utilisez les au mieux de vos competences. Herbes et Animaux familiers,
+quand ils sont rammasses, vont vous permettre d'acheter de l'equipement dans les
+nombreux magasins.
+
+Massacrer un gardien de fin de niveau vous permettra d'obtenir un cristal vert
+- utiliser le pour parvenir a la chambre de Necrilous.
+
+Bonne chance Cornelius, Tu vas en avoir besoin!                      
+                                                              
+                             -> CONTROLES <-              
+                                --------                     
+                   
+C'est un jeu a un  joueur controllé par un hoystick seulement.
+
+ *Touches pendant l'attente du jeu
+  Boutton Feu                - Debut du jeu
+  F1-F7                      - Charge la sauvegarde du disque 1
+  F9                         - musique/fx marche/arret
+  F10                        - Scene de mort marche/arret
+                            
+ *In Game:
+  Joystick haut              - Saut
+                             - Grimper aux echelles
+                             - Voler
+                             - Attraper les echelles lors d'une chute
+                             - Entrer dans les magasin ( "in" clignote )
+                             - Entrer en interaction quand l'invite clignote
+
+  Joystick bas               - Se baisser
+                             - Descendre une echelle
+                             - Attraper une echelle dans la chute
+                    
+  Joystick gauche            - Aller a gauche
+                             - Voler a gauche
+                                  
+  Joystick droit             - Marcher a droite
+                             - Voler a droite
+           
+  Barre d'espace             - Entrer dans le menu interactif ( quand l'invite ne
+				clignote pas )
+            
+  F                          - Champ de force marche/arret
+  P                          - Pause marche/arret
+  Escape                     - Sortir du jeu
+  F1-F7                      - Sauver le jeu sur le disque 1 quand un niveau est fini
+                       
+                            
+                            -> TOUCHES DU MAGASIN <-
+                               -------------                                                                             
+                                                  
+  Dans le magasin, bougez le joystick pour selectionner les options. Presser FEU pour
+obtenir des informations sur les divers objets. Repressez Feu pour acheter l'objet.
+                                                               
+                                            
+                     -> TOUCHES DU MENU INTERACTIF <-             
+                        --------------------------    
+  Bougez le joystick en Haut et en Bas pour selectionner une action. Bougez le joystick a gauche
+ou a droite pour electionner un objet. Appuyez sur FEU pour executer une action. Pendant que vous parlez tapez un mot-clef puis ENTREE.                                               
+                                                           
+                        -> STATUT ET SCORE <-
+                           ------------------
+                                                               
+Le panneau d'information s'affiche de gauche a droite : Santé, Animaux, Vies et Score
+Les Herbes collectés se trouvent dans le menu interactif.                                                  
+                                                                
+                         -> TABLE DES HIGH SCORE <-         
+                            ----------------                      
+  La Table des High Scores montre votre nom, votre score et votre taux de beauté basé sur le nombre
+de personnages mignons que vous avez touché. La Table des high scores et sauvegardée automatiquement
+sur le premier disque s'il n'est pas protégé en écriture.
+Un Bonus sera accordé a la fin de chaque niveau calculé sur le nombre de bonus collectés. Les objets
+bonus sont des petits objets que laissent tomber les monstres tués. Des bonus qui remettent la santé
+au maximum peuvent aussi etre déposés.
+Un vie supplémentaire est accordée tout les 100 000 points.   
+                                                                    
+                                                 
+ *Niveau 1:                                          
+  Frayez vous un chemin a travers la foret enchantée et trouvez comment ouvrir les portes qui vous permettront d'atteindre la scene suivante.
+  Vous devez detruire le monstre de fin de niveau qui rode au fin fond des bois.                       
+                                        
+ *Niveau 2:                                                
+  Les soldats tentent maintenant de vous arreter dans votre quete. Pourrez vous eviter les armes variées ou un voyage rapide dans les tunnel vous aidera t'il? Attention aux mommies et au rats mortels!
+                                          
+ *Niveau 3:                                          
+ Une serie de chemin proche d'un grand lac menent a une jungle marecageuse de l'autre coté.
+ Des monstrers Aquatiques de toutes sortes sortent pour vous attraper. Vous devrez apprendre
+ a maitriser l'utilisation des plateformes volantes pour vous en sortir.
+                                                           
+ *Niveau 4:                                                     
+  Des indiens de la jungle menacent votre progression. Du slime et des monstres aquatiques
+  vous attaquent quand vous vous y   attendez le moins. Trouvez la statue perdue pour resoudre l'enigme.                           
+                                                        
+ *Niveau 5:                                                     
+  Des nains exploitant des cristaux rares attaquent a la moindre oppurtunité. Des chariots de minerais
+  remplis de gemmes passent dans un bruit de tonnerre. Vous devez resoudre l'enigme des interaction pour
+  progresser a travers cet labyrinthe. Puisse ce niveau etre votre opportunite pour acheter une cotte de
+  maille.
+                                                                 
+ *Niveau 6:                                          
+  Des montagnes aux sommet enneigés et des affleurement rocheux decorent ce niveau.
+Les monstres de la neige et de la glace ne prennet pas agreablement votre intrusion mais vous devez cherchr partout pour progresser.Vo tirs deviennent faibles, peut être un passage au magasin serait il judicieux?
+Voler peut aussi vous être utile.
+                               
+ *Niveau 7:                                               
+  Vous êtes maintenant dans la premiere partie du chateau. Cet edifice sombre est la maison
+  d'un nombre incalculable de demons et de creatures malsaines. Resolvez l'enigme afin de progresser vers la
+  deuxieme partie du chateau.
+                                                             
+ *Niveau 8:                                                 
+ Finalement vous avez trouver votre Amour, bmais Elisa est en grand danger!
+  Dtruisez le treuil et combattez Necrilous pour gagner le jeu!                                            
+                                                       
+ 1) "HELP" et "WANT" sont des bon debuts pour demmarrer quand vous parlez a un personnage.    
+ 2) Regardez les cotés de l'ecran pour eviter les ennemis volants.
+ 3) Ne gaspillez pas vos herbes et vos animaux pour des objets frivoles.
+ 4) Faites une carte avant d'etre perdu!
+ 5) Si vous pouvez acheter la machine a voler, faites le!!
+ 6) Ne laissez pas de dechets dans la campagne!                   
+

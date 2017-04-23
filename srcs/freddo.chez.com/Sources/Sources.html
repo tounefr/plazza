@@ -1,0 +1,720 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--
+/**************************************/
+ *     Createur : F. Sagez	          *	
+ *     Date de Creation : 29/11/04    *	
+ *     Date de Mise a jour : 28/10/06 *
+ *     Nom du fichier : Sources.html  *	
+/**************************************/
+-->
+
+<HTML> 
+
+<!-- Mirrored from freddo.chez.com/Sources/Sources.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Mar 2016 13:42:27 GMT -->
+<HEAD><TITLE> Pleins de sources et d'utilitaires pour programmer en assembleur 68k sur Atari ST </TITLE>
+
+<!-- Pour moteur de recherche -->
+<META NAME="AUTHOR" CONTENT="Frederic Sagez">
+<META NAME="KEYWORDS" 
+      CONTENT="Atari, Atari ST, ST, 68000, 68K, 68 K, Assembleur, Assembler, Devpack, Intro, Demo, Dentro, Menu, 
+      Decompilateur, Easy Rider, FEROCE LAPIN, Laurent PIECHOCKI, Blitter, Scroll, Scrolling, Awesome, D-Bug, Compil, 
+      Replicants, ICS, Cynix, FingerBobs, Zuul, Fuzion, Blues Brothers, Holocaust, Special Fx, Ovr, Lemmings, 
+      Next, Xmas 93, Positivity, Pure Energy, Dark Side of The Spoon, SUB HUMANS IN TURKEY, Shit, Ulm, Dsots, Wild Boys, Naos, CV,
+      AGGRESSION, Braindamage, DELTA FORCE, Punish Your Machine, Dompub 030, BSW, NTM Megademo, THE LOST BOYS,
+      Overlanders, Persistance Of Vision, The Source, The Black Cats, TBC, MCS, Delirious Demo">
+<META NAME="TITRE" CONTENT="Page de sources ASM 68k pour l'ATARI ST">
+<META NAME="DESCRIPTION" CONTENT="Sources et utilitaires pour assembler en 68k.">   
+
+<!-- Sons : Extrait de l'intro du groupe ECT pour la CeBIT 92 -->
+<SCRIPT language="JavaScript">
+var browser_type=navigator.appName
+var browser_version=parseInt(navigator.appVersion)
+//if NAV 4+
+if (browser_type=="Netscape"&&browser_version>=4)
+document.write("<EMBED SRC='../Sounds/OriginalSongs.wav' loop='TRUE' play='TRUE' autostart='TRUE' WIDTH='0' HEIGHT='0'></EMBED>");
+//if IE 4+
+else if (browser_type=="Microsoft Internet Explorer"&&browser_version>=4)
+document.write("<bgsound src='../Sounds/OriginalSongs.wav' loop='1'>");
+//Default goto page (NOT NS 4+ and NOT IE 4+)
+else
+document.write("<EMBED SRC='../Sounds/Ect.wav' loop='TRUE' play='TRUE' autostart='TRUE' WIDTH='0' HEIGHT='0'></EMBED>");
+</SCRIPT>
+
+<STYLE type="text/css">
+<!--
+body {
+	font-family: Verdana;
+	font-size: 10pt;
+	color:black;
+}
+
+td {
+	font-family: Verdana;
+	font-size: 10pt;
+	color:black;
+}
+-->
+</STYLE>
+
+</HEAD>
+<script TYPE="text/javascript" LANGUAGE=JAVASCRIPT>
+<!-- Supprime bandeau publicitaire chez.com
+if (top.frames.length!=0)
+window.top.document.body.rows = "0, *"
+// -->
+</script>
+
+<body bgcolor="#FFFFFF" background="../Images/AnimAtariSt.gif">
+<table width="73%" border="0" cellspacing="2" cellpadding="2" align="center">
+  <tr> 
+    <td colspan="3"> <div align="center"><img src="Images/Sources.jpg" width="320" height="90"></div></td>
+  </tr>
+  <tr> 
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF"><b>UTILITAIRES</b></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">Le compilateur de programme Devpack version 
+      2.5 francais + Monst2 + doc Monst - <a href="Utils/Devpack.zip">Download 
+      it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">Le d&eacute;compilateur de programme Easy 
+      Rider 4 en anglais - <a href="Utils/eazy4en.zip">Download it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">Un accessoire qui affiche les instructions 
+      du 68000 de J&eacute;r&ocirc;me Cabanis - <a href="Utils/ACC_asm.zip">Download 
+      it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF"><b>COURS</b></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">LES COURS D'ASSEMBLEUR 68000 SUR ATARI ST 
+      PAR LE FEROCE LAPIN - <a href="Cours/Feroce_Lapin.zip">Download it!</a> 
+      <font size="1">(<a href="Cours/LIST_3_7.S">LISTING3_7.S</a> complet)</font></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">INITIATION A l'ASSEMBLEUR 68000 sur ATARI 
+      ST PAR Laurent PIECHOCKI - DISQUE 1 - <a href="Cours/PIECHOCKI_D1.zip">Download 
+      it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">INITIATION A l'ASSEMBLEUR 68000 sur ATARI 
+      ST PAR Laurent PIECHOCKI - DISQUE 2 - <a href="Cours/PIECHOCKI_D2.zip">Download 
+      it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">INITIATION AUX DEMOS 68000 sur ATARI ST 
+      PAR Laurent PIECHOCKI - DISQUE 3 - <a href="Cours/PIECHOCKI_D3.zip">Download 
+      it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">EXEMPLES DE ROUTINES DE DEMOS PAR THE CONSTELLATIONS 
+      - <a href="Cours/CONSTELLATIONS.zip">Download it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">EXEMPLES DE ROUTINES GRAPHIQUE SUR LE BLITTER 
+      PAR Eko (principalement) - <a href="Cours/blitter.zip">Download it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF"> COURS D'ASSEMBLEUR AU FORMAT PDF - <a href="Cours/Cours_20ASM_201.zip">Download 
+      it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">DOCUMENTATIONS ANGLAISES SUR DEVPACK V 2.0 
+      - <a href="Cours/doc_devpack_2.zip">Download it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCFF">REGROUPEMENT DE DOCUMENTATIONS SUR LE MOTOROLA 
+      68000 - <a href="Cours/68000.zip">Download it!</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3"> <div align="center"><i><font color="#FF0066">Tous les sources 
+        ont &eacute;t&eacute; test&eacute;s et compil&eacute;s avec DEVPACK version 
+        2.5f ou la version 3.0 (voir m&ecirc;me modifier pour que cela compile 
+        bien...)</font></i></div></td>
+  </tr>
+  <tr> 
+    <td colspan="3">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><img src="Images/Titres/Agression.gif" width="163" height="33"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Un effet de la Demo <i>BRAINDAMAGE</i></td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/BD_BALL.zip"><img src="Images/BD.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"><img src="Images/Titres/AWESOME.gif" width="160" height="30"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source du Menu #1</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/awesome/MENU_1.zip"><img src="Images/AWE_1.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source du Menu #2</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/awesome/MENU_2.zip"><img src="Images/AWE_2.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source du Menu #3</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/awesome/MENU_3.zip"><img src="Images/AWE_3.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source du Menu #6</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/awesome/MENU_6.zip"><img src="Images/AWE_6.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source du Menu #11</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/awesome/MENU_11.zip"><img src="Images/AWE_11.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source du Menu #14</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/awesome/MENU_14.zip"><img src="Images/AWE_14.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source du Menu #16</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/awesome/MENU16.zip"><img src="Images/AWE_16.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source d'un autre Menu par Cameo/Replicants</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/awesome/AWE.zip"><img src="Images/Awesome.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><img src="Images/Titres/BBC.gif" width="166" height="39"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source du Menu BBC #44</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/BBC_44.zip"><img src="Images/bbc_44.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"> <table width="75%" border="0" cellspacing="2" cellpadding="2" align="center">
+        <tr> 
+          <td><img src="Images/A046.gif" width="192" height="135"></td>
+          <td><img src="Images/A048.gif" width="192" height="135"></td>
+          <td><img src="Images/A050.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/A051.gif" width="192" height="135"></td>
+          <td><img src="Images/A053.gif" width="192" height="135"></td>
+          <td><img src="Images/A054.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/A055.gif" width="192" height="135"></td>
+          <td><img src="Images/A056.gif" width="192" height="135"></td>
+          <td><img src="Images/A057.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/A066.gif" width="192" height="135"></td>
+          <td><img src="Images/A069.gif" width="192" height="135"></td>
+          <td><img src="Images/A069_3.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/A070.gif" width="192" height="135"></td>
+          <td><img src="Images/A084.gif" width="192" height="135"></td>
+          <td><img src="Images/A091.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/A093.gif" width="192" height="135"></td>
+          <td><img src="Images/A094.gif" width="192" height="135"></td>
+          <td><img src="Images/A095.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/A103.gif" width="192" height="135"></td>
+          <td><img src="Images/A106.gif" width="192" height="135"></td>
+          <td><img src="Images/A107.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/A108.gif" width="192" height="135"></td>
+          <td><img src="Images/A110.gif" width="192" height="135"></td>
+          <td><img src="Images/A111.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/A112.gif" width="192" height="135"></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF"><a href="ASM/Automation.zip">Tous les sources</a> 
+      des menus AUTOMATION/LSD (25 menus inclus !)</td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#9933FF"><img src="Images/Titres/Cynix.gif" width="165" height="34"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Menu cod&eacute; par Jacky/Acf</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/CYNIX.zip"><img src="Images/Cynix.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Zippy's Mega Overscan Scroller Demo V2.08</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/CYNIXFull.zip"><img src="Images/CynixFull.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"><img src="Images/Titres/Dbug.gif" width="160" height="31"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Sources officiels de 8 Menus par C.J.</td>
+    <td bgcolor="#000000" width="28%"> <div align="center"><a href="http://www.tphf.karoo.net/dbug/faq.htm" target="_blank"><img src="Images/dbug157d.gif" width="160" height="100" border="0"></a></div></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF">Le site officiel : <a href="http://www.tphf.karoo.net/dbug/" target="_blank">http://www.tphf.karoo.net/dbug/</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CC99CC"><img src="Images/Titres/DeltaForce.gif" width="108" height="64"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FF99CC">Intro &quot;BANGBANG&quot; de la multipart 
+      <i>PUNISH YOUR MACHINE</i></td>
+    <td bgcolor="#000000"><a href="ASM/DeltaForce/PUNISH/BANGBANG.zip"><img src="Images/DF_BangBang.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FF99CC">Intro &quot;COOPER&quot; de la multipart 
+      <i>PUNISH YOUR MACHINE</i></td>
+    <td bgcolor="#000000"><a href="ASM/DeltaForce/PUNISH/COPPER.zip"><img src="Images/DF_Cooper.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FF99CC">L'intro de la multipart <i>PUNISH YOUR MACHINE</i></td>
+    <td bgcolor="#000000"><a href="ASM/DeltaForce/PUNISH/INTRO.zip"><img src="Images/DF_Intro.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FF99CC">Le menu de la multipart <i>PUNISH YOUR MACHINE</i></td>
+    <td bgcolor="#000000"><a href="ASM/DeltaForce/PUNISH/MENU.zip"><img src="Images/DF_Menu.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FF99CC">La reset demo de la multipart <i>PUNISH 
+      YOUR MACHINE</i></td>
+    <td bgcolor="#000000"><a href="ASM/DeltaForce/PUNISH/RESETDEM.zip"><img src="Images/DF_ResetDemo.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FF99CC">Un exemple de scrolling en overscan</td>
+    <td bgcolor="#000000"><a href="ASM/DeltaForce/SYNC.zip"><img src="Images/DF_Sync.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"><img src="Images/Titres/BlackRainbow.gif" width="174" height="46"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"> <table width="59%" border="0" cellspacing="2" cellpadding="2" align="center">
+        <tr> 
+          <td><img src="Images/Dompub/3d_scr.gif" width="224" height="140"></td>
+          <td><img src="Images/Dompub/Br_demo1.gif" width="224" height="140"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/Dompub/ecran2.gif" width="225" height="141"></td>
+          <td><img src="Images/Dompub/neptune.gif" width="224" height="140"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF">Pleins de sources en GFA et ASM &agrave; 
+      voir sur le site officiel : <a href="http://perso.wanadoo.fr/michel.goux/dompub/" target="_blank">http://perso.wanadoo.fr/michel.goux/dompub/</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><img src="Images/Titres/FingerBobs.gif" width="238" height="45"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">LOGO Demo pour la<i> NTM Megademo de ZUUL</i><br>
+      (utiliser le fichier zuulfix.s pour compiler)</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/zuul.zip"><img src="Images/FingerBobs.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Insignificant Demo pour la <i>Decade Demo</i> 
+      d'Inner Circle (utiliser le fichier INSIG2.S pour compiler)</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/insigstsrc.zip"><img src="Images/Insignifica.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF">Le site officiel : <a href="http://home.clara.net/obi/" target="_blank">http://home.clara.net/obi/</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#CCCCCC"><img src="Images/Titres/Fuzion.gif" width="132" height="47" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">THE SOUNDTRACK DEPARTMENT par Orion</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/Fuzion.zip"><img src="Images/Fuzion.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF">Le site officiel : <a href="http://fuzionshrine.omiquel.lautre.net/" target="_blank">http://fuzionshrine.omiquel.lautre.net/</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"><font color="#FFFFFF"><b>THE BLUES BROTHERS</b></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Menu 10 + fichiers de tests<br>
+      (utiliser le fichier MENU_10.S)</td>
+    <td width="28%"><a href="ASM/TBB.zip"><img src="Images/TBB.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" height="24" bgcolor="#000000"><img src="Images/Titres/Holocaust.gif" width="160" height="32"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Pleins de sources de la Demo <i>Choice Of 
+      Gods</i></td>
+    <td bgcolor="#000000" width="28%"> <div align="center"><a href="http://www.codercorner.com/cog.htm" target="_blank"><img src="Images/ChoiceOfGod.gif" width="160" height="100" border="0"></a></div></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Pleins de sources de la Demo <i>Blood</i></td>
+    <td bgcolor="#000000" width="28%"> <div align="center"><a href="http://www.codercorner.com/Blood.htm" target="_blank"><img src="Images/Blood.gif" width="160" height="100" border="0"></a></div></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF">Le site officiel : <a href="http://www.codercorner.com/Holocaust.htm" target="_blank">http://www.codercorner.com/Holocaust.htm</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><img src="Images/Titres/Ics.gif" width="140" height="33"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Code source du Menu #24</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/ICS/ICS_24.zip"><img src="Images/ICS_24.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td height="121" colspan="2" bgcolor="#FFFFFF">THE ATTACKING SHARK</td>
+    <td width="28%" height="121" bgcolor="#000000"><a href="ASM/ICS/ICS2.zip"><img src="Images/ICS_2.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FF6633"><img src="Images/Titres/Lemmings.gif" width="180" height="40"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Code source du Menu #1</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/LEMMINGS/MENU_1.zip"><img src="Images/LEMMINGS_1.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Code source du Menu #2</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/LEMMINGS/MENU_2.zip"><img src="Images/LEMMINGS_2.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Code source du Menu #3</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/LEMMINGS/MENU_3.zip"><img src="Images/LEMMINGS_3.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Code source du Menu #4</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/LEMMINGS/MENU_4.zip"><img src="Images/LEMMINGS_4.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Code source du Menu #5</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/LEMMINGS/MENU_5.zip"><img src="Images/LEMMINGS_5.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><img src="Images/Titres/TLB.gif" width="122" height="29"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">The Landscape Demo</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/LANDSCAPE.zip"><img src="Images/Landscape.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"><img src="ASM/MCS/MCS_logo.gif" width="120" height="40"></td>
+  </tr>
+  <tr bgcolor="#000000"> 
+    <td colspan="3" bgcolor="#FFFFFF"><table width="75%" border="0" align="center" cellpadding="1" cellspacing="1">
+        <tr> 
+          <td width="30%"><img src="ASM/MCS/DD3_MCS/DD3_MCS_00.gif" width="192" height="135"></td>
+          <td width="21%"><img src="ASM/MCS/DD3_MCS/DD3_MCS_01.gif" width="192" height="135"></td>
+          <td width="49%"><img src="ASM/MCS/DD3_MCS/DD3_MCS_02.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="ASM/MCS/DD3_MCS/DD3_MCS_03.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD3_MCS/DD3_MCS_04.gif" width="192" height="135"></td>
+          <td align="center">&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF"><img src="../Images/New.gif" width="32" height="21" align="absmiddle" border="0">&nbsp;<a href="ASM/MCS/DD3_MCS/Del3src.zip">Sources</a> 
+      de la d&eacute;mo Delirious Demo 3 </td>
+  </tr>
+  <tr bgcolor="#000000"> 
+    <td colspan="3" bgcolor="#FFFFFF"><table width="75%" border="0" align="center" cellpadding="1" cellspacing="1">
+        <tr> 
+          <td width="37%"><img src="ASM/MCS/DD4_MCS/DD4_MCS_00.gif" width="192" height="135"></td>
+          <td width="13%"><img src="ASM/MCS/DD4_MCS/DD4_MCS_01.gif" width="192" height="135"></td>
+          <td width="50%"><img src="ASM/MCS/DD4_MCS/DD4_MCS_02.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_03.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_04.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_05.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_06.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_07.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_08.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_09.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_10.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_11.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_13.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_14.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_15.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_16.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_17.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_18.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_19.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_20.gif" width="192" height="135"></td>
+          <td><img src="ASM/MCS/DD4_MCS/DD4_MCS_21.gif" width="192" height="135"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF"><img src="../Images/New.gif" width="32" height="21" align="absmiddle" border="0"><a href="ASM/MCS/DD4_MCS/Del4src.zip">Sources</a> 
+      de la m&eacute;gad&eacute;mo Delirious Demo 4</td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"><img src="Images/Titres/Next.gif" width="174" height="34"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Sources de la <i>d&eacute;mo Illusion</i> 
+      de la <i>Phaleon demo</i></td>
+    <td width="28%" bgcolor="#000000"><a href="http://defence-force.org/computing/atari/demos/files/illusion_src.zip"><img src="Images/Phaleon.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF">Le site officiel : <a href="http://defence-force.org/computing/atari/demos/index.htm" target="_blank">http://defence-force.org/computing/atari/demos/index.htm</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><img src="Images/Titres/Ovr.gif" width="211" height="38"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Ball Demo</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/OVR/OVR_balls.zip"><img src="Images/OVR_BallDemo.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Landscape Demo</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/OVR/OVR_landscap.zip"><img src="Images/OVR_Landscape.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td bgcolor="#FFFFFF">Quelques sources d'anciennes Demos</td>
+    <td bgcolor="#FFFFFF"> <table width="48%" border="0" cellspacing="0" cellpadding="2" bgcolor="#000000">
+        <tr> 
+          <td width="52%"><img src="Images/OVR_BofDemo.gif" width="192" height="135"></td>
+          <td width="47%"><img src="Images/OVR_CrazyStar.gif" width="192" height="135"></td>
+        </tr>
+      </table></td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/OVR/OVR.SRC.zip"><img src="Images/OVR_MegaScroller2.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <!--
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><img src="Images/Titres/Prendragons.gif" width="223" height="28"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Code source d'une intro</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/Prendragons.zip"><img src="Images/Prendragons.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+-->
+  <tr> 
+    <td colspan="3" bgcolor="#000000"><img src="Images/Titres/Positivity.gif" width="160" height="43"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Tous les sources de cette Demo par Dracula</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/Positivity.zip"><img src="Images/xmas93.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FF3333"><img src="Images/Titres/Pov.gif" width="320" height="38"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"> <table width="55%" border="0" cellspacing="2" cellpadding="2" align="center">
+        <tr> 
+          <td><img src="Images/pov__001.gif" width="192" height="135"></td>
+          <td><img src="Images/pov__003.gif" width="192" height="135"></td>
+          <td><img src="Images/pov__006.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/pov__016.gif" width="192" height="135"></td>
+          <td><img src="Images/pov__020.gif" width="192" height="135"></td>
+          <td><img src="Images/pov__026.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/pov__027.gif" width="192" height="135"></td>
+          <td><img src="Images/pov__028.gif" width="192" height="135"></td>
+          <td><img src="Images/pov__029.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/pov__030.gif" width="192" height="135"></td>
+          <td><img src="Images/pov__031.gif" width="192" height="135"></td>
+          <td><img src="Images/pov__032.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td><img src="Images/pov__036.gif" width="192" height="135"></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF"><a href="ASM/POV_menu.zip">Tous les sources</a> 
+      des compiles d'intros (13 menus inclus !)</td>
+  </tr>
+  <!-- 
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><img src="Images/Titres/Prism.gif" width="131" height="30"></td>
+  </tr>
+  <tr> 
+    <td width="17%" bgcolor="#FFFFFF">Demo avec des lignes sur 2 &eacute;crans</td>
+    <td width="55%" bgcolor="#000000"> 
+      <div align="right"><img src="Images/Prism01.gif" width="192" height="135"></div>
+    </td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/PRISM.zip"><img src="Images/Prism02.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+ -->
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><img src="Images/Titres/PureEnergy.gif" width="125" height="45"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Code source du Menu Utils #15A</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/PUREUTIL.zip"><img src="Images/Pure_Energy.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><font color="#FFFFFF">THE SOURCE</font></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">The Source Menu #120</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/MUG_UK/TSOURCE.zip"><img src="Images/TheSource_120.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"><img src="Images/Titres/Ulm.gif" width="128" height="38"></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Dark Side of the Spoon (source du menu non-complet)</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/dsots.zip"><img src="Images/DarkSide.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF">Le site officiel : <a href="http://www.cpu.lu/ulm/" target="_blank">http://www.cpu.lu/ulm/</a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><img src="Images/Titres/TWB.gif" width="163" height="36"></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#000000"> <table width="35%" border="0" cellspacing="2" cellpadding="2" align="center">
+        <tr> 
+          <td width="37%"><img src="Images/WB19.gif" width="192" height="135"></td>
+          <td width="29%"><img src="Images/WB20.gif" width="192" height="135"></td>
+          <td width="34%"><img src="Images/WB21.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td width="37%"><img src="Images/WB23.gif" width="192" height="135"></td>
+          <td width="29%"><img src="Images/WB24.gif" width="192" height="135"></td>
+          <td width="34%"><img src="Images/WB25.gif" width="192" height="135"></td>
+        </tr>
+        <tr> 
+          <td width="37%"><img src="Images/WB26.gif" width="192" height="135"></td>
+          <td width="29%"><img src="Images/WB28.gif" width="192" height="135"></td>
+          <td width="34%"><img src="Images/WButils.gif" width="192" height="135"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF"><a href="ASM/WildBoys.zip">Sources</a> des 
+      Menus 19, 20, 21, 23, 24, 26, 28 et un menu de compiles utiles.</td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#333333"><b><font color="#FFFFFF">AUTRES...</font></b></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Une Demo avec un PacMan qui saute</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/Autres/motion.zip"><img src="Images/MotionPac.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">UNIVERSAL-SCROLL-ROUTINE v 1.1</td>
+    <td width="28%" bgcolor="#000000"> <div align="center"><a href="ASM/Autres/uniscrol.1_1.zip"><img src="Images/Uniscroll.gif" width="192" height="135" border="0"></a></div></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Sources de JAMPACK.4_0</td>
+    <td width="28%" bgcolor="#000000"> <div align="center"><a href="ASM/Autres/JAMPACK.4_0.zip"><img src="Images/Jampak.gif" width="192" height="135" border="0"></a></div></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">DEMO BUILDER par Ric/Naos (ST MAG no 79)</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/Autres/RIC_NAOS.zip"><img src="Images/Ric_Naos.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">OVR codes sources GFA &amp; ASM</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/Autres/OVR.zip"><img src="Images/Ovr.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF"><a href="ASM/Autres/unp_src.zip">Tous les 
+      sources</a> ASM+GFA de compression/decompression</td>
+    <td width="28%" bgcolor="#000000">&nbsp; </td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Overscan bas par Cerebral Vortex</td>
+    <td width="28%" bgcolor="#000000"> <div align="center"><a href="ASM/Autres/overscan.zip"><img src="Images/Overscan_Bas.gif" width="192" height="135" border="0"></a></div></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Multi-depacker par the Beyonder/T.B.C.</td>
+    <td width="28%" bgcolor="#000000"> <div align="center"><a href="ASM/Autres/Beyonder.zip"><img src="Images/TBC.gif" width="192" height="135" border="0"></a></div></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source d'une Intro de CSH</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/Autres/csh_demo.zip"><img src="Images/csh.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source d'une Intro de Digital Disaster</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/Autres/DDDEMO.zip"><img src="Images/DigitalDisaster.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source d'une Intro de Toxic BBS</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/Autres/TOXICBBS.zip"><img src="Images/ToxicBBS.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source d'une Intro de T.S.O.F</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/Autres/tsof.zip"><img src="Images/tsof.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source d'une Intro par Vat</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/vat/aurora17.zip"><img src="Images/Vat0.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">Source d'une autre Intro par Vat</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/vat/qst_demo.zip"><img src="Images/Vat1.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="2" bgcolor="#FFFFFF">S.H.I.T. intro 3D</td>
+    <td width="28%" bgcolor="#000000"><a href="ASM/SHIT.zip"><img src="Images/SHit.gif" width="192" height="135" border="0"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" bgcolor="#FFFFFF"> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="57%"><b>H</b>ow <b>T</b>o <b>C</b>ode volume 1.</td>
+          <td width="43%"> <div align="right"><a href="Cours/HTC1.zip"><img src="Images/HTC1.gif" width="320" height="100" border="0"></a></div></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<br>
+<br>
+<p align="center"><a href="../index2.html" target="_parent"><img src="../Atari/Images/Retour.gif" width="171" height="37" border="0"></a> 
+</p>
+<a target="_blank" href="http://v1.nedstatbasic.net/stats?ACR+YwhOTRbPqbWD7/usbnEv8brA"><img
+src="http://m1.nedstatbasic.net/n?id=ACR+YwhOTRbPqbWD7/usbnEv8brA"
+border="0" nosave width="18" height="18"
+alt="Nedstat Basic - Free web site statistics"></a>
+
+<!-- End Nedstat Basic code --></body>
+
+<!-- Mirrored from freddo.chez.com/Sources/Sources.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Mar 2016 13:50:02 GMT -->
+</html>
+<!-- Begin Nedstat Basic code -->
+<!-- Title:  Page Personnelle de FrEd! -->
+<!-- URL: http://www.chez.com/freddo -->
+<script language="JavaScript" type="text/javascript" src="http://m1.nedstatbasic.net/basic.js">
+</script>
+<script language="JavaScript" type="text/javascript" >
+<!--
+  nedstatbasic("ACR+YwhOTRbPqbWD7/usbnEv8brA", 0);
+// -->
+</script>
+<noscript>
+<A target="

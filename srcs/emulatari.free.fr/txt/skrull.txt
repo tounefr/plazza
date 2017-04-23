@@ -1,0 +1,47 @@
+Voila une doc de Sewer.
+
+Mr Nours.
+
+
+
+
+Sewersoft presents.....
+
+
+                           ** SKRULL **
+                         by 1632 Edition  
+                         Typed by Scotty 
+
+Suprisingly there is no large doc file that comes with game!
+Just a reference card type item.
+
+No object to the game or hints on how to overcome some of the 
+obstacles you will encounter are explained.
+
+I assume the object is just to make it to the end of your journey 
+(whatever that is????).
+
+OK, we all know how to load a game so no need to tell ya about 
+that. One thing though, when you are prompted to put disk B in the 
+drive it must remain in for the length of the game.
+
+Skrull is a mouse only game.
+
+Top icon: Press right button to stop.
+          Press left button to go to far end (enter).
+Second icon from top: Press right button to walk right.
+                      Press left button to walk left.
+Third icon from top: Press right button to run right.
+                     Press left button to run left.
+Fourth icon:Press right button to jump backwards and thrust sword.
+            Press left button to jump.
+Fifth icon: Press right or left button to thrust sword.
+Corner icon: Pick up an object.
+Icon next to your life level: Drop an object.
+Three icons on the other side of your life level show you what 
+objects you are holding.
+
+To drop an object you are carrying, click first on the drop icon 
+then on the object you want to drop.
+
+And that is all there is to it......

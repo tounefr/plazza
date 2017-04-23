@@ -1,0 +1,22 @@
+
+- Buggy Boy -
+
+Bon alors les choses a savoir :
+
+Haut: J'accelere
+Bas : Je freine(hé oui!)
+Droite,Gauche : Hahem...
+
+Le BOUTON: Je change de vitesse!
+
+Voila donc on demarre en vitesse lente, puis aprés vitesse rapide.
+
+Les drapeaux en haut à gauche, vous devez les prendre dans l'ordre,
+si vous y arrivez vous avez un EXTEND(temps)!!
+
+N'oubliez surtout pas les Bannieres TIME(temps)...
+
+Bonne chance avec ce jeu super compliqué...
+;-)
+
+MrNours.

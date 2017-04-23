@@ -1,0 +1,35 @@
+SEWER SOFTWARE presents...a Dr J doc
+
+Temple of Apshai Command Sheet
+
+Movement Commands
+key        Action
+ 
+ 0         Rest for one turn
+1-9        Move from 1 to 9 feet
+ R         Turn 90 degrees to the right
+ L         Volte-face (Turn around 180 degrees)
+SPACE      Each press, move forward 1 foot
+
+Battel Commands
+Key        Action
+
+ A         Attack
+ T         Thrust
+ P         Parry (Defense)
+ F         Fire an arrow
+ M         Fire a magic arrow
+
+Special Commands
+Key        Action
+
+ E         Examine a wall for a secret door
+ O         Open door
+ S         Search for traps
+ G         Get or pick up treasures
+ Q         Query (listen) for monsters
+ !         Speak with a monster
+ H         Heal (Apply a healing salve)
+ Y         Ylixer (Drink a healing elixer)
+ D         Drop a treasure
+<C/R>      Room description

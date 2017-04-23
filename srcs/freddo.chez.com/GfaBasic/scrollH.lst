@@ -1,0 +1,31 @@
+' ***************************
+' * Debut du Programme      *
+' ***************************
+' * Scrollh.lst             *
+' ***************************
+' * Affiche un scrolltexte  *
+' * horizontal dans le bas  *
+' * de l'ecran              *
+' ***************************
+CLS           !Efface l'ecran
+DO
+  @scrolltexth("Ceci est un test...............")  ! On scroll... en bouclant !
+  EXIT IF INKEY$=" "                   ! On sort en appuyant sur la barre d'espace
+LOOP
+EDIT          !Fin du programme
+'
+' **************************************
+' * procedure de scrolltext horizontal *
+' **************************************
+PROCEDURE scrolltexth(texte$)
+  DEFTEXT 1,,,4                        ! Definit le texte &agrave; afficher
+  s%=XBIOS(2)                          ! Repere graphique
+  INC i%
+  TEXT 313,5,MID$(texte$,i%,1)
+  VSYNC                                ! Demande de synchro
+  RC_COPY s%,8,0,312,8 TO s%,0,0
+  IF i%=LEN(texte$)
+    i%=0                               ! On recommence le scrolling
+  ENDIF
+RETURN
+'

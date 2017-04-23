@@ -1,0 +1,16 @@
+
+
+"Comment je peux faire pour transférer les Images .ST
+ sur une disquette ST?"
+
+1- Télécharger Makedisk
+2- Decompacter Makedisk et vos images dans le même répértoire
+3- Passer en Mode Ms-Dos
+   ( Démarrer -> Arreter -> Redemmarer en Mode MSDOS)
+4- Aller dans le repertoire
+5- Formatter la diquette avec cette commande : FORMAT A: /F:720 
+6- Utiliser makedisk avec cette commande : Makedisk /write Nomdufichier.ST /auto /format
+7- Repondre toujours O)ui ou R)etry ou I)gnore et attendre la fin des opérations.
+8- Essayer la disquette sur un ST.
+
+Voilà.
