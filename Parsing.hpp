@@ -5,6 +5,7 @@
 #ifndef PLAZZA_PARSING_HPP
 #define PLAZZA_PARSING_HPP
 
+#include <regex>
 #include <string>
 
 enum Information
@@ -17,16 +18,22 @@ enum Information
 class Parsing
 {
 public:
-    static  Parsing* Get();
-    static  void Kill();
-    void    get_list();
-    void    set_path(std::string path);
-    void    set_field(Information field);
+    static                          Parsing* Get();
+    static                          void Kill();
+    std::vector<std::string>        get_list();
+    void                            set_path(std::string path);
+    void                            set_field(Information field);
+
+    std::string                     get_path();
 
 private:
     Parsing& operator= (const Parsing&){}
-    std::string     path;
-    Information     field;
+
+    void                                        cutGoodLine(char *str, std::regex reg,
+                                                            std::vector<std::string>& infosList);
+    std::string                                 path;
+    std::map<Information , std::string>         filter;
+    Information                                 field;
 
     Parsing();
     ~Parsing();
