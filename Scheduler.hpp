@@ -7,7 +7,6 @@
 
 #include <vector>
 #include "WorkerPool.hpp"
-#include "INetworkEndPoint.hpp"
 
 class Scheduler : public Thread {
 private:

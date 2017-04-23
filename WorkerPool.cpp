@@ -69,11 +69,3 @@ void WorkerPool::waitThreads() {
         t->join();
     }
 }
-
-void WorkerPool::setRecvEndPoint(INetworkEndPoint *recv) {
-    _recvEndPoint = recv;
-}
-
-void WorkerPool::setSendEndPoint(INetworkEndPoint *send) {
-    _sendEndPoint = send;
-}

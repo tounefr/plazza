@@ -6,8 +6,8 @@
 #define PLAZZA_PLAZZA_HPP
 
 #include <queue>
-#include "Thread.hpp"
-#include "Task.hpp"
+#include "common/Thread.hpp"
+#include "common/Task.hpp"
 #include "Scheduler.hpp"
 
 # define THREADS_PER_PROC 5

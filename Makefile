@@ -1,16 +1,22 @@
 
 CC = g++
 
-SRCS =  main.cpp \
-        Plazza.cpp \
-        Task.cpp \
-        Scheduler.cpp \
-        WorkerPool.cpp \
-        Thread.cpp \
+SRCS =  common/Task.cpp \
+        common/Thread.cpp \
+        encryption/CaesarCipher.cpp \
+        encryption/Cipher.cpp \
+        encryption/XorCipher.cpp \
+        network/IPSocket.cpp \
+        network/Socket.cpp \
+        network/UnixSocket.cpp \
+        parsing/Parsing.cpp \
         Logger.cpp \
+        Plazza.cpp \
         ProcessWrapper.cpp \
+        Scheduler.cpp \
         Worker.cpp \
-        NamedPipeEndPoint.cpp
+        WorkerPool.cpp \
+        main.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
