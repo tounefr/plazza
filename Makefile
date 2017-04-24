@@ -8,7 +8,7 @@ SRCS =  Plazza.cpp \
         encryption/XorCipher.cpp \
         network/ip/ServerSocket.cpp \
         network/ip/Socket.cpp \
-        parsing/Parsing.cpp \
+        parsing/InstructionsParsing.cpp \
         core/ProcessWrapper.cpp \
         core/Scheduler.cpp \
         core/Worker.cpp \
@@ -26,7 +26,7 @@ NAME = plazza
 
 LDFLAGS = -I.
 
-CFLAGS = -Wall -lpthread -MD -include includes/
+CFLAGS = -Wall -lpthread
 
 $(NAME): $(OBJS)
 	$(CC) -o $(NAME) $(OBJS) $(CFLAGS)

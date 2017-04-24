@@ -19,7 +19,7 @@ namespace Network {
             std::list<Network::IP::Socket *> _clients;
         public:
             ServerSocket(unsigned short listen_port);
-            Socket *sock_accept(Queue<Packet*>& packets);
+            virtual ISocket *sock_accept(Queue<Packet*>& packets);
             virtual void run();
         };
     }

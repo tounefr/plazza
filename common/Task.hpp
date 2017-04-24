@@ -7,12 +7,12 @@
 
 #include <string>
 
-enum Patterns
+typedef enum Patterns
 {
     PHONE_NUMBER,
     IP_ADDRESS,
     EMAIL
-};
+} Patterns;
 
 class Task {
 private:

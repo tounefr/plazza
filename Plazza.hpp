@@ -10,6 +10,7 @@
 #include "common/Task.hpp"
 #include "common/Queue.hpp"
 #include "core/Scheduler.hpp"
+#include "parsing/InstructionsParsing.hpp"
 
 # define THREADS_PER_PROC 5
 
@@ -18,11 +19,12 @@ private:
     Queue<Task*> _pendingTasks;
     Scheduler _scheduler;
     int _nbr_threads_per_proc;
+    InstructionsParsing _instructionsParsing;
     bool _running;
 
 public:
-    Plazza(int const& nbr_threads_per_proc);
-    static Plazza& getInstance();
+    Plazza();
+    static Plazza *getInstance();
     ~Plazza();
     Queue<Task*>& getTasks();
     void setNbrThreadsPerProc(int nbrThreadPerProc);

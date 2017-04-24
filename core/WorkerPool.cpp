@@ -10,8 +10,8 @@
 WorkerPool::WorkerPool() :
     ProcessWrapper(getpid()) {
 
-    Plazza &p = Plazza::getInstance();
-    initThreads(p.getNbrThreadsPerProc());
+    Plazza *p = Plazza::getInstance();
+    initThreads(p->getNbrThreadsPerProc());
 }
 
 void WorkerPool::initThreads(int nbr_threads_per_proc) {

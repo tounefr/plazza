@@ -1,26 +1,30 @@
-
 #include "Plazza.hpp"
-#include "core/Scheduler.hpp"
-#include "core/WorkerPool.hpp"
+#include <functional>
+#include <stdlib.h>
 #include <iostream>
+#include <vector>
+#include <string>
+
+/*
+
+int main(int ac, char **av) {
+    int nb_threads = -1;
+    Plazza &p = Plazza::getInstance();
+
+    if (ac == 2) {
+        if ((nb_threads = atoi(av[1])) <= 0) {
+            std::cout << "ERROR: number of threads must be greater than 0\n";
+            return -1;
+        }
+
+//        return (proceed_plazza(nb_threads));
+    }
+    std::cout << "USAGE: " << av[0] << " nbr_of_threads\n";
+    return 0;
+}
+*/
 
 int main() {
-
-//    Plazza &p = Plazza::getInstance();
-
-    Plazza &p = Plazza::getInstance();
-    p.getTasks().enqueue(new Task("./test.html", PHONE_NUMBER));
-    p.start();
-
-//    std::cout << &Plazza::getInstance() << std::endl;
-    return 0;
-    /*
-    p.setNbrThreadsPerProc(5);
-
-    Scheduler *scheduler = p.getScheduler();
-    scheduler->giveTask(new Task("./test.html", PHONE_NUMBER));
-    scheduler->giveTask(new Task("./test.html", EMAIL));
-     */
-
-    return 0;
+    Plazza *p = Plazza::getInstance();
+    p->start();
 }

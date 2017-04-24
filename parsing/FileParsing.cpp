@@ -5,7 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include <regex>
-#include "Parsing.hpp"
+#include "FileParsing.hpp"
 
 Parsing* Parsing::m_instance=0;
 

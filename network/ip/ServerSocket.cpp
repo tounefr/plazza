@@ -33,7 +33,7 @@ ServerSocket::ServerSocket(unsigned short listen_port) {
     listen(_socket, 5);
 }
 
-Socket *ServerSocket::sock_accept(Queue<Packet*>& packets) {
+ISocket *ServerSocket::sock_accept(Queue<Packet*>& packets) {
     struct sockaddr_in sin = {0};
     socklen_t sinsize = sizeof(sin);
     int client_socket;

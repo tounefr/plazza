@@ -7,6 +7,7 @@
 
 #include <string>
 
+/*
 enum Information
 {
     PHONE_NUMBER,
@@ -34,5 +35,5 @@ private:
 protected:
     static Parsing*  m_instance;
 };
-
+*/
 #endif //PLAZZA_PARSING_HPP

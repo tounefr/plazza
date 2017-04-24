@@ -10,25 +10,25 @@
 #include "common/Queue.hpp"
 #include "Plazza.hpp"
 
-Plazza::Plazza(int const& nbr_threads_per_proc) :
+Plazza::Plazza() :
         _pendingTasks(),
         _scheduler(),
-        _nbr_threads_per_proc(nbr_threads_per_proc),
+        _nbr_threads_per_proc(THREADS_PER_PROC),
+        _instructionsParsing(),
         _running(false) {
-
 }
 
-Plazza& Plazza::getInstance() {
-    static Plazza* instance = new Plazza(THREADS_PER_PROC);
-
-    return *instance;
+Plazza* Plazza::getInstance() {
+    static Plazza* p = new Plazza();
+    return p;
 }
 
 void Plazza::start() {
     _running = true;
+    _instructionsParsing.start();
     _scheduler.start();
     while (1) {
-        getTasks().enqueue(new Task("./test.html", PHONE_NUMBER));
+//        getTasks().enqueue(new Task("./test.html", PHONE_NUMBER));
         sleep(1);
     }
     _scheduler.join();
