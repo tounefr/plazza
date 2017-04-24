@@ -1,7 +1,17 @@
 
 CC = g++
 
-SRCS = main.cpp
+SRCS =  main.cpp \
+        Plazza.cpp \
+        Task.cpp \
+        Scheduler.cpp \
+        WorkerPool.cpp \
+        Thread.cpp \
+        Logger.cpp \
+        ProcessWrapper.cpp \
+        Worker.cpp \
+        Client.cpp \
+        Server.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
@@ -11,7 +21,7 @@ NAME = plazza
 
 LDFLAGS =
 
-CFLAGS = -Wall
+CFLAGS = -Wall -lpthread
 
 $(NAME): $(OBJS)
 	$(CC) -o $(NAME) $(OBJS) $(CFLAGS)
