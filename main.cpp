@@ -1,3 +1,7 @@
+
+#include "Plazza.hpp"
+#include "core/Scheduler.hpp"
+#include "core/WorkerPool.hpp"
 #include <iostream>
 #include <stdlib.h>
 #include <string>
@@ -11,6 +15,11 @@ static int  proceed_plazza(int nb_threads)
 }
 
 int main(int ac, char **av) {
+    /*
+     *     Plazza &p = Plazza::getInstance();
+    p.pushTask(*new Task("./test.html", PHONE_NUMBER));
+    p.start();
+     */
     int     nb_threads = -1;
 
     if (ac == 2) {

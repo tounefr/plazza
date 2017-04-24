@@ -1,7 +1,22 @@
 
 CC = g++
 
-SRCS = main.cpp
+SRCS =  common/Task.cpp \
+        common/Thread.cpp \
+        common/Logger.cpp \
+        encryption/CaesarCipher.cpp \
+        encryption/Cipher.cpp \
+        encryption/XorCipher.cpp \
+        network/IPSocket.cpp \
+        network/Socket.cpp \
+        network/UnixSocket.cpp \
+        parsing/Parsing.cpp \
+        core/ProcessWrapper.cpp \
+        core/Scheduler.cpp \
+        core/Worker.cpp \
+        core/WorkerPool.cpp \
+        Plazza.cpp \
+        main.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
@@ -11,7 +26,7 @@ NAME = plazza
 
 LDFLAGS =
 
-CFLAGS = -Wall
+CFLAGS = -Wall -lpthread
 
 $(NAME): $(OBJS)
 	$(CC) -o $(NAME) $(OBJS) $(CFLAGS)
