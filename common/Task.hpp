@@ -11,7 +11,7 @@ typedef enum Patterns
 {
     PHONE_NUMBER,
     IP_ADDRESS,
-    EMAIL
+    EMAIL_ADDRESS
 } Patterns;
 
 class Task {

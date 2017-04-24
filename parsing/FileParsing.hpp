@@ -2,38 +2,45 @@
 // Created by aurelien on 19/04/17.
 //
 
-#ifndef PLAZZA_PARSING_HPP
-#define PLAZZA_PARSING_HPP
+#ifndef PLAZZA_FILEPARSING_HPP
+#define PLAZZA_FILEPARSING_HPP
 
+#include <regex>
 #include <string>
+#include "../common/Task.hpp"
 
-/*
-enum Information
-{
-    PHONE_NUMBER,
-    EMAIL_ADDRESS,
-    IP_ADDRESS
-};
+namespace Parsing {
+    class FileParsing {
+    public:
+        static FileParsing *Get();
 
-class Parsing
-{
-public:
-    static  Parsing* Get();
-    static  void Kill();
-    void    get_list();
-    void    set_path(std::string path);
-    void    set_field(Information field);
+        static void Kill();
 
-private:
-    Parsing& operator= (const Parsing&){}
-    std::string     path;
-    Information     field;
+        std::vector<std::string> get_list();
 
-    Parsing();
-    ~Parsing();
+        void set_path(std::string path);
 
-protected:
-    static Parsing*  m_instance;
-};
-*/
-#endif //PLAZZA_PARSING_HPP
+        void set_field(Patterns field);
+
+        std::string get_path();
+
+    private:
+        FileParsing &operator=(const FileParsing &) {}
+
+        void cutGoodLine(char *str, std::regex reg,
+                         std::vector<std::string> &infosList);
+
+        std::string path;
+        std::map<Patterns, std::string> filter;
+        Patterns field;
+
+        FileParsing();
+
+        ~FileParsing();
+
+    protected:
+        static FileParsing *m_instance;
+    };
+}
+
+#endif //PLAZZA_FILEPARSING_HPP

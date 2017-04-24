@@ -4,43 +4,75 @@
 
 #include <iostream>
 #include <fstream>
-#include <regex>
 #include "FileParsing.hpp"
 
-Parsing* Parsing::m_instance=0;
+using namespace Parsing;
 
-Parsing::Parsing() {
+FileParsing* FileParsing::m_instance=0;
+
+FileParsing::FileParsing()
+{
+    this->filter.insert(std::make_pair(PHONE_NUMBER, ""));
+    this->filter.insert(std::make_pair(EMAIL_ADDRESS, "(\\w+)(\\.|_)?(\\w*)@(\\w+)(\\.(\\w+))+"));
+    this->filter.insert(std::make_pair(IP_ADDRESS, "\\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\."
+            "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\."
+            "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\."
+            "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b"));
     std::cout << "Creation"<< std::endl;
 }
 
-Parsing::~Parsing() {
+FileParsing::~FileParsing() {
     std::cout << "Destruction" << std::endl;
 }
 
-void Parsing::set_field(Information field) {
+void FileParsing::set_field(Patterns field) {
     this->field = field;
 }
 
-void Parsing::set_path(std::string path) {
+void FileParsing::set_path(std::string path) {
     this->path = path;
 }
 
-Parsing* Parsing::Get() {
+std::string FileParsing::get_path() {
+    return this->path;
+}
+
+FileParsing* FileParsing::Get() {
     //mutex lock
     if (m_instance == 0)
-        m_instance = new Parsing();
+        m_instance = new FileParsing();
     return m_instance;
 }
 
-void Parsing::Kill() {
+void FileParsing::Kill() {
     delete m_instance;
     m_instance = 0;
 }
 
-void Parsing::get_list() {
-    std::string   str;
-    std::ifstream file(this->path, std::ios::in);
-    std::regex    email("(\\w+)(\\.|_)?(\\w*)@(\\w+)(\\.(\\w+))+");
+void FileParsing::cutGoodLine(char *str, std::regex reg,
+                          std::vector<std::string>& infosList)
+{
+    char *cut_str;
+    std::string to_string("");
+
+    cut_str = strtok(str, " \":,/\\%");
+    while (cut_str != NULL)
+    {
+        if (std::regex_match(cut_str, reg)) {
+            //printf("%s\n", cut_str);
+            to_string = cut_str;
+            infosList.push_back(to_string);
+        }
+        cut_str = strtok (NULL, " \":,/\\%");
+    }
+}
+
+std::vector<std::string>            FileParsing::get_list() {
+    std::vector<std::string>        infosList;
+    std::string                     str;
+    std::ifstream                   file(this->path, std::ios::in);
+    std::vector<char>               pchar;
+    std::regex                      reg(this->filter[this->field]);
 
     if (!file)
     {
@@ -49,10 +81,12 @@ void Parsing::get_list() {
     }
     while (getline(file, str))
     {
-        if (std::regex_search(str, email))
-            std::cout << str << std::endl;
+        if (std::regex_search(str, reg)) {
+            pchar.assign(str.begin(), str.end());
+            pchar.push_back('\0');
+            this->cutGoodLine(&pchar[0], reg, infosList);
+        }
     }
-    //std::cout << "Une list de " << this->field << " depuis le fichier "
-      //        << this->path << std::endl;
     file.close();
+    return infosList;
 }

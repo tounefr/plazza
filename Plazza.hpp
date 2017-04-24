@@ -19,7 +19,7 @@ private:
     Queue<Task*> _pendingTasks;
     Scheduler _scheduler;
     int _nbr_threads_per_proc;
-    InstructionsParsing _instructionsParsing;
+    Parsing::InstructionsParsing _instructionsParsing;
     bool _running;
 
 public:

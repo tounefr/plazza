@@ -6,6 +6,8 @@
 #include "../common/Thread.hpp"
 #include "InstructionsParsing.hpp"
 
+using namespace Parsing;
+
 InstructionsParsing::InstructionsParsing() :
         Thread() {
 }
@@ -62,7 +64,7 @@ bool InstructionsParsing::get_pattern(const std::string &word, Patterns &pattern
     }
 
     if (word.compare("EMAIL") == 0) {
-        pattern = EMAIL;
+        pattern = EMAIL_ADDRESS;
         return true;
     }
 

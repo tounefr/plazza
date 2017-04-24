@@ -9,6 +9,7 @@ SRCS =  Plazza.cpp \
         network/ip/ServerSocket.cpp \
         network/ip/Socket.cpp \
         parsing/InstructionsParsing.cpp \
+        parsing/FileParsing.cpp \
         core/ProcessWrapper.cpp \
         core/Scheduler.cpp \
         core/Worker.cpp \
