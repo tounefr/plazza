@@ -7,10 +7,13 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include "Scheduler.hpp"
+#include "../common/Queue.hpp"
 #include "../Plazza.hpp"
+#include "../network/ip/Socket.hpp"
 
 Scheduler::Scheduler() :
         Thread() {
+    _serverSocket = new Network::IP::ServerSocket(8888);
 }
 
 Scheduler::~Scheduler() {
@@ -18,17 +21,16 @@ Scheduler::~Scheduler() {
 
 void Scheduler::run() {
     Plazza &p = Plazza::getInstance();
+    Queue<Packet*> packets;
     Task *t;
 
     while (1) {
-        if (p.getTasks().size() > 0) {
-            t = &p.popTask();
-            std::cout << "Handling task " << t << std::endl;
-            std::cout << "Pending tasks : " << p.nbrPendingTasks() << std::endl;
-            std::cout << "Nbr process : " << _clients.size() << std::endl;
-            if (!giveTask(*t))
-                break;
-        }
+        t = p.getTasks().dequeue();
+        std::cout << "Handling task " << t << std::endl;
+//            std::cout << "Pending tasks : " << p.nbrPendingTasks() << std::endl;
+        std::cout << "Nbr process : " << _clients.size() << std::endl;
+        if (!giveTask(*t))
+            break;
         sleep(1);
     }
 }
@@ -38,10 +40,12 @@ bool Scheduler::giveTask(Task& task) {
     int status;
     WorkerPool *workerPool;
 
+    return true;
+
     if ((pid = fork()) == 0) {
         return false;
     } else {
-
+        waitpid(pid, &status, 0);
     }
     return true;
 }

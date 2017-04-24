@@ -7,10 +7,13 @@
 
 #include <vector>
 #include "WorkerPool.hpp"
+#include "../network/IServerSocket.hpp"
+#include "../network/ip/ServerSocket.hpp"
 
 class Scheduler : public Thread {
 private:
     std::list<WorkerPool*> _clients;
+    Network::IServerSocket *_serverSocket;
 
 public:
     Scheduler();

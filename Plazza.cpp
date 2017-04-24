@@ -7,9 +7,12 @@
 #include <cstdlib>
 #include <sys/select.h>
 #include <assert.h>
+#include "common/Queue.hpp"
 #include "Plazza.hpp"
 
 Plazza::Plazza(int const& nbr_threads_per_proc) :
+        _pendingTasks(),
+        _scheduler(),
         _nbr_threads_per_proc(nbr_threads_per_proc),
         _running(false) {
 
@@ -23,13 +26,12 @@ Plazza& Plazza::getInstance() {
 
 void Plazza::start() {
     _running = true;
-    _scheduler = new Scheduler();
-    _scheduler->start();
+    _scheduler.start();
     while (1) {
-        pushTask(*new Task("./test.html", PHONE_NUMBER));
+        getTasks().enqueue(new Task("./test.html", PHONE_NUMBER));
         sleep(1);
     }
-//    _scheduler->join();
+    _scheduler.join();
 //    fetchInstructionsLoop();
 }
 
@@ -67,11 +69,10 @@ void Plazza::fetchInstructionsLoop() {
 }
 
 Plazza::~Plazza() {
-    if (this->_scheduler)
-        delete this->_scheduler;
+
 }
 
-std::queue<Task*>& Plazza::getTasks() {
+Queue<Task*>& Plazza::getTasks() {
     return _pendingTasks;
 }
 
@@ -80,21 +81,7 @@ void Plazza::setNbrThreadsPerProc(int nbrThreadPerProc) {
 }
 
 Scheduler& Plazza::getScheduler() {
-    return *_scheduler;
-}
-
-Task& Plazza::popTask() {
-    Task &t = *_pendingTasks.back();
-    _pendingTasks.pop();
-    return t;
-}
-
-Task& Plazza::pushTask(Task& task) {
-    _pendingTasks.push(&task);
-}
-
-unsigned int Plazza::nbrPendingTasks() {
-    return _pendingTasks.size();
+    return _scheduler;
 }
 
 int& Plazza::getNbrThreadsPerProc() {

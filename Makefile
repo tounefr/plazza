@@ -1,22 +1,22 @@
 
 CC = g++
 
-SRCS =  common/Task.cpp \
-        common/Thread.cpp \
-        common/Logger.cpp \
+SRCS =  Plazza.cpp \
+        main.cpp \
         encryption/CaesarCipher.cpp \
         encryption/Cipher.cpp \
         encryption/XorCipher.cpp \
-        network/IPSocket.cpp \
-        network/Socket.cpp \
-        network/UnixSocket.cpp \
+        network/ip/ServerSocket.cpp \
+        network/ip/Socket.cpp \
         parsing/Parsing.cpp \
         core/ProcessWrapper.cpp \
         core/Scheduler.cpp \
         core/Worker.cpp \
         core/WorkerPool.cpp \
-        Plazza.cpp \
-        main.cpp
+        common/Task.cpp \
+        common/Thread.cpp \
+        common/Logger.cpp \
+        common/ConditionVariable.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
@@ -24,9 +24,9 @@ RM = rm -f
 
 NAME = plazza
 
-LDFLAGS =
+LDFLAGS = -I.
 
-CFLAGS = -Wall -lpthread
+CFLAGS = -Wall -lpthread -MD -include includes/
 
 $(NAME): $(OBJS)
 	$(CC) -o $(NAME) $(OBJS) $(CFLAGS)

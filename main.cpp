@@ -9,7 +9,7 @@ int main() {
 //    Plazza &p = Plazza::getInstance();
 
     Plazza &p = Plazza::getInstance();
-    p.pushTask(*new Task("./test.html", PHONE_NUMBER));
+    p.getTasks().enqueue(new Task("./test.html", PHONE_NUMBER));
     p.start();
 
 //    std::cout << &Plazza::getInstance() << std::endl;
