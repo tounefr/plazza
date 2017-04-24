@@ -61,7 +61,7 @@ bool InstructionsParsing::get_pattern(const std::string &word, Patterns &pattern
         return true;
     }
 
-    if (word.compare("EMAIL") == 0) {
+    if (word.compare("EMAIL_ADDRESS") == 0) {
         pattern = EMAIL;
         return true;
     }
@@ -75,20 +75,23 @@ int InstructionsParsing::get_task(const std::string &task, Queue<Task*> &taskLis
     split(task, ' ', wordTab);
     Patterns pattern;
 
-    if (!get_pattern(wordTab.back(), pattern)) {
-//        std::cout << "ERROR: Unknown pattern: \"" << wordTab.back() << "\"" << std::endl;
-    }
-    else if (wordTab.size() > 0) {
-        for (int i = 0; i < wordTab.size() - 1; i++) {
-            taskList.enqueue(new Task(wordTab[i], pattern));
-  //          std::cout << "NEW TASK: " << pattern << " | " << wordTab[i] << std::endl;
+    if (wordTab.size() >= 2) {
+        if (!get_pattern(wordTab.back(), pattern)) {
+            std::cout << "[INPUT] ~ ERROR: Unknown pattern: \"" << wordTab.back() << "\"" << std::endl;
+        } else if (wordTab.size() > 0) {
+            for (int i = 0; i < wordTab.size() - 1; i++) {
+                taskList.enqueue(new Task(wordTab[i], pattern));
+                std::cout << "[TASK] ~ Task created: [" << pattern << "] file = \"" << wordTab[i] << "\"" << std::endl;
+            }
         }
+    } else {
+        std::cout << "[INPUT] ~ ERROR: Not enough information to create a task." << std::endl;
     }
 }
 
 void InstructionsParsing::run()
 {
-    std::cout << "Starting IntructionParsing" << std::endl;
+    std::cout << "[INPUT] ~ Starting IntructionParsing." << std::endl;
     Plazza *plazza = Plazza::getInstance();
     Queue<Task*>& tasklist = plazza->getTasks();
     while (1) {
