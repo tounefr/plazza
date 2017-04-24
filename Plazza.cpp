@@ -27,12 +27,9 @@ void Plazza::start() {
     _running = true;
     _instructionsParsing.start();
     _scheduler.start();
-    while (1) {
-//        getTasks().enqueue(new Task("./test.html", PHONE_NUMBER));
-        sleep(1);
-    }
+
     _scheduler.join();
-//    fetchInstructionsLoop();
+    _instructionsParsing.join();
 }
 
 void Plazza::fetchInstructionsLoop() {

@@ -76,34 +76,36 @@ int InstructionsParsing::get_task(const std::string &task, Queue<Task*> &taskLis
     Patterns pattern;
 
     if (!get_pattern(wordTab.back(), pattern)) {
-        std::cout << "ERROR: Unknown pattern: \"" << wordTab.back() << "\"" << std::endl;
+//        std::cout << "ERROR: Unknown pattern: \"" << wordTab.back() << "\"" << std::endl;
     }
-    else if (wordTab.size() > 0)
+    else if (wordTab.size() > 0) {
         for (int i = 0; i < wordTab.size() - 1; i++) {
             taskList.enqueue(new Task(wordTab[i], pattern));
-            std::cout << "NEW TASK: " << pattern << " | " << wordTab[i] << std::endl;
+  //          std::cout << "NEW TASK: " << pattern << " | " << wordTab[i] << std::endl;
         }
+    }
 }
 
 void InstructionsParsing::run()
 {
+    std::cout << "Starting IntructionParsing" << std::endl;
     Plazza *plazza = Plazza::getInstance();
     Queue<Task*>& tasklist = plazza->getTasks();
-    for (std::string line; std::getline(std::cin, line);) {
-        if (!line.empty()) {
-
-            std::vector <std::string> vect;
-            split(line, ';', vect);
-            if (vect.size() > 0)
-                for (int i = 0; i < vect.size(); i++) {
-                    sanitize_string(vect[i]);
-                    get_task(vect[i], tasklist);
+    while (1) {
+        for (std::string line; std::getline(std::cin, line);) {
+            if (!line.empty()) {
+                std::vector<std::string> vect;
+                split(line, ';', vect);
+                if (vect.size() > 0)
+                    for (int i = 0; i < vect.size(); i++) {
+                        sanitize_string(vect[i]);
+                        get_task(vect[i], tasklist);
+                    }
+                else {
+                    sanitize_string(line);
+                    get_task(line, tasklist);
                 }
-            else {
-                sanitize_string(line);
-                get_task(line, tasklist);
             }
         }
     }
-    std::cout << "Number of task registered: " << tasklist.size() << std::endl;
 }

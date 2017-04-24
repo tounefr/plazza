@@ -20,19 +20,20 @@ Scheduler::~Scheduler() {
 }
 
 void Scheduler::run() {
+    std::cout << "Starting Scheduler" << std::endl;
+
     Plazza *p = Plazza::getInstance();
     Queue<Packet*> packets;
     Task *t;
 
     while (1) {
         t = p->getTasks().dequeue();
-        _serverSocket->sock_accept(packets);
+//        _serverSocket->sock_accept(packets);
         std::cout << "Handling task " << t << std::endl;
 //            std::cout << "Pending tasks : " << p.nbrPendingTasks() << std::endl;
         std::cout << "Nbr process : " << _clients.size() << std::endl;
-        if (!giveTask(*t))
-            break;
-        sleep(1);
+      /*  if (!giveTask(*t))
+            break;*/
     }
 }
 

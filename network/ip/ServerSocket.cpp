@@ -18,6 +18,7 @@ ServerSocket::ServerSocket(unsigned short listen_port) {
         std::cerr << strerror(errno) << std::endl;
         return;
     }
+    std::cout << "Starting ServerSocket on " << listen_port << std::endl;
 
     struct sockaddr_in sockaddr;
     sockaddr.sin_family = AF_INET;
@@ -28,8 +29,6 @@ ServerSocket::ServerSocket(unsigned short listen_port) {
         std::cerr << strerror(errno) << std::endl;
         return;
     }
-
-    std::cout << "Listening on " << listen_port << std::endl;
     listen(_socket, 5);
 }
 
