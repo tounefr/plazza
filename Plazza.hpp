@@ -32,6 +32,8 @@ public:
     void fetchInstructionsLoop();
     void start();
     int& getNbrThreadsPerProc();
+    bool& isRunning();
+    void setRunning(bool running);
 };
 
 #endif //PLAZZA_PLAZZA_HPP

@@ -11,11 +11,12 @@
 #include "Plazza.hpp"
 
 Plazza::Plazza() :
+        _running(true),
         _pendingTasks(),
         _scheduler(),
         _nbr_threads_per_proc(THREADS_PER_PROC),
-        _instructionsParsing(),
-        _running(false) {
+        _instructionsParsing()
+{
 }
 
 Plazza* Plazza::getInstance() {
@@ -24,12 +25,13 @@ Plazza* Plazza::getInstance() {
 }
 
 void Plazza::start() {
-    _running = true;
-    _instructionsParsing.start();
-    _scheduler.start();
+    if (isRunning()) {
+        _instructionsParsing.start();
+        _scheduler.start();
 
-    _scheduler.join();
-    _instructionsParsing.join();
+        _scheduler.join();
+        _instructionsParsing.join();
+    }
 }
 
 void Plazza::fetchInstructionsLoop() {
@@ -83,4 +85,12 @@ Scheduler& Plazza::getScheduler() {
 
 int& Plazza::getNbrThreadsPerProc() {
     return _nbr_threads_per_proc;
+}
+
+bool& Plazza::isRunning() {
+    return _running;
+}
+
+void Plazza::setRunning(bool running) {
+    _running = running;
 }

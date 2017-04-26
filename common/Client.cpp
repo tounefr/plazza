@@ -10,6 +10,7 @@
 #include <string.h>
 #include "../core/Scheduler.hpp"
 #include "../network/Packet.hpp"
+#include "../Plazza.hpp"
 
 Client::Client(int pid,
                Scheduler *scheduler,
@@ -18,10 +19,12 @@ Client::Client(int pid,
         Thread(),
         ProcessWrapper(pid),
         _scheduler(scheduler),
+        _socket(NULL),
         _nbrTasks(0),
         _serverSocket(serverSocket)
 {
-    _tasks.enqueue(task);
+    if (task != NULL)
+        _tasks.enqueue(task);
     start();
 }
 
@@ -29,26 +32,32 @@ int& Client::getNbrTasks() {
     return _nbrTasks;
 }
 
+bool Client::isReady() {
+    return (_socket != NULL);
+}
+
 bool Client::giveTask(Task* task) {
     PacketGiveTask packet;
 
-    memset(packet.path, 0, sizeof(packet.path));
-    memcpy(&packet.path, task->getFilePath(), strlen(task->getFilePath()));
-    packet.type = task->getPattern();
-    std::cout << _socket << std::endl;
-    return  _socket->sock_send(&packet);
+    if (isReady()) {
+        memset(packet.path, 0, sizeof(packet.path));
+//    memcpy(packet.path, task->getFilePath(), strlen(task->getFilePath()));
+        //  packet.type = task->getPattern();
+        _socket->sock_send(&packet);
+        _nbrTasks++;
+    }
+    return true;
 }
 
 void Client::run() {
     std::cout << "Waiting for connection" << std::endl;
     _socket = _serverSocket->sock_accept();
     std::cout << "New connection ! " << std::endl;
-    while (1) {
+    while (Plazza::getInstance()->isRunning()) {
         Task *task = _tasks.dequeue();
         if (!giveTask(task))
             break;
         std::cout << "Task sent" << std::endl;
-        _nbrTasks++;
     }
     waitpid(_pid, &_status, 0);
     _nbrTasks--;

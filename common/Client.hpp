@@ -19,12 +19,14 @@ private:
     Network::ISocket *_socket;
     Scheduler *_scheduler;
     int _nbrTasks;
+    bool _ready;
     Queue<Task*> _tasks;
 
 public:
     Client(int pid, Scheduler *scheduler, Task *task, Network::IServerSocket *serverSocket);
     int& getNbrTasks();
     bool giveTask(Task* task);
+    bool isReady();
 
     virtual void run();
 };

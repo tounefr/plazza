@@ -26,13 +26,11 @@ Network::ISocket *ServerSocket::sock_accept() {
     Network::ISocket *clientSocket;
 
     client_socket = accept(_socket, (struct sockaddr*)&sin, &sinsize);
-    if (client_socket == -1)
-        return NULL;
-    std::cout << "New socket client" << std::endl;
     if (client_socket == -1) {
         std::cerr << strerror(errno) << std::endl;
         return NULL;
     }
+    std::cout << "New socket client" << std::endl;
     clientSocket = new Socket(client_socket);
     _clients.push_back(clientSocket);
     return clientSocket;

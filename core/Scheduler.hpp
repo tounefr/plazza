@@ -15,13 +15,10 @@
 
 class Scheduler : public Thread {
 private:
-//    std::map<ISocket*, int> _clients;
     std::list<Client*> _clients;
     Network::IServerSocket* _serverSocket;
+    size_t _min_process;
     unsigned int _maxTaskPerClient;
-
-
-//    std::list<WorkerPool*> _clients;
 
 public:
     Scheduler();
@@ -29,7 +26,23 @@ public:
     bool giveTask(Task &task);
     Client* getLeastLoadedClient();
     virtual void run();
-};
+    size_t& getMinProcess();
+    bool newProcess(Task*);
 
+    void infos_process() {
+        std::cout << "Nbr de process : " << _clients.size();
+        Client *client;
+        int i = 0;
+        int tasks = 0;
+        for (std::list<Client*>::iterator iter = _clients.begin(); iter != _clients.end(); iter++) {
+            client = *iter;
+            std::cout << "Client " << i << " : tasks=" << client->getNbrTasks() << std::endl;
+            tasks += client->getNbrTasks();
+            i++;
+        }
+        std::cout << "Total tasks : " << tasks << std::endl;
+        std::cout << std::endl;
+    };
+};
 
 #endif //PLAZZA_SCHEDULER_H

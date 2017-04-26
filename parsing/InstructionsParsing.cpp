@@ -93,7 +93,7 @@ void InstructionsParsing::run()
     std::cout << "Starting IntructionParsing" << std::endl;
     Plazza *plazza = Plazza::getInstance();
     Queue<Task*>& tasklist = plazza->getTasks();
-    while (1) {
+    while (plazza->isRunning()) {
         for (std::string line; std::getline(std::cin, line);) {
             if (!line.empty()) {
                 std::vector<std::string> vect;

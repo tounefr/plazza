@@ -57,7 +57,7 @@ PacketGiveTask* Socket::recv_packet() {
 }
 
 bool Socket::sock_send(PacketGiveTask *packet) {
-    if (send(_socket, packet, sizeof(PacketGiveTask), 0) == -1)
+    if (send(_socket, (void*)packet, sizeof(PacketGiveTask), 0) == -1)
         return false;
     return true;
 }

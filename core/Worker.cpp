@@ -16,20 +16,22 @@ Worker::~Worker() {
 }
 
 void Worker::printPatternsGrabbed() {
-    std::cout << "[thread] task finished : " << _patterns.size() << std::endl;
-    for (std::vector<std::string>::iterator iter = _patterns.begin(); iter != _patterns.end(); iter++) {
-        std::cout << *iter << std::endl;
+    if (_patterns.size() > 0) {
+        std::cout << "[thread] task finished : " << _patterns.size() << std::endl;
+        for (std::vector<std::string>::iterator iter = _patterns.begin(); iter != _patterns.end(); iter++) {
+            std::cout << *iter << std::endl;
+        }
     }
 }
 
 void Worker::run() {
     while (1) {
         setRunning(false);
-        task = _tasks.dequeue();
+        _task = _tasks.dequeue();
         setRunning(true);
-        std::cout << "[thread] Processing task " << task->getFilePath() << std::endl;
-        _fileParsing.set_path(task->getFilePath());
-        _fileParsing.set_field(task->getPattern());
+        std::cout << "[thread] Processing task " << _task->getFilePath() << std::endl;
+        _fileParsing.set_path(_task->getFilePath());
+        _fileParsing.set_field(_task->getPattern());
         _patterns = _fileParsing.get_list();
         printPatternsGrabbed();
     }
