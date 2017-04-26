@@ -4,3 +4,5 @@ cmake-build-debug/
 *.o
 html_files/
 files/
+instructions.txt
+a.out
