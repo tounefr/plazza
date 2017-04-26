@@ -4,4 +4,33 @@
 
 #include "Logger.hpp"
 
-using namespace Logger;
+std::mutex OutLock;
+
+Logger::Logger() {
+
+}
+
+Logger const& Logger::getInstance() {
+    return _instance;
+}
+
+void Logger::push(LogType type, const std::string &where, const std::string &what) {
+
+    OutLock.lock();
+
+    std::string Types[] = {"INFO", "ERROR", "DEBUG"};
+    time_t now = time(0);
+    tm *ltm = localtime(&now);
+
+    std::cout << ltm->tm_mday << "/"
+              << 1 + ltm->tm_mon << "/"
+              << 1900 + ltm->tm_year << " "
+              << 1 + ltm->tm_hour << ":"
+              << 1 + ltm->tm_min << ":"
+              << 1 + ltm->tm_sec << " "
+              << " [" << Types[type] << "] "
+              << where << ": "
+              << what << std::endl;
+
+    OutLock.unlock();
+}

@@ -9,6 +9,7 @@
 #include "common/Thread.hpp"
 #include "common/Task.hpp"
 #include "common/Queue.hpp"
+#include "common/Logger.hpp"
 #include "core/Scheduler.hpp"
 #include "parsing/InstructionsParsing.hpp"
 
