@@ -3,34 +3,51 @@
 //
 
 #include "Logger.hpp"
+#include <sstream>
 
 std::mutex OutLock;
+std::ofstream outfile;
 
-Logger::Logger() {
-
+Logger::Logger(const std::string outFile_path) {
+    outFile.open(outFile_path, std::ofstream::out | std::ofstream::trunc);
+    outFile.close();
 }
 
-Logger const& Logger::getInstance() {
-    return _instance;
+Logger::~Logger() {
+    outFile.close();
+}
+
+Logger* Logger::getInstance() {
+    if (!m_pInstance)
+        m_pInstance = new Logger("plazza.out");
+    return m_pInstance;
 }
 
 void Logger::push(LogType type, const std::string &where, const std::string &what) {
 
     OutLock.lock();
+    outFile.open("plazza.out", std::ofstream::out | std::ofstream::app);
 
     std::string Types[] = {"INFO", "ERROR", "DEBUG"};
     time_t now = time(0);
     tm *ltm = localtime(&now);
 
-    std::cout << ltm->tm_mday << "/"
-              << 1 + ltm->tm_mon << "/"
-              << 1900 + ltm->tm_year << " "
-              << 1 + ltm->tm_hour << ":"
-              << 1 + ltm->tm_min << ":"
-              << 1 + ltm->tm_sec << " "
-              << " [" << Types[type] << "] "
-              << where << ": "
-              << what << std::endl;
+    std::stringstream ss;
 
+    ss << ltm->tm_mday << "/"
+       << 1 + ltm->tm_mon << "/"
+       << 1900 + ltm->tm_year << " "
+       << 1 + ltm->tm_hour << ":"
+       << 1 + ltm->tm_min << ":"
+       << 1 + ltm->tm_sec << " "
+       << " [" << Types[type] << "] "
+       << where << ": "
+       << what << std::endl;
+
+    if (outFile.is_open())
+        outFile << ss.str();
+    std::cout << ss.str();
+
+    outFile.close();
     OutLock.unlock();
 }
