@@ -28,7 +28,7 @@ NAME = plazza
 
 LDFLAGS = -I.
 
-CFLAGS = -Wall -lpthread -g
+CFLAGS = -std=c++11 -Wall -lpthread
 
 $(NAME): $(OBJS)
 	$(CC) -o $(NAME) $(OBJS) $(CFLAGS)

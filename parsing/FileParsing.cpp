@@ -10,18 +10,18 @@ using namespace Parsing;
 
 FileParsing::FileParsing()
 {
-    this->filter.insert(std::make_pair(PHONE_NUMBER, ""));
+    this->filter.insert(std::make_pair(PHONE_NUMBER, "^0[1-6]{1}(([0-9]{2}){4})|((\\s[0-9]{2}){4})|((-[0-9]{2}){4})$"));
     this->filter.insert(std::make_pair(EMAIL_ADDRESS, "(\\w+)(\\.|_)?(\\w*)@(\\w+)(\\.(\\w+))+"));
     this->filter.insert(std::make_pair(IP_ADDRESS, "\\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\."
             "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\."
             "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\."
             "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b"));
-    std::cout << "Creation"<< std::endl;
+    this->sep_chars.insert(std::make_pair(PHONE_NUMBER, "\":,/\\%<>|-"));
+    this->sep_chars.insert(std::make_pair(EMAIL_ADDRESS, " \":,/\\%<>|"));
+    this->sep_chars.insert(std::make_pair(IP_ADDRESS, " \":,/\\%<>|"));
 }
 
-FileParsing::~FileParsing() {
-    std::cout << "Destruction" << std::endl;
-}
+FileParsing::~FileParsing() {}
 
 void FileParsing::set_field(Patterns field) {
     this->field = field;
@@ -35,21 +35,46 @@ std::string FileParsing::get_path() {
     return this->path;
 }
 
+char* FileParsing::isAPhoneNumber(char *str) {
+    std::string iostr(str);
+    std::string  nbr_string;
+
+    for (int i = 0; iostr[i]; i++)
+    {
+        if (iostr[i] >= '0' && iostr[i] <= '9')
+            nbr_string += iostr[i];
+    }
+    if (nbr_string.length() == 10) {
+        return ((char *)nbr_string.c_str());
+    }
+    else
+        return NULL;
+}
+
 void FileParsing::cutGoodLine(char *str, std::regex reg,
                           std::vector<std::string>& infosList)
 {
-    char *cut_str;
+    char        *cut_str;
+    const char  *sep;
     std::string to_string("");
 
-    cut_str = strtok(str, " \":,/\\%");
+    sep = this->sep_chars[this->field].c_str();
+    cut_str = std::strtok(str, sep);
     while (cut_str != NULL)
     {
-        if (std::regex_match(cut_str, reg)) {
-            //printf("%s\n", cut_str);
+        if (this->field == PHONE_NUMBER)
+        {
+            if ((cut_str = isAPhoneNumber(cut_str)))
+            {
+                to_string = cut_str;
+                infosList.push_back(to_string);
+            }
+        }
+        else if (std::regex_match(cut_str, reg)) {
             to_string = cut_str;
             infosList.push_back(to_string);
         }
-        cut_str = strtok (NULL, " \":,/\\%");
+        cut_str = std::strtok(NULL, sep);
     }
 }
 

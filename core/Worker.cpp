@@ -23,8 +23,6 @@ void Worker::printPatternsGrabbed() {
 }
 
 void Worker::run() {
-    Task *task;
-
     while (1) {
         setRunning(false);
         task = _tasks.dequeue();

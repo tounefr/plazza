@@ -12,24 +12,25 @@
 namespace Parsing {
     class FileParsing {
     public:
+        std::vector<std::string>    get_list();
+
+        void                        set_path(std::string path);
+        void                        set_field(Patterns field);
         FileParsing();
         ~FileParsing();
-        std::vector<std::string> get_list();
 
-        void set_path(std::string path);
-
-        void set_field(Patterns field);
-
-        std::string get_path();
+        std::string                 get_path();
 
     private:
         FileParsing &operator=(const FileParsing &) {}
 
-        void cutGoodLine(char *str, std::regex reg,
-                         std::vector<std::string> &infosList);
+        void                        cutGoodLine(char *str, std::regex reg,
+                                                std::vector<std::string> &infosList);
+        static char                 *isAPhoneNumber(char *str);
 
         std::string path;
-        std::map<Patterns, std::string> filter;
+        std::map<Patterns, std::string>             filter;
+        std::map<Patterns , std::string>         sep_chars;
         Patterns field;
     };
 }
