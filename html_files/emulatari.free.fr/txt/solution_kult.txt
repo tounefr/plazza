@@ -1,0 +1,301 @@
+
+		- KULT -
+
+	  La solution pas à pas
+
+	par 666 (666.bad@free.fr)
+
+
+
+	PREAMBULE
+
+Il est possible de voler un zapstick à un proto-truc
+en utilisant "Telekineze".
+Je vous le déconseille pour plusieurs raisons :
+_ à chaque fois que vous croiserez un proto-machin
+  il cherchera systématiquement à vous tuer et souvent
+  il y arrivera !
+_ le zapstick désintègre les cadavres, impossible donc
+  de fouiller les corps et de récupérer des objets
+  éventuels !
+
+
+	I  - LES CINQ SALLES
+
+
+		1. Le mur
+
+Il vous faut le poignard.
+-> Zone 1
+-> Zone 2
+-> Porte de gauche
+Montez sur la marche, insérez le poignard dans la
+fente du casque.
+Prenez le passage immédiatement à gauche.
+Plonger votre main dans la cavité.
+
+
+	2. Le pendu
+
+Si vous n'avez pas la lanterne, utilisez "Hypervision".
+Accrochez vous à la corde de GAUCHE pour grimper sur
+la plate-forme.
+Vous pouvez récupérer cette même corde pour l'utiliser
+dans l'épreuve "De profondis".
+Poussez le levier et récupérez le crâne dans le creux
+de la plate-forme.
+
+
+	3. La source / Les jumeaux
+
+Il vous faut le gobelet.
+
+-> "La source"
+Inspectez la statuette, appuyez sur l'oeil et
+remplissez le gobelet.
+
+-> "Les jumeaux"
+Ouvrez le serpent de gauche, versez le gobelet dedans
+et récupérez le dé qui flotte sur l'eau.
+Ouvrez le serpent de droite et mettez le dé à
+l'intérieur.
+
+-> "Qui sera sauvé ?"
+Tirez la main la plus à gauche et la main la plus
+à droite. Appuyez sur la tête de serpent.
+Inspectez la gravure qui apparaît, elle indique un
+symbole.
+
+-> "La source"
+Inspectez chaque dalle jusqu'à trouver celle
+correspondant au symbole dévoilé. Soulevez la.
+
+
+	4. De pronfondis
+
+Il vous faut une corde.
+Attendez, attrappez au lasso le crochet qui descend
+du plafond.
+Attendez, laissez vous tomber sur la statue et
+récupérez la corde.
+Attendez, sortez par la porte du fond.
+
+
+	5. En présence du scorprion
+
+Il vous faut la mouche en pierre.
+Prier la statue à droite, la porte s'active.
+
+-> "La toile".
+Rampez sur la toile jusqu'à l'hideuse bonne femme
+et offrez lui la mouche en pierre.
+Refusez de l'embrasser et donnez la mouche en pierre
+à l'araignée bleue afin de récupérer la RRRRRRouge.
+
+-> "En présence du scorprion" 
+Retournez dans l'autre pièce et mettez l'araignée
+RRRRRRouge dans la bouche de la statue.
+Passez par la trappe qui vient de s'ouvrir.
+
+
+	6. L'oeuf
+
+Déposez vos 5 crânes chez un proto-truc à un échangeur.
+Le maître arrive et vous file l'oeuf.
+Vous n'avez plus qu'à quitter l'Anno mais ...
+... quoi que vous fassiez, votre mort est certaine.
+:(
+
+
+
+
+II - Et après ?
+
+Vous l'avez compris, ce n'est pas en réussissant les
+5 épreuves que vous allez pouvoir finir ce jeu !
+
+Recommencez la partie.
+
+-> "Le pendu"
+Utilisez "Hypervision" (à moins que vous n'ayez
+la lanterne).
+Accrochez vous à la corde de GAUCHE pour grimper sur
+la plate-forme. Poussez le levier.
+Vous pouvez toujours récupérez le crâne si le coeur
+vous en dit, ça vous servira peut-être ...
+Appuyez sur l'oeil, une trappe s'ouvre, engagez-vous
+dedans.
+
+-> "Galerie rose"
+Tout droit puis à l'intersection prenez à gauche.
+Continuez tout droit (x2).
+
+-> "Caverne"
+Vous rencontrez deux tuners, comme vous !
+Obéissez à Normajeen et racontez lui la vérité.
+Utilisez "Scanner" pour repérer la plaque de pierre
+sur laquelle est assis Ash.
+Soulevez la et récupérez la "fev" et la fiole.
+L'inscription dans la tombe indique :
+ "A boire pour chasser les brumes de l'esprit,
+  à manger pour reprendre vie.
+  Ainsi Protizim Prass revivra pour mourir".
+Intéressant, non ?
+Ne vous occuppez pas de la momie, prenez le passage
+à gauche et suivez le jusqu'à atteindre un trappe.
+Passez par la trappe ...
+
+-> "Le réfectoire"
+Consultez votre montre : il s'est écoulé une heure
+avant que la trappe ne s'ouvre !
+Les épreuves pour obtenir l'oeuf sont finies !
+Prenez le couperet qui est dans la salle, ça peut
+toujours servir.
+Prenez la porte à droite et suivez le passage.
+
+-> "Salle des ablutions"
+Embrassez donc la Proto-truc avant de la tuer :)
+Inspectez chacune des cellules,en particulier les
+inscriptions.
+Vous arrivez à reconstituer le message suivant :
+  "Au père d'Offa d'ouvrir,
+   sous l'oeil du couple,
+   la voie du ciel"
+Bon "Offa" c'est vous, les Proto-machins vous ont
+assez insulté avec ça non ?
+Mais le couple et la voie du ciel alors ?
+Patience ... :)
+Quittez la pièce.
+
+-> "Le repos de Saura"
+L'inscription indique "De géniteurs".
+Bon, il semble que le couple dont nous parlions fasse
+référence à la niche de gauche.
+Seulement voilà : il manque un statuette !
+
+-> "En présence de Dieu"
+Scannez la pièce ... "la voie du ciel" peut-être ? :)
+
+-> "L'apaisement des puissances"
+Démolissez la Proto-machin-chose.
+Utilisez ensuite le "Brouilleur d'esprit" sur Saura
+et faites lui boire la fiole.
+Mais c'est Sai-Fai, votre partenaire !
+Récupérez le masque et le couteau de sacrifice.
+TRES IMPORTANT :
+inspectez l'autel puis actionnez le levier qui est
+derrière pour ouvrir les battants.
+
+-> "En présence de Dieu"
+-> "Au seuil de la vérité".
+Embrassez donc la Proto-bidule avant de la dégommer :)
+
+-> "Le réfectoire"
+Transformez vous en mouche pour atteindre la trappe.
+
+-> Galerie
+Tout droit jusqu'à la caverne puis prenez le passage
+de droite.
+Prenez la deuxième à droite puis tout droit dans la
+galerie rose jusqu'à la trappe. Ouvrez-la
+
+-> "Le pendu".
+Un coup d'hypervision.
+Sortez côté "L'orbite du maître".
+
+-> "L'orbite du maître"
+Faîtes une orbite :) jusqu'à vous trouver devant la
+porte qui est au au centre du cercle.
+
+-> "L'oeil du maître".
+Dégommez le maître et fouillez son cadavre.
+Prenez le sifflet et soufflez dedans.
+Regardez dans la cavité qui vient de s'ouvrir :
+vous trouvez l'oeuf !
+Prenez le.
+
+-> "L'orbite du maître"
+Notez que les 5 portes sont bloquées, les épreuves
+sont en effet finies depuis un moment.
+Tâchons donc de trouver un autre accès pour
+rejoindre Sai-Fai.
+
+-> "L'Anno"
+Faites le tour jusqu'au passage qui s'éloigne de
+l'Anno et empruntez le.
+Première à droite puis encore à droite, vous vous
+retrouvez devant une grille.
+Tirez le verrou et passez ... 
+
+-> "Les puissances de l'abime"
+... plouf ! :(
+Pas de temps à perdre : transformez vous en mouche
+pour atteindre le tunnel en haut à droite !
+Viiiiiite !
+
+-> "Tunnel"
+Poursuivez simplement vers le haut ... les battants
+sont grands ouverts cette fois !
+
+-> "Apaisement des puissances"
+-> "En présence de Dieu"
+
+-> "Au seuil de la vérité"
+Mettez l'oeuf dans la bouche ouverte sur le mur.
+Les barreaux se lèvent !
+Inspectez le lutrin, vous pénétrez dans le fond
+de la salle.
+En haut à gauche il y a une petite statuette
+(la statuette de Saura).
+Utilisez "Télékineze" pour la récupérer.
+Profitez en pour lire les écrits, vous comprendrez
+plein de choses ;)
+Empruntez le passage qui est au fond de la salle
+pour quitter le lutrin.
+
+-> "En présence de Dieu"
+
+-> "Le repos de Saura"
+Mettez la statuette de Saura dans la niche.
+Une trappe s'ouvre, inspectez la.
+Impossible de passer ?
+Vous peut-être mais pas le charmant compagnon
+de Sai-Fai !
+Balancez le singe dans le tunnel.
+
+-> "En présence de Dieu"
+Poussez le mur étoilé, cette fois il s'ouvre.
+Prenez le passage
+
+-> "Naissance d'une race divine"
+Le dieu Zorq en personne et son pote Harssk
+rappliquent illico.
+Dégommez Zorq avec un coup de "Killer" (une attaque
+normale ne suffira pas).
+Harssk prend ensuite Sai-Fai en otage, utilisez
+le "brouilleur d'esprit". Qriich prend alors
+possession de l'esprit du protozorq.
+Utilisez "Telekineze" sur la trappe pour la refermer.
+Laisser Qriich-Harss monter l'échelle.
+Lorsqu'il détourne la tête pour ouvrir la trappe,
+lancer le couteau de sacrifice sur lui.
+
+
+	FIN !
+
+
+	Post-Scriptum
+
+Rien ne vous empêche de faire les 5 épreuves et de
+collectionner les crânes. Vous devez alors juste
+garder l'épreuve du pendu pour la fin car les portes
+se bloquent une fois que vous avez réussi une épreuve.
+
+La "fev" sert à réanimer Sai-Fai si, lorsqu'elle vous
+attaque, vous décidez de la supprimer.
+Elle peut aussi servir à réanimer le Maître des
+épreuves mais ça ne sert pas à grand chose.
+
+La deuxième ration de liquide dans la fiole, si vous
+la buvez, remet au maximum votre énergie psy.
+

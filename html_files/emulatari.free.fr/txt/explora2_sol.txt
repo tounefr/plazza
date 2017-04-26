@@ -1,0 +1,46 @@
+EXPLORA 2
+
+Après avoir retrouvé votre père, vous devez retourner dans le 20ème siècle à l'aide de votre machine à explorer le 
+temps. Mais, il vous manque l'énergie nécessaire à vos voyages à travers le temps.
+Epoque 1 : Avancer. Prendre l'ancre. Prendre les pièces dans les rochers. Avancer. Prendre le coffret. Prendre la 
+jarre. Reculer. Reculer. Utiliser les pièces dans le générateur.
+Epoque 4 : Avancer. Prendre l'anneau de droite. Prendre le fer de lance au bout de la queue du lion. Reculer. 
+Utiliser l'anneau dans le générateur
+Epoque 3 : Avancer. Avancer. Prendre la clef sur la porte. Utiliser la clef sur le forgeron. Utiliser la clef 
+modifiée sur la porte. Avancer. Dire: "Salut à toi gardien des vents". Dire : "Je voudrais rejoindre ma patrie au 
+plus vite". Eole vous donne une outre. Reculer. Prendre la clef. Prendre l'enclume. Reculer. Reculer. Utiliser 
+l'enclume dans le générateur.
+Epoque 10 : Prendre l'épée. Prendre le fourreau. Utiliser le fourreau dans le générateur.
+Epoque 11 : Utiliser l'épée sur le serpent. Utiliser l'épée sur la branche coupée. Utiliser le fer de lance sur le pieu 
+pour faire une lance. Prendre les fragments d'épée. Utiliser les fragments dans le générateur
+Epoque 13 : Prendre le fer à cheval. Avancer. Utiliser le gant sur les mousquetaires. Ecouter. Dire : "Une lettre 
+me recommandant à vous m'a été volée". Dire : "Disposez de ma vie, elle appartient au Roi de France". Dire : "Il 
+ne m'appartient pas de la juger". Utiliser le fer à cheval sur le cheval. A l'auberge, utiliser l'épée sur le garde. 
+Regarder le tonneau de vin. Utiliser la jarre sous le robinet. Avancer. Dire : "Je suis mandaté par une reine". Dire 
+: "Des ferrets de diamants contre un coffret antique cela vous tente-t-il". Donner le coffret. Dire : "Milord je vous 
+conjure de me croire. On vous donne 10 ferrets et une dague. Avancer. Utiliser la clef sur la porte. Avancer. 
+Prendre le vase. Utiliser le vase sur le feu. Jeter les fleurs. Utiliser la dague sur le trou dans la cheminée. 
+Avancer. Dire: "Bonjour Milady, je viens sur ordre de Buckingham". Dire : "Le duc m'envoie récupérer les 2 
+ferrets manquants". Dire : "Je saurais bien vous faire parler". Dire : "Je deviens fou de vous, votre visage, votre 
+corsage, votre corps". Prendre les 2 ferrets. Avancer. Ecouter. Donner les 12 ferrets à la Reine. Dire : "Madame, 
+ce fut un honneur sans pareil". Dire : "Ce que votre majesté jugera bon de me donner". La Reine vous donne une 
+bague antidote. Avancer. Avancer. Utiliser la dague dans le générateur.
+Epoque 2 : Avancer. Prendre le gobelet d'étain. Prendre le collier. Prendre le coquillage. Avancer. Avancer. 
+Utiliser l'ancre entre le gros rocher et le petit rocher. Avancer. Dire : "O  puissant Polypheme, accepte d'héberger 
+un humble voyageur". Dire : "J'ai du vin ! Un nectar qui provient des mondes futurs". Dire : "Ouvre la bouche 
+que je vide ma jarre". Donner la jarre de vin. Utiliser la lance sur l'oeil du cyclope. Utiliser la jarre sur le sang qui 
+coule. Reculer. Reculer. Reculer. Reculer. Utiliser le gobelet sur le générateur.
+Epoque 5 : Avancer. Avancer. Prendre la liane. Avancer. Ecouter. Utiliser la bague. Dire : "Restaurons-nous de 
+concert". Dire : "C'est sûrement un piège mais qu'importe, je ne peux résister à tes charmes". Circée vous donne 
+des clous. Reculer. Reculer. Reculer. Utiliser les clous dans le générateur.
+Epoque 6 : Avancer. Avancer. Prendre le bouclier. Avancer. Dire : "O devin Tyresias, bois ce sang et dévoile ce 
+qui m'attend". Donner la jarre de sang. Dire : "Fais ton métier et prédis mon avenir". Dire : "Charybde". Tyrésias 
+vous donne le spectre d'or. Reculer. Reculer. Reculer. Utiliser le bouclier dans le générateur.
+Epoque 9 : Prendre les cierges. Utiliser le collier dans le générateur.
+Epoque 7 : Avancer. Utiliser les cierges sur l'équipage. Utiliser la liane sur le mat. Avancer. Avancer. Avancer. 
+Avancer. Regarder le casier. Prendre les boucles d'oreilles. Reculer. Utiliser les boucles dans le générateur.
+Epoque 8 : Avancer. Avancer. Utiliser l'épée sur la tête du boeuf. Prendre la corne. Reculer. Utliser l'épée sur le 
+rocher. Prendre les 2 morceaux Reculer. Utiliser la pointe de l'épée dans le générateur.
+Epoque 12 : Utiliser le sceptre sur le roi. Avancer. Avancer. Utiliser la corne sur la bouche de Roland. Il vous 
+donne Durandal. Reculer. Reculer. Utiliser Durandal dans le générateur.
+Fin.

@@ -1,0 +1,221 @@
+  
+
+====================
+ B.A.T. Walkthrough
+====================
+
+ TIPS
+ ====
+ * You can buy a membership card for around 175 krells
+ * 50 krells seems enough to loosen most tongues
+ * When you leave your hotel room, hide your hotel key outside
+ your room so you can't loose him and leave a place in your inventory.
+ * If you hear a bleep, it probably means you've been stolen.
+ Find out what you've lost, then look around the screen with the
+ mouse for people to interpellate. If they try to sell something,
+ steal it back and escape when they attack you or buy it.
+ * A technician permit costs about 3000 krells
+ * Carry food and drink, so you don't get hungry or thirsty at a
+ crucial moment. Sushi is good
+ * Three or four items are probably all you can eat in one go
+ before you throw up. This also happens if you go above 3000 calories.
+ * You can only handle one alcoholic drink at a time.
+ * Sell something to a cop, then steal it back again. If he tells
+ you to give it back let him have it, then steal it back. Repeat
+ this operation until you eventually get it back. Don't try this
+ with the same cop twice.
+ * When you play the bizzy game and managed to get to shape 21,
+ you will gain 12.000 credits !!!
+
+ SOME PROGRAM EXAMPLES FOR YOUR B.O.B.
+ =======================================
+ You can use the following programs apart or together in one great
+ program. If you link two or more programs together, use only one
+ RESTART command and only one END command. Put these at the end of
+ the new program.
+
+ The translate program
+ IF ROBOT
+ TRANSLATE ROBOT
+ END IF
+ IF ALIEN
+ TRANSLATE ALIEN
+ END IF
+ RESTART
+ END
+
+ Alarm program to detect Stickrob's near you
+ IF PURSUED
+ WARN
+ END IF
+ RESTART
+ END
+
+ Health program
+ IF HUNGRY
+ DISPLAY "starving"
+ END IF
+ IF THIRSTY
+ DISPLAY "thirsty"
+ END IF
+ IF TIRED
+ DISPLAY "tired"
+ END IF
+ RESTART
+ END
+
+ Pulse program manipulating your heart
+ IF ROBOT
+ RHYTHM ACCELERATION
+ END IF
+ IF ALIEN
+ RHYTHM HIBERNATION
+ END IF
+ RESTART
+ END
+
+ Detecting Merigo program
+ IF MERIGO
+ WARN
+ RHYTHM ACCELERATION
+ DISPLAY " MERIGO DANGER"
+ END IF
+ RESTART
+ END
+
+ Detecting Vrangor program
+ IF VRANGOR
+ WARN
+ RHYTHM ACCELERATION
+ DISPLAY " VRANGOR DANGER"
+ END IF
+ RESTART
+ END
+
+ Illness program
+ IF ILLNESS
+ WARN
+ DISPLAY "Illness"
+ END IF
+ RESTART
+ END
+
+ Injured program
+ IF INJURED
+ WARN
+ DISPLAY "Injured"
+ END IF
+ RESTART
+ END
+
+ USE OF THE DRAG
+ ================
+ You can fly over the entire planet surveying Terrapolis in a 3D
+ screen.
+ You pilot the direction with moving the mouse left-right, the
+ speed by pressing left or right (speed up or down). The radar
+ helps you to find the Vrangor Station. The red dot is Vrangor
+ and the green dot is Selenia.
+
+ USE THE MOBYTRACK
+ ===================
+ You will come across it when you visit the underground city.
+ Simply use the left button on one of the four directions you
+ want to travel.
+
+ EDITING YOUR SAVED FILE
+ ========================
+ Look for the file F1.SAV and change your amount of Krells and
+ Credits, your level and life potential. It's better not to change
+ the other values (Experience, force,....) otherwise the game will
+ lock up.
+
+ OFFSET MAXIMUM VALUE
+ 34 2710 10.000 Krells
+ 38 03E8 1000 Credits
+ 47 60 Level code = 99
+ 55 60 Life potential = 99
+
+ WALKTHRU THE BAT GAME
+ ==========================
+ Start looking in the restrooms on the right. There you get your
+ mission. Explore the city and make a map of the important places.
+
+ Buy your munition at the gun shop. The best is to get a HAAS
+ 10 and a MOZ weapon. Buy some T02, E10 and E300 munition
+
+ Buy some force fields (number 7 or 8) in the force field shop.
+ Later in the game when you are ready to travel to Vrangor's Station,
+ you may buy force field 8 as much as you can to survive to battle
+ against the Station.
+
+ Buy some food at the Chin shopkeeper, get some drinks at any bar
+ you find, or use the fontain in the park when you are thirsty.
+ Visit the doctor and buy some pilles.
+
+ Steal from every alien you encounter until he say something. In
+ this way you get some access cards to Xifo (Alien in the museum)
+ and the technicians at the airlock. Otherwise you must buy them.
+
+ Go to the night bar at the approach road (opens at 19h.) and find
+ the girl in a black zip suit. Ask here about Merigo. She refer to
+ a Alien (a kradokid type). Search for that kind of alien around
+ the town, and ask about Merigo when you find them. He tells you
+ to go to the museum at a certain time... note it down.
+
+ Go to the museum in the park (dont be late) with Krells to give
+ him and listen to the exact time you must be at the Xifo club to
+ find Merigo. Use the fountain in the park if you are thirsty.
+
+ The xifo club is in the hot area at the N.E. side of the town.
+ Use the access card to get in here. Wait for Merigo at the time
+ you've been told by the alien in the museum. Kill him and you get
+ an electronic key. That key opens the door to the maze which you
+ find in the derelict building.
+
+ In the Hot Area (at the start of the A-312 road) you find the Arcade.
+ Play Bizzy game between 13h. and 15h. against Sloan to get credits .
+ After winning from Sloan you gain his friendship and he will stay
+ with you. You need him to get past the guard at the airlock. To win
+ the game, you must copy the pattern of shapes onto a piece of paper
+ and then as each one appears write next to them the number that the
+ shape is.
+
+ At the opposite of the arcade is the club where you find Lydia.
+ Before you enter, first put your heart rate on accelerate. Pay
+ the 50 krells to enter the club between 2h. and 4h. pm.. Dance with
+ Lydia and get the love meter to the top. Now she will stay with you
+
+ If you don't have enough credits to rent a Drag, Lydia will tell you
+ the phone number (52031) of her friend Kortakis. Make an appointment
+ with him with a phone you find at the space port. Go with Lydia to
+ Kortakis. You find him in the hot area past the cinema and the N.E.
+ part of the town. Get the credits to rent a Drag. She gets a jewel
+ from Kortakis.
+
+ You can explore the maze with Lydia but it's not necessary to finish
+ the game. Go to the derelict area and use the electronic key to
+ enter to underground of the city. Find the control room with the use
+ of lydia's jewel who will lead you to a DOP card. This card helps
+ you to find Vrangor's Station when you use the Drag.
+
+ Use the "technicians only" access card that you stole or buy, to
+ get past the technicians at the Northern Airlock. Here you find
+ information about the Station and the access code (LRRRRRRL) for
+ Epsilon. You must have Sloan with you to get past the airlock. Here
+ you can rent a Drag for 5500 credits.
+
+ Make sure you have enough munition and shields with you. Use the
+ Drag and head for the orange dot which is Vrangor's Station. Fire
+ at until it stops moving and firing to you. Fly into the dark area
+ of the station
+
+ Put your heart beat on accelerate. Use the Epsilon code at the keypad
+ on the right wall in Vrangor's station. Enter and keep firing at
+ Vrangor until he dies. The objective of the game is completed, but
+ you can still wander around the town and do everything you want to
+ do.........
+
+---THE END---
+
+

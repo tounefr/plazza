@@ -1,0 +1,66 @@
+** Manuel Zombi traduit par Mr Nours
+ 
+ZOMBI
+
+
+Le but du jeu: trouver de l'essence.
+
+Soyez Prudents! Une autre equi joue en simultané, ils n'ont pas de problèmes d'essenc, mais ils sont affamés. On les appelle les HELLS ANGELS
+
+ICONES :
+
+Icones avec une main qui attrape un objet:
+
+   o UTILISER :  Vous pouvez suleument utiliser un objet a la fois
+
+Icone avec une cassette jetée a la poubelle :
+
+   o QUITTER LE JEU
+
+Icone avec une fleche qui pointe vers une cassette:
+
+   o SAUVER LA PARTIE
+
+Icone avec une fleche qui sors d'une cassette:
+
+   o CHARGER UNE PARTIE: Charge une partie préalablemment sauvée.
+
+
+VOUS VOULEZ VOUS BATTRE :
+
+Vous avez deux options :
+1 - A main nue: le combat commence automatiquement huit secondes 
+ (en temps reel ) apres que vous soyez arrivés sur les lieux.
+
+2 - Avec une arme : Attrapez l'arme avec l'icone UTILISER.
+
+--- Le bouton droit de la souris peut annuler n'importe quelle action.
+
+--- Le bouton gauche valide les actions.
+
+--- Pour bouger, utiliser le curseur et placez le sur une des fleches, puis validez.
+
+--- Pour utiliser une icone, selectionner un personnage, ramasser ou poser un objet :
+    Placer le curseur et validez.
+
+--- Vous pouvez changer directement certains elements des environs en cliquant directement dessus.
+
+Quelques conseils :
+
+1 - Certains outils peuvent êtres utilisés comme des épées.
+
+2 - Sylvie ne peut utiliser ni les armes a feu, ni les epées.
+
+3 - Chaque action ammene des consequences sur le jeu, meme si vous ne
+   les voyez pas directement.
+
+4 - Si vous n'arrivez pas a utiliser l'ordinateur, vous pouvez le quitter en tapant " BYE! "
+
+5 - Le jeu gere certaine situations tout seul.
+
+Ex.  Si votre caractere reste avec des cadavres, il va perdre des points de santés.
+
+Ceci conclut le manuel de Zombi par P A R A N O I M I A !
+
+
+Shoot the Head, baby.

@@ -1,0 +1,318 @@
+Welcome to Shadowgate, and particularly  this  walkthru.  This  walkthru  is
+designed to ease you through whatever stumps you in Shadowgate. Keep in mind
+that this walkthru contains not just hints, but explicit directions as well.
+Don't come back unless you're absolutely stuck.  Having said that, before
+we begin let me touch on three major issues in Shadowgate. First of all, you
+die often.  Really  often. (Even more than in Uninvited, for those who have
+played it.) Save a lot (but use the Save  As  command,  otherwise  you  will
+overwrite your  last  save.) The next issue is light. This game takes place
+well before Edison, so to see where  you're  going  you'll  need  a  flaming
+torch. However,  each  torch  has  a limited life. Torches are stuck in the
+walls of most of the rooms, and you can  pick  them  up  and  bring  them  with
+you, but you can't carry ALL of them, so knowing where another torch can be
+found is crucial. Also note that a torch will flicker  momentarily  6  turns
+before going  out  (except  the  torch you start out with, which only lasts
+about ten turns), so when you get the flicker, light another torch. The last
+issue  is secret doors. Not all entrances in this game are apparent, or even
+shown in the Exits window. Sometimes a passage is  hidden  in  a  scene,  or
+moving  a loose brick will uncover a hidden passage. Keep your eyes out for
+them.
+
+  Okay, let's go! Here we are, at the entrance to Castle Shadowgate.
+But  before  you open the door, take a look at that skull. Well, there's no
+welcome mat to hide a key under, so maybe  the  skull  holds  it.  Open  the
+skull.  Voila! Pick up the key. Now open the door (you won't need the key to
+do it). And wouldn't you know it, it  creaks  (shades  of  Uninvited  here).
+Let's  go  inside.  Now, the first thing to do here is light one of those
+torches before yours goes out (that's OPERATE the lit  torch  on  the  unlit
+one).  You  can  now drop your torch and pick up the one in the wall. If you
+like, go ahead and set fire to the rug (people who  went  through  Uninvited
+hitting  every window with the battle axe will have fun here). The key won't
+open the side door, but it will unlock the double doors, so unlock those and
+go  through.    Here  we  are  at another hallway. Grab the funny-looking
+torch, and save here. We're going to do a couple of interesting things  now.
+First, light the funny looking torch and examine it. Greenish tint, eh? That
+might come in handy soon, but we don't need it now, so don't save here.  Now
+pick  up  one  of  the candles, or the book. Whoops! Enjoy the funeral dirge
+(soon it will start to drive you insane). Now open your  saved  game  (funny
+how  the  default  is to start from the beginning, and not from a save file)
+and don't pick up anything from the shelf. But just because  we  can't  take
+the book doesn't mean we can't read it... Open up the book. Aha! A key! Grab
+that, and go back to the first hallway.  Now we have the  key  to  unlock
+the  other  door.  Do that, and go through (you can drop both keys now). You
+now should be in a closet,  and  two  nice armaments  are  sitting  on  the
+shelves-a  sword and a slingshot. Grab both (note that you can click on one,
+and then hold down Shift and click on the other, and you will  select  both;
+but  release  Shift before dragging them) and go back to the second hallway.
+ Look at the far wall. Something fishy about that stone there... open it.
+A  secret  passage!  Head  through  it. Now we are in a chamber with a large
+exit. You can't get through that (go ahead and try it), but there is another
+exit  from  this  room.  First  pick  up  the arrow, and note which way it's
+pointing. Hmm... that torch on the left wall won't come out.  Perhaps  it's
+attached to something? Maybe if we pull it... Operate the torch (on itself).
+Ta-dah! Another hidden entrance! Go down there now.  Two bridges,  but
+which  to  take? For now, don't try to cross the rickety skull bridge. Stick
+with the sturdy one.  Uh-oh. Good time for a save. That wraith won't kill
+you  immediately  (unlike  everything  else  in this game), but will instead
+curse you. This is to be avoided. There is a way to destroy the wraith. Like
+many  mystical  creatures,  the  key to victory lies in the occult. In other
+words, try some smoke. If you operate your torch on him, he shudders. Maybe
+some  particular  kind  of smoke? Green smoke? Fire up the oddball torch and
+fry him with it. Now you can pick up the cloak and go  thru  the  door (the
+exit  in  the  upper-right  of  the  exit  window  is  totally useless). 
+Cages? (More shades of Uninvited here) Don't bother trying to open them;  it
+can't  be  done.  Instead,  read the scroll on the shelf (you don't need the
+scroll itself, just the information). This little rhyme basically states the
+object  of  the  game:  to find the bladed sun, the silver orb, the staff of
+ages, the golden thorn, and the platinum horn. We will be coming  back  here
+later,  but  now let's leave through the top exit. Wait! You can't reach it?
+Try climbing. The rope, in particular. But how to get it up there? Read  the
+sign.  "EPOR"?  What does that spell backwards? "ROPE"! Perhaps it's a magic
+word... Say "EPOR" to the  rope.  Now  we  can  climb  it.    Mirrors,
+mirrors, on  the wall, who's the bravest of them all? Anyway, right now you
+can leave this room alone. Just open the back door and go through.   Here
+we  have  a bunch  of  coffins.  Actually,  most of them are safe to open. The
+only one to avoid is the middle one on the left side. But the others, we can
+open.  Try the left front. Close call, there! Now the back right. Nothing...
+the back middle, now. Those coins are useless; leave them  alone.  Now,  the
+right  front.  Ah, now things are getting interesting! That mummy is holding
+something useful. But how to get it? Maybe we can remove the  mummy's  rags.
+Don't  bother  trying to unravel them; burn them off with your trusty torch.
+Now grab that scepter (it's not the Staff of Ages,  by  the  way)  and  head
+through the back door. Go through the right door.  Theres a shark in
+the lake! Don't worry about that yet. Go through the door on the far wall.
+Those stones would be good ammo for the slingshot. Grab one and load it
+(either operate it on the slingshot, or open the slingshot and put it in).
+For a chuckle, try putting in something else while the stone is in the
+sling. Now comes one of the nastiest parts of Shadowgate: a secret door. See
+the black space under the waterfall (right of the rockslide, which is for
+all practical purposes impassable)? Go through it. A secret room, and a
+rock. Take a look at the rock. 
+
+
+
+Try whacking it. Grab the bag revealed and
+open it. Gems! (Uninvited players have a slight advantage here-the gems look
+like the Blothney gem, and are used the same way.) Go back to the fork now;
+we can't do much here yet.  At the fork, take the left door. Ignore
+the rat; we have better things to do than chase rodents. See the gem-shaped
+hole in the door? A gem would fit in that nicely, wouldn't it? Put the
+lightest-shaded gem in the hole (you can drag the gem over the hole, or
+operate it on the hole). That sphere is not the silver orb, but is useful
+anyway. Examine it. Brrrr! Pick it up and return to the lake (don't try the
+trapdoor).  Now we have to try to grab that object (a skeleton key, in
+fact) from the skeleton. Swimming is suicidal (try it, if you desire and
+have a save handy). Time to think here... the shark can swim in the water,
+but if the water weren't water... Maybe if it were ice, he would be stuck.
+But how can we freeze the water? The sphere! Operate it on the lake. Now how
+do we get it back? Melt the ice a bit. Your torch will do nicely. Now take
+the sphere and the key, and return to the pedestal room. Open the door and
+go through.  Oh boy. Time to save your place, because one false step and
+you're fried adventurer. If you were to take something, the dragon at the
+far end of the room would roast you. You need some way of blocking his fire.
+What's here that can do that? The shield. Snatch it up (if it's too big, go
+back out, drop some stuff, and come back; don't drop anything in here). Now
+grab the hammer, the spear, and the helmet. We can't get any more here, so
+leave (you can drop the shield now it's totally useless for any other
+purpose). You can get more room in your inventory by wearing the helmet and
+the cloak. Now it's time to head for the mirror room, where your adventure
+really begins.  One of these mirrors holds a surprise. But which one? The
+middle one. Smash it with the hammer (nothing else will do it). Don't worry
+about seven years of bad luck; you won't last that long if you don't do it.
+The hammer will do you no good anymore, so drop it. Open the door and go
+through. Whoa! It's locked, so use the skeleton key to get it open. 
+If you can't take the heat, get out of the kitchen--or find something
+protective. If you aren't already, wear the cloak. That will enable you to
+tolerate the flames. Now open the door. Uh-oh... it's a firedrake! This
+creature feeds on fire. But if there's no fire... put out the fire with the
+chilling ball. Whew!
+ Now you can take off the cloak, and drop it too. Oh,
+well, so much for that, but no time to waste, go through the door. 
+Cross the bridge. Wouldn't you know it, there's a troll guarding this
+bridge. Don't worry about the toll (for a laugh, get the coins from the
+coffin and pay the toll); instead, dispatch him with your trusty spear. That
+will take care of him... for now. In any case, head on down the bridge. 
+Another nastie! This time it's a cyclops. Thirteen feet tall... kinda
+reminds you of Goliath, doesn't he? So treat him the same way. Nail him with
+the slingshot. Bull's-eye! He's out cold, but he's not dead. If you really
+want to kill him, stab him with the sword. Neither the sword nor the sling
+will be useful anymore, so drop them.There's a well here, too. Anything
+inside? Operate the well on itself and find out? A bucket, but what's
+inside? Open it up and find out. A metal glove (technically a gauntlet).
+Hang on to that, but now open the door and enter another area of the castle.
+ This hallway, judging by the rug stretching across the hall, is the
+entrance to the main area of the castle. Leave the broom here-you may or may
+not need it, but if you do you can always come back for it. Go ahead and
+burn the rug if you please, but don't waste too much time; let's head down
+the front left passage.  This library is pretty well stocked. The most
+important book, though, is the one on the desk, so grab that. Also look
+inside the desk. Take everything in there you'll need all of it. Now it's
+time for a little light reading. The only book of interest to us is the
+thick book on the bottom left shelf, third from the left. (However, go ahead
+and read them all; there's some interesting and funny stuff in there.) Open
+that book up and copy down the stuff about scrolls and books (a text editor
+DA would be great for this, as well as for reading this walkthru).
+Incidentally, while you're at it, read the scrolls and the big book. Terra
+Terrakk and Instantum Illuminaris (yet another item borrowed from Uninvited)
+are easy enough to decipher, but what about that book? You can't read it
+right now, but don't trash that item yet. In any case, there's a gem-shaped
+hole in the wall. Just slide in the medium-shade gem and go inside. 
+Here's another rug to burn, but that's not the important thing here. Look at
+that globe. Try to open it. If we can't open it with our mortal powers,
+maybe some more power would help... Remember "the key to the world"? Use the
+Terra Terrakk scroll on the globe (brace yourself for some nasty puns, too).
+Pick up the key (the bottle is a cure for the wraith's curse, which is there
+so that people wouldn't have to know the obscure bit about the green smoke)
+and close the globe. The rest of the stuff you can leave here, so go back to
+the main hallway and take the far left passage.  Welcome to the
+laboratory. If you want to die, open the cage or drink some of the jars on
+the shelf. If not, examine the stone on the floor. Doesn't that look like a
+handle? Indeed, you can pull it. Operate the stone on itself (although Open
+should work, it doesn't) and take the holy water. Now head downstairs into
+the garden.
+
+Examine the fountain. There's a flute in there. But the fountain is gushing
+acid, so we can't get it or drink it (go ahead and try it, if you dare).
+Maybe if our hand was protected from the acid, we could grab the flute. Put
+the glove on and take the flute. Now it's time to remember one of the minor
+rules of adventuring: "Use it where you found it." Play the flute (operate
+it on itself) and pick up the ring. The flute and the gauntlet can both be
+dropped, and there's nothing more here, so return to the main hallway. 
+Now let's explore the right doorway. Lots of nice stuff here, so pick up
+whatever you like... uh-oh. I guess that wasn't such a good idea. Get out of
+here before those hobgoblins rip you apart (there is no way to get the
+stuff, which may be just as well). Instead, open the door and enter the
+banquet hall.  What could that be under the rug? Probably something
+useful. We can't move the rug, so we have to remove it. This particular spot
+is fun for the belligerent, because guess what-you have to burn the rug. Do
+so, but don't bother taking the key-unlock the lower door (in the center of
+the picture) with it. The other two keys you picked up here unlock the other
+two doors, so get those open and get rid of those two keys. Now take the
+door on the right.  The picture of this room is very important. Either
+save here, and use a distinctive name like "Sphinx", or take a screen dump,
+and keep either one handy. In any case, this is a Sphinx, and (you guessed
+it) it will ask you some riddles. There are a total of six riddles, and
+which one is chosen is totally random. Try to figure them out yourself, but
+if you're stuck, the answers to the riddles are listed below: 
+"Eyeless tho' that I may be...": Skull (from the library) "It has towns,
+but no houses;" Map (from the library) "First I was burnt..." Horseshoe
+(from the laboratory) "If you look at me..." Mirror (from the banquet hall)
+"I at fires attend..." Bellows (from the study) "Long neck and no
+hands..." Broom (from the mirror room)  Once you know what the answer to
+the riddle is, go back and get that object, and give it to the Sphinx
+(dropping it will suffice). You may now go up the stairs into the
+observatory.  The scroll is useless, but the map is not so. Examine the
+shooting star. It's not part of the map, so you can remove it. Take that,
+and then open the map. That rod will be of use to you, so take it. Now let's
+go up into the turret.  That odd-shaped object on the floor is indeed the
+golden thorn, but getting it is not so simple. Save here, and then pick it
+up. Gee, I guess that beautiful lady isn't so beautiful after all... well,
+there is a surefire way to kill a werewolf, and that is with a silver object
+(usually a bullet). We don't have a bullet, but we have got that arrow, so
+operate the sucker on the lady/werewolf. Now take the spike and return to
+the banquet hall.  Take the left passage now. This chamber seems innocent
+enough, but... there's the platinum horn, there on the floor. Pick that up.
+Maybe that wasn't so smart. This hellhound definitely will not let you get
+near the horn while it's around. We ought to send it back to the devilish
+place where it came from. And what better way to destroy a hell-spawned
+creature than with holy water? Use that on the hellhound, then get rid of it
+and get the horn. That's two out of five-not bad, but there's still a ways
+to go. Climb the stairs.  Another artifact! This time it's the bladed
+sun, and this time a wyvern (a close relative of the dragon) is guarding it.
+The solution to this puzzle is sort of a throwaway, so don't feel low if you
+don't get it. Operate the shooting star on the wyvern. Now you can pick up
+the bladed sun and go back to the banquet hall.  Now take the middle
+passage, and from there take the left doorway. The lightning is awfully
+menacing, but we can control it. What better way to control lightning than
+with a lightning rod! Typically such things are made of metals, such as
+iron. We do indeed have an iron rod, so stick that in the hole. Blammo! The
+hand seems to have something for you. Take the wand, and have a look at it.
+A serpent on the side, huh? That may serve us well eventually. Take the
+stairs down, but DON'T take the pot of gold; that's the oldest trick in the
+book. The bag is safe, so you can get it. Now go up the stairs, back to the
+hallway, and through the right doorway.  Sir Doogan is quite dead, so
+you don't have to worry about him. However, there are some neat things here.
+Look at that panel on the right. Perhaps it's movable. Open it, and admire
+the small hole. What would fit in the hole? Not a gem, but something a bit
+smaller. Like a ring. Stick the ring in the hole. Now look at Sir Doogan. He
+looks a little plain without a kingly object in his hand. What of yours
+befits a man of such greatness? Try the scepter. Give it to Doogan. Aha! A
+secret tunnel... head down it.
+
+In the secret hallway under Doogan, watch out for the passage on the left;
+going that way makes for a crushing experience. Instead, take the passage
+straight ahead. The gargoyles will leave you alone as long as you don't try
+to get past them, but that's fine for now; just take the side path. 
+Now we really need some magic. Remember the book? The book on magic stated
+that books come with extra protections. What would help us read anything,
+the book in particular? Maybe we need our eyes checked... but that's not
+necessary; just put on the glasses and read the book. The stuff in the book
+is important to keep, so copy that down. But "A bridge to form amidst
+burning death, a demon to guard"? The lava seems pretty deadly to me. The
+book is for this particular location. Use it on the demon, then drop the
+book and the glasses and cross the bridge (toll-free, even).  The
+switches here will open the cylinder, but if you throw them in the wrong
+combination the beastie in the hole will have you for breakfast, so think
+before you flip. Now is the time for the saved game or screen dump of the
+Sphinx' chamber. See those little lines on the staircase? Those lines are a
+diagram of which switches to throw. Flip the right switch, the middle, then
+the right again to open the cylinder. Take the silver orb. That makes four
+out of five. Unfortunately, the fifth of the five is on the other side of
+the troll's bridge, so we have to do some major backtracking here. Head back
+all the way to the second hallway by double-clicking the back exit (the one
+on the bottom of the exits window) and return to the bridge room. 
+What we seek lies across the rickety bridge, but it will fall under too much
+weight, so drop everything but your lit torch and go across. The snake is
+merely a statue, so don't panic. However, we have seen a snake before-on the
+wand. Go back and get that, and go back across. Operate the wand on the
+snake. Aha! The staff of ages! Take that, ditch the wand, and go back
+across. Once on the other side, grab everything and go back to the "EPOR"
+room.  Look at the back wall closely. See the loose stone in the center.
+Open it and go through. Here's the third gem-shaped hole, so stick your last
+gem in it. The wizard's words are important, so keep a record of those. Take
+the scroll as well, and read it. If you're puzzled, "Ulterior Humana"
+translates to "Hidden Human". The scroll is an invisibility spell! That will
+be really useful soon. Now go out, go up the rope and back to the troll
+bridge. Cross the bridge. Well, the troll doesn't want you to cross. But if
+he can't see you, he can't stop you! Use Ulterior Humana on yourself, and
+stride past him.  If you didn't kill the Cyclops before, he will be
+aroused again, but you're still invisible, so no matter. Just pass him and
+go back to the room with the gargoyles. An interesting fact about gargoyles:
+they are extremely irritable to light. This gives you a good weapon against
+them: Instantum Illuminaris. Use it on them, then go straight past them. 
+The door on the left is impossible to open, so don't worry about it.
+Instead, turn the crank to open the well. Guess what? This is a wishing
+well. Got any coins? Check the bag. Look at that big coin. Got a picture of
+a well on it, eh? Toss that into the well. The wind means you may now jump
+in the well, so do so.  Here's the River Styx (yet another cliche; this
+game thrives on them). Perhaps the gong is a service gong. Try banging it with
+the mallet. That ferryman is Charon (the game calls it Kros), for you
+mythology buffs. He wants a fare of one coin, so give him one of the coins
+from the bag.  Almost done! This is a good time for a save; dying is none
+too difficult. The bladed sun looks like it would fit in one of those niches.
+But which one? Remember the message in the book? "Where the sword is hung,
+thou shalt put the key" or something to that effect. Stuff the bladed sun in
+the left hole. Now about the staff. Recall the scroll: "Five to find, three
+are one." Also recall "Three for the staff, one to be the key, and one to be
+thy pathway." We need to put together some stuff, the staff being one of the
+three items in question. Stick the orb and the staff together, then add the
+spike to that. Ta-dah! The staff is now ready for action. Now how to get
+inside. "One to be thy pathway." The only one of the five we haven't used is
+the horn. Blow it. Besides a few eerie notes, you may now enter the
+skeleton, and have a rendezvous with your destiny.  Oh boy. Here's the
+Warlock Lord, and there's the Behemoth (sounds kinda like a piece of heavy
+machinery, doesn't it?) Now, annihilate the Behemoth by zapping him with the
+staff. Kerblam! You've saved the world from a horrible fate. Enjoy the
+winning music (I preferred the music for Uninvited, but to each his own) and
+the princess (the game assumes you're male-one final cliche). Also don't
+forget to print out a certificate of achievement, acknowledging your heroic
+feat.
+-- 
+       _  _  _
+       |\/ \/|
+       |_____|
+      /  o o  \
+     _\ ,___, /_
+----/  \-----/  \------------
+     ''       ''
+Lord Hippo

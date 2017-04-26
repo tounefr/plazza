@@ -1,0 +1,113 @@
+**************************************************************************
+* SHEER AGONY								 *
+**************************************************************************
+
+Doc écrite par Shredder des Hors-la-loi.
+
+MISE EN MARCHE:
+--------------------------------------------------------------------------
+CONFIGURATION REQUISE:
+
+Sheer Agony ne fonctionne que sur les Atari STF/STE/TT qui possédent 1 MO
+de RAM minimum. De plus, il est nécessaire d'avoir un moniteur couleur ou
+une TV. Les écrans monochromes haute résolution (du type SM 124) sont …
+proscrire. Vous jouez avec la souris.
+
+INSTALLATION SUR LE DISQUE DUR:
+
+Pour installer Sheer Agony sur votre disque dur, c'est trés simple. Il su-
+ffit de créer un répertoire dans lequel vous copierez TOUS les fichiers
+des deux disquettes.
+
+INTRODUCTION:
+--------------------------------------------------------------------------
+C'est trop tard, vous ne pouvez plus faire marche arriére. Vous allez
+bientot mourir... Vous étiez pourtant prévenu, toutes les personnes qui se
+sont intéressées … la famille Kruwehl furent décédées d'un mystérieux em-
+poisonnement. Et c'est … votre tour de connaitre cette fin tragique. Vous
+étiez pourtant un bon journaliste, mais vous regrettez maintenant d'avoir
+écrit un article sur Kale Kruwehl, l'actuel possesseur du "Manoir de l'a-
+gonie". Et puis non ! Il faut se ressaisir. On ne va pas se laisser mourir
+comme ça... Il doit y avoir une solution. Et cette solution doit se trou-
+ver dans le manoir, c'est obligé...
+Vous vous rappelez alors que Kale est parti … une conférence organisée par
+l'Institut des Sciences de la région. Il ne sera donc pas au manoir ce
+soir, et cela vous donne le champ libre pour vos investigations. Vous vous
+précipitez sur votre voiture et vous foncez vers le manoir. L'immense fo-
+ret est sombre et terrifiante. De plus la nuit tombe et il n'y a aucun si-
+gne de civilisation depuis 30 kilométres. Il ne vaut mieux pas tomber en
+panne sur ce chemin désert.
+Soudain vous apercevez un vieux mur en pierre. Vous le longez sur plu-
+sieurs dizaines de métres, avant d'arriver … une imposante grille en fer
+qui constitue l'entrée principale de la propriété des Kruwehl. Vous garez
+votre voiture ici. Il fait froid, le ciel est dégagé mais un orage se fait
+entendre au loin. Vous observez la lune ronde et brillante dans le ciel.
+Vous savez qu'il y a une éclipse ce soir, et que vous agoniserez en meme
+temps que la lune disparaitra. Il est 21h44, et vous n'avez que jusqu'… 
+minuit … vivre, comme vos prédécesseurs. Mais contrairement … eux, vous
+trouverez l'antidote, vous en etes persuadé...
+
+SYSTEME DE JEU:
+--------------------------------------------------------------------------
+AVENTURE
+Sheer Agony est un jeu d'aventure. Vous évoluez dans différents lieux. Ces
+lieux possédent des indices, des objets (utiles ou inutiles), et d'autres
+surprises encore. Vous pouvez agir sur beaucoup de choses, grace aux dif-
+férentes actions qui vous sont proposées dans le panneau de controle du
+bas.
+
+PANNEAU DE CONTROLE
+Le panneau de controle est découpé en plusieurs parties. A gauche, vous a-
+vez le plan du lieu ou vous vous trouvez avec une boussole qui donne le
+Nord. Au milieu se trouvent toutes les actions possibles. Il suffit de
+cliquer dessus pour sélectionner l'action voulue. En bas se trouve une li-
+gne de dialogue qui donne tous les renseignements qui vous sont nécessai-
+res pendant le jeu. Et … droite vous trouvez deux fléches et un chiffre u-
+tiles … la gestion des objets que vous possédez. Il y aussi une fenétre
+pour visualiser un objet ou un morceau du décor … la loupe.
+Tout se joue … la souris. Le bouton de gauche sert … sélectionner une
+action tandis que le bouton de droite sert … rappeler la derniére action.
+
+LES ACTIONS
+Les actions disponibles sont les suivantes :
+ALLER : cliquez sur le plan ou parfois sur l'écran pour indiquer la direc-
+tion … prendre.
+OUVRIR : pour ouvrir une porte, un tiroir, une cachette ou un robinet.
+FERMER : pour fermer une porte, un tiroir, une cachette ou un robinet.
+REGARDER : fait un zoom sur une partie de l'écran.
+SONDER : pour sonder une surface, et permet de découvrir des cachettes.
+LIRE : cliquez sur un objet ou sur l'écran pour lire des inscriptions.
+AVALER : cliquez sur un objet ou sur l'écran pour manger ou boire quelque
+chose.
+SENTIR : cliquez uniquement sur l'écran pour sentir une odeur.
+APPUYER : pour appuyer, notamment sur des boutons.
+TOURNER : pour tourner.
+POUSSER : pour pousser.
+SOULEVER : pour soulever des tapis, des tableaux...
+FOUILLER : c'est l'action la plus importante. Elle permet de vous préciser
+ce que vous voyez … l'écran et parfois vous indique que vous avez décou-
+vert un objet, utile ou inutile, que vous pouvez prendre.
+PRENDRE : fonctionne uniquement lorsque vous avez découvert un objet.
+METTRE : permet de remettre les objets … leur place, et … préparer l'anti-
+dote.
+Notez que FOUILLER, PRENDRE et METTRE sont des actions qui sont trés liées.
+
+LES OBJETS
+Il y a un grand nombre d'objets dans le jeu. Tous ne sont pas déterminants
+dans la réussite de l'aventure. C'est … vous de faire le bon choix dans la
+collecte des objets car vous ne pouvez en transporter que 9 en meme temps.
+Pour vous débarrasser définitivement d'un objet, il faut cliquer sur le
+chiffre placé entre les deux fléches du tableau de bord. Mais attention,
+cette action peut vous etre fatale.
+Pour passer en revue les objets que vous possédez, il suffit de cliquer
+sur la fléche du haut ou sur celle du bas. vous pouvez aussi cliquer sur
+la case des objets lorsque cette derniére n'affiche pas l'objet que vous
+possédez.
+Ainsi vous pouvez METTRE, LIRE, ou AVALER un objet que vous possédez.
+
+CONSEILS AUX AVENTURIERS
+Sheer Agony est un jeu d'aventure, votre sens de la réflexion et votre lo-
+gique seront donc mis … contribution.
+Vous pouvez sauvegarder votre partie … n'importe quel moment en appuyant
+sur le chiffre 0 du pavé numérique. Pour reprendre votre sauvegarde, cli-
+quez sur LOAD lorsque vous etes dans le menu de présentation du jeu

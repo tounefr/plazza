@@ -1,0 +1,9 @@
+
+**** GHOULS AND GHOST ****
+
+Chargez le jeu et appuyer sur le bouton feu  pour commencer a jouer.
+Plutot que de bouger, tapez rapidement 'STEPHEN BROADHURST'
+Il devrait apparaitre le message 'cheat Mode On'.
+Vous etes maintenant invincible!
+
+Mr Nours(Traduit de LGD.)

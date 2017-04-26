@@ -1,0 +1,241 @@
+Merci a Sewer Docs 
+
+Mr Nours.
+
+
+          -T H E  A D V E N T U R E  O F  R O B I N  H O O D-
+
+
+The Story...          again iam to lazy...
+------------
+
+
+The Controls...
+---------------
+
+   A number of Icons will apear down the left-hand side of the screen
+   as the game progresses. There may be operated by clicking on them
+   with the mouse and, in some cases, via keyboard shortcuts. Additional
+   control is achieved by clicking directly onto people or the landscape,
+   using the mouse!.
+
+Fixed Icons...
+--------------
+
+   Pauses the game (pressing 'P') on the Keyboard has the same effect.
+   A menu appears, allowing you to quit or resume the game. There are two
+   Quit options - the first [press F1] will save your current position in
+   the game to disc, so that next time you play you carry on from where you
+   left off; the second option [F2] abandons the game, so that next time you
+   play it will start again from the beginning.
+
+   AMIGA... F1 = SAVE /\ F2 = LOAD /\ F3 = SOUND /\ F4 Re-START
+
+   NOTE: Selecting the PAUSE Icon during the opening sequence allows you to
+   skip the introductory sequence, and jump directly to the point at which
+   ROBIN sits moping outside the walls of the town, thus getting you
+   straight into the game without delay!.
+
+   The following icons become avaiable as soon as the introductory sequence
+   is over:-  
+                            *    *  /  \     force ROBIN to walk about the
+ICON-DIRECTION! = *          \  /  *    *    landscape. PRESS on the ICON
+                                         to walk; release to stop.
+
+   These icons have keyboard equivalents:
+
+   use              [A]      [S]     [Z]     [X]      keys.
+
+   SELECTING THE:   BOW  |  SWORD |  EYE  | HEART
+
+   See below for other ways of making ROBIN move.
+
+   These are the symbols you use to interact with ROBIN and his
+   environment. Selecting one of these symbols is likely (thought not
+   guaranteed) to sow the seed of an idea into ROBIN's MIND - sometimes
+   simple and explicit, sometimes less so, depending on circumstances.
+   We will leave it to you to discover the detailed effect of each symbol
+   for yourself, but we are aware of the following actions:-
+
+   ­ Selecting the BOW usually seems to have the effect you'd expect from
+     a trigger-happy hero. (keyboard equivalent = [ENTER]).
+
+   ­ The SWORD seems to inspire aggression of a more personal kind.
+
+   ­ The EYE always seems to affect the 'camera' , rather than any
+     of the people, causing it to pan so what we can see the same part
+     of the landscape that ROBIN can see - it pays to know what perils may
+     lie ahead. (Keyboard equivalent = [SPACE].
+
+   ­ The HEART encourages our hero to run rather than walk, but beware of
+     excessive demands on his stammina - you never know when he's going to
+     need all his energy.
+
+   ­ The LIPS bring out the smooth-talking nature of our man, but what
+     he'll actually say is, were afraid, impossible to control.
+
+   ­ The OPEN HAND stands for generosity, in ROBIN's view, and generosity
+     is an important quality in a true hero of the people.
+
+   ­ The OPEN HAND is quite the opposite, but one cannot be generous unless
+     one has something to give, so this darker quality is likely to turn out
+     to be a necessary evil, if ROBIN hopes to have any people left to
+     govern once he's completed his main task.
+
+     All the symbol icon's and the winning icons have the following
+     properties :-not included...take a look on your screen...and now...
+
+1./  There are two types of symbols icon - some of them act immediately
+---  the are pressed, other icons do nothing until after you have selected
+     an object on the landscape (person or animal). When you press icons of
+     this second type, the mouse cursor will turn into a GREEN hand,
+     indicating that you should click on an object. When successful, the
+     cursor stops being green and the icon will have its effect. If you
+     press one of these icons by mistake, press it again to cancel the green
+     hand!
+
+2./  After use, each symbol icon becomes exhausted for a certain amount of
+---  time, depending on the particular icon. whilst exhausted, the icon
+     will turn to grey and cannot be used. You should use slow-to-recharge
+     icons with carem, as you might need them again in a   H U R R Y !!!
+
+W I N N A B L E  I C O N ' s
+----------------------------
+
+     There are several other symbol icons which have no meaning at the start
+     of the game, and so are not visible.
+
+     You will collect the right to use these icons, which give you access to
+     new facilities, as the game progresses (unless of course you make a
+     mess of things!).
+
+O T H E R  C O N T R O L S
+--------------------------
+
+     In addition to the icons, you can control ROBIN's movement by two other
+     means (plus a third option when you win the right to use it).
+
+1./  Clickanywhere directly onto the landscape and a small maker will appear
+---  at that point. ROBIN;s attention will be directed towards that place,
+     and he will (probably) walk there. Because this method doesn't try to
+     control ROBIN's legs directly, ROBIN's own brain is able to deal
+     (drugs) with the problems of avoiding abstacles, entering/leaving
+     throught doorways, etc. This is probably the best method for getting
+     around most of the time. Use the ARROW icons for more precise control
+     when needed.
+
+2./  Click on another person (when the cursor is NOT a green hand), and the
+---  thought often enters ROBIN's mind that he should follow that person for
+     a while.
+
+T H E  H E R O I S M  I N D I C A T O R
+---------------------------------------
+
+     The vertical bar near the icons shows the computers current assessment
+     of ROBIN's qualities as a hero. The bar is red if it is falling, or
+     blue if rising. You will find that almost everything ROBIN's does, or
+     you make him do, will have an effect on the level of this bar. As our
+     tiny world is supposed to be a 'land fit for heroes',beware of the
+     possible consequences of being too much of a villain, or even too much
+     of a wimp.
+
+M O N E Y
+---------
+
+     As a certain amount of moneyt is bound to change hands during the game,
+     we've displayed the current contest of ROBIN's purse as a number at
+     the bottom-left of the screen.
+
+P L A Y I N G  T H E  G A M E
+-----------------------------
+
+     It is not for us to tell you what you should aim to do, or how to go
+     about it. In fact, you are free to do anyhting you like, or even
+     nothingat all - perhaps sometimes you should leave ROBIN to get on with
+     it for himself. In any event, you are likely to come across varioius
+     encounters where you cold be of help to ROBIN or his FRIENDS in some
+     way. You may of course not want to be helpful, but if ROBIN is to
+     live up to his reputation as a goody-goody, we suspected that he's
+     going to need some guidance.
+
+NOTE... Not included in this DOC FILE ARE...
+
+
+1.   W E L C O M E  T O  T H E  G R E E N W O O D
+     --------------------------------------------
+
+2.   T H E  S T A T E  O F  E N G L A N D
+     ------------------------------------
+
+3.   W H O  W A S  R O B I N  H O O D ?
+     ----------------------------------
+
+4.   S H E R W O O D  F O R E S T
+     ----------------------------
+
+5.   H E R E  B E  D R A G O N S !!
+     ------------------------------
+
+6.   H O W  L I T T L E  J O H N  G O T  H I S  N A M E
+     --------------------------------------------------
+
+7.   T H E  E N G L I S H  L O N G B O W
+     -----------------------------------
+
+8.   T H E  S H O O T I N G  M A T C H
+     ---------------------------------
+
+9.   F O R E S T  L A W
+     ------------------
+
+       IF YOU LIKE THIS PEACE OF SOFTWARE...MAKE SURE TO ORDER
+              THE ORIGINAL AT YOUR LOCAL SOFTWARE DEALER...
+
+               <<<-INCLUDES MULTI LINGUAL INSTRUCTION's->>>..
+                AND MUCH MORE TO READ LIKE...HINT's etc...
+                     ______________________________
+                     \\  A ­ n ­ D - N ­ o ­ W ­ //
+                      \\                        //
+                       \\____    FOLLOW    ____//
+                            \\     ME     //
+                             \\_   TO   _//
+                               \\ SOME //
+                                \\_  _//
+                                  \\//
+                                   \/
+                            ­ H ­ I ­ N ­ T ' s ­
+                            °°°°°°°°°°°°°°°°°°°°°
+
+     
+            S O M E  T H I N G S  T O  B E A R  I N  M I N D
+            ------------------------------------------------
+
+       In the far NORTH-WEST corner of the map lives a wizard-like
+       priest (JUDAS? hehehe) of the god Herne. This man-of-the-woods
+       is a great ally and can offer much useful advicem as well as a
+       helpfull gift. He should be the first person to visit if you get
+       stuck.
+
+       To be a hero (like SUB-0) requires a lot of qualities, backed-up
+       with the appropriate deeds. Almost everything you encourage ROBIN
+       to do will affect his standing as a hero. In particular, remember
+       that ROBIN HOOD was renowned as a 'robber of the rich to feed the
+       poor'. Unfortunately, the richest are well protected, and the
+       merely well-off are strong and well-armed. There is one, however
+       who can provide rich pickings; a former friend but now a turncoat
+       of the first water.
+
+       Remember that your crimes of robbery and murder will not go unnoticed
+       if you whish to retain you freedom to go as you please, then refrain
+       from too much crime too early. The more trouble you and your BAND
+       cause, the harder it becomes to survive!.
+
+       ROBIN is a leader of men. Sometimes the best trick is to delegate!!
+       You'll find that some of the icons have different effects if you
+       apply them to the Merry Men............
+
+       now you have reached the end of thiz Doc file.....
+
+
+
+]ly

@@ -1,0 +1,32 @@
+
+Mode d'emploi :
+
+- Il est Intégré dans le jeu. Vous pouvez y acceder sur l'Icone LIVRE du menu principal.
+- Le jeu fonctionne a la souris, au joystick ou au clavier. Pour le clavier, utilisez le
+pavé numérique ( chiffres de 1 à 9 ) et la touch shift comme bouton de selection.
+
+
+- ASTUCES :
+
+
+* Utilisez vos éclaireurs pour trouver les différents lieux importants du jeu (tours, grotte, maisons,...). Ils ont une vision supérieure à celle des autres personnages et se déplacent plus rapidement.
+
+* A la fin du jeu lorsque Morgoth vous affronte, le meilleur moyen de le vaincre consiste à utiliser la magie : paralysie de l'ennemi, accélération des compagnons.
+
+* La fontaine d'eau de jouvence s'épuise après chaque usage. Elle redeviendra utilisable seulement après minuit.
+
+* Dans les grottes faites un plan de votre parcours, car sinon vous vous perdrez très rapidement.
+
+Dans la carte
+Pressez
+[ALT] + [CTRL] + T
+durant une seconde ; apparaîtront alors sur la carte, l'emplacement de tous les lieux importants.
+
+Page de Jarel
+Dans la page de Jarel, sélectionnez le menu de guérison. Tapez 
+[ALT] + [CTRL] + V
+et tous vos compagnons obtiendront leurs caractéristiques au maximum. Bon carnage !
+
+
+
+

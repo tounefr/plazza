@@ -1,0 +1,9 @@
+*** WONDERBOY IN MONSTERLAND ***
+
+Joystick : 
+Haut 		-> Saut, monter aux echelles
+Droite, Gauche 	-> Aller à droite et a gauche (!)
+Bas 		-> Descendre des echelles
+
+Barre d'espace  -> Ouvrir les portes...
+

@@ -1,0 +1,232 @@
+
+ Sapiens 
+" Il y a Mille Siècles, l'Aventure Humaine commençait. "
+
+        
+        - L' histoire 
+
+        - Ce que la science sait...
+
+        - Manipulation du jeu
+
+        - Trucs et astuces
+
+        - Versions/Remerciements
+        - Enregistrement
+ 
+L'histoire
+ 
+L'aube se lève sur le territoire des Pieds-Agiles, il y a de cela cent mille ans.
+
+Torgan s'éveille, étire ses muscles jeunes et puissants. Posément, il attache deux outres à sa ceinture de vigne tressée, ramasse les sagaies acérées, saisit la lourde hache de pierre, la soupèse un instant et la glisse à son coté : le voila prêt à affronter la journée.
+
+D'une main noueuse, il frotte son visage encore zébré des peintures rituelles, puis inconsciemment effleure le collier de dents de loups reposant sur sa poitrine. Le contact chaud et familier de l'ivoire fait lentement vagabonder son esprit jusqu'aux souvenirs de la veille. Il revoit la lumière crûe des feux où brûlent les herbes odoriférantes, les visages des Guerriers assis en cercle, et lui, debout devant eux, anxieux, attendant.
+
+Le Chef vénéré de la Tribu, Hognor en personne, s'approche alors et trace à l'argile rouge les Signes de la Force, du Courage et de la Sagesse sur ses joues et son front en murmurant les formules rituelles.
+
+Tous les hommes commencent alors à entonner une lente mélopée pour apaiser les Esprits des Chasseurs défunts. Mais les voix ne sont plus aussi nombreuses qu'avant : tant d'hommes de la tribu sont tombés au combat ou ne sont pas revenus de chasses trop lointaines !
+
+Torgan le sait, la tribu est malade et affamée. Chaque jour, des enfants contractent de terribles maladies pour avoir mangé des plantes inconnues et meurent dans d'atroces souffrances. Depuis plusieurs saisons la sècheresse persistante tarit les sources et jaunit les prairies; le gros gibier : auroch, bison,a disparu et la nourriture se fait de plus en plus rare.
+
+Des hordes de loups descendent du nord, les ours quittent les montagnes, les territoires de chasse jusqu'alors suffisants deviennent trop réduits. La Loi de la Force remplace les Droits Ancestraux dans de violents affrontements entre tribus voisines, et en particuliers aves les sanguinaires et fanatiques Hyènes-Folles.
+
+Le nombre des chasseurs diminue à chaque escarmouche, c'est pourquoi de nombreux jeunes jusqu'alors dévolus à la cueillette vont devoir prématurément partir en chasse. Combien d'entre eux peuvent espérer survivre à ces épreuves terribles ? Pour Torgan, c'est le moment tant attendu de prouver sa valeur : il sait que pour vaincre il devra se ménager des alliés parmi les tribus voisines, choisir des compagnons de chasse valeureux et peut-être même apprivoiser des animaux sauvages.
+
+Rompant sa méditation Torgan se dirige d'un pas décidé vers le Feu du Village où Hognor donne déjà ses ordres.
+ 
+Ce que le science sait ...
+
+Il y a cent mille ans, dans ce que l'on appellera plus tard l'Europe du Sud-Ouest, vivait l'Homo Sapiens Neandertalensis, cousin assez proche de l'Homo Sapiens Sapiens.
+
+De petite taille et d'apparence robuste, le Néandertalien tire sa subsistance de la chasse et de la cueillette. Son environnement (son biotope) est très semblable au nôtre : forêts de feuillus ou de conifères au Nord, landes ou savanes dans les zones les plus arides.
+
+Le Néandertalien est loin d'être un primitif. Quoique parfois anthropophage comme le laissent supposer certains restes de repas, il enterre ses morts, utilise le feu, et il y a deux millions d'années que la taille des pierres est connue.
+
+On peut supposer que la structure sociale se base sur la tribu avec des territoires de chasse certainement bien définis. Le volume interne du crâne est très important (parfois supérieur à celui du scientifique qui le mesure !) ce qui laisse imaginer une intelligence élevée et un langage articulé rudimentaire.
+
+A cette époque, la survie passe par la chasse, la recherche des points d'eau, de plantes médicinales ou nutritives et la taille d'armes à partir du silex. Et en cela le Néandertalien est le fruit d'une évolution qui l'a merveilleusement adapté à son milieu. Il serait vain de tenter de vivre dans un monde perpétuellement hostile, et il est probable que le pouvoir tout neuf du Langage dont dispose l'Homo Sapiens lui a permis de se ménager des alliés et d'entamer des discussions 'Adultes', là où un Hominidé plus primitif aurait fait parler les armes.
+ 
+ 
+Manipulation du jeu
+Vous voyez à l'écran une fenêtre et une barre de menus.
+
+La plupart des fonctionnalités de la barre de menu sont des raccourcis sur les commandes du jeu.
+
+La fenêtre principale du jeu se divise en plusieurs zones. 
+
+En bas, se trouvent les zones de commande. En cliquant sur la fenêtre de gauche vous choisissez l'action à effectuer. Une fenêtre s'ouvre à droite, vous permettant de préciser l'action.
+Vous pouvez faire défiler le texte dans la fenêtre en utilisant la souris. : placez la souris sur la partie haute de la fenêtre, elle se change alors en main pointant vers la haut. Appuyez alors sur le bouton de votre souris, la fenêtre défile. De même et en sens inverse, pour le défilement vers le bas.
+
+ 
+Voici les différentes actions que vous pouvez effectuer. Les actions les plus courantes sont également accessibles directement par le menu.
+
+SAPIENS 
+
+Permet d'obtenir quelques informations sur le jeu, de charger ou de sauvegarder un état de jeu, de définir un personnage ou les préférences.
+La définition d'un personnage démarre automatiquement une nouvelle aventure. Vous pouvez définir la force, le sexe,l'agilité, le charisme (ascendant sur autrui), la résistance et l'apparence de votre personnage. Cette définition est réservée aux exemplaires enregistrés de Sapiens. Si votre exemplaire n'est pas enregistré, vous jouerez toujours avec un personnage moyen appellé Torgan.
+
+La définition d'un personnage est très importante et change complètement le jeu. Vous disposez d'un certains nombre de points que vous pouvez répartir entre les différentes caractéristiques (force, agilité, charisme ...). 
+
+Une fois le nom et le sexe de votre personnage défini, 6 jauges apparaissent représentant respectivement : l’agilité, la force, le charisme, la vitalité, la santé et le nombre de points de crédit qu’il vous reste.
+
+En cliquant à gauche ou à droite des limites des jauges vous allez augmenter ou diminuer les différentes valeurs.
+
+Le maximum de chacune des caractéristiques est différent selon le sexe du personnage. Une femme pourra avoir plus de charisme et d'agilité mais moins de force.
+
+Voici la signification et l’influence des différentes valeurs :
+
+L'agilité va conditionner la rapidité avec laquelle le personnage va réagir à vos ordres durant les déplacements et combats en vue latérale. Un personnage très agile répondra très rapidement. Un personnage moins agile sera plus lent à manipuler.
+
+Durant les combats, la force définit les dommages infligés à votre adversaire lorsque vous le touchez.
+
+Un charisme élevé vous offre la possibilité de séduire un ami pour le persuader de vous accompagner ou de faire un échange avantageux, de calmer un ennemi ou d'apprivoiser un animal .
+
+La vie définit votre forme. Plus votre personnage aura de vitalité, plus il vivra longtemps.
+
+La résistance définit la capacité de votre personnage à supporter les coups de ses adversaires, les privations de nourriture et d'eau.
+
+Grâce à la force et l'agilité, vous triompherez dans le combats. Mais, grâce au charisme, vous séduirez les autres personnages et même les animaux. Un Loup ou un Ours peuvent être des alliés très puissants. Si vous persuadez un autre personnage de vous accompagner, il vous soutiendra dans les combats. Petit conseil : ne brutalisez pas votre compagnon, il risquerait de ne pas se laisser faire.
+
+Après avoir défini les différents paramètres, vous pouvez changer l'apparence de cotre personnage en cliquant sur la partie haute ou basse de son corps.
+
+Les préférences permettent de définir le type de musique souhaité, la présence ou non de bruitages et le mode de manipulation du deuxième joueur. Si le deuxième joueur est défini comme 'automatique' ses déplacements seront gérés par l'ordinateur. Sinon, un deuxième joueur pourra utiliser le clavier pour manipuler le deuxième personnage. Les touches utiles sont : '8' haut, '2' bas, '4' gauche, '6' droite, '1' change d'arme, '3' frappe.
+(Remarque : si vous avez réussi à apprivoiser un animal, il sera toujours géré en automatique) 
+
+En cours de partie, il est très intéressant de sauvegarder l'état en cours afin de pouvoir y revenir en cas de décès malencontreux du personnage. Cependant il n'est possible de sauvegarder qu'un seul état par jour.
+
+ETAT 
+Indique l'état actuel du personnage. En cours de jeu il est nécessaire de vérifier si l'on n'a pas faim, soif, si l'on est fatigué, blessé ou en bonne santé. D'autre part, apparaissent également les quotas choisi lors de la définition du personnage.
+
+PRENDRE
+Au sol se trouvent des objets, des plantes, que l'on découvre au fur et à mesure des déplacements. On peut les ramasser pour les utiliser, les transformer ou même les consommer. Pour cela, il faut sélectionner l'option PRENDRE, la liste des objets disponibles apparaissant alors, permettant la sélection des objets à récuperer.
+
+POSER
+Les objets que l'on possède peuvent être abandonnés lorsqu'ils sont devenus inutiles. Par exemple, de la viande fraîche deviendra de la viande avariée et inutile en quelques heures, que vous devrez abandonner.
+
+DIRE
+Permet de communiquer avec d'autres humains. Par exemple 'Bonne Chasse' rompt une conversation amicale. On peu insulter ou défier une personne , pour l'amener à se battre. Attention, une tribu risque de peu apprécier que l'on assomme l'un de ses membres. Une personne avenante peut être séduite par des cadeaux (voir option suivante) et une parole appropriée. Dans ce cas c'est deux personnages qui vont poursuivre ensemble l'aventure mais toujours le personnage principal qui mènera les dialogues.
+
+DONNER
+Il peut être utile d'amadouer un ami ou de calmer un ennemi. Il convient alors d'utiliser cette option pour offrir le présent approprié à la situation. Lorsque l'interlocuteur est disposé à effectuer un échange et que l'on s'est présenté dans les règles, DONNER sert aux échanges d'objets.
+
+OBSERVER
+se divise en quatre options :
+
+PAYSAGE : La vue est alors en perspective.
+Les touches GAUCHE et DROITE (ou souris vers la gauche et souris vers la droite) font pivoter le personnage, HAUT accélère, BAS ralentit, ESPACE connecte la carte, un nouvel appui la déconnecte, Echap (Esc) ou l'appui sur le bouton de la souris ramènent au menu principal.
+
+VUE LATERALE : En paysage, le personnage se déplace rapidement, mais pour prendre le temps d'observer, il est possible de bouger de case en case. Pour cela, il faut choisir le déplacement en vue latérale. On voit alors le personnage se mouvoir, se baisser, saisir une arme, lancer une sagaie ou frapper.
+Les touches HAUT, BAS, GAUCHE, DROITE, gèrent les déplacements horizontaux et verticaux. La touche Entrée change l’arme (ou le bouton souris droite), la touche Espace (ou le bouton souris gauche) font frapper le joueur. Pour sortir de la vue latérale et retourner au menu, utiliser la touche Esc.
+
+En vue PAYSAGE, lorsqu'on rencontre un animal ou une personne, on passe automatiquement en vue latérale. En cas de combat, il est fortement conseillé de donner les coups debout : l'impact n'en aura que plus de force.
+Les quatre symboles placés de part et d'autre de la fenêtre de vision indiquent par leur forme l'état du personnage, et par la vitesse de pulsation le degré d'essoufflement. Deux personnes de chaque camp peuvent combattre simultanément.
+Attention, un personnage trop essoufflé ne peut plus frapper...
+
+PANORAMA : fait accomplir un tour complet, en montrant une vue en perspective. On peut s'arrêter à tout moment en appuyant sur une touche d'action.
+
+CARTE : donne une vue 'aérienne' du paysage, la flèche indiquant votre position et votre direction. On peut 'zoomer' en utilisant les touches HAUT et BAS.
+
+ABSORBER, SE SOIGNER ou DORMIR
+permettent de se maintenir en bonne santé.
+
+FABRIQUER
+A partir de silex, il est possible de fabriquer des pointes de sagaie ou des haches de pierre. Pour cela il faut tailler le silex afin d'être le plus près possible de la forme idéale (en pointillés). Les touches de déplacement permettent de positionner le point d'impact, un appui plus ou moins prolongé sur la touche FRAPPE (ou bouton souris) produit un impact plus ou moins fort. Une fois le travail effectué , appuyez sur Echap (Esc) ou cliquez sur l'icône en bas à droite de la fenêtre de taille de silex.
+
+Petite astuce : Si vous voulez lancer le jeu sans musique, appuyez sur la touche Ctrl lors du démarrage du jeu.
+
+BONNE CHASSE...
+ 
+Trucs et astuces
+
+ 
+1- Ne soyez pas trop agressif
+Dans Sapiens (comme dans la vraie vie) il faut savoir discuter avant de frapper. Evitez donc de chercher l'affrontement à tout bout de champ.
+Présentez-vous à vos interlocuteurs ("Dire" "Je suis ..."), et rompez amicalement les conversations ("Dire" "Bonne chasse"). Amadouez-les en leur faisant des cadeaux ("Donner") et évitez les insultes. 
+Si vous vous êtes montrés agressif envers le membre d'une tribu après vous être présenté, toute la tribu vous connaitra de nom... 
+
+2- Respectez votre chef
+Votre chef (le premier personnage que vous rencontrez) est puissant et susceptible. Il part du principe que vous le connaissez, et sera vexé si vous lui demandez son nom. Par contre, demandez-lui ce qu'il veut, il vous indiquera l'épreuve que vous devez remporter pour gagner son estime. Mais il est exigeant ! Quand il vous demande de rapporter des vivres, il veut dire une grosse quantité de viande...
+
+3- Surveillez votre état physique
+La faim, la soif, la fatigue sont des maux qu'il vous faudra endurer. Mais ne les négligez pas trop. Pensez à prendre des outres afin de transporter l'eau que vous trouverez, des sagaies pour chasser le lapin, et de l'onguent ou des plantes médicinales pour parer aux coups durs.
+
+4- Apprenez à connaître votre environnement
+Repérez les positions des sources, des terrains de chasse ou les lapins abondent, des plaines lugubres où les loups rodent (à éviter de nuit), ainsi que les camps des autres tribus. 
+Soyez attentifs et diplomates et bientôt, vous connaitrez le territoire de Sapiens comme votre poche...
+
+5- Ne négligez pas le travail manuel
+Même les haches et sagaies en pierre se cassent parfois... Alors, exercez vos dons de bricoleur en taillant le silex que vous aurez ramassé en chemin. Un mouvement sûr et une puissance bien maîtrisée pourront vous tirer d'un mauvais pas le moment venu.
+Petit conseil : pour réussir votre taille, le bord extérieur de la forme taillée doit être le plus près possible de la ligne pointillée. Au fait, n'oubliez pas d'ébarber les deux extrémités grâce à deux coups violents !
+ 
+Versions
+
+o Avril 1986 : L'idée de Sapiens, dans les cartons des auteurs depuis quelques temps déjà, est mise en chantier. Nous voulions crééer un jeu à l'inverse des choutezèmupe où la stratégie et la réflexion soit priviligiés. Dans Sapiens, il est plus utile de connaître l'emplacement des sources que d'avoir de gros muscles aux bras !
+Le développement dure 3 mois et la première version de Sapiens sort sur Thomson Mo5 en Juin 1986, éditée par Loriciels. L'intégralité du programme est écrit en Assembleur 6809.
+o Juin 1986 : Développement de la version Thomson To7. Le portage en assembleur Z80 est fait pour la version Amstrad CPC 6128. Les premières musiques de Gilles Soulet sont intégrées au logiciel.
+o Septembre 1987 à Mars 1987 : Sapiens est entièrement réécrit en C pour le portage sur compatible PC en mode CGA (Beark!)
+o Août 1987 : La version C de Sapiens est recompilée sur Atari ST, les graphismes sont repris en 16 couleurs (Ouf !). Pour la première fois sur Atari ST des routines de musique numérique sont mises au point. La version Atari 520 ST sort en Octobre 1987. 
+o Novembre 1987 : Sapiens est élu "Logiciel le plus original" et reçoit le Tilt d'Or Canal +.
+o Janvier 1996 : le contrat liant les auteurs à Loriciels arrivant à son terme (Loriciels ayant d'ailleurs fermé entre-temps), une version de Sapiens pour Macintosh 256 couleurs, PowerMacintosh et Windows 95 entre en chantier.
+o Avril 1996 : Après de nombreuses améliorations (et il y en aura d'autres...) la version 2.0 est proposée en Shareware sur le Net et sur CD ROMs.
+o Octobre 1997 : version 2.2, avec une meilleure explication de l'ergonomie du jeu.
+
+Nous tenons à remercier tout particulièrement les personnes qui nous ont aidés et soutenus dans cette aventure :
+
+Tout d'abord la première équipe de 1986 :
+
+
+Gilles Soulet - Composition des musiques
+Jean Michel Georges - Routines assembleurs
+Yves Basquet - Conseils Sympa
+Jean François Cassan - Vodka Orange et Soutien Moral
+
+
+Puis la deuxième équipe de 1996 :
+
+
+Jean François Cassan - Béta Testeur en Chef
+Sylvie Ricard - Supervision artistique 
+Djizz - Chauffage de genoux
+
+              Philippe 'Bande de Nazes' Fernandez
+                  François Broussey
+
+Nous espérons en créant ce shareware faire plaisir à tout ceux qui ont apprécié les versions précédentes de Sapiens et retrouveront (non sans nostalgie nous l'espérons) ce qui a fait de Sapiens un jeu particulier.
+
+Dans tous les cas, n'hésitez pas à nous communiquer vos commentaires et vos impressions.
+ 
+ 
+Enregistrement
+
+Si ce jeu vous plaît, sachez qu'il existe en version Macintosh et Windows95.
+
+Vous pouvez, en enregistrant votre exemplaire, accéder à toutes les options :
+
+o Définition des personnages
+o Scénario complet
+
+Envoyez la somme de 50 francs français aux auteurs à l'adresse suivante :
+
+
+Didier ou Olivier GUILLION
+22 rue Pierre d'Aragon 
+31200 Toulouse
+FRANCE
+
+
+Vous obtiendrez par retour du courrier, ou par courrier électronique, votre numéro d'enregistrement personnel.
+
+Vous pouvez nous joindre par E-MAIL :
+sapiens@myriad-online.com
+
+ou consulter nos pages Web sur 
+http://www.myriad-online.com
+pour y trouver les dernières versions de nos Sharewares pour Macintosh et PC.
+
+Découvrez aussi nos autres logiciels :
+
+Awalé : Jeu de stratégie ancestral et africain.
+
+Harmony Assistant : un logiciel de composition musicale très complet.
+
+Bakeur : Utilitaire indispensable à votre Macintosh. Il sauvegarde automatiquement vos documents dès que vous y écrivez par-dessus. Très utile pour corriger une fausse manoeuvre et revenir à l'ancienne version du document.

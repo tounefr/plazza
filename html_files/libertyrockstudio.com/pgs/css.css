@@ -1,0 +1,21 @@
+BODY{ scrollbar-face-color:#999999; scrollbar-arrow-color:#ffffff; scrollbar-track-color:#E4E4E4; 
+scrollbar-shadow-color:#000000; scrollbar-highlight-color:#cccccc; scrollbar-3dlight-color:#cccccc; 
+scrollbar-darkshadow-Color:#000000; } .travelrs {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; background-color: #125569; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.txtarea { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; background-color: #FFFFFF; border: 1px #999999 outset}
+.corps1 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000}
+
+a.lienbp:link {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; background-color: #000000; none}
+a.lienbp:active {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; background-color: #000000 ; none} 
+a.lienbp:visited {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; background-color: #000000; none} 
+a.lienbp:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000; background-color: #FFFFFF; none}
+
+lien { text-decoration: none; color: #FFFFFF; }
+lien { text-decoration: none; color: #FFFFFF; }
+
+a.message:link {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; background-color: #000000; none}
+a.message:active {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; background-color: #000000; none} 
+a.message:visited {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #FFFFFF; background-color: #000000; none} 
+a.message:hover {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000; background-color: #FFFFFF; none}
+
+
+.messageoff {  font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF; background-color: #000000}

@@ -1,0 +1,61 @@
+############## ATARI-ST #############
+## ##  #### #### ###  ###   ##  ###
+# # #     #    # #  # #  # #  # #  #
+#   #  #  # #  # ###  ###  #  # #  #
+#   #   ##   ##  #    #  #  ##  ###
+############### 2oo3 ################
+
+Intro-Menu : COMPILE MJJ A 10 ANS + 1
+version : 1.3.i
+last release : 2003/12/22
+code asm/gfa : Zorro2
+graphic : F.F.
+muzaxx : NoMore/Animal Mine
+utilities : 
+(ST) devpack 2.5fr - gfabasic 3.5fr
+neochrome master 2.24 - dali 4
+(PC) ultraedit - steem 2.61fr
+tested on :
+1040 STF - TOS 1.02fr
+520 STE - 4 Mo - TOS 1.62fr
+STEEM v 2.61fr - TOS 1.02fr
+SAINT v 1.32 - TOS 1.0en
+tested off :
+all Falcon
+
+<--------- This compile regroup a lot
+of production of MJJPROD since 10 years.
+This compile was already to be completed
+one year ago but the code in gfa-basic
+showed its weaknesses... damned !!!
+
+This intro doesn't work on Falcon, sorry...
+But you can tested on it with each intro
+programs on this compile ----------------->
+
+The author's comments ---------------------
+Sorry for this crap intro, but I would make
+this in comparaison with old intros that you
+can see on this compile. The gfx have 1 year
+old and the crappy ripp codes maybe more...
+I don't know very well the assembler but all
+that I can say, that I have really sweated 
+about it !?! I'll return on the gfa-basic...
+No time to make a real loader. No time to...
+------------ Zorro2 aka Freddo -----------
+
+
+All comments and supports at MJJPROD :
+Fel'X : fauer@wanadoo.fr
+Website : http://perso.wanadoo.fr/mjjprod/
+
+
+############## ATARI-ST #############
+## ##  #### #### ###  ###   ##  ###
+# # #     #    # #  # #  # #  # #  #
+#   #  #  # #  # ###  ###  #  # #  #
+#   #   ##   ##  #    #  #  ##  ###
+##### MJJPROD COPYRIGHT (c)2oo3 #####
+
+"Long days on atari ST is Fun !"
+-- FrEd!

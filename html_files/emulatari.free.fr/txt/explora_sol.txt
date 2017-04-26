@@ -1,0 +1,269 @@
+http://mrnours.atari.org - Emulation Atari ST -
+- Merci a A. Luciani pour cette solution -
+
+
+Votre père, qui avait inventé une machine à voyager dans le temps a été assassiné par son serviteur, et ce dernier a fui dans le futur.
+Si vous ne voulez pas être accusé de meurtre, vous avez intéret à le retrouver.Mais pour cela il vous faudra voyager à diverses époques pour retrouver les objets nécessaires à votre voyage dans le futur
+
+1) LE CHATEAU :
+- Regarder la photo.
+Regarder le testament.
+Poser le testament.
+E.
+Prendre la boule sur l'étagère.
+O.
+Poser la boule sur la rampe.
+Monter.
+Prendre les clefs sur la statue.
+Prendre la carte "IND" sous le tapis.
+Utiliser les clefs sur la commode.
+Prendre les gants.
+Mettre les gants.
+NE.
+Prendre le grapin sous le lit.
+Prendre la carte "EGY" sur le lit.
+Ouvrir le tiroir à droite.
+Prendre le papier dans le tiroir.
+SO.
+Descendre.
+O.
+N.
+Prendre la bouteille sur l'évier.
+Ouvrir le placard sous l'évier.
+Regarder sous le placard.
+Utiliser le papier sur le coffre.
+Prendre le briquet.
+S.
+E.
+Allumer le briquet.
+NE.
+Monter.
+E.
+Prendre la bougie.
+Allumer la bougie.
+Eteindre le briquet.
+Prendre la carte "MEX" dans le livre.
+O.
+Descendre.
+Descendre.
+E.
+Regarder le miroir.
+Actionner l'interrupteur.
+O.
+Monter.
+SO.
+Prendre la boule sur la rampe.
+Poser la boule.
+Prendre la carte "PRE" dans le vase.
+NE.
+Descendre.
+E.
+Eteindre la bougie.
+Poser la bougie.
+Ouvrir le tiroir de la commode.
+Prendre les fusibles.
+N.
+Mettre les fusibles dans la boite.
+Retourner le tableau.
+Prendre la culotte.
+Poser la culotte.
+Actionner la manette.Monter dans la machine.
+Tableau de bord Mettre la carte "PRE" dans le lecteur.
+Appuyer sur le bouton
+2) LA PREHISTOIRE :
+- E.
+Prendre l'herbe sur la hutte.
+Prendre l'os.
+E.
+NE.
+Allumer le briquet.
+Allumer l'herbe.
+Eteindre le briquet.
+Poser l'herbe.
+Poser le briquet.
+Prendre le baton dans le feu.
+E.
+S.
+Prendre la carte dans le bougeoir.
+Regarder la carte sur le mur .
+N.
+O.
+Prendre la pierre.
+SO.
+O.
+O.
+Poser le baton.
+Monter dans la machine.
+Tableau de bord.
+Mettre la carte "IND" dans le lecteur.
+Appuyer sur le bouton
+3) LES INDES :
+- O.
+N.
+Prendre la main du lépreux.
+Prendre le papier au lépreux.
+S.
+E.
+E.
+NE.
+Poser le papier.
+Monter.
+E.
+Utiliser la bouteille.
+Prendre l'eau.
+O.
+Monter.
+SO.
+O.
+O.
+N.
+Poser la bouteille.
+Prendre la clef.
+S.
+E.
+N.
+Utiliser la clef.
+N.
+Prendre l'enveloppe.
+S.
+O.
+O.
+Prendre le parchemin pres du fakir.
+E.
+E.
+Monter dans la machine.
+Tableau de bord.
+Mettre la carte "EGY" dans le lecteur.
+Appuyer sur le bouton
+4) L'EGYPTE :
+- N.
+E.
+N.
+N.
+Regarder dans le buisson.
+Prendre l'amulette.
+Pousser la pierre du haut.
+Pousser la pierre en haut à gauche.
+Pousser la pierre en haut à droite.
+Pousser la pierre en haut à droite.
+N.
+N.
+Poser l'amulette.
+N.
+O.
+Utiliser le grappin.
+Monter.
+Mettre les leviers dans les positions suivantes:
+Bas, Haut, Haut, Haut, Haut, Bas, Bas, Bas.
+Prendre la bague sur le sphinx.
+Prendre la carte sur le sphinx.
+Descendre.
+Poser le parchemin.
+E.
+S.
+S.
+Prendre la torche.
+S.
+S.
+S.
+O.
+S.
+Monter dans la machine.
+Tableau de bord.
+Mettre la carte "MEX" dans le lecteur.
+Appuyer sur le bouton
+5) LE MEXIQUE :
+- 1ère Version :
+(Facultative) Trouver le bon chemin.
+E.
+E.
+Prendre le collier dans le tronc de l'arbre.
+N.
+SO.
+NO.
+O.
+Donner le collier au Maya.
+Noter le chemin
+2ème Version :
+Aller droit au but.
+NE.
+NE.
+N.
+Examiner le trou noir.
+Tourner la boule.
+Prendre la clef.
+O.
+NO.
+NE.
+NE.
+N.
+N.
+NO.
+NO.
+NE.
+E.
+Fouiller le buisson.
+Mettre la bague dans le trou de la colonne de droite.
+Monter.
+Monter.
+Mettre l'os dans le trou de la porte.
+Monter.
+Mettre la clef dans le coffre.
+Prendre la carte dans le coffre.
+Descendre.
+O.
+SO.
+SE.
+SE.
+S.
+S.
+SO.
+SO.
+SE.
+E.
+S.
+SO.
+SO.
+Monter dans la machine.
+Tableau de bord.
+Mettre la carte "FUT" dans le lecteur.
+Appuyer sur le bouton
+6) LE FUTUR :
+- Actionner la télévision.
+Actionner le bouton sur le pupitre.
+NE.
+(Le garde apparait) Frapper la tête du garde avec la pierre.
+Prendre l'uniforme.la clef.
+Prendre le tube.
+Mettre l'uniforme.
+N.
+O.
+O.
+N.
+Ouvrir le casier en haut.
+Prendre la torche.
+S.
+E.
+E.
+E.
+E.
+S.
+Actionner le bouton rouge.
+Noter l'endroit marqué d'une croix rouge.
+N.
+N.
+N.
+O.
+Ouvrir la boite à fusibles marquée d'une croix rouge.
+Retirer le fusible.
+E.
+S.
+S.
+E.
+Regarder la photo du debut.
+Utiliser le tube dans la serrure à droite de la porte.
+Le domestique apparait et se rend.
+Vous êtes innocenté
+* FIN 
+
+
