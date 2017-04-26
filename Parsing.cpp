@@ -60,7 +60,7 @@ char            *Parsing::isAPhoneNumber(char *str) {
             nbr_string += iostr[i];
     }
     if (nbr_string.length() == 10) {
-        return strdup(nbr_string.c_str());
+        return ((char *)nbr_string.c_str());
     }
     else
         return NULL;

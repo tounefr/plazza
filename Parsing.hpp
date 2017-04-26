@@ -30,7 +30,7 @@ private:
     Parsing& operator= (const Parsing&){}
 
     void                                        cutGoodLine(char *str, std::regex reg,
-                                                     std::vector<std::string>& infosList);
+                                                std::vector<std::string>& infosList);
     static char                                 *isAPhoneNumber(char *str);
 
     std::string                                 path;
