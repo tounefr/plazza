@@ -7,6 +7,14 @@
 
 #include <iostream>
 #include <string>
+#include <ctime>
+#include <mutex>
+
+enum LogType {
+    INFO,
+    ERROR,
+    DEBUG
+};
 
 class Logger {
 private:
@@ -15,7 +23,7 @@ private:
 public:
     Logger();
     Logger const& getInstance();
+    static void push(LogType, const std::string &where, const std::string &what);
 };
-
 
 #endif //PLAZZA_LOGGER_HPP
