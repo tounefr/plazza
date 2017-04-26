@@ -4,10 +4,4 @@
 
 #include "Logger.hpp"
 
-Logger::Logger() {
-
-}
-
-Logger const& Logger::getInstance() {
-    return _instance;
-}
+using namespace Logger;

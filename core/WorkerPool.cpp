@@ -6,17 +6,33 @@
 #include <iostream>
 #include "WorkerPool.hpp"
 #include "../Plazza.hpp"
+#include "../network/ip/Socket.hpp"
 
 WorkerPool::WorkerPool() :
-    ProcessWrapper(getpid()) {
-
+    ProcessWrapper(getpid()),
+    _tasks()
+{
     Plazza *p = Plazza::getInstance();
     initThreads(p->getNbrThreadsPerProc());
+    recvPackets();
+    for (std::list<Worker*>::iterator iter = _threads.begin(); iter != _threads.end(); iter++) {
+        (*iter)->join();
+    }
+}
+
+void WorkerPool::recvPackets() {
+    _socket = new Network::IP::Socket("127.0.0.1", 8888);
+    PacketGiveTask *packetGiveTask;
+
+    while ((packetGiveTask = _socket->recv_packet())) {
+        _tasks.enqueue(new Task(std::string(packetGiveTask->path), packetGiveTask->type));
+        std::cout << "Recv task : " << packetGiveTask->path << " " << packetGiveTask->type << std::endl;
+    }
 }
 
 void WorkerPool::initThreads(int nbr_threads_per_proc) {
     for (int i = 0; i < nbr_threads_per_proc; i++) {
-        _threads.push_back(new Worker());
+        _threads.push_back(new Worker(_tasks));
     }
 }
 
@@ -25,19 +41,6 @@ WorkerPool::~WorkerPool() {
         delete _threads.back();
         _threads.pop_back();
     }
-}
-
-bool WorkerPool::giveTask(Task & task) {
-    Worker *t;
-
-    for (std::list<Worker*>::iterator iter = _threads.begin(); iter != _threads.end(); iter++) {
-        t = *iter;
-        if (!t->isRunning()) {
-            if (t->giveTask(task))
-                return true;
-        }
-    }
-    return false;
 }
 
 bool WorkerPool::getNbrThreads() {

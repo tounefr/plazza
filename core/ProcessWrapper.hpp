@@ -7,8 +7,9 @@
 
 
 class ProcessWrapper {
-private:
+protected:
     int _pid;
+    int _status;
 
 public:
     ProcessWrapper(int pid);

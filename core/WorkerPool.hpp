@@ -12,21 +12,25 @@
 #include "Worker.hpp"
 #include "ProcessWrapper.hpp"
 #include "../common/Task.hpp"
+#include "../network/ISocket.hpp"
+#include "../network/ip/Socket.hpp"
 
 class WorkerPool : public ProcessWrapper {
 private:
     std::list<Worker*> _threads;
+    Network::ISocket *_socket;
+    Queue<Task*> _tasks;
 
 public:
 
     WorkerPool();
     ~WorkerPool();
-    bool giveTask(Task& task);
     bool getNbrThreads();
     std::list<Worker*>& getThreads();
     unsigned int getNbrThreadsRunning();
     void initThreads(int nbr_threads_per_proc);
     void waitThreads();
+    void recvPackets();
 
 };
 

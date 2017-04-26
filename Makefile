@@ -17,7 +17,8 @@ SRCS =  Plazza.cpp \
         common/Task.cpp \
         common/Thread.cpp \
         common/Logger.cpp \
-        common/ConditionVariable.cpp
+        common/ConditionVariable.cpp \
+        common/Client.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
@@ -27,7 +28,7 @@ NAME = plazza
 
 LDFLAGS = -I.
 
-CFLAGS = -Wall -lpthread
+CFLAGS = -Wall -lpthread -g
 
 $(NAME): $(OBJS)
 	$(CC) -o $(NAME) $(OBJS) $(CFLAGS)

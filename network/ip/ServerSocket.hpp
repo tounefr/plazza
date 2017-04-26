@@ -9,6 +9,7 @@
 #include <map>
 #include "Socket.hpp"
 #include "../../common/Thread.hpp"
+#include "../ISocket.hpp"
 #include "../IServerSocket.hpp"
 
 namespace Network {
@@ -16,11 +17,16 @@ namespace Network {
         class ServerSocket : public IServerSocket, public Thread {
         private:
             int _socket;
-            std::list<Network::IP::Socket *> _clients;
+            unsigned short _listen_port;
+            bool _listening;
+            std::list<Network::ISocket *> _clients;
         public:
             ServerSocket(unsigned short listen_port);
-            virtual ISocket *sock_accept(Queue<Packet*>& packets);
+            virtual bool sock_listen();
+
+            virtual Network::ISocket *sock_accept();
             virtual void run();
+            virtual bool isListening();
         };
     }
 }

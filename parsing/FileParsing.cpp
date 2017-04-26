@@ -8,8 +8,6 @@
 
 using namespace Parsing;
 
-FileParsing* FileParsing::m_instance=0;
-
 FileParsing::FileParsing()
 {
     this->filter.insert(std::make_pair(PHONE_NUMBER, ""));
@@ -35,18 +33,6 @@ void FileParsing::set_path(std::string path) {
 
 std::string FileParsing::get_path() {
     return this->path;
-}
-
-FileParsing* FileParsing::Get() {
-    //mutex lock
-    if (m_instance == 0)
-        m_instance = new FileParsing();
-    return m_instance;
-}
-
-void FileParsing::Kill() {
-    delete m_instance;
-    m_instance = 0;
 }
 
 void FileParsing::cutGoodLine(char *str, std::regex reg,

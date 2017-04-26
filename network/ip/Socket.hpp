@@ -15,15 +15,16 @@ namespace Network
 {
     namespace IP
     {
-        class Socket : public Thread, public ISocket {
+        class Socket : public Network::ISocket {
         private:
-            Queue<Packet*>& _pendingPackets;
             int _socket;
         public:
-            Socket(Queue<Packet*>& pendingPackets);
-            Socket(Queue<Packet*>& pendingPackets, int _socket);
-            void sock_connect(std::string& ip, unsigned short& port);
-            virtual void run();
+            Socket(std::string ip, unsigned short port);
+            Socket(int _socket);
+
+            virtual void sock_connect(std::string ip, unsigned short port);
+            virtual PacketGiveTask* recv_packet();
+            virtual bool sock_send(PacketGiveTask *packet);
         };
     }
 }

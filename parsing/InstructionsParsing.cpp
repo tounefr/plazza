@@ -63,7 +63,7 @@ bool InstructionsParsing::get_pattern(const std::string &word, Patterns &pattern
         return true;
     }
 
-    if (word.compare("EMAIL") == 0) {
+    if (word.compare("EMAIL_ADDRESS") == 0) {
         pattern = EMAIL_ADDRESS;
         return true;
     }
@@ -83,7 +83,7 @@ int InstructionsParsing::get_task(const std::string &task, Queue<Task*> &taskLis
     else if (wordTab.size() > 0) {
         for (int i = 0; i < wordTab.size() - 1; i++) {
             taskList.enqueue(new Task(wordTab[i], pattern));
-  //          std::cout << "NEW TASK: " << pattern << " | " << wordTab[i] << std::endl;
+            std::cout << "NEW TASK: " << pattern << " | " << wordTab[i] << std::endl;
         }
     }
 }
