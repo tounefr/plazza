@@ -8,8 +8,6 @@
 
 using namespace Parsing;
 
-FileParsing* FileParsing::m_instance=0;
-
 FileParsing::FileParsing()
 {
     this->filter.insert(std::make_pair(PHONE_NUMBER, "^0[1-6]{1}(([0-9]{2}){4})|((\\s[0-9]{2}){4})|((-[0-9]{2}){4})$"));
@@ -35,17 +33,6 @@ void FileParsing::set_path(std::string path) {
 
 std::string FileParsing::get_path() {
     return this->path;
-}
-
-FileParsing* FileParsing::Get() {
-    if (m_instance == 0)
-        m_instance = new FileParsing();
-    return m_instance;
-}
-
-void FileParsing::Kill() {
-    delete m_instance;
-    m_instance = 0;
 }
 
 char* FileParsing::isAPhoneNumber(char *str) {

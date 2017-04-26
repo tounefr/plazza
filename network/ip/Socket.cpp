@@ -11,23 +11,22 @@
 #include <iostream>
 #include <unistd.h>
 
+#include "../ISocket.hpp"
 #include "Socket.hpp"
 
 using namespace Network::IP;
 
-Socket::Socket(Queue<Packet*>& pendingPackets) :
-    _pendingPackets(pendingPackets)
+Socket::Socket(std::string ip, unsigned short port)
 {
-
+    sock_connect(ip, port);
 }
 
-Socket::Socket(Queue<Packet*>& pendingPackets, int socket) :
-    Socket(pendingPackets)
+Socket::Socket(int socket)
 {
     _socket = socket;
 }
 
-void Socket::sock_connect(std::string& ip, unsigned short& port) {
+void Socket::sock_connect(std::string ip, unsigned short port) {
     if (-1 == (_socket = socket(AF_INET, SOCK_STREAM, 0))) {
         std::cerr << strerror(errno) << std::endl;
         return;
@@ -42,19 +41,23 @@ void Socket::sock_connect(std::string& ip, unsigned short& port) {
         std::cerr << strerror(errno) << std::endl;
         return;
     }
+    std::cout << "Connected to " << ip << " " << port << std::endl;
 }
 
-void Socket::run() {
-    Packet *packet;
-
-    while (1) {
-        packet = new Packet;
-        memset(packet, 0, sizeof(Packet));
-        if (recv(_socket, packet, sizeof(Packet), 0) <= 0) {
-            std::cout << "Recv failed" << std::endl;
-            break;
-        }
-        _pendingPackets.enqueue(packet);
-        std::cout << "Recv packet : " << packet->type << std::endl;
+PacketGiveTask* Socket::recv_packet() {
+    PacketGiveTask *packet = (PacketGiveTask*)malloc(sizeof(PacketGiveTask));
+    if (packet == NULL)
+        return NULL;
+    memset(packet, 0, sizeof(PacketGiveTask));
+    if (recv(_socket, packet, sizeof(PacketGiveTask), 0) == -1) {
+        std::cout << "Recv failed : " << strerror(errno) << std::endl;
+        return NULL;
     }
+    return packet;
+}
+
+bool Socket::sock_send(PacketGiveTask *packet) {
+    if (send(_socket, packet, sizeof(PacketGiveTask), 0) == -1)
+        return false;
+    return true;
 }

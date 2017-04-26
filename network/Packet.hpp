@@ -5,15 +5,13 @@
 #ifndef PLAZZA_PACKET_HPP
 #define PLAZZA_PACKET_HPP
 
-typedef enum e_packet_type
-{
-    HELLO
-} e_packet_type;
+#include "../common/Task.hpp"
 
-typedef struct s_packet
+typedef struct PacketGiveTask
 {
-    e_packet_type type;
+    char path[200];
+    Patterns type;
+} PacketGiveTask;
 
-} Packet;
 
 #endif //PLAZZA_PACKET_HPP

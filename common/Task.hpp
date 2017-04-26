@@ -21,6 +21,12 @@ private:
 
 public:
     Task(std::string const & file_path, enum Patterns pattern);
+    const char* getFilePath() {
+        return _file_path.c_str();
+    };
+    enum Patterns getPattern() {
+        return _pattern;
+    };
 };
 
 

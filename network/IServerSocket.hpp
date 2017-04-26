@@ -12,8 +12,9 @@
 namespace Network {
     class IServerSocket {
     public:
-//        Socket *ServerSocket::sock_accept(Queue<Packet*>& packets);
-        virtual ISocket *sock_accept(Queue<Packet*>& packets) = 0;
+        virtual ISocket *sock_accept() = 0;
+        virtual bool sock_listen() = 0;
+        virtual bool isListening() = 0;
     };
 }
 

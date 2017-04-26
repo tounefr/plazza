@@ -4,38 +4,35 @@
 
 #include "Worker.hpp"
 
-Worker::Worker() :
+Worker::Worker(Queue<Task*>& _tasks) :
         _task(NULL),
+        _tasks(_tasks),
+        _fileParsing(),
         Thread() {
-
+    start();
 }
 
 Worker::~Worker() {
+}
 
+void Worker::printPatternsGrabbed() {
+    std::cout << "[thread] task finished : " << _patterns.size() << std::endl;
+    for (std::vector<std::string>::iterator iter = _patterns.begin(); iter != _patterns.end(); iter++) {
+        std::cout << *iter << std::endl;
+    }
 }
 
 void Worker::run() {
-    for (int i = 0; i < 10; i++) {
-        /*
-         *     Parsing *ptr = Parsing::Get();
-    ptr->set_field(PHONE_NUMBER);
-    ptr->set_path("/home/aurelien/rendu/CPP/plazza/html_files");
-    DIR      *dir;
-
-    dir = opendir(ptr->get_path().c_str());
-    search_in_dirctory(ptr, dir);
-}
-         */
-        std::cout << "[thread " << i << "]" << "Processing task " << _task << std::endl;
-        sleep(1);
+    while (1) {
+        setRunning(false);
+        task = _tasks.dequeue();
+        setRunning(true);
+        std::cout << "[thread] Processing task " << task->getFilePath() << std::endl;
+        _fileParsing.set_path(task->getFilePath());
+        _fileParsing.set_field(task->getPattern());
+        _patterns = _fileParsing.get_list();
+        printPatternsGrabbed();
     }
-    setRunning(false);
-}
-
-bool Worker::giveTask(Task& task) {
-    setRunning(true);
-    _task = &task;
-    start();
 }
 
 bool Worker::hasTask() {

@@ -7,15 +7,19 @@
 
 #include <iostream>
 #include <string>
+#include <mutex>
 
-class Logger {
-private:
-    Logger const& _instance = Logger();
+namespace Logger {
+    typedef enum Level
+    {
+        INFO,
+        ERROR,
+        DEBUG
+    } LoggerLevel;
 
-public:
-    Logger();
-    Logger const& getInstance();
-};
+    class Log {
 
+    };
+}
 
 #endif //PLAZZA_LOGGER_HPP

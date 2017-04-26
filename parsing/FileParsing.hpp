@@ -12,13 +12,12 @@
 namespace Parsing {
     class FileParsing {
     public:
-        static FileParsing          *Get();
-        static void                 Kill();
-
         std::vector<std::string>    get_list();
 
         void                        set_path(std::string path);
         void                        set_field(Patterns field);
+        FileParsing();
+        ~FileParsing();
 
         std::string                 get_path();
 
@@ -33,12 +32,6 @@ namespace Parsing {
         std::map<Patterns, std::string>             filter;
         std::map<Patterns , std::string>         sep_chars;
         Patterns field;
-
-        FileParsing();
-        ~FileParsing();
-
-    protected:
-        static FileParsing *m_instance;
     };
 }
 

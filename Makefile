@@ -17,7 +17,8 @@ SRCS =  Plazza.cpp \
         common/Task.cpp \
         common/Thread.cpp \
         common/Logger.cpp \
-        common/ConditionVariable.cpp
+        common/ConditionVariable.cpp \
+        common/Client.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
