@@ -73,21 +73,21 @@ int InstructionsParsing::get_task(const std::string &task, Queue<Task *> &taskLi
 
     if (wordTab.size() >= 2) {
         if (!get_pattern(wordTab.back(), pattern)) {
-            Logger::push(ERROR, "InstructionsParsing", "Unknown data type: \"" + wordTab.back() + "\"");
+            Logger::getInstance()->print(ERROR, "InstructionsParsing", "Unknown data type: \"" + wordTab.back() + "\"");
         } else if (wordTab.size() > 0) {
             for (int i = 0; i < wordTab.size() - 1; i++) {
                 taskList.enqueue(new Task(wordTab[i], pattern));
-                Logger::push(INFO, "InstructionsParsing", "Task created (Type = " + DataType[pattern] + " in " + wordTab[i] + ")");
+                Logger::getInstance()->print(DEBUG, "InstructionsParsing", "Task created (Type = " + DataType[pattern] + " in " + wordTab[i] + ")");
             }
         }
     } else {
-        Logger::push(ERROR, "InstructionsParsing", "Not enough information to create a task.");
+        Logger::getInstance()->print(ERROR, "InstructionsParsing", "Not enough information to create a task.");
     }
 }
 
 void InstructionsParsing::run() {
 
-    Logger::push(INFO, "InstructionsParsing", "Starting Intruction Parsing.");
+    Logger::getInstance()->print(DEBUG, "InstructionsParsing", "Starting Intruction Parsing.");
     Plazza *plazza = Plazza::getInstance();
     Queue<Task*>& tasklist = plazza->getTasks();
     while (plazza->isRunning()) {

@@ -2,6 +2,7 @@
 // Created by thomas on 21/04/17.
 //
 
+#include "../common/Logger.hpp"
 #include "Worker.hpp"
 
 Worker::Worker(Queue<Task*>& _tasks) :
@@ -17,7 +18,7 @@ Worker::~Worker() {
 
 void Worker::printPatternsGrabbed() {
     if (_patterns.size() > 0) {
-        std::cout << "[thread] task finished : " << _patterns.size() << std::endl;
+        Logger::getInstance()->print(DEBUG, "Worker", "Task finished");
         for (std::vector<std::string>::iterator iter = _patterns.begin(); iter != _patterns.end(); iter++) {
             std::cout << *iter << std::endl;
         }
@@ -29,7 +30,7 @@ void Worker::run() {
         setRunning(false);
         _task = _tasks.dequeue();
         setRunning(true);
-        std::cout << "[thread] Processing task " << _task->getFilePath() << std::endl;
+        Logger::getInstance()->print(DEBUG, "Worker", "Processsing task '" + std::string(_task->getFilePath()) + "'");
         _fileParsing.set_path(_task->getFilePath());
         _fileParsing.set_field(_task->getPattern());
         _patterns = _fileParsing.get_list();

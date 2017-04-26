@@ -30,6 +30,7 @@ public:
     bool newProcess(Task*);
 
     void infos_process() {
+        /*
         std::cout << "Nbr de process : " << _clients.size();
         Client *client;
         int i = 0;
@@ -42,6 +43,7 @@ public:
         }
         std::cout << "Total tasks : " << tasks << std::endl;
         std::cout << std::endl;
+         */
     };
 };
 

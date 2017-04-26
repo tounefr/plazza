@@ -15,8 +15,7 @@ Plazza::Plazza() :
         _pendingTasks(),
         _scheduler(),
         _nbr_threads_per_proc(THREADS_PER_PROC),
-        _instructionsParsing()
-{
+        _instructionsParsing() {
 }
 
 Plazza* Plazza::getInstance() {
@@ -24,16 +23,21 @@ Plazza* Plazza::getInstance() {
     return p;
 }
 
-void Plazza::start() {
+int Plazza::start(int nbr_threads_per_proc) {
+    _nbr_threads_per_proc = nbr_threads_per_proc;
+
     if (isRunning()) {
         _instructionsParsing.start();
         _scheduler.start();
 
         _scheduler.join();
         _instructionsParsing.join();
+        return 0;
     }
+    return 1;
 }
 
+/*
 void Plazza::fetchInstructionsLoop() {
     void *buffer;
 
@@ -66,6 +70,7 @@ void Plazza::fetchInstructionsLoop() {
         }
     }
 }
+*/
 
 Plazza::~Plazza() {
 

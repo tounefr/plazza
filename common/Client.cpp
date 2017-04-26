@@ -50,14 +50,14 @@ bool Client::giveTask(Task* task) {
 }
 
 void Client::run() {
-    std::cout << "Waiting for connection" << std::endl;
+    Logger::getInstance()->print(DEBUG, "Client", "Waiting for connection");
     _socket = _serverSocket->sock_accept();
-    std::cout << "New connection ! " << std::endl;
+    Logger::getInstance()->print(DEBUG, "Client", "New connection !");
     while (Plazza::getInstance()->isRunning()) {
         Task *task = _tasks.dequeue();
         if (!giveTask(task))
             break;
-        std::cout << "Task sent" << std::endl;
+        Logger::getInstance()->print(DEBUG, "Client", "Task sent");
     }
     waitpid(_pid, &_status, 0);
     _nbrTasks--;

@@ -10,11 +10,12 @@ Logger::Logger() {
 
 }
 
-Logger const& Logger::getInstance() {
-    return _instance;
+Logger* Logger::getInstance() {
+    static Logger* l = new Logger();
+    return l;
 }
 
-void Logger::push(LogType type, const std::string &where, const std::string &what) {
+void Logger::print(LogType type, const std::string &where, const std::string &what) {
 
     OutLock.lock();
 
@@ -29,7 +30,7 @@ void Logger::push(LogType type, const std::string &where, const std::string &wha
               << 1 + ltm->tm_min << ":"
               << 1 + ltm->tm_sec << " "
               << " [" << Types[type] << "] "
-              << where << ": "
+              << "[" << where << "] : "
               << what << std::endl;
 
     OutLock.unlock();

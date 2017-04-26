@@ -21,12 +21,13 @@ WorkerPool::WorkerPool() :
 }
 
 void WorkerPool::recvPackets() {
-    _socket = new Network::IP::Socket("127.0.0.1", 8888);
+    _socket = new Network::IP::Socket(NETWORK_LISTEN_ADDRESS, NETWORK_LISTEN_PORT);
     PacketGiveTask *packetGiveTask;
 
     while ((packetGiveTask = _socket->recv_packet())) {
         _tasks.enqueue(new Task(std::string(packetGiveTask->path), packetGiveTask->type));
-        std::cout << "Recv task : " << packetGiveTask->path << " " << packetGiveTask->type << std::endl;
+       //TODO:
+        //std::cout << "Recv task : " << packetGiveTask->path << " " << packetGiveTask->type << std::endl;
     }
 }
 

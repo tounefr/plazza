@@ -5,6 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include "FileParsing.hpp"
+#include "../common/Logger.hpp"
 
 using namespace Parsing;
 
@@ -87,7 +88,7 @@ std::vector<std::string>            FileParsing::get_list() {
 
     if (!file)
     {
-        std::cerr << "Error open file !" << std::endl;
+        Logger::getInstance()->print(ERROR, "FileParsing", "Failed to open file '" + std::string(this->path) + "'");
         exit(0);
     }
     while (getline(file, str))

@@ -13,6 +13,7 @@
 
 #include "../ISocket.hpp"
 #include "Socket.hpp"
+#include "../../common/Logger.hpp"
 
 using namespace Network::IP;
 
@@ -41,7 +42,7 @@ void Socket::sock_connect(std::string ip, unsigned short port) {
         std::cerr << strerror(errno) << std::endl;
         return;
     }
-    std::cout << "Connected to " << ip << " " << port << std::endl;
+    Logger::getInstance()->print(DEBUG, "Socket", "Connected to " + ip + ":" + std::to_string(port));
 }
 
 PacketGiveTask* Socket::recv_packet() {
@@ -50,7 +51,8 @@ PacketGiveTask* Socket::recv_packet() {
         return NULL;
     memset(packet, 0, sizeof(PacketGiveTask));
     if (recv(_socket, packet, sizeof(PacketGiveTask), 0) == -1) {
-        std::cout << "Recv failed : " << strerror(errno) << std::endl;
+        // TODO: fix the log msg
+        // Logger::getInstance()->print(ERROR, "Socket", "Recv failed : " + std::to_string(strerror(errno)));
         return NULL;
     }
     return packet;

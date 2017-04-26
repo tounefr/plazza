@@ -17,7 +17,7 @@ Scheduler::Scheduler() :
         _min_process(3),
         _maxTaskPerClient(10)
 {
-    _serverSocket = new Network::IP::ServerSocket(8888);
+    _serverSocket = new Network::IP::ServerSocket(NETWORK_LISTEN_PORT);
     if (!_serverSocket->sock_listen()) {
         Plazza::getInstance()->setRunning(false);
     }
@@ -31,18 +31,18 @@ size_t& Scheduler::getMinProcess() {
 }
 
 void Scheduler::run() {
-    std::cout << "Starting Scheduler" << std::endl;
+    Logger::getInstance()->print(DEBUG, "Scheduler", "Starting Scheduler");
     Task *t;
 
     // On initialise <_min_process> à l'avance
     for (int i = 0; i < getMinProcess(); i++)
         newProcess(NULL);
-    sleep(1);
+    sleep(1); // TODO: crade: cond var
     infos_process();
 
     while (Plazza::getInstance()->isRunning()) {
         t = Plazza::getInstance()->getTasks().dequeue();
-        std::cout << "Handling task " << t << std::endl;
+//        std::cout << "Handling task " << t << std::endl;
         if (!giveTask(*t))
             break;
     }
