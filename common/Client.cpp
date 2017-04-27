@@ -58,7 +58,6 @@ void Client::run() {
     Logger::getInstance()->print(DEBUG, "Client", "New connection !");
     while (Plazza::getInstance()->isRunning()) {
         Task *task = _tasks.dequeue();
-        Logger::getInstance()->print(DEBUG, "Client", "TESTTTTTTTTTTTTTTTTTTt");
         if (!giveTask(task))
             break;
         Logger::getInstance()->print(DEBUG, "Client", "Task sent");

@@ -44,7 +44,7 @@ void WorkerPool::recvPackets() {
 
 void WorkerPool::initThreads(int nbr_threads_per_proc) {
     for (int i = 0; i < nbr_threads_per_proc; i++) {
-        _threads.push_back(new Worker(_tasks));
+        _threads.push_back(new Worker(_tasks, _socket));
     }
 }
 

@@ -37,41 +37,6 @@ int Plazza::start(int nbr_threads_per_proc) {
     return 1;
 }
 
-/*
-void Plazza::fetchInstructionsLoop() {
-    void *buffer;
-
-    struct timeval select_timeout = {1, 100}; // wait every 100 ms
-    fd_set rfds;
-    int selectrv;
-
-    buffer = malloc(1000);
-    assert(buffer != NULL);
-
-    FD_ZERO(&rfds);
-    FD_SET(0, &rfds);
-
-    while (1) {
-        select_timeout.tv_sec = 1;
-        select_timeout.tv_usec = 0;
-        selectrv = select(1, &rfds, NULL, NULL, &select_timeout);
-        switch (selectrv) {
-            case -1:
-                std::cout << "select failed" << std::endl;
-                break;
-            case 0:
-                std::cout << "No data" << std::endl;
-                break;
-            default:
-                std::cout << "Data available" << std::endl;
-                //read(0, buffer, 1000);
-                break;
-
-        }
-    }
-}
-*/
-
 Plazza::~Plazza() {
 
 }

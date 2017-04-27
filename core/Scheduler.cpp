@@ -11,13 +11,13 @@
 Scheduler::Scheduler() :
         Thread(),
         _clients(),
-        _min_process(3),
+        _min_process(2),
+        _max_process(1),
         _maxTaskPerClient(10)
 {
     _serverSocket = new Network::IP::ServerSocket(NETWORK_LISTEN_PORT);
-    if (!_serverSocket->sock_listen()) {
+    if (!_serverSocket->sock_listen())
         Plazza::getInstance()->setRunning(false);
-    }
 }
 
 Scheduler::~Scheduler() {
@@ -25,6 +25,10 @@ Scheduler::~Scheduler() {
 
 size_t& Scheduler::getMinProcess() {
     return _min_process;
+}
+
+size_t& Scheduler::getMaxProcess() {
+    return _max_process;
 }
 
 void Scheduler::run() {
@@ -40,7 +44,6 @@ void Scheduler::run() {
     while (Plazza::getInstance()->isRunning()) {
         t = Plazza::getInstance()->getTasks().dequeue();
         Logger::getInstance()->print(DEBUG, "Scheduler", "Handling task '"+std::string(t->getFilePath())+"'");
-//        std::cout << "Handling task " << t << std::endl;
         if (!giveTask(*t))
             break;
     }
@@ -78,13 +81,15 @@ bool Scheduler::newProcess(Task* task) {
 bool Scheduler::giveTask(Task& task) {
     Client *client;
 
-
+    client = getLeastLoadedClient();
+    client->giveTask(&task);
+    /*
     if ((NULL == (client = getLeastLoadedClient())) ||
             (client->getNbrTasks() >= _maxTaskPerClient)) {
-        newProcess(&task);
-    } else {
-        client->giveTask(&task);
-    }
+        if (!newProcess(&task))
+            return false;
+    } else
+        client->giveTask(&task);*/
     infos_process();
     return true;
 }

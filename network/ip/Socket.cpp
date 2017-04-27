@@ -29,7 +29,7 @@ Socket::Socket(int socket)
 
 void Socket::sock_connect(std::string ip, unsigned short port) {
     if (-1 == (_socket = socket(AF_INET, SOCK_STREAM, 0))) {
-       // Logger::getInstance()->print(ERROR, "Socket", "socket error : '" + strerror(errno) + "'");
+        Logger::getInstance()->print(ERROR, "Socket", "socket error : '" + std::string(strerror(errno)) + "'");
         return;
     }
 

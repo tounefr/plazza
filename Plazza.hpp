@@ -32,7 +32,6 @@ public:
     Queue<Task*>& getTasks();
     void setNbrThreadsPerProc(int nbrThreadPerProc);
     Scheduler& getScheduler();
-//    void fetchInstructionsLoop();
     int start(int nbr_threads_per_proc);
     int& getNbrThreadsPerProc();
     bool& isRunning();

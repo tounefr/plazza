@@ -13,6 +13,7 @@
 #include "../common/Thread.hpp"
 #include "../parsing/FileParsing.hpp"
 #include "../common/Queue.hpp"
+#include "../network/ISocket.hpp"
 
 class Worker : public Thread {
 private:
@@ -20,16 +21,14 @@ private:
     Parsing::FileParsing _fileParsing;
     Queue<Task*>& _tasks;
     std::vector<std::string> _patterns;
+    Network::ISocket *_socket;
 
 public:
-    Worker(Queue<Task*>& _tasks);
+    Worker(Queue<Task*>& _tasks, Network::ISocket* socket);
     ~Worker();
     virtual void run();
     bool hasTask();
-    void printPatternsGrabbed();
-
-    void display_vector(std::vector<std::string> vec);
-    void search_in_dirctory(Parsing::FileParsing *ptr, DIR *dir);
+    void onTaskFinished();
 };
 
 #endif //PLAZZA_WORKER_HPP

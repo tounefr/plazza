@@ -18,6 +18,7 @@ private:
     std::list<Client*> _clients;
     Network::IServerSocket* _serverSocket;
     size_t _min_process;
+    size_t _max_process;
     unsigned int _maxTaskPerClient;
 
 public:
@@ -27,6 +28,7 @@ public:
     Client* getLeastLoadedClient();
     virtual void run();
     size_t& getMinProcess();
+    size_t& getMaxProcess();
     bool newProcess(Task*);
 
     void infos_process() {
