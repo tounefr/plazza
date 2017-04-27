@@ -4,6 +4,7 @@
 
 #include <thread>
 #include <iostream>
+#include <sstream>
 #include "WorkerPool.hpp"
 #include "../Plazza.hpp"
 #include "../network/ip/Socket.hpp"
@@ -22,12 +23,22 @@ WorkerPool::WorkerPool() :
 
 void WorkerPool::recvPackets() {
     _socket = new Network::IP::Socket(NETWORK_LISTEN_ADDRESS, NETWORK_LISTEN_PORT);
-    PacketGiveTask *packetGiveTask;
+    Packet *packet;
 
-    while ((packetGiveTask = _socket->recv_packet())) {
-        _tasks.enqueue(new Task(std::string(packetGiveTask->path), packetGiveTask->type));
-       //TODO:
-        //std::cout << "Recv task : " << packetGiveTask->path << " " << packetGiveTask->type << std::endl;
+    while ((packet = _socket->recv_packet())) {
+        switch (packet->getType()) {
+            case PACKET_GIVE_TASK:
+                    std::string path;
+                    unsigned int pattern;
+                    std::stringstream &stream = packet->getStream();
+
+                    stream >> pattern;
+                    stream >> path;
+                    Logger::getInstance()->print(DEBUG, "WorkerPool", "Recv PACKET_GIVE_TASK '"+ path+"'");
+                    _tasks.enqueue(new Task(path, (Patterns)pattern));
+                break;
+        }
+//        delete packet;
     }
 }
 

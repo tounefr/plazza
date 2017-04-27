@@ -6,6 +6,7 @@
 #define PLAZZA_SOCKET_HPP
 
 #include <iostream>
+#include <list>
 #include "../../common/Thread.hpp"
 #include "../Packet.hpp"
 #include "../../common/Queue.hpp"
@@ -18,13 +19,14 @@ namespace Network
         class Socket : public Network::ISocket {
         private:
             int _socket;
+
         public:
             Socket(std::string ip, unsigned short port);
             Socket(int _socket);
 
             virtual void sock_connect(std::string ip, unsigned short port);
-            virtual PacketGiveTask* recv_packet();
-            virtual bool sock_send(PacketGiveTask *packet);
+            virtual Packet* recv_packet();
+            virtual bool sock_send(PacketType const& packetType, std::string *buffer);
         };
     }
 }

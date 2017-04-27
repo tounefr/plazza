@@ -20,8 +20,8 @@ class Logger {
 
 public:
     Logger();
-    Logger* getInstance();
-    static void print(LogType, const std::string &where, const std::string &what);
+    static Logger* getInstance();
+    void print(LogType, const std::string &where, const std::string &what);
 };
 
 #endif //PLAZZA_LOGGER_HPP

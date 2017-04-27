@@ -8,6 +8,7 @@ SRCS =  Plazza.cpp \
         encryption/XorCipher.cpp \
         network/ip/ServerSocket.cpp \
         network/ip/Socket.cpp \
+        network/Packet.cpp \
         parsing/InstructionsParsing.cpp \
         parsing/FileParsing.cpp \
         core/ProcessWrapper.cpp \

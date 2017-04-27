@@ -26,6 +26,7 @@ void Worker::printPatternsGrabbed() {
 }
 
 void Worker::run() {
+    Logger::getInstance()->print(DEBUG, "Worker", "Worker ready");
     while (1) {
         setRunning(false);
         _task = _tasks.dequeue();

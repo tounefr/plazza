@@ -4,6 +4,7 @@
 
 #include <sys/types.h>
 #include <iostream>
+#include <sstream>
 #include <sys/wait.h>
 #include "Client.hpp"
 #include <unistd.h>
@@ -37,13 +38,15 @@ bool Client::isReady() {
 }
 
 bool Client::giveTask(Task* task) {
-    PacketGiveTask packet;
+    std::string buffer;
+    std::stringstream ss(buffer);
 
     if (isReady()) {
-        memset(packet.path, 0, sizeof(packet.path));
-//    memcpy(packet.path, task->getFilePath(), strlen(task->getFilePath()));
-        //  packet.type = task->getPattern();
-        _socket->sock_send(&packet);
+        ss << task->getPattern();
+        ss << task->getFilePath();
+        buffer = ss.str();
+        _socket->sock_send(PACKET_GIVE_TASK, &buffer);
+//        Logger::getInstance()->print(DEBUG, "Client", "sock_send " + ss.str());
         _nbrTasks++;
     }
     return true;
@@ -55,6 +58,7 @@ void Client::run() {
     Logger::getInstance()->print(DEBUG, "Client", "New connection !");
     while (Plazza::getInstance()->isRunning()) {
         Task *task = _tasks.dequeue();
+        Logger::getInstance()->print(DEBUG, "Client", "TESTTTTTTTTTTTTTTTTTTt");
         if (!giveTask(task))
             break;
         Logger::getInstance()->print(DEBUG, "Client", "Task sent");
