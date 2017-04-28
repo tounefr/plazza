@@ -45,7 +45,7 @@ void Worker::onTaskFinished() {
     _socket->sock_send(PACKET_TASK_RESULT, &buffer);
      */
 }
-    
+
 void Worker::run() {
     Packet *packet;
     Logger::getInstance()->print(DEBUG, "Worker", "Worker ready");
