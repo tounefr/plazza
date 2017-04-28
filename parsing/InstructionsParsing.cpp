@@ -90,7 +90,6 @@ void InstructionsParsing::run() {
     Logger::getInstance()->print(DEBUG, "InstructionsParsing", "Starting Intruction Parsing.");
     Plazza *plazza = Plazza::getInstance();
     Queue<Task*>& tasklist = plazza->getTasks();
-    while (plazza->isRunning()) {
         for (std::string line; std::getline(std::cin, line);) {
             if (!line.empty()) {
                 std::vector <std::string> vect;
@@ -106,5 +105,4 @@ void InstructionsParsing::run() {
                 }
             }
         }
-    }
 }

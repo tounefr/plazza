@@ -17,10 +17,9 @@ WorkerPool::WorkerPool() :
     _socket = new Network::IP::Socket(NETWORK_LISTEN_ADDRESS, NETWORK_LISTEN_PORT);
     initThreads(p->getNbrThreadsPerProc());
     recvPackets();
-    /*
     for (std::list<Worker*>::iterator iter = _threads.begin(); iter != _threads.end(); iter++) {
         (*iter)->join();
-    }*/
+    }
 }
 
 Network::ISocket *WorkerPool::getSocket() {
@@ -40,7 +39,7 @@ void WorkerPool::onTaskPacket(Packet *packet) {
 
 void WorkerPool::recvPackets() {
     Packet *packet;
-    Logger::getInstance()->print(ERROR, "WorkerPool", "recv packet start");
+    Logger::getInstance()->print(DEBUG, "WorkerPool", "recv packet start");
     while ((packet = _socket->recv_packet())) {
         switch (packet->getType()) {
             case PACKET_TASK:
