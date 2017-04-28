@@ -39,7 +39,7 @@ void Socket::sock_connect(std::string ip, unsigned short port) {
     inet_aton(ip.c_str(), &sockaddr.sin_addr);
 
     if (-1 == (connect(_socket, (struct sockaddr*)&sockaddr, sizeof(sockaddr)))) {
-        //Logger::getInstance()->print(ERROR, "Socket", "connect error : '" + strerror(errno) + "'");
+        Logger::getInstance()->print(ERROR, "Socket", "connect error : '" + std::string(strerror(errno)) + "'");
         return;
     }
     Logger::getInstance()->print(DEBUG, "Socket", "Connected to " + ip + ":" + std::to_string(port));
@@ -62,7 +62,7 @@ Packet* Socket::recv_packet() {
     }
     packet_content = new char[packet_size + 1];
     memset(packet_content, 0, packet_size + 1);
-    if (-1 == recv(_socket, packet_content, packet_size + 1, 0)) {
+    if (-1 == recv(_socket, packet_content, packet_size, 0)) {
         Logger::getInstance()->print(ERROR, "Socket", "Recv failed : '"+ std::string(strerror(errno)) +"'");
         return NULL;
     }
@@ -80,5 +80,13 @@ bool Socket::sock_send(PacketType const& packetType, std::string *buffer) {
         return false;
     }
 
+    return true;
+}
+
+bool Socket::sock_close() {
+    if (-1 == close(_socket)) {
+        Logger::getInstance()->print(ERROR, "Socket", "close error : '"+ std::string(strerror(errno)) +"'");
+        return false;
+    }
     return true;
 }

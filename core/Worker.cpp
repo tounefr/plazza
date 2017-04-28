@@ -31,6 +31,10 @@ void Worker::printPatternsGrabbed() {
 void Worker::onTaskFinished() {
     Logger::getInstance()->print(DEBUG, "Worker", "Task finished");
 
+    for (std::vector<std::string>::iterator iter = _patterns.begin(); iter != _patterns.end(); iter++) {
+        std::cout << *iter << std::endl;
+    }
+    /*
     std::string buffer;
     std::stringstream ss(buffer);
     ss << PACKET_TASK_RESULT;
@@ -38,6 +42,7 @@ void Worker::onTaskFinished() {
         ss << *iter << ";";
     buffer = ss.str();
     _socket->sock_send(PACKET_TASK_RESULT, &buffer);
+     */
 }
 
 void Worker::run() {
@@ -47,6 +52,7 @@ void Worker::run() {
         _task = _tasks.dequeue();
         setRunning(true);
         Logger::getInstance()->print(DEBUG, "Worker", "Processsing task '" + std::string(_task->getFilePath()) + "'");
+
         _fileParsing.set_path(_task->getFilePath());
         _fileParsing.set_field(_task->getPattern());
         _patterns = _fileParsing.get_list();

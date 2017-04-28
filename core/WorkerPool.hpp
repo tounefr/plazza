@@ -31,6 +31,7 @@ public:
     void initThreads(int nbr_threads_per_proc);
     void waitThreads();
     void recvPackets();
+    void onTaskPacket(Packet *packet);
 
 };
 

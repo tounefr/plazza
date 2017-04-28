@@ -27,6 +27,7 @@ namespace Network
             virtual void sock_connect(std::string ip, unsigned short port);
             virtual Packet* recv_packet();
             virtual bool sock_send(PacketType const& packetType, std::string *buffer);
+            virtual bool sock_close();
         };
     }
 }

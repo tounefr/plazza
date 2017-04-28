@@ -27,6 +27,8 @@ public:
     int& getNbrTasks();
     bool giveTask(Task* task);
     bool isReady();
+    void onGiveTaskPacket(Packet*);
+    void onTaskResultPacket(Packet*);
 
     virtual void run();
 };

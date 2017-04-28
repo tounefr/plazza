@@ -41,26 +41,54 @@ bool Client::giveTask(Task* task) {
     std::string buffer;
     std::stringstream ss(buffer);
 
-    if (isReady()) {
-        ss << task->getPattern();
-        ss << task->getFilePath();
-        buffer = ss.str();
-        _socket->sock_send(PACKET_GIVE_TASK, &buffer);
-//        Logger::getInstance()->print(DEBUG, "Client", "sock_send " + ss.str());
+    while (!isReady())
+        sleep(1);
+    ss << task->getPattern();
+    ss << task->getFilePath();
+    buffer = ss.str();
+    _socket->sock_send(PACKET_TASK, &buffer);
+    Logger::getInstance()->print(DEBUG, "Client", "PACKET_TASK sent");
         _nbrTasks++;
-    }
     return true;
+}
+
+void Client::onGiveTaskPacket(Packet* packet) {
+    Logger::getInstance()->print(DEBUG, "Client", "PACKET_GIVE_TASK");
+    Task *task = _tasks.dequeue();
+    if (!giveTask(task))
+        return;
+}
+
+void Client::onTaskResultPacket(Packet* packet) {
+    std::string buffer;
+    std::stringstream ss(buffer);
+    std::string tasks;
+
+    ss >> tasks;
+    Logger::getInstance()->print(DEBUG, "Client", "Tasks result : " + tasks);
+    Logger::getInstance()->print(DEBUG, "Client", "PACKET_TASK_RESULT");
+
 }
 
 void Client::run() {
     Logger::getInstance()->print(DEBUG, "Client", "Waiting for connection");
     _socket = _serverSocket->sock_accept();
     Logger::getInstance()->print(DEBUG, "Client", "New connection !");
-    while (Plazza::getInstance()->isRunning()) {
-        Task *task = _tasks.dequeue();
-        if (!giveTask(task))
-            break;
-        Logger::getInstance()->print(DEBUG, "Client", "Task sent");
+
+    Packet *packet;
+    while ((packet = _socket->recv_packet())) {
+        switch (packet->getType()) {
+            case PACKET_GIVE_TASK:
+                onGiveTaskPacket(packet);
+                break;
+            case PACKET_TASK_RESULT:
+                onTaskResultPacket(packet);
+                break;
+            default:
+                Logger::getInstance()->print(DEBUG, "Client", "Recv unknown packet");
+                _socket->sock_close();
+                break;
+        }
     }
     waitpid(_pid, &_status, 0);
     _nbrTasks--;

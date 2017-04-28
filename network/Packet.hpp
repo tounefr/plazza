@@ -12,6 +12,7 @@
 typedef enum PacketType
 {
     PACKET_GIVE_TASK,
+    PACKET_TASK,
     PACKET_TASK_RESULT
 } PacketType;
 

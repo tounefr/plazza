@@ -21,21 +21,33 @@ WorkerPool::WorkerPool() :
     }
 }
 
+void WorkerPool::onTaskPacket(Packet *packet) {
+    std::string path;
+    unsigned int pattern;
+    std::stringstream &stream = packet->getStream();
+
+    stream >> pattern;
+    stream >> path;
+    Logger::getInstance()->print(DEBUG, "WorkerPool", "Recv PACKET_GIVE_TASK '"+ path+"'");
+    _tasks.enqueue(new Task(path, (Patterns)pattern));
+}
+
 void WorkerPool::recvPackets() {
     _socket = new Network::IP::Socket(NETWORK_LISTEN_ADDRESS, NETWORK_LISTEN_PORT);
+
     Packet *packet;
+    static int tasks = 0;
 
     while ((packet = _socket->recv_packet())) {
         switch (packet->getType()) {
-            case PACKET_GIVE_TASK:
-                    std::string path;
-                    unsigned int pattern;
-                    std::stringstream &stream = packet->getStream();
-
-                    stream >> pattern;
-                    stream >> path;
-                    Logger::getInstance()->print(DEBUG, "WorkerPool", "Recv PACKET_GIVE_TASK '"+ path+"'");
-                    _tasks.enqueue(new Task(path, (Patterns)pattern));
+            case PACKET_TASK:
+                onTaskPacket(packet);
+                tasks++;
+                Logger::getInstance()->print(ERROR, "WorkerPool", "Tasks recv : " + std::to_string(tasks));
+                break;
+            default:
+                Logger::getInstance()->print(ERROR, "WorkerPool", "Recv unknown packet");
+                _socket->sock_close();
                 break;
         }
 //        delete packet;
