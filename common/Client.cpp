@@ -38,25 +38,32 @@ bool Client::isReady() {
 }
 
 bool Client::giveTask(Task* task) {
+//    _tasks.enqueue(task);
     std::string buffer;
     std::stringstream ss(buffer);
-
-    while (!isReady())
-        sleep(1);
     ss << task->getPattern();
     ss << task->getFilePath();
     buffer = ss.str();
-    _socket->sock_send(PACKET_TASK, &buffer);
+    if (!_socket->sock_send(PACKET_TASK, &buffer))
+        return false;
     Logger::getInstance()->print(DEBUG, "Client", "PACKET_TASK sent");
-        _nbrTasks++;
     return true;
 }
 
 void Client::onGiveTaskPacket(Packet* packet) {
-    Logger::getInstance()->print(DEBUG, "Client", "PACKET_GIVE_TASK");
+
+/*    Logger::getInstance()->print(DEBUG, "Client", "PACKET_GIVE_TASK");
     Task *task = _tasks.dequeue();
-    if (!giveTask(task))
+
+    std::string buffer;
+    std::stringstream ss(buffer);
+    ss << task->getPattern();
+    ss << task->getFilePath();
+    buffer = ss.str();
+    if (!_socket->sock_send(PACKET_TASK, &buffer))
         return;
+    Logger::getInstance()->print(DEBUG, "Client", "PACKET_TASK sent");
+    _nbrTasks++;*/
 }
 
 void Client::onTaskResultPacket(Packet* packet) {
@@ -67,7 +74,6 @@ void Client::onTaskResultPacket(Packet* packet) {
     ss >> tasks;
     Logger::getInstance()->print(DEBUG, "Client", "Tasks result : " + tasks);
     Logger::getInstance()->print(DEBUG, "Client", "PACKET_TASK_RESULT");
-
 }
 
 void Client::run() {
@@ -77,6 +83,7 @@ void Client::run() {
 
     Packet *packet;
     while ((packet = _socket->recv_packet())) {
+        Logger::getInstance()->print(DEBUG, "Client", "Recv packet");
         switch (packet->getType()) {
             case PACKET_GIVE_TASK:
                 onGiveTaskPacket(packet);
@@ -91,5 +98,10 @@ void Client::run() {
         }
     }
     waitpid(_pid, &_status, 0);
+    Logger::getInstance()->print(DEBUG, "Client", "Child Process pid='"+std::to_string(_pid)+"'");
+    if (WIFSTOPPED(_status)) {
+        Logger::getInstance()->print(DEBUG, "Client", "WSTOPPED == true");
+    }
+    _exited = true;
     _nbrTasks--;
 }

@@ -19,6 +19,7 @@ namespace Network
         class Socket : public Network::ISocket {
         private:
             int _socket;
+            bool _running;
 
         public:
             Socket(std::string ip, unsigned short port);
@@ -28,6 +29,7 @@ namespace Network
             virtual Packet* recv_packet();
             virtual bool sock_send(PacketType const& packetType, std::string *buffer);
             virtual bool sock_close();
+            virtual bool const& isRunning();
         };
     }
 }

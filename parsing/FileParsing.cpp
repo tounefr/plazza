@@ -12,7 +12,7 @@ using namespace Parsing;
 FileParsing::FileParsing()
 {
     this->filter.insert(std::make_pair(PHONE_NUMBER, "^0[1-6]{1}(([0-9]{2}){4})|((\\s[0-9]{2}){4})|((-[0-9]{2}){4})$"));
-    this->filter.insert(std::make_pair(EMAIL_ADDRESS, "(\\w+)(\\.|_)?(\\w*)@(\\w+)(\\.(\\w+))+"));
+    this->filter.insert(std::make_pair(EMAIL_ADDRESS, "([0-9a-z_]+)(\\.|)?([0-9a-z_]*)@([0-9a-z_]+)(\\.([0-9a-z_]+))+"));
     this->filter.insert(std::make_pair(IP_ADDRESS, "\\b(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\."
             "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\."
             "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\."
@@ -24,6 +24,8 @@ FileParsing::FileParsing()
 
 FileParsing::~FileParsing() {}
 
+//setter
+
 void FileParsing::set_field(Patterns field) {
     this->field = field;
 }
@@ -32,8 +34,30 @@ void FileParsing::set_path(std::string path) {
     this->path = path;
 }
 
+void FileParsing::set_filter(std::map <Patterns, std::string> filter) {
+    this->filter = filter;
+}
+
+void FileParsing::set_sepChars(std::map <Patterns, std::string> sep_chars) {
+    this->sep_chars = sep_chars;
+}
+
+//getter
+
+std::map<Patterns, std::string> FileParsing::get_sepChars() {
+    return this->sep_chars;
+}
+
+std::map<Patterns, std::string> FileParsing::get_filter() {
+    return this->filter;
+}
+
 std::string FileParsing::get_path() {
     return this->path;
+}
+
+Patterns FileParsing::get_field() {
+    return this->field;
 }
 
 char* FileParsing::isAPhoneNumber(char *str) {
@@ -89,6 +113,11 @@ std::vector<std::string>            FileParsing::get_list() {
     if (!file)
     {
         Logger::getInstance()->print(ERROR, "FileParsing", "Failed to open file '" + std::string(this->path) + "'");
+        exit(0);
+    }
+    file.seekg(0, std::ios::end);
+    if (!file.good()) {
+        Logger::getInstance()->print(ERROR, "FileParsing", "File invalid :'" + std::string(this->path) + "'");
         exit(0);
     }
     while (getline(file, str))

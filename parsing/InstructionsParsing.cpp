@@ -91,20 +91,18 @@ void InstructionsParsing::run() {
     Logger::getInstance()->print(DEBUG, "InstructionsParsing", "Starting Intruction Parsing.");
     Plazza *plazza = Plazza::getInstance();
     Queue<Task*>& tasklist = plazza->getTasks();
-    while (plazza->isRunning()) {
-        for (std::string line; std::getline(std::cin, line);) {
-            if (!line.empty()) {
-                std::vector <std::string> vect;
-                split(line, ';', vect);
-                if (vect.size() > 0)
-                    for (int i = 0; i < vect.size(); i++) {
-                        sanitize_string(vect[i]);
-                        get_task(vect[i], tasklist);
-                    }
-                else {
-                    sanitize_string(line);
-                    get_task(line, tasklist);
+    for (std::string line; std::getline(std::cin, line);) {
+        if (!line.empty()) {
+            std::vector <std::string> vect;
+            split(line, ';', vect);
+            if (vect.size() > 0)
+                for (int i = 0; i < vect.size(); i++) {
+                    sanitize_string(vect[i]);
+                    get_task(vect[i], tasklist);
                 }
+            else {
+                sanitize_string(line);
+                get_task(line, tasklist);
             }
         }
     }

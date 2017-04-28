@@ -28,7 +28,7 @@ Network::ISocket *ServerSocket::sock_accept() {
 
     client_socket = accept(_socket, (struct sockaddr*)&sin, &sinsize);
     if (client_socket == -1) {
-        std::cerr << strerror(errno) << std::endl;
+        Logger::getInstance()->print(ERROR, "ServerSocket", "accept failed : '"+ std::string(strerror(errno)) +"'");
         return NULL;
     }
     Logger::getInstance()->print(DEBUG, "ServerSocket", "New socket client");
@@ -39,7 +39,7 @@ Network::ISocket *ServerSocket::sock_accept() {
 
 bool ServerSocket::sock_listen() {
     if (-1 == (_socket = socket(AF_INET, SOCK_STREAM, 0))) {
-        std::cerr << strerror(errno) << std::endl;
+        Logger::getInstance()->print(ERROR, "ServerSocket", "socket failed : '"+ std::string(strerror(errno)) +"'");
         return false;
     }
     int option = -1;
@@ -50,13 +50,15 @@ bool ServerSocket::sock_listen() {
     sockaddr.sin_port = htons(_listen_port);
     inet_aton(NETWORK_LISTEN_ADDRESS, &sockaddr.sin_addr);
 
-    if (bind(_socket, (struct sockaddr*)&sockaddr, sizeof(sockaddr)) < 0) {
-        std::cerr << strerror(errno) << std::endl;
+    if (bind(_socket, (struct sockaddr*)&sockaddr, sizeof(sockaddr)) == -1) {
+        Logger::getInstance()->print(ERROR, "ServerSocket", "bind failed : '"+ std::string(strerror(errno)) +"'");
         return false;
     }
 
-    if (-1 == listen(_socket, 3))
+    if (-1 == listen(_socket, 3)) {
+        Logger::getInstance()->print(ERROR, "ServerSocket", "listen failed : '"+ std::string(strerror(errno)) +"'");
         return false;
+    }
 
     _listening = true;
     return true;

@@ -14,11 +14,16 @@ WorkerPool::WorkerPool() :
     _tasks()
 {
     Plazza *p = Plazza::getInstance();
+    _socket = new Network::IP::Socket(NETWORK_LISTEN_ADDRESS, NETWORK_LISTEN_PORT);
     initThreads(p->getNbrThreadsPerProc());
     recvPackets();
     for (std::list<Worker*>::iterator iter = _threads.begin(); iter != _threads.end(); iter++) {
         (*iter)->join();
     }
+}
+
+Network::ISocket *WorkerPool::getSocket() {
+    return _socket;
 }
 
 void WorkerPool::onTaskPacket(Packet *packet) {
@@ -33,30 +38,25 @@ void WorkerPool::onTaskPacket(Packet *packet) {
 }
 
 void WorkerPool::recvPackets() {
-    _socket = new Network::IP::Socket(NETWORK_LISTEN_ADDRESS, NETWORK_LISTEN_PORT);
-
     Packet *packet;
-    static int tasks = 0;
-
+    Logger::getInstance()->print(DEBUG, "WorkerPool", "recv packet start");
     while ((packet = _socket->recv_packet())) {
         switch (packet->getType()) {
             case PACKET_TASK:
                 onTaskPacket(packet);
-                tasks++;
-                Logger::getInstance()->print(ERROR, "WorkerPool", "Tasks recv : " + std::to_string(tasks));
                 break;
             default:
                 Logger::getInstance()->print(ERROR, "WorkerPool", "Recv unknown packet");
                 _socket->sock_close();
                 break;
         }
-//        delete packet;
     }
+    Logger::getInstance()->print(ERROR, "WorkerPool", "recv packet end");
 }
 
 void WorkerPool::initThreads(int nbr_threads_per_proc) {
     for (int i = 0; i < nbr_threads_per_proc; i++) {
-        _threads.push_back(new Worker(_tasks, _socket));
+        _threads.push_back(new Worker(_tasks, this));
     }
 }
 
