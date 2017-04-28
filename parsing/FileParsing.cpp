@@ -96,7 +96,6 @@ void FileParsing::cutGoodLine(char *str, std::regex reg,
             }
         }
         else if (std::regex_match(cut_str, reg)) {
-            //std::cout << "find !" << std::endl;
             to_string = cut_str;
             infosList.push_back(to_string);
         }
@@ -114,6 +113,11 @@ std::vector<std::string>            FileParsing::get_list() {
     if (!file)
     {
         Logger::getInstance()->print(ERROR, "FileParsing", "Failed to open file '" + std::string(this->path) + "'");
+        exit(0);
+    }
+    file.seekg(0, std::ios::end);
+    if (!file.good()) {
+        Logger::getInstance()->print(ERROR, "FileParsing", "File invalid :'" + std::string(this->path) + "'");
         exit(0);
     }
     while (getline(file, str))
