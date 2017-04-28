@@ -7,19 +7,21 @@
 
 #include <iostream>
 #include <string>
+#include <ctime>
 #include <mutex>
 
-namespace Logger {
-    typedef enum Level
-    {
-        INFO,
-        ERROR,
-        DEBUG
-    } LoggerLevel;
+enum LogType {
+    INFO,
+    ERROR,
+    DEBUG
+};
 
-    class Log {
+class Logger {
 
-    };
-}
+public:
+    Logger();
+    static Logger* getInstance();
+    void print(LogType, const std::string &where, const std::string &what);
+};
 
 #endif //PLAZZA_LOGGER_HPP

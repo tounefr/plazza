@@ -9,6 +9,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #include <unistd.h>
+#include "../../Plazza.hpp"
 #include "ServerSocket.hpp"
 
 using namespace Network::IP;
@@ -26,13 +27,11 @@ Network::ISocket *ServerSocket::sock_accept() {
     Network::ISocket *clientSocket;
 
     client_socket = accept(_socket, (struct sockaddr*)&sin, &sinsize);
-    if (client_socket == -1)
-        return NULL;
-    std::cout << "New socket client" << std::endl;
     if (client_socket == -1) {
         std::cerr << strerror(errno) << std::endl;
         return NULL;
     }
+    Logger::getInstance()->print(DEBUG, "ServerSocket", "New socket client");
     clientSocket = new Socket(client_socket);
     _clients.push_back(clientSocket);
     return clientSocket;
@@ -45,13 +44,11 @@ bool ServerSocket::sock_listen() {
     }
     int option = -1;
     setsockopt(_socket, SOL_SOCKET, SO_REUSEADDR, &option, sizeof(option));
-    std::cout << "Starting ServerSocket on " << _listen_port << std::endl;
-
+    Logger::getInstance()->print(DEBUG, "ServerSocket", "Starting ServerSocket on " + std::string(std::to_string(_listen_port)));
     struct sockaddr_in sockaddr;
     sockaddr.sin_family = AF_INET;
     sockaddr.sin_port = htons(_listen_port);
-    sockaddr.sin_addr.s_addr = INADDR_ANY;
-//    inet_aton("127.0.0.1", &sockaddr.sin_addr);
+    inet_aton(NETWORK_LISTEN_ADDRESS, &sockaddr.sin_addr);
 
     if (bind(_socket, (struct sockaddr*)&sockaddr, sizeof(sockaddr)) < 0) {
         std::cerr << strerror(errno) << std::endl;

@@ -1,0 +1,12 @@
+version: '2'
+services:
+  plazza:
+    image: ubuntu:16.10
+    ulimits:
+      nproc: 100
+      nofile: 1000
+    volumes:
+      - ./:/mnt
+    container_name: plazza
+    command: bash -c "cd /mnt && ./plazza 5 < ./instructions.txt"
+
