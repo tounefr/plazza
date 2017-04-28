@@ -40,18 +40,21 @@ void Logger::print(LogType type, const std::string &where, const std::string &wh
         ss << std::this_thread::get_id();
         uint64_t thread_id = std::stoull(ss.str());
 
-        std::cout << ltm->tm_mday << "/"
-                  << 1 + ltm->tm_mon << "/"
-                  << 1900 + ltm->tm_year << " "
-                  << 1 + ltm->tm_hour << ":"
-                  << 1 + ltm->tm_min << ":"
-                  << 1 + ltm->tm_sec << " "
-                  << " [" << Types[type] << "] "
-                  << "[" + std::to_string(thread_id) + "] "
-                  << "[" << where << "] : "
-                  << what << std::endl;
+    std::cout << ltm->tm_mday << "/"
+              << 1 + ltm->tm_mon << "/"
+              << 1900 + ltm->tm_year << " "
+              << 1 + ltm->tm_hour << ":"
+              << 1 + ltm->tm_min << ":"
+              << 1 + ltm->tm_sec << " "
+              << " [" << Types[type] << "] "
+              << "["+ std::to_string(thread_id) +"] "
+              << "[" << where << "] : "
+              << what << std::endl;
 
-    }
+    /*
+    if (type == ERROR)
+        throw std::string();*/
+
     OutLock.unlock();
 
 }
