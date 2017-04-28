@@ -37,8 +37,6 @@ void Logger::print(LogType type, const std::string &where, const std::string &wh
         tm *ltm = localtime(&now);
 
         std::stringstream ss;
-        ss << std::this_thread::get_id();
-        uint64_t thread_id = std::stoull(ss.str());
 
         std::cout << ltm->tm_mday << "/"
                   << 1 + ltm->tm_mon << "/"
@@ -47,9 +45,13 @@ void Logger::print(LogType type, const std::string &where, const std::string &wh
                   << 1 + ltm->tm_min << ":"
                   << 1 + ltm->tm_sec << " "
                   << " [" << Types[type] << "] "
-                  << "[" + std::to_string(thread_id) + "] "
                   << "[" << where << "] : "
                   << what << std::endl;
+
+        if (outFile.is_open())
+            outFile << ss.str();
+        std::cout << ss.str();
+        outFile.close();
     }
 
     /*
