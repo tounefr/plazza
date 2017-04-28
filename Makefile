@@ -8,7 +8,9 @@ SRCS =  Plazza.cpp \
         encryption/XorCipher.cpp \
         network/ip/ServerSocket.cpp \
         network/ip/Socket.cpp \
+        network/Packet.cpp \
         parsing/InstructionsParsing.cpp \
+        parsing/FileParsing.cpp \
         core/ProcessWrapper.cpp \
         core/Scheduler.cpp \
         core/Worker.cpp \
@@ -16,7 +18,8 @@ SRCS =  Plazza.cpp \
         common/Task.cpp \
         common/Thread.cpp \
         common/Logger.cpp \
-        common/ConditionVariable.cpp
+        common/ConditionVariable.cpp \
+        common/Client.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
@@ -26,7 +29,7 @@ NAME = plazza
 
 LDFLAGS = -I.
 
-CFLAGS = -Wall -lpthread
+CFLAGS = -std=c++11 -Wall -lpthread
 
 $(NAME): $(OBJS)
 	$(CC) -o $(NAME) $(OBJS) $(CFLAGS)

@@ -6,6 +6,8 @@
 #include "../common/Thread.hpp"
 #include "InstructionsParsing.hpp"
 
+using namespace Parsing;
+
 InstructionsParsing::InstructionsParsing() :
         Thread() {
 }
@@ -45,6 +47,7 @@ void InstructionsParsing::sanitize_string(std::string &line) {
 }
 
 bool InstructionsParsing::get_pattern(const std::string &word, Patterns &pattern) {
+
     if (word.compare("PHONE_NUMBER") == 0) {
         pattern = PHONE_NUMBER;
         return true;
@@ -56,7 +59,7 @@ bool InstructionsParsing::get_pattern(const std::string &word, Patterns &pattern
     }
 
     if (word.compare("EMAIL_ADDRESS") == 0) {
-        pattern = EMAIL;
+        pattern = EMAIL_ADDRESS;
         return true;
     }
 
@@ -68,30 +71,27 @@ int InstructionsParsing::get_task(const std::string &task, Queue<Task *> &taskLi
     std::vector <std::string> wordTab;
     split(task, ' ', wordTab);
     Patterns pattern;
-    Logger* log = Logger::getInstance();
 
     if (wordTab.size() >= 2) {
         if (!get_pattern(wordTab.back(), pattern)) {
-            log->push(ERROR, "InstructionsParsing", "Unknown data type: \"" + wordTab.back() + "\".");
+            Logger::getInstance()->print(WARNING, "InstructionsParsing", "Unknown data type: \"" + wordTab.back() + "\"");
         } else if (wordTab.size() > 0) {
             for (int i = 0; i < wordTab.size() - 1; i++) {
                 taskList.enqueue(new Task(wordTab[i], pattern));
-                log->push(INFO, "InstructionsParsing", "Task created (Type = " + DataType[pattern] + " in " + wordTab[i] + ").");
+                Logger::getInstance()->print(DEBUG, "InstructionsParsing", "Task created (Type = " + DataType[pattern] + " in " + wordTab[i] + ")");
             }
         }
     } else {
-        log->push(ERROR, "InstructionsParsing", "Not enough information to create a task.");
+        Logger::getInstance()->print(WARNING, "InstructionsParsing", "Not enough information to create a task.");
     }
 }
 
 void InstructionsParsing::run() {
 
-    Logger* log = Logger::getInstance();
-    log->push(INFO, "InstructionsParsing", "Starting Intruction Parsing.");
+    Logger::getInstance()->print(DEBUG, "InstructionsParsing", "Starting Intruction Parsing.");
     Plazza *plazza = Plazza::getInstance();
-    Queue<Task *> &tasklist = plazza->getTasks();
-
-    while (1) {
+    Queue<Task*>& tasklist = plazza->getTasks();
+    while (plazza->isRunning()) {
         for (std::string line; std::getline(std::cin, line);) {
             if (!line.empty()) {
                 std::vector <std::string> vect;

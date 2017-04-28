@@ -11,11 +11,11 @@
 #include "Plazza.hpp"
 
 Plazza::Plazza() :
+        _running(true),
         _pendingTasks(),
         _scheduler(),
         _nbr_threads_per_proc(THREADS_PER_PROC),
-        _instructionsParsing(),
-        _running(false) {
+        _instructionsParsing() {
 }
 
 Plazza* Plazza::getInstance() {
@@ -23,46 +23,18 @@ Plazza* Plazza::getInstance() {
     return p;
 }
 
-void Plazza::start() {
-    _running = true;
-    _instructionsParsing.start();
-    _scheduler.start();
+int Plazza::start(int nbr_threads_per_proc) {
+    _nbr_threads_per_proc = nbr_threads_per_proc;
 
-    _scheduler.join();
-    _instructionsParsing.join();
-}
+    if (isRunning()) {
+        _instructionsParsing.start();
+        _scheduler.start();
 
-void Plazza::fetchInstructionsLoop() {
-    void *buffer;
-
-    struct timeval select_timeout = {1, 100}; // wait every 100 ms
-    fd_set rfds;
-    int selectrv;
-
-    buffer = malloc(1000);
-    assert(buffer != NULL);
-
-    FD_ZERO(&rfds);
-    FD_SET(0, &rfds);
-
-    while (1) {
-        select_timeout.tv_sec = 1;
-        select_timeout.tv_usec = 0;
-        selectrv = select(1, &rfds, NULL, NULL, &select_timeout);
-        switch (selectrv) {
-            case -1:
-                std::cout << "select failed" << std::endl;
-                break;
-            case 0:
-                std::cout << "No data" << std::endl;
-                break;
-            default:
-                std::cout << "Data available" << std::endl;
-                //read(0, buffer, 1000);
-                break;
-
-        }
+        _scheduler.join();
+        _instructionsParsing.join();
+        return 0;
     }
+    return 1;
 }
 
 Plazza::~Plazza() {
@@ -83,4 +55,12 @@ Scheduler& Plazza::getScheduler() {
 
 int& Plazza::getNbrThreadsPerProc() {
     return _nbr_threads_per_proc;
+}
+
+bool& Plazza::isRunning() {
+    return _running;
+}
+
+void Plazza::setRunning(bool running) {
+    _running = running;
 }

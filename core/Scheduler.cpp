@@ -1,53 +1,95 @@
-//
-// Created by thomas on 19/04/17.
-//
 
 #include <unistd.h>
 #include <iostream>
 #include <sys/types.h>
 #include <sys/wait.h>
+#include "../Plazza.hpp"
 #include "Scheduler.hpp"
 #include "../common/Queue.hpp"
-#include "../Plazza.hpp"
 #include "../network/ip/Socket.hpp"
 
 Scheduler::Scheduler() :
-        Thread() {
-    _serverSocket = new Network::IP::ServerSocket(8888);
+        Thread(),
+        _clients(),
+        _min_process(2),
+        _max_process(1),
+        _maxTaskPerClient(10)
+{
+    _serverSocket = new Network::IP::ServerSocket(NETWORK_LISTEN_PORT);
+    if (!_serverSocket->sock_listen())
+        Plazza::getInstance()->setRunning(false);
 }
 
 Scheduler::~Scheduler() {
 }
 
-void Scheduler::run() {
-    std::cout << "Starting Scheduler" << std::endl;
+size_t& Scheduler::getMinProcess() {
+    return _min_process;
+}
 
-    Plazza *p = Plazza::getInstance();
-    Queue<Packet*> packets;
+size_t& Scheduler::getMaxProcess() {
+    return _max_process;
+}
+
+void Scheduler::run() {
+    Logger::getInstance()->print(DEBUG, "Scheduler", "Starting Scheduler");
     Task *t;
 
-    while (1) {
-        t = p->getTasks().dequeue();
-//        _serverSocket->sock_accept(packets);
-        std::cout << "Handling task " << t << std::endl;
-//            std::cout << "Pending tasks : " << p.nbrPendingTasks() << std::endl;
-        std::cout << "Nbr process : " << _clients.size() << std::endl;
-      /*  if (!giveTask(*t))
-            break;*/
+    // On initialise <_min_process> à l'avance
+    for (int i = 0; i < getMinProcess(); i++) {
+        if (!newProcess(NULL))
+            return;
+    }
+    sleep(1); // TODO: crade: cond vars
+    while (Plazza::getInstance()->isRunning()) {
+        t = Plazza::getInstance()->getTasks().dequeue();
+        Logger::getInstance()->print(DEBUG, "Scheduler", "Handling task '"+std::string(t->getFilePath())+"'");
+        if (!giveTask(*t))
+            break;
     }
 }
 
-bool Scheduler::giveTask(Task& task) {
+Client* Scheduler::getLeastLoadedClient() {
+    Client *least;
+    Client *client;
+
+    least = NULL;
+    for (std::list<Client*>::iterator iter = _clients.begin(); iter != _clients.end(); iter++) {
+        client = *iter;
+        if (client->isReady() && (least == NULL ||
+                least->getNbrTasks() > client->getNbrTasks()))
+            least = client;
+    }
+    return least;
+}
+
+bool Scheduler::newProcess(Task* task) {
+    Client *client;
     int pid;
-    int status;
     WorkerPool *workerPool;
 
-    return true;
-
     if ((pid = fork()) == 0) {
+        workerPool = new WorkerPool();
         return false;
     } else {
-        waitpid(pid, &status, 0);
+        client = new Client(pid, this, task, _serverSocket);
+        _clients.push_back(client);
     }
+    return true;
+}
+
+bool Scheduler::giveTask(Task& task) {
+    Client *client;
+
+    client = getLeastLoadedClient();
+    client->giveTask(&task);
+    /*
+    if ((NULL == (client = getLeastLoadedClient())) ||
+            (client->getNbrTasks() >= _maxTaskPerClient)) {
+        if (!newProcess(&task))
+            return false;
+    } else
+        client->giveTask(&task);*/
+    infos_process();
     return true;
 }

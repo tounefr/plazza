@@ -1,19 +1,38 @@
 //
-// Created by thomas on 23/04/17.
+// Created by thomas on 27/04/17.
 //
 
 #ifndef PLAZZA_PACKET_HPP
 #define PLAZZA_PACKET_HPP
 
-typedef enum e_packet_type
-{
-    HELLO
-} e_packet_type;
+#include <iostream>
+#include <sstream>
+#include "../common/Task.hpp"
 
-typedef struct s_packet
+typedef enum PacketType
 {
-    e_packet_type type;
+    PACKET_GIVE_TASK,
+    PACKET_TASK,
+    PACKET_TASK_RESULT
+} PacketType;
 
-} Packet;
+class Packet
+{
+private:
+    PacketType const& _type;
+    unsigned int const& _packet_size;
+    std::string const& _buffer;
+    std::stringstream _stream;
+
+public:
+    Packet(PacketType packetType, unsigned int packetSize, char * buffer);
+    PacketType const& getType();
+    unsigned int const& getPacketSize();
+    std::string const& getBuffer();
+    std::stringstream& getStream();
+};
+
+class PacketGiveTask {
+};
 
 #endif //PLAZZA_PACKET_HPP

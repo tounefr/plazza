@@ -22,7 +22,6 @@ public:
             _items(),
             _lock(),
             _cond() {
-
     };
 
     void enqueue(T t) {
@@ -46,4 +45,5 @@ public:
     };
 };
 
+// [INFO][DATE][WorkerPool] : Message
 #endif //PLAZZA_QUEUE_HPP

@@ -11,7 +11,7 @@ typedef enum Patterns
 {
     PHONE_NUMBER,
     IP_ADDRESS,
-    EMAIL
+    EMAIL_ADDRESS
 } Patterns;
 
 class Task {
@@ -21,6 +21,12 @@ private:
 
 public:
     Task(std::string const & file_path, enum Patterns pattern);
+    const char* getFilePath() {
+        return _file_path.c_str();
+    };
+    enum Patterns getPattern() {
+        return _pattern;
+    };
 };
 
 

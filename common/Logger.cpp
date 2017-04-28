@@ -19,16 +19,16 @@ Logger::~Logger() {
 
 Logger* Logger::getInstance() {
     if (!m_pInstance)
-        m_pInstance = new Logger("plazza.out");
+        m_pInstance = new Logger(LOG_FILE_PATH);
     return m_pInstance;
 }
 
-void Logger::push(LogType type, const std::string &where, const std::string &what) {
+void Logger::print(LogType type, const std::string &where, const std::string &what) {
 
     OutLock.lock();
-    outFile.open("plazza.out", std::ofstream::out | std::ofstream::app);
+    outFile.open(LOG_FILE_PATH, std::ofstream::out | std::ofstream::app);
 
-    std::string Types[] = {"INFO", "ERROR", "DEBUG"};
+    std::string Types[] = {"INFO", "ERROR", "DEBUG", "WARNING"};
     time_t now = time(0);
     tm *ltm = localtime(&now);
 

@@ -14,13 +14,16 @@
 #include "parsing/InstructionsParsing.hpp"
 
 # define THREADS_PER_PROC 5
+# define NETWORK_LISTEN_ADDRESS "127.0.0.1"
+# define NETWORK_LISTEN_PORT 8888
+# define LOG_FILE_PATH "log"
 
 class Plazza {
 private:
     Queue<Task*> _pendingTasks;
     Scheduler _scheduler;
     int _nbr_threads_per_proc;
-    InstructionsParsing _instructionsParsing;
+    Parsing::InstructionsParsing _instructionsParsing;
     bool _running;
 
 public:
@@ -30,9 +33,10 @@ public:
     Queue<Task*>& getTasks();
     void setNbrThreadsPerProc(int nbrThreadPerProc);
     Scheduler& getScheduler();
-    void fetchInstructionsLoop();
-    void start();
+    int start(int nbr_threads_per_proc);
     int& getNbrThreadsPerProc();
+    bool& isRunning();
+    void setRunning(bool running);
 };
 
 #endif //PLAZZA_PLAZZA_HPP
