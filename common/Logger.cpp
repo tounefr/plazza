@@ -5,25 +5,36 @@
 #include <thread>
 #include <sstream>
 #include "Logger.hpp"
+#include <sstream>
 
-std::mutex OutLock;
+Logger::Logger(const std::string outFile_path) {
+    outFile.open(outFile_path, std::ofstream::out | std::ofstream::trunc);
+    outFile.close();
 
-Logger::Logger() {
+    setDisplay(DISP_WARNING | DISP_DEBUG | DISP_ERROR | DISP_INFO);
+}
 
+Logger::~Logger() {
+    outFile.close();
 }
 
 Logger* Logger::getInstance() {
-    static Logger* l = new Logger();
-    return l;
+    if (!m_pInstance)
+        m_pInstance = new Logger(LOG_FILE_PATH);
+    return m_pInstance;
 }
 
 void Logger::print(LogType type, const std::string &where, const std::string &what) {
 
     OutLock.lock();
 
-    std::string Types[] = {"INFO", "ERROR", "DEBUG"};
-    time_t now = time(0);
-    tm *ltm = localtime(&now);
+    if (_displayMode & 1 << type) {
+
+        outFile.open(LOG_FILE_PATH, std::ofstream::out | std::ofstream::app);
+
+        std::string Types[] = {"INFO", "ERROR", "DEBUG", "WARNING"};
+        time_t now = time(0);
+        tm *ltm = localtime(&now);
 
     std::stringstream ss;
     ss << std::this_thread::get_id();
@@ -44,5 +55,12 @@ void Logger::print(LogType type, const std::string &where, const std::string &wh
     if (type == ERROR)
         throw std::string();*/
 
+    OutLock.unlock();
+
+}
+
+unsigned char Logger::setDisplay(unsigned char mode) {
+    OutLock.lock();
+    _displayMode = mode;
     OutLock.unlock();
 }

@@ -1,9 +1,12 @@
 #include "Plazza.hpp"
+#include "common/Logger.hpp"
 #include <functional>
 #include <stdlib.h>
 #include <iostream>
 #include <vector>
 #include <string>
+
+Logger* Logger::m_pInstance = NULL;
 
 int main(int ac, char **av) {
     int nb_threads = -1;

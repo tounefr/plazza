@@ -47,6 +47,7 @@ void InstructionsParsing::sanitize_string(std::string &line) {
 }
 
 bool InstructionsParsing::get_pattern(const std::string &word, Patterns &pattern) {
+
     if (word.compare("PHONE_NUMBER") == 0) {
         pattern = PHONE_NUMBER;
         return true;
@@ -73,7 +74,7 @@ int InstructionsParsing::get_task(const std::string &task, Queue<Task *> &taskLi
 
     if (wordTab.size() >= 2) {
         if (!get_pattern(wordTab.back(), pattern)) {
-            Logger::getInstance()->print(ERROR, "InstructionsParsing", "Unknown data type: \"" + wordTab.back() + "\"");
+            Logger::getInstance()->print(WARNING, "InstructionsParsing", "Unknown data type: \"" + wordTab.back() + "\"");
         } else if (wordTab.size() > 0) {
             for (int i = 0; i < wordTab.size() - 1; i++) {
                 taskList.enqueue(new Task(wordTab[i], pattern));
@@ -81,7 +82,7 @@ int InstructionsParsing::get_task(const std::string &task, Queue<Task *> &taskLi
             }
         }
     } else {
-        Logger::getInstance()->print(ERROR, "InstructionsParsing", "Not enough information to create a task.");
+        Logger::getInstance()->print(WARNING, "InstructionsParsing", "Not enough information to create a task.");
     }
 }
 
