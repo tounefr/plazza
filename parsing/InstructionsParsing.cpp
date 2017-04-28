@@ -67,7 +67,7 @@ bool InstructionsParsing::get_pattern(const std::string &word, Patterns &pattern
 }
 
 int InstructionsParsing::get_task(const std::string &task, Queue<Task *> &taskList) {
-    std::string DataType[] = {"PHONE_NUMBER", "EMAIL_ADDRESS", "IP_ADDRESS"};
+    std::string DataType[] = {"PHONE_NUMBER", "IP_ADDRESS", "EMAIL_ADDRESS"};
     std::vector <std::string> wordTab;
     split(task, ' ', wordTab);
     Patterns pattern;
