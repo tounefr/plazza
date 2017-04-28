@@ -30,6 +30,7 @@ public:
     size_t& getMinProcess();
     size_t& getMaxProcess();
     bool newProcess(Task*);
+    void removeClient(Client *);
 
     void infos_process() {
         /*

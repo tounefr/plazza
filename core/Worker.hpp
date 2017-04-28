@@ -15,16 +15,18 @@
 #include "../common/Queue.hpp"
 #include "../network/ISocket.hpp"
 
+class WorkerPool;
+
 class Worker : public Thread {
 private:
     Task *_task;
     Parsing::FileParsing _fileParsing;
     Queue<Task*>& _tasks;
     std::vector<std::string> _patterns;
-    Network::ISocket *_socket;
+    WorkerPool *_workerPool;
 
 public:
-    Worker(Queue<Task*>& _tasks, Network::ISocket* socket);
+    Worker(Queue<Task*>& _tasks,  WorkerPool *_workerPool);
     ~Worker();
     virtual void run();
     bool hasTask();

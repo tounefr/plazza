@@ -6,7 +6,8 @@
 #include "ProcessWrapper.hpp"
 
 ProcessWrapper::ProcessWrapper(int pid) :
-    _pid(pid)
+    _pid(pid),
+    _exited(false)
 {
 }
 
@@ -16,4 +17,8 @@ void ProcessWrapper::setPid(int pid) {
 
 int& ProcessWrapper::getPid() {
     return _pid;
+}
+
+bool const& ProcessWrapper::hasExited() {
+    return _exited;
 }
