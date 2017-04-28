@@ -5,12 +5,11 @@
 #include "Logger.hpp"
 #include <sstream>
 
-std::mutex OutLock;
-std::ofstream outfile;
-
 Logger::Logger(const std::string outFile_path) {
     outFile.open(outFile_path, std::ofstream::out | std::ofstream::trunc);
     outFile.close();
+
+    setDisplay(DISP_WARNING | DISP_DEBUG | DISP_ERROR | DISP_INFO);
 }
 
 Logger::~Logger() {
@@ -26,28 +25,39 @@ Logger* Logger::getInstance() {
 void Logger::print(LogType type, const std::string &where, const std::string &what) {
 
     OutLock.lock();
-    outFile.open(LOG_FILE_PATH, std::ofstream::out | std::ofstream::app);
 
-    std::string Types[] = {"INFO", "ERROR", "DEBUG", "WARNING"};
-    time_t now = time(0);
-    tm *ltm = localtime(&now);
+    if (_displayMode & 1 << type) {
 
-    std::stringstream ss;
+        outFile.open(LOG_FILE_PATH, std::ofstream::out | std::ofstream::app);
 
-    ss << ltm->tm_mday << "/"
-       << 1 + ltm->tm_mon << "/"
-       << 1900 + ltm->tm_year << " "
-       << 1 + ltm->tm_hour << ":"
-       << 1 + ltm->tm_min << ":"
-       << 1 + ltm->tm_sec << " "
-       << " [" << Types[type] << "] "
-       << where << ": "
-       << what << std::endl;
+        std::string Types[] = {"INFO", "ERROR", "DEBUG", "WARNING"};
+        time_t now = time(0);
+        tm *ltm = localtime(&now);
 
-    if (outFile.is_open())
-        outFile << ss.str();
-    std::cout << ss.str();
+        std::stringstream ss;
 
-    outFile.close();
+        ss << ltm->tm_mday << "/"
+           << 1 + ltm->tm_mon << "/"
+           << 1900 + ltm->tm_year << " "
+           << 1 + ltm->tm_hour << ":"
+           << 1 + ltm->tm_min << ":"
+           << 1 + ltm->tm_sec << " "
+           << " [" << Types[type] << "] "
+           << where << ": "
+           << what << std::endl;
+
+        if (outFile.is_open())
+            outFile << ss.str();
+        std::cout << ss.str();
+
+        outFile.close();
+    }
+    OutLock.unlock();
+
+}
+
+unsigned char Logger::setDisplay(unsigned char mode) {
+    OutLock.lock();
+    _displayMode = mode;
     OutLock.unlock();
 }
