@@ -36,30 +36,10 @@ void FileParsing::set_path(std::string path) {
     this->path = path;
 }
 
-void FileParsing::set_filter(std::map <Patterns, std::string> filter) {
-    this->filter = filter;
-}
-
-void FileParsing::set_sepChars(std::map <Patterns, std::string> sep_chars) {
-    this->sep_chars = sep_chars;
-}
-
 //getter
-
-std::map<Patterns, std::string> FileParsing::get_sepChars() {
-    return this->sep_chars;
-}
-
-std::map<Patterns, std::string> FileParsing::get_filter() {
-    return this->filter;
-}
 
 std::string FileParsing::get_path() {
     return this->path;
-}
-
-Patterns FileParsing::get_field() {
-    return this->field;
 }
 
 std::string FileParsing::isAPhoneNumber(const char *str) {

@@ -16,14 +16,9 @@ namespace Parsing {
         ~FileParsing();
 
         std::vector<std::string>            get_list();
-        std::map<Patterns, std::string>     get_filter();
-        std::map<Patterns, std::string>     get_sepChars();
-        Patterns                            get_field();
 
         void                                set_path(std::string path);
         void                                set_field(Patterns field);
-        void                                set_filter(std::map<Patterns, std::string> filter);
-        void                                set_sepChars(std::map<Patterns, std::string> sep_chars);
 
         std::string                         get_path();
 
