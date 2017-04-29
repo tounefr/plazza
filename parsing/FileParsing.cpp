@@ -28,21 +28,21 @@ FileParsing::~FileParsing() {}
 
 //setter
 
-void FileParsing::set_field(Patterns field) {
+void FileParsing::set_field(const Patterns field) {
     this->field = field;
 }
 
-void FileParsing::set_path(std::string path) {
+void FileParsing::set_path(const std::string path) {
     this->path = path;
 }
 
 //getter
 
-std::string FileParsing::get_path() {
+const std::string   FileParsing::get_path() const {
     return this->path;
 }
 
-std::string FileParsing::isAPhoneNumber(const char *str) {
+std::string FileParsing::isAPhoneNumber(const char *str) const {
     std::string iostr(str);
     std::string  nbr_string;
 
@@ -121,7 +121,7 @@ void FileParsing::decipher(std::string data, std::vector<std::string> &infosList
     }
 }
 
-std::vector<std::string>            FileParsing::get_list() {
+const std::vector<std::string>      FileParsing::get_list() {
     std::ostringstream              ostrm;
     std::string                     data;
     std::ifstream                   file(this->path, std::ios::in);
@@ -129,7 +129,7 @@ std::vector<std::string>            FileParsing::get_list() {
 
     if (!file)
     {
-        //Logger::getInstance()->print(ERROR, "FileParsing", "Failed to open file '" + std::string(this->path) + "'");
+        Logger::getInstance()->print(ERROR, "FileParsing", "Failed to open file '" + std::string(this->path) + "'");
         exit(0);
     }
     ostrm << file.rdbuf();
