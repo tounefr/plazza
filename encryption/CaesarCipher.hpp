@@ -5,9 +5,11 @@
 #ifndef PLAZZA_CAESARCIPHER_HPP
 #define PLAZZA_CAESARCIPHER_HPP
 
+#include <string>
 
 class CaesarCipher {
-
+public:
+    static std::string      decipher(std::string data, int key);
 };
 
 

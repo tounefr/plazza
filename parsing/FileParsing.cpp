@@ -6,6 +6,8 @@
 #include <fstream>
 #include "FileParsing.hpp"
 #include "../common/Logger.hpp"
+#include "../encryption/CaesarCipher.hpp"
+#include "../encryption/XorCipher.hpp"
 
 using namespace Parsing;
 
@@ -60,7 +62,7 @@ Patterns FileParsing::get_field() {
     return this->field;
 }
 
-char* FileParsing::isAPhoneNumber(char *str) {
+std::string FileParsing::isAPhoneNumber(const char *str) {
     std::string iostr(str);
     std::string  nbr_string;
 
@@ -69,17 +71,15 @@ char* FileParsing::isAPhoneNumber(char *str) {
         if (iostr[i] >= '0' && iostr[i] <= '9')
             nbr_string += iostr[i];
     }
-    if (nbr_string.length() == 10) {
-        return ((char *)nbr_string.c_str());
-    }
-    else
-        return NULL;
+    if (nbr_string.length() == 10)
+        return (nbr_string.c_str());
+    return "";
 }
 
 void FileParsing::cutGoodLine(char *str, std::regex reg,
                           std::vector<std::string>& infosList)
 {
-    char        *cut_str;
+    const char  *cut_str;
     const char  *sep;
     std::string to_string("");
 
@@ -89,9 +89,9 @@ void FileParsing::cutGoodLine(char *str, std::regex reg,
     {
         if (this->field == PHONE_NUMBER)
         {
-            if ((cut_str = isAPhoneNumber(cut_str)))
+            to_string = isAPhoneNumber(cut_str);
+            if (!to_string.empty())
             {
-                to_string = cut_str;
                 infosList.push_back(to_string);
             }
         }
@@ -103,24 +103,13 @@ void FileParsing::cutGoodLine(char *str, std::regex reg,
     }
 }
 
-std::vector<std::string>            FileParsing::get_list() {
-    std::vector<std::string>        infosList;
-    std::string                     str;
-    std::ifstream                   file(this->path, std::ios::in);
-    std::vector<char>               pchar;
+void           FileParsing::lineByline(std::string str, std::vector<std::string>& infosList) {
     std::regex                      reg(this->filter[this->field]);
+    std::vector<char>               pchar;
+    std::istringstream              split(str);
 
-    if (!file)
-    {
-        Logger::getInstance()->print(ERROR, "FileParsing", "Failed to open file '" + std::string(this->path) + "'");
-        exit(0);
-    }
-    file.seekg(0, std::ios::end);
-    if (!file.good()) {
-        Logger::getInstance()->print(ERROR, "FileParsing", "File invalid :'" + std::string(this->path) + "'");
-        exit(0);
-    }
-    while (getline(file, str))
+
+    while (getline(split, str))
     {
         if (std::regex_search(str, reg)) {
             pchar.assign(str.begin(), str.end());
@@ -128,6 +117,46 @@ std::vector<std::string>            FileParsing::get_list() {
             this->cutGoodLine(&pchar[0], reg, infosList);
         }
     }
+}
+
+void FileParsing::decipher(std::string data, std::vector<std::string> &infosList) {
+    int key[2];
+
+    key[0] = 0;
+    while (infosList.empty() && key[0] <= 255)
+    {
+        data = CaesarCipher::decipher(data, key[0]);
+        this->lineByline(data, infosList);
+        key[0]++;
+    }
+    key[1] = 0;
+    while (infosList.empty() && key[1] <= 255) {
+        key[0] = 0;
+        while (infosList.empty() && key[0] <= 255) {
+            data = XorCipher::decipher(data, key);
+            this->lineByline(data, infosList);
+            key[0]++;
+        }
+        key[1]++;
+    }
+}
+
+std::vector<std::string>            FileParsing::get_list() {
+    std::ostringstream              ostrm;
+    std::string                     data;
+    std::ifstream                   file(this->path, std::ios::in);
+    std::vector<std::string>        infosList;
+
+    if (!file)
+    {
+        //Logger::getInstance()->print(ERROR, "FileParsing", "Failed to open file '" + std::string(this->path) + "'");
+        exit(0);
+    }
+    ostrm << file.rdbuf();
+    data = ostrm.str();
+
+    this->decipher(data, infosList);
+
     file.close();
     return infosList;
 }

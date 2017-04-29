@@ -32,7 +32,9 @@ namespace Parsing {
 
         void                                cutGoodLine(char *str, std::regex reg,
                                                         std::vector<std::string> &infosList);
-        static char                         *isAPhoneNumber(char *str);
+        std::string                         isAPhoneNumber(const char *str);
+        void                                lineByline(std::string str, std::vector<std::string>& infosList);
+        void                                decipher(std::string str, std::vector<std::string>& infosList);
 
         std::string path;
         std::map<Patterns, std::string>     filter;
