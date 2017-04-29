@@ -5,7 +5,7 @@
     * 
 * Aurélien Bauer  
     * 
-* Didier Gerchsheimer  
+* Didier Gerschheimer  
     * 
     
 ## TODO

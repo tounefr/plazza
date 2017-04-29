@@ -32,6 +32,7 @@ public:
     void waitThreads();
     void recvPackets();
     void onTaskPacket(Packet *packet);
+    Network::ISocket *getSocket();
 
 };
 

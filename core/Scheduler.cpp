@@ -44,8 +44,8 @@ void Scheduler::run() {
     while (Plazza::getInstance()->isRunning()) {
         t = Plazza::getInstance()->getTasks().dequeue();
         Logger::getInstance()->print(DEBUG, "Scheduler", "Handling task '"+std::string(t->getFilePath())+"'");
-        if (!giveTask(*t))
-            break;
+       while (!giveTask(*t))
+            sleep(1);
     }
 }
 
@@ -57,7 +57,7 @@ Client* Scheduler::getLeastLoadedClient() {
     for (std::list<Client*>::iterator iter = _clients.begin(); iter != _clients.end(); iter++) {
         client = *iter;
         if (client->isReady() && (least == NULL ||
-                least->getNbrTasks() > client->getNbrTasks()))
+                (least->getNbrTasks() > client->getNbrTasks())))
             least = client;
     }
     return least;
@@ -78,18 +78,18 @@ bool Scheduler::newProcess(Task* task) {
     return true;
 }
 
+void Scheduler::removeClient(Client *client) {
+    _clients.remove(client);
+}
+
 bool Scheduler::giveTask(Task& task) {
     Client *client;
 
-    client = getLeastLoadedClient();
-    client->giveTask(&task);
-    /*
-    if ((NULL == (client = getLeastLoadedClient())) ||
-            (client->getNbrTasks() >= _maxTaskPerClient)) {
-        if (!newProcess(&task))
-            return false;
-    } else
-        client->giveTask(&task);*/
-    infos_process();
+    if (!(client = getLeastLoadedClient()))
+        return false;
+    if (client->hasExited() || !client->giveTask(&task)) {
+        removeClient(client);
+        return giveTask(task);
+    }
     return true;
 }
