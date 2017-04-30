@@ -14,6 +14,7 @@ WorkerPool::WorkerPool() :
     _tasks()
 {
     Plazza *p = Plazza::getInstance();
+    _tasks.setTimeout(EXIT_INACTIVITY_TIMEOUT);
     _socket = new Network::IP::Socket(NETWORK_LISTEN_ADDRESS, NETWORK_LISTEN_PORT);
     _socket->setTimeout(EXIT_INACTIVITY_TIMEOUT);
     initThreads(p->getNbrThreadsPerProc());
@@ -21,6 +22,10 @@ WorkerPool::WorkerPool() :
     for (std::list<Worker*>::iterator iter = _threads.begin(); iter != _threads.end(); iter++) {
         (*iter)->join();
     }
+}
+
+Queue<Task*>& WorkerPool::getTasks() {
+    return _tasks;
 }
 
 Network::ISocket *WorkerPool::getSocket() {
@@ -57,7 +62,7 @@ void WorkerPool::recvPackets() {
 
 void WorkerPool::initThreads(int nbr_threads_per_proc) {
     for (int i = 0; i < nbr_threads_per_proc; i++) {
-        _threads.push_back(new Worker(_tasks, this));
+        _threads.push_back(new Worker(this));
     }
 }
 

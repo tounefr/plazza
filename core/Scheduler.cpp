@@ -49,12 +49,8 @@ void Scheduler::run() {
         }
         Logger::getInstance()->print(DEBUG, "Scheduler", "Handling task '"+std::string(t->getFilePath())+"'");
         try {
-            if (!giveTask(*t)) {
+            if (!giveTask(*t))
                 break;
-               // Logger::getInstance()->print(DEBUG, "Scheduler", "giveTask failed");
-                Plazza::getInstance()->getTasks().enqueue(t);
-                usleep(50000);
-            }
         } catch (std::runtime_error const &e) {
             break;
         }
@@ -102,22 +98,8 @@ Network::IServerSocket* Scheduler::getServerSocket() {
 bool Scheduler::giveTask(Task& task) {
     Client *client;
 
-    /*
-    client = getLeastLoadedClient();
-    while (!client || !client->isReady()) {
-        client = getLeastLoadedClient();
-        sleep(1);
-    }
-
-    client->giveTask(&task);
-    return true;
-     */
-
-    if (!(client = getLeastLoadedClient())) {
-        /*if (!newProcess(&task))
-            throw std::runtime_error("");*/
+    if (!(client = getLeastLoadedClient()))
         return false;
-    }
     if (client->hasExited() || !client->giveTask(&task)) {
         removeClient(client);
         return giveTask(task);

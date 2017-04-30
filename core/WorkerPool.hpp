@@ -33,6 +33,7 @@ public:
     void recvPackets();
     void onTaskPacket(Packet *packet);
     Network::ISocket *getSocket();
+    Queue<Task*>& getTasks();
 
 };
 

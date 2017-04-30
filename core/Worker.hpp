@@ -21,12 +21,11 @@ class Worker : public Thread {
 private:
     Task *_task;
     Parsing::FileParsing _fileParsing;
-    Queue<Task*>& _tasks;
-    le
+    std::vector<std::string> _patterns;
     WorkerPool *_workerPool;
 
 public:
-    Worker(Queue<Task*>& _tasks,  WorkerPool *_workerPool);
+    Worker(WorkerPool *workerPool);
     ~Worker();
     virtual void run();
     bool hasTask();
