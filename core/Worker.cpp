@@ -18,7 +18,6 @@ Worker::~Worker() {
 }
 
 void Worker::onTaskFinished() {
-    std::cout << "task finished " << _task->getFilePath() << std::endl;
     Logger::getInstance()->print(DEBUG, "Worker", "Task finished '"+ std::string(_task->getFilePath()) +"'");
     for (std::vector<std::string>::iterator iter = _patterns.begin(); iter != _patterns.end(); iter++) {
           std::cout << *iter << std::endl;
