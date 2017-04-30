@@ -16,6 +16,7 @@ Plazza::Plazza() :
         _scheduler(),
         _nbr_threads_per_proc(THREADS_PER_PROC),
         _instructionsParsing() {
+    _pendingTasks.setTimeout(EXIT_INACTIVITY_TIMEOUT);
 }
 
 Plazza* Plazza::getInstance() {
@@ -25,15 +26,10 @@ Plazza* Plazza::getInstance() {
 
 int Plazza::start(int nbr_threads_per_proc) {
     _nbr_threads_per_proc = nbr_threads_per_proc;
-
-    if (isRunning()) {
-        _instructionsParsing.start();
-        _scheduler.start();
-
-        _scheduler.join();
-        _instructionsParsing.join();
-        return 0;
-    }
+    _instructionsParsing.start();
+    _instructionsParsing.join();
+    _scheduler.start();
+    _scheduler.join();
     return 1;
 }
 

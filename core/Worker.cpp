@@ -12,6 +12,8 @@ Worker::Worker(Queue<Task*>& _tasks, WorkerPool *workerPool) :
         _fileParsing(),
         _workerPool(workerPool),
         Thread() {
+
+    _tasks.setTimeout(EXIT_INACTIVITY_TIMEOUT);
     start();
 }
 
@@ -33,7 +35,7 @@ void Worker::onTaskFinished() {
     Logger::getInstance()->print(DEBUG, "Worker", "Task finished '"+ std::string(_task->getFilePath()) +"'");
 
     for (std::vector<std::string>::iterator iter = _patterns.begin(); iter != _patterns.end(); iter++) {
-        std::cout << *iter << std::endl;
+          std::cout << *iter << std::endl;
     }
     /*
     std::string buffer;
@@ -57,14 +59,23 @@ void Worker::run() {
         _workerPool->getSocket()->sock_send(PACKET_GIVE_TASK, &buffer);
         Logger::getInstance()->print(DEBUG, "Worker", "PACKET_GIVE_TASK");
          */
-
         setRunning(false);
-        _task = _tasks.dequeue();
+        try {
+            _task = _tasks.dequeue();
+        } catch (std::runtime_error const &e) {
+            break;
+        }
         setRunning(true);
         Logger::getInstance()->print(DEBUG, "Worker", "Processsing task '" + std::string(_task->getFilePath()) + "'");
-        _fileParsing.set_path(_task->getFilePath());
-        _fileParsing.set_field(_task->getPattern());
-        _patterns = _fileParsing.get_list();
+     /*   _fileParsing.set_path(_task->getFilePath());
+        _fileParsing.set_field(_task->getPattern());*/
+
+        Parsing::FileParsing* _parsing = new Parsing::FileParsing();
+        _parsing->set_path("files/emulatari.free.fr/accueil.html");
+        _parsing->set_field(EMAIL_ADDRESS);
+        _patterns = _parsing->get_list();
+        std::cout << _patterns.size() << std::endl;
+
         onTaskFinished();
     }
     Logger::getInstance()->print(DEBUG, "Worker", "Worker end");

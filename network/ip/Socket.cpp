@@ -32,6 +32,13 @@ bool const &Socket::isRunning() {
     return _running;
 }
 
+void Socket::setTimeout(size_t seconds) {
+    struct timeval tv;
+    tv.tv_sec = seconds;
+    tv.tv_usec = 0;
+    setsockopt(_socket, SOL_SOCKET, SO_RCVTIMEO, (const char*)&tv,sizeof(struct timeval));
+}
+
 void Socket::sock_connect(std::string ip, unsigned short port) {
     if (-1 == (_socket = socket(AF_INET, SOCK_STREAM, 0))) {
         Logger::getInstance()->print(ERROR, "Socket", "socket error : '" + std::string(strerror(errno)) + "'");
@@ -62,10 +69,8 @@ Packet *Socket::recv_packet() {
     ssize_t recv_size;
 
     if ((recv_size = recv(_socket, (char *) &packet_type, sizeof(packet_type), 0)) <= 0) {
-        if (recv_size == -1) {
-            Logger::getInstance()->print(ERROR, "Socket", "Recv failed : '" + std::string(strerror(errno)) + "'");
-            _running = false;
-        }
+        Logger::getInstance()->print(ERROR, "Socket", "Recv failed : '" + std::string(strerror(errno)) + "'");
+        _running = false;
         return NULL;
     }
     if ((recv_size = recv(_socket, (char *) &packet_size, sizeof(packet_size), 0)) <= 0) {

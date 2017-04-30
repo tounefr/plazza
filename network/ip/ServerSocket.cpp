@@ -44,6 +44,7 @@ bool ServerSocket::sock_listen() {
     }
     int option = -1;
     setsockopt(_socket, SOL_SOCKET, SO_REUSEADDR, &option, sizeof(option));
+    setsockopt(_socket, SOL_SOCKET, SO_REUSEPORT, &option, sizeof(option));
     Logger::getInstance()->print(DEBUG, "ServerSocket", "Starting ServerSocket on " + std::string(std::to_string(_listen_port)));
     struct sockaddr_in sockaddr;
     sockaddr.sin_family = AF_INET;
@@ -59,7 +60,6 @@ bool ServerSocket::sock_listen() {
         Logger::getInstance()->print(ERROR, "ServerSocket", "listen failed : '"+ std::string(strerror(errno)) +"'");
         return false;
     }
-
     _listening = true;
     return true;
 }

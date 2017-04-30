@@ -31,23 +31,7 @@ public:
     size_t& getMaxProcess();
     bool newProcess(Task*);
     void removeClient(Client *);
-
-    void infos_process() {
-        /*
-        std::cout << "Nbr de process : " << _clients.size();
-        Client *client;
-        int i = 0;
-        int tasks = 0;
-        for (std::list<Client*>::iterator iter = _clients.begin(); iter != _clients.end(); iter++) {
-            client = *iter;
-            std::cout << "Client " << i << " : tasks=" << client->getNbrTasks() << std::endl;
-            tasks += client->getNbrTasks();
-            i++;
-        }
-        std::cout << "Total tasks : " << tasks << std::endl;
-        std::cout << std::endl;
-         */
-    };
+    Network::IServerSocket* getServerSocket();
 };
 
 #endif //PLAZZA_SCHEDULER_H

@@ -15,8 +15,9 @@
 
 # define THREADS_PER_PROC 5
 # define NETWORK_LISTEN_ADDRESS "127.0.0.1"
-# define NETWORK_LISTEN_PORT 8888
+# define NETWORK_LISTEN_PORT 4242
 # define LOG_FILE_PATH "log"
+# define EXIT_INACTIVITY_TIMEOUT 5
 
 class Plazza {
 private:

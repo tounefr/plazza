@@ -30,6 +30,7 @@ namespace Network
             virtual bool sock_send(PacketType const& packetType, std::string *buffer);
             virtual bool sock_close();
             virtual bool const& isRunning();
+            virtual void setTimeout(size_t seconds);
         };
     }
 }

@@ -16,12 +16,15 @@ private:
     std::queue<T> _items;
     std::mutex _lock;
     std::condition_variable _cond;
+    bool _has_timeout;
+    size_t _timeout_sec;
 
 public:
     Queue() :
             _items(),
             _lock(),
-            _cond() {
+            _cond(),
+            _has_timeout(false) {
     };
 
     void enqueue(T t) {
@@ -30,10 +33,20 @@ public:
         _cond.notify_one();
     };
 
+    void setTimeout(size_t sec) {
+        _has_timeout = true;
+        _timeout_sec = sec;
+    };
+
     T dequeue() {
         std::unique_lock<std::mutex> lock(_lock);
-        while (_items.empty())
-            _cond.wait(lock);
+        while (_items.empty()) {
+            if (_has_timeout) {
+                if (std::cv_status::timeout == _cond.wait_for(lock, std::chrono::seconds(_timeout_sec)))
+                    throw std::runtime_error("timeout");
+            } else
+                _cond.wait(lock);
+        }
         T item = _items.front();
         _items.pop();
         return item;

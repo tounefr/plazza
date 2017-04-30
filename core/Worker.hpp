@@ -22,7 +22,7 @@ private:
     Task *_task;
     Parsing::FileParsing _fileParsing;
     Queue<Task*>& _tasks;
-    std::vector<std::string> _patterns;
+    le
     WorkerPool *_workerPool;
 
 public:

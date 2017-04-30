@@ -11,7 +11,7 @@
 Scheduler::Scheduler() :
         Thread(),
         _clients(),
-        _min_process(2),
+        _min_process(4),
         _max_process(1),
         _maxTaskPerClient(10)
 {
@@ -41,12 +41,25 @@ void Scheduler::run() {
             return;
     }
     sleep(1); // TODO: crade: cond vars
-    while (Plazza::getInstance()->isRunning()) {
-        t = Plazza::getInstance()->getTasks().dequeue();
+    while (1) {
+        try {
+            t = Plazza::getInstance()->getTasks().dequeue();
+        }  catch (std::runtime_error const& e) {
+            break;
+        }
         Logger::getInstance()->print(DEBUG, "Scheduler", "Handling task '"+std::string(t->getFilePath())+"'");
-       while (!giveTask(*t))
-            sleep(1);
+        try {
+            if (!giveTask(*t)) {
+                break;
+               // Logger::getInstance()->print(DEBUG, "Scheduler", "giveTask failed");
+                Plazza::getInstance()->getTasks().enqueue(t);
+                usleep(50000);
+            }
+        } catch (std::runtime_error const &e) {
+            break;
+        }
     }
+    Logger::getInstance()->print(ERROR, "Scheduler", "Ending");
 }
 
 Client* Scheduler::getLeastLoadedClient() {
@@ -72,7 +85,7 @@ bool Scheduler::newProcess(Task* task) {
         workerPool = new WorkerPool();
         return false;
     } else {
-        client = new Client(pid, this, task, _serverSocket);
+        client = new Client(pid, this, task);
         _clients.push_back(client);
     }
     return true;
@@ -82,11 +95,29 @@ void Scheduler::removeClient(Client *client) {
     _clients.remove(client);
 }
 
+Network::IServerSocket* Scheduler::getServerSocket() {
+    return _serverSocket;
+}
+
 bool Scheduler::giveTask(Task& task) {
     Client *client;
 
-    if (!(client = getLeastLoadedClient()))
+    /*
+    client = getLeastLoadedClient();
+    while (!client || !client->isReady()) {
+        client = getLeastLoadedClient();
+        sleep(1);
+    }
+
+    client->giveTask(&task);
+    return true;
+     */
+
+    if (!(client = getLeastLoadedClient())) {
+        /*if (!newProcess(&task))
+            throw std::runtime_error("");*/
         return false;
+    }
     if (client->hasExited() || !client->giveTask(&task)) {
         removeClient(client);
         return giveTask(task);

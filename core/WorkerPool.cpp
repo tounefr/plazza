@@ -15,6 +15,7 @@ WorkerPool::WorkerPool() :
 {
     Plazza *p = Plazza::getInstance();
     _socket = new Network::IP::Socket(NETWORK_LISTEN_ADDRESS, NETWORK_LISTEN_PORT);
+    _socket->setTimeout(EXIT_INACTIVITY_TIMEOUT);
     initThreads(p->getNbrThreadsPerProc());
     recvPackets();
     for (std::list<Worker*>::iterator iter = _threads.begin(); iter != _threads.end(); iter++) {

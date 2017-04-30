@@ -15,14 +15,12 @@
 
 Client::Client(int pid,
                Scheduler *scheduler,
-               Task *task,
-               Network::IServerSocket *serverSocket) :
+               Task *task) :
         Thread(),
         ProcessWrapper(pid),
         _scheduler(scheduler),
         _socket(NULL),
-        _nbrTasks(0),
-        _serverSocket(serverSocket)
+        _nbrTasks(0)
 {
     if (task != NULL)
         _tasks.enqueue(task);
@@ -78,7 +76,8 @@ void Client::onTaskResultPacket(Packet* packet) {
 
 void Client::run() {
     Logger::getInstance()->print(DEBUG, "Client", "Waiting for connection");
-    _socket = _serverSocket->sock_accept();
+    _socket = _scheduler->getServerSocket()->sock_accept();
+    _socket->setTimeout(EXIT_INACTIVITY_TIMEOUT);
     Logger::getInstance()->print(DEBUG, "Client", "New connection !");
 
     Packet *packet;
@@ -97,11 +96,9 @@ void Client::run() {
                 break;
         }
     }
+    Logger::getInstance()->print(DEBUG, "Client", "End recv, ending");
     waitpid(_pid, &_status, 0);
     Logger::getInstance()->print(DEBUG, "Client", "Child Process pid='"+std::to_string(_pid)+"'");
-    if (WIFSTOPPED(_status)) {
-        Logger::getInstance()->print(DEBUG, "Client", "WSTOPPED == true");
-    }
     _exited = true;
     _nbrTasks--;
 }

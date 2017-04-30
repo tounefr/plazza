@@ -15,7 +15,6 @@ class Scheduler;
 
 class Client : public Thread, public ProcessWrapper {
 private:
-    Network::IServerSocket *_serverSocket;
     Network::ISocket *_socket;
     Scheduler *_scheduler;
     int _nbrTasks;
@@ -23,7 +22,7 @@ private:
     Queue<Task*> _tasks;
 
 public:
-    Client(int pid, Scheduler *scheduler, Task *task, Network::IServerSocket *serverSocket);
+    Client(int pid, Scheduler *scheduler, Task *task);
     int& getNbrTasks();
     bool giveTask(Task* task);
     bool isReady();
