@@ -38,12 +38,10 @@ void Worker::run() {
         setRunning(true);
         Logger::getInstance()->print(DEBUG, "Worker", "Processsing task field='"+std::to_string(_task->getPattern())+"' path='" + std::string(_task->getFilePath()) + "'");
 
-        /*
         Parsing::FileParsing parsing = Parsing::FileParsing();
         parsing.set_path(_task->getFilePath());
         parsing.set_field(_task->getPattern());
         _patterns = parsing.get_list();
-         */
 
         onTaskFinished();
     }

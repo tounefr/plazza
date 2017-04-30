@@ -38,7 +38,7 @@ void Logger::print(LogType type, const std::string &where, const std::string &wh
 
         std::stringstream ss;
 
-        std::cout << ltm->tm_mday << "/"
+        /*std::cout << ltm->tm_mday << "/"
                   << 1 + ltm->tm_mon << "/"
                   << 1900 + ltm->tm_year << " "
                   << 1 + ltm->tm_hour << ":"
@@ -46,7 +46,7 @@ void Logger::print(LogType type, const std::string &where, const std::string &wh
                   << 1 + ltm->tm_sec << " "
                   << " [" << Types[type] << "] "
                   << "[" << where << "] : "
-                  << what << std::endl;
+                  << what << std::endl;*/
 
         if (outFile.is_open())
             outFile << ss.str();
