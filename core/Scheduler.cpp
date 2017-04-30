@@ -3,6 +3,7 @@
 #include <iostream>
 #include <sys/types.h>
 #include <sys/wait.h>
+#include <unistd.h>
 #include "../Plazza.hpp"
 #include "Scheduler.hpp"
 #include "../common/Queue.hpp"
@@ -11,7 +12,7 @@
 Scheduler::Scheduler() :
         Thread(),
         _clients(),
-        _min_process(4),
+        _min_process(_SC_NPROCESSORS_ONLN),
         _max_process(1),
         _maxTaskPerClient(10)
 {
